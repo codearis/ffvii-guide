@@ -2,7 +2,17 @@ import { useMemo, useState } from 'react'
 import materiaRaw from '../data/materia.json'
 import itemsRaw from '../data/items.json'
 import { Item, MATERIA_TYPES, Materia } from '../lib'
-import { ACC_RESIST, Equip, PAIRS, byName, equipEffects, resistances } from '../simRules'
+import {
+  ACC_RESIST,
+  Equip,
+  PAIRS,
+  Slot,
+  byName,
+  crossEffects,
+  equipEffects,
+  maxLevel,
+  resistances,
+} from '../simRules'
 
 const materia = materiaRaw as Materia[]
 const accessories = (itemsRaw as Item[]).filter(i => i.section === 'Acessórios')
@@ -11,41 +21,62 @@ function Orb({ type }: { type: string }) {
   return <span className="orb" style={{ ['--c' as string]: MATERIA_TYPES[type]?.color ?? '#aaa' }} />
 }
 
-function SlotButton({
-  name,
+function SlotCell({
+  slot,
   active,
-  onClick,
+  onOpen,
+  onLevel,
 }: {
-  name: string | null
+  slot: Slot | null
   active: boolean
-  onClick: () => void
+  onOpen: () => void
+  onLevel: (level: number) => void
 }) {
-  const m = byName(name)
+  const m = slot ? byName(slot.name) : null
+  const max = m ? maxLevel(m) : 1
   return (
-    <button className={`sim-slot ${active ? 'picking' : ''}`} onClick={onClick}>
-      <span
+    <span className={`sim-slot ${active ? 'picking' : ''}`}>
+      <button
         className="hole"
+        title={m ? m.name : 'slot vazio'}
         style={m ? { ['--c' as string]: MATERIA_TYPES[m.type]?.color ?? '#aaa' } : undefined}
+        onClick={onOpen}
       />
       <span className="slot-name">{m ? m.name : '—'}</span>
-    </button>
+      {m && max > 1 && slot && (
+        <select className="slot-level" value={slot.level} onChange={e => onLevel(Number(e.target.value))}>
+          {Array.from({ length: max }, (_, k) => k + 1).map(l => (
+            <option key={l} value={l}>
+              {l === max ? '★ Master' : `Lv ${l}`}
+            </option>
+          ))}
+        </select>
+      )}
+    </span>
   )
 }
 
 export default function SimulatorPage() {
-  const [weapon, setWeapon] = useState<(string | null)[]>(Array(8).fill(null))
-  const [armor, setArmor] = useState<(string | null)[]>(Array(8).fill(null))
+  const [weapon, setWeapon] = useState<(Slot | null)[]>(Array(8).fill(null))
+  const [armor, setArmor] = useState<(Slot | null)[]>(Array(8).fill(null))
   const [acc, setAcc] = useState<string | null>(null)
   const [picking, setPicking] = useState<{ equip: Equip; i: number } | null>(null)
   const [q, setQ] = useState('')
 
+  const setterOf = (equip: Equip) => (equip === 'weapon' ? setWeapon : setArmor)
+
   const place = (name: string | null) => {
     if (!picking) return
-    const set = picking.equip === 'weapon' ? setWeapon : setArmor
-    set(prev => prev.map((v, k) => (k === picking.i ? name : v)))
+    const m = byName(name)
+    // materia entra já no nível máximo, seguindo o padrão "máximo por default" do simulador
+    const slot: Slot | null = name && m ? { name, level: maxLevel(m) } : null
+    setterOf(picking.equip)(prev => prev.map((v, k) => (k === picking.i ? slot : v)))
     setPicking(null)
     setQ('')
   }
+
+  const setLevel = (equip: Equip, i: number, level: number) =>
+    setterOf(equip)(prev => prev.map((v, k) => (k === i && v ? { ...v, level } : v)))
 
   const options = useMemo(() => {
     const query = q.toLowerCase()
@@ -54,23 +85,26 @@ export default function SimulatorPage() {
 
   const weaponFx = equipEffects(weapon, 'weapon')
   const armorFx = equipEffects(armor, 'armor')
+  const globalFx = crossEffects(weapon, armor)
   const resist = resistances(armor, acc)
   const accItem = accessories.find(a => a.name === acc)
 
-  const renderSlots = (equip: Equip, slots: (string | null)[]) => (
+  const renderSlots = (equip: Equip, slots: (Slot | null)[]) => (
     <div className="sim-slots">
       {PAIRS.map(([a, b]) => (
         <span key={a} className="sim-pair">
-          <SlotButton
-            name={slots[a]}
+          <SlotCell
+            slot={slots[a]}
             active={picking?.equip === equip && picking.i === a}
-            onClick={() => setPicking({ equip, i: a })}
+            onOpen={() => setPicking({ equip, i: a })}
+            onLevel={l => setLevel(equip, a, l)}
           />
           <span className="sim-link" />
-          <SlotButton
-            name={slots[b]}
+          <SlotCell
+            slot={slots[b]}
             active={picking?.equip === equip && picking.i === b}
-            onClick={() => setPicking({ equip, i: b })}
+            onOpen={() => setPicking({ equip, i: b })}
+            onLevel={l => setLevel(equip, b, l)}
           />
         </span>
       ))}
@@ -151,6 +185,16 @@ export default function SimulatorPage() {
                 <h4>Armadura</h4>
                 <ul className="fx-list">
                   {armorFx.map((l, k) => (
+                    <li key={k}>{l}</li>
+                  ))}
+                </ul>
+              </>
+            )}
+            {globalFx.length > 0 && (
+              <>
+                <h4>Geral</h4>
+                <ul className="fx-list">
+                  {globalFx.map((l, k) => (
                     <li key={k}>{l}</li>
                   ))}
                 </ul>
