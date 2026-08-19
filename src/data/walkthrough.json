@@ -1,0 +1,618 @@
+[
+  {
+    "id": "reator-1",
+    "title": "Reator Mako Nº 1",
+    "location": "Midgar",
+    "disc": 1,
+    "steps": [
+      "Cloud se junta ao grupo terrorista AVALANCHE, contratado por Barret como ex-SOLDIER.",
+      "Entre no trem do Setor 1 com o esquadrão e desça na plataforma do reator.",
+      "Avance pelos corredores externos e escadas, enfrentando Guard Hounds e Sweepers.",
+      "Suba pelos elevadores e passarelas até o núcleo, onde Jessie planta a bomba.",
+      "Explore as plataformas ao redor do núcleo antes de sair, há itens espalhados.",
+      "No caminho de volta, o Guard Scorpion bloqueia a passagem — derrote-o para seguir.",
+      "Pule no trem em movimento junto com o esquadrão para escapar antes da explosão."
+    ],
+    "items": [
+      "Restore Materia (baú numa das plataformas do reator)",
+      "Potion (corredor inicial)",
+      "Ether (perto do núcleo, antes do chefe)"
+    ],
+    "boss": "Guard Scorpion — quando a cauda dele fica levantada, não ataque (ele contra-ataca com Tail Laser); espere a cauda abaixar para atacar com tudo."
+  },
+  {
+    "id": "setor-8-igreja",
+    "title": "Fuga pelo Setor 8, Igreja e Setor 5",
+    "location": "Midgar",
+    "disc": 1,
+    "steps": [
+      "Após a explosão, Cloud cai do trem elevado e atravessa os telhados do Setor 8, despencando dentro da igreja do Setor 5.",
+      "Conheça Aeris, que cuida das flores plantadas no chão da igreja.",
+      "Escolha se paga pelas flores esmagadas ou não — afeta apenas diálogos pequenos.",
+      "Soldados Shinra invadem a igreja; escolte Aeris para fora e corra pelos becos do Setor 8 até o bar Sétimo Céu.",
+      "Reencontre Tifa e o restante da AVALANCHE no bar e participe da reunião no porão.",
+      "No dia seguinte, volte ao Setor 5 para escoltar Aeris até sua casa e conheça Elmyra, sua mãe adotiva.",
+      "Retorne ao Setor 7 pelas ruas, aproveitando para comprar equipamento inicial nas lojas."
+    ],
+    "items": [
+      "Potion (canteiro de flores da igreja)",
+      "Phoenix Down (rota de fuga pelo Setor 8)",
+      "Titan Bangle (loja do Setor 7, opcional)"
+    ],
+    "boss": null
+  },
+  {
+    "id": "wall-market",
+    "title": "Wall Market",
+    "location": "Midgar",
+    "disc": 1,
+    "steps": [
+      "Depois que Don Corneo leva Tifa, desça ao Setor 6 e entre em Wall Market.",
+      "Monte o disfarce de Cloud: peruca com Madam M, vestido na loja de roupas, maquiagem no armazém de Corneo e roupas íntimas com o dono da academia.",
+      "Complete os pequenos desafios pedidos em cada loja (enfrentar Jules, agachamentos na academia) para conseguir os itens certos.",
+      "Vista o traje completo e vá até a mansão de Don Corneo para ser escolhido entre as três candidatas.",
+      "Na masmorra sob a mansão, ajude Aeris e Tifa a escapar do poço em que foram jogadas.",
+      "Enfrente os capangas de Corneo na saída antes de voltar ao Setor 7."
+    ],
+    "items": [
+      "Wig e Cologne (lojas de Wall Market, para o disfarce)",
+      "Basic Dress ou variantes (loja de roupas)",
+      "Ether (armazém de Don Corneo)"
+    ],
+    "boss": null
+  },
+  {
+    "id": "reator-5",
+    "title": "Reator Nº 5",
+    "location": "Midgar",
+    "disc": 1,
+    "steps": [
+      "Infiltre-se no Reator Nº 5 com o esquadrão da AVALANCHE para a segunda missão de sabotagem.",
+      "Avance pelos dutos e passarelas industriais enfrentando robôs de segurança da Shinra.",
+      "Ao chegar ao núcleo, o Air Buster — criado por Hojo a partir do exoesqueleto de um soldado — ataca o grupo.",
+      "Derrote o Air Buster para plantar a segunda bomba.",
+      "Uma transmissão do presidente Shinra revela o plano de destruir o próprio Setor 7 para culpar a AVALANCHE — corra para avisar o resto do grupo."
+    ],
+    "items": [
+      "Ether (corredores do reator)",
+      "Potion (plataformas industriais)",
+      "Fire Materia (baú perto do núcleo, se ainda não tiver)"
+    ],
+    "boss": "Air Buster — ataca à distância com lasers e ganha um reforço temporário quando Rufus interrompe a luta pelo rádio; cure-se sem parar e mantenha a pressão física."
+  },
+  {
+    "id": "esgotos-trem",
+    "title": "Esgotos e Cemitério de Trens",
+    "location": "Midgar",
+    "disc": 1,
+    "steps": [
+      "Cloud, Aeris e Tifa caem nos esgotos de Midgar após escaparem da mansão de Don Corneo.",
+      "Explore os esgotos enfrentando monstros aquáticos até achar a passagem para o cemitério de trens.",
+      "No cemitério, empurre os vagões pelos trilhos na ordem certa para liberar o caminho.",
+      "Um monstro guardião, Aps, emerge da água ao redor dos trilhos — derrote-o.",
+      "Siga pelos trilhos até alcançar a base do pilar de sustentação do Setor 7."
+    ],
+    "items": [
+      "Titan Bangle (esgotos, antes do cemitério de trens)",
+      "Hyper (cemitério de trens)",
+      "Speed Source (baú opcional entre os vagões)"
+    ],
+    "boss": "Aps — fica submerso ao redor dos vagões e usa Sewer Tsunami, que causa dano alto no grupo; mantenha o HP cheio e ataque fisicamente."
+  },
+  {
+    "id": "pilar-setor-7",
+    "title": "Pilar do Setor 7",
+    "location": "Midgar",
+    "disc": 1,
+    "steps": [
+      "Suba correndo pelo pilar de sustentação do Setor 7 tentando impedir que a Shinra o destrua.",
+      "Reno, dos Turks, bloqueia a passagem no meio do caminho — derrote-o.",
+      "Continue subindo pelas escadas e plataformas de metal até o topo.",
+      "Presencie a Shinra detonando o pilar antes que o grupo consiga impedir, destruindo o Setor 7.",
+      "Aeris é capturada pelos Turks logo depois; o grupo decide invadir a sede da Shinra para resgatá-la."
+    ],
+    "items": [
+      "Ether (subida do pilar)",
+      "Phoenix Down (plataformas próximas ao topo)"
+    ],
+    "boss": "Reno (Turks) — combate simples; use magia ofensiva para derrubá-lo rápido antes da detonação do pilar."
+  },
+  {
+    "id": "shinra-hq",
+    "title": "Sede da Shinra",
+    "location": "Midgar",
+    "disc": 1,
+    "steps": [
+      "Invada o prédio da Shinra, andar por andar, lutando contra as tropas de segurança.",
+      "No 60º andar, liberte a experiência Sample:H0512 — na verdade Red XIII — que se junta ao grupo.",
+      "Suba até o 66º e 67º andares, explorando salas com dados sobre Sephiroth e Jenova.",
+      "No 67º andar, divida a equipe entre os robôs Hundred Gunner e Heli Gunner enquanto o resto segura os reforços.",
+      "No topo, confronte Rufus Shinra, o novo presidente, em duelo.",
+      "Fuja de moto pela janela durante a perseguição final para escapar de Midgar."
+    ],
+    "items": [
+      "Enemy Skill Materia (sala de pesquisa, 60º andar)",
+      "All Materia (sala de suprimentos)",
+      "Elixir (andares superiores)"
+    ],
+    "boss": "Hundred Gunner e Heli Gunner — divida a equipe (alguém cuida do Heli Gunner aéreo); depois vem Rufus Shinra, que foge bastante e ataca com o cão Dark Nation."
+  },
+  {
+    "id": "kalm-fazenda",
+    "title": "Kalm e Fazenda de Chocobos",
+    "location": "Kalm",
+    "disc": 1,
+    "steps": [
+      "Chegue a Kalm após escapar de Midgar e descanse na pousada.",
+      "Vá até a casa alta da vila para ouvir o flashback de Cloud sobre o incidente de Nibelheim, cinco anos antes.",
+      "Reveja a chegada de Sephiroth, Tifa e Cloud em Nibelheim, o reator de Mt. Nibel e a traição de Sephiroth.",
+      "De volta ao presente, siga pelo mapa mundi até a Fazenda de Chocobos perto do Rio Mythril.",
+      "Fale com o Sr. e a Sra. Chocobo para aprender sobre capturar e cuidar de chocobos.",
+      "Compre Chocobo Lure e Greens caso já queira começar a capturar chocobos."
+    ],
+    "items": [
+      "Chocobo Lure Materia (loja da Fazenda de Chocobos)",
+      "Titan Bangle (loja de Kalm)",
+      "Carob Nut/Greens (Fazenda de Chocobos, para atrair chocobos)"
+    ],
+    "boss": null
+  },
+  {
+    "id": "mina-mythril-condor",
+    "title": "Mythril Mine e Fort Condor",
+    "location": "Mythril Mine",
+    "disc": 1,
+    "steps": [
+      "Atravesse a Mythril Mine, caverna estreita cheia de monstros mecânicos, para chegar ao outro lado do continente.",
+      "Explore as bifurcações da mina em busca de baús e itens escondidos.",
+      "Ao sair, visite Fort Condor, construído ao redor de um ninho de condor sagrado.",
+      "Aposte GP na mini-batalha estratégica de defesa do ninho contra a Shinra (opcional, pode repetir para prêmios).",
+      "Suba à torre para ver o condor e conversar com o líder da vila sobre proteger o ninho.",
+      "Siga viagem rumo a Junon, a próxima grande cidade no litoral."
+    ],
+    "items": [
+      "Mythril (túneis da mina, útil para armas mais tarde)",
+      "Ether (túneis da mina)",
+      "Elemental Materia (recompensa de Fort Condor, se vencer a defesa)"
+    ],
+    "boss": null
+  },
+  {
+    "id": "junon",
+    "title": "Junon e a Parada Militar",
+    "location": "Junon",
+    "disc": 1,
+    "steps": [
+      "Chegue a Junon, base militar da Shinra à beira-mar, e explore a cidade baixa antes de subir ao platô.",
+      "Treine com o sargento seguindo os comandos na tela para se preparar para o desfile militar.",
+      "Assista à parada em homenagem a Rufus, o novo presidente, ao lado da tropa.",
+      "Desça até a doca e mergulhe para limpar a hélice do submarino Shinra presa em algas.",
+      "Debaixo d'água, enfrente o monstro marinho Bottomswell antes de terminar o reparo.",
+      "Embarque no navio cargueiro da Shinra rumo a Costa del Sol."
+    ],
+    "items": [
+      "Silver Glasses (loja de Junon)",
+      "Deathblow — Enemy Skill (aprendida com monstros locais)",
+      "Hi-Potion (doca antes do mergulho)"
+    ],
+    "boss": "Bottomswell — luta debaixo d'água; sua onda empurra quem está na linha de frente para trás. Priorize magia e ataques à distância."
+  },
+  {
+    "id": "navio-cargueiro",
+    "title": "Navio Cargueiro",
+    "location": "Cargo Ship",
+    "disc": 1,
+    "steps": [
+      "A bordo do navio cargueiro Shinra, explore conveses e porões durante a travessia até Costa del Sol.",
+      "Investigue os ruídos vindos do porão de carga após a confusão a bordo.",
+      "No porão, uma cópia de Jenova transportada em um contêiner desperta e ataca o grupo.",
+      "Derrote Jenova∙BIRTH para conter a ameaça antes que o navio pegue fogo.",
+      "Desembarque em Costa del Sol assim que o navio atraca."
+    ],
+    "items": [
+      "Ether (porões do navio)",
+      "Potion (conveses)",
+      "Remedy (perto do contêiner de carga)"
+    ],
+    "boss": "Jenova∙BIRTH — pode causar Silence e Poison; leve cura para status e concentre dano físico, suas defesas são baixas."
+  },
+  {
+    "id": "costa-del-sol-corel",
+    "title": "Costa del Sol e Mt. Corel",
+    "location": "Costa del Sol",
+    "disc": 1,
+    "steps": [
+      "Aproveite Costa del Sol, cidade turística de praia, para comprar roupas de banho e itens.",
+      "Converse com os moradores para pistas sobre o restante da história.",
+      "Compre a casa de férias opcional se quiser um ponto de save fixo (puramente cosmético).",
+      "Siga por terra até Mt. Corel, trilha rochosa dominada pela mineração da Shinra.",
+      "Avance pelas passarelas de metal sobre o desfiladeiro enfrentando tropas Shinra e monstros da região.",
+      "Ao final da trilha, chegue à estação de teleférico que leva ao Gold Saucer."
+    ],
+    "items": [
+      "Underwater Materia (opcional, comprada em Costa del Sol)",
+      "Hi-Potion (trilha de Mt. Corel)",
+      "Elixir (passarelas do desfiladeiro)"
+    ],
+    "boss": null
+  },
+  {
+    "id": "gold-saucer-prisao",
+    "title": "Gold Saucer e Corel Prison",
+    "location": "Gold Saucer",
+    "disc": 1,
+    "steps": [
+      "Compre a entrada (GP) para o Gold Saucer e explore as praças temáticas do parque.",
+      "Aproveite as atrações (Battle Square, Speed Square, Snowboard) para ganhar GP e prêmios.",
+      "Cloud é acusado injustamente de um crime e o grupo é preso, sendo levado à Corel Prison.",
+      "Na prisão, converse com os detentos até encontrar Barret confrontando seu passado.",
+      "Reveja o flashback da destruição de North Corel e a traição de Dyne, antigo amigo de Barret.",
+      "Enfrente Dyne, transformado pela dor e loucura, no confronto final da prisão.",
+      "Volte ao Gold Saucer livre e aproveite o encontro romântico ('date') com quem tiver maior afinidade com Cloud."
+    ],
+    "items": [
+      "Bolt Ring (prêmio do Gold Saucer)",
+      "Cover Materia (evento com Barret na prisão)",
+      "Hi-Potion (celas da Corel Prison)"
+    ],
+    "boss": "Dyne — luta pesada emocionalmente; ele bate forte fisicamente e pode ficar cada vez mais agressivo. Cure-se sem parar e não deixe o HP baixar demais."
+  },
+  {
+    "id": "gongaga",
+    "title": "Gongaga",
+    "location": "Gongaga",
+    "disc": 1,
+    "steps": [
+      "Viaje até a vila de Gongaga, na selva, marcada pela explosão do reator local anos atrás.",
+      "Visite a casa dos pais de Zack para detalhes sobre o passado de um SOLDIER desaparecido.",
+      "Explore as ruínas do reator destruído nos arredores da vila.",
+      "Compre itens na loja e descanse na pousada antes de seguir viagem.",
+      "Continue para Cosmo Canyon, no sudoeste, atravessando o mapa mundi."
+    ],
+    "items": [
+      "Titan Bangle (loja de Gongaga)",
+      "Hi-Potion (ruínas do reator)",
+      "Ether (arredores da vila)"
+    ],
+    "boss": null
+  },
+  {
+    "id": "cosmo-canyon",
+    "title": "Cosmo Canyon e Cave of the Gi",
+    "location": "Cosmo Canyon",
+    "disc": 1,
+    "steps": [
+      "Chegue a Cosmo Canyon, lar espiritual de Red XIII, e converse com seu avô, Bugenhagen.",
+      "Suba ao observatório para a cena sobre o Planeta e a Lifestream.",
+      "Explore a loja e a academia para comprar Materias exclusivas da região.",
+      "Descubra que Seto, avô de Red XIII, está enterrado nas proximidades e vá até a Cave of the Gi.",
+      "Avance pela caverna enfrentando a tribo espectral dos Gi até o santuário final.",
+      "Enfrente Gi Nattak, líder espectral da tribo, para libertar a alma de Seto."
+    ],
+    "items": [
+      "Seraph Comb (item de história, biblioteca/observatório)",
+      "All Materia (loja de Cosmo Canyon)",
+      "Spirit Materia (recompensa por libertar Seto)"
+    ],
+    "boss": "Gi Nattak — vem acompanhado de um espírito que o cura; elimine o espírito primeiro para não ficar preso num loop de cura."
+  },
+  {
+    "id": "nibelheim-mansao",
+    "title": "Nibelheim e a Mansão Shinra",
+    "location": "Nibelheim",
+    "disc": 1,
+    "steps": [
+      "Volte a Nibelheim no presente e note como a vila reconstruída pela Shinra esconde a verdade do incidente.",
+      "Entre na Mansão Shinra abandonada e explore o térreo e a biblioteca.",
+      "Mova a estante certa na biblioteca para revelar a passagem escondida do porão.",
+      "No porão, resolva o quebra-cabeça do cofre para abrir a sala secreta.",
+      "Enfrente o guardião Lost Number na sala secreta (opcional, mas a recompensa vale a pena).",
+      "Encontre o caixão de Vincent Valentine e converse com ele até que aceite se juntar ao grupo (opcional)."
+    ],
+    "items": [
+      "Odin Materia (sala secreta do cofre, opcional)",
+      "Ether (biblioteca da mansão)",
+      "Vincent Valentine (personagem opcional, caixão no porão)"
+    ],
+    "boss": "Lost Number — opcional, guarda a sala do cofre; alterna entre refletir magia e reduzir dano físico dependendo da forma, então varie seus tipos de ataque."
+  },
+  {
+    "id": "mt-nibel",
+    "title": "Mt. Nibel",
+    "location": "Mt. Nibel",
+    "disc": 1,
+    "steps": [
+      "Siga a trilha de Mt. Nibel, repetindo o caminho que Cloud e Sephiroth fizeram cinco anos antes.",
+      "Atravesse pontes suspensas e passarelas estreitas sobre o vulcão, cuidado com quedas.",
+      "Explore os desvios para pegar itens e Materias raras escondidas nas fendas da montanha.",
+      "Chegue ao reator Mako de Mt. Nibel, cenário do flashback, e avance até o núcleo.",
+      "Materia Keeper protege a sala principal do reator — derrote-o para seguir.",
+      "Desça pela trilha do outro lado da montanha até chegar a Rocket Town."
+    ],
+    "items": [
+      "Dragon Fang (trilhas de Mt. Nibel)",
+      "HP Plus Materia (desvio opcional na montanha)",
+      "Titan Bangle (ponte suspensa)"
+    ],
+    "boss": "Materia Keeper — usa Trine (dano em área não elemental) quando fica com pouco HP; tenha cura em grupo pronta e tente derrubá-lo rápido."
+  },
+  {
+    "id": "rocket-town",
+    "title": "Rocket Town",
+    "location": "Rocket Town",
+    "disc": 1,
+    "steps": [
+      "Chegue a Rocket Town e conheça Cid Highwind, piloto aposentado obcecado pelo foguete que nunca decolou.",
+      "Explore a vila e converse com a equipe de Cid sobre os problemas técnicos do foguete.",
+      "Palmer, executivo da Shinra, aparece para sabotar o lançamento e é confrontado pelo grupo.",
+      "Derrote Palmer para garantir que o foguete e a equipe fiquem livres da interferência Shinra.",
+      "Cid se junta ao grupo, furioso com a Shinra, e o time herda a Tiny Bronco estacionada na vila.",
+      "Use a Tiny Bronco para navegar pelo mar e alcançar áreas antes inacessíveis."
+    ],
+    "items": [
+      "Tiny Bronco (veículo ganho após a luta)",
+      "Venus Gospel (arma de Cid, ao recrutá-lo)",
+      "Ether (oficina do foguete)"
+    ],
+    "boss": "Palmer — foge de moto pela cidade em vez de lutar de perto; combos físicos simples e magia básica resolvem rápido."
+  },
+  {
+    "id": "wutai",
+    "title": "Wutai",
+    "location": "Wutai",
+    "disc": 1,
+    "steps": [
+      "Use a Tiny Bronco para navegar até Wutai, cidade natal de Yuffie (sidequest opcional).",
+      "Se Yuffie roubou as Materias do grupo antes, siga o rastro até encontrá-la na cidade.",
+      "Recupere as Materias roubadas confrontando Yuffie.",
+      "Ajude a restaurar a honra do clã Kisaragi enfrentando os quatro lutadores de Wutai espalhados pela cidade.",
+      "Enfrente Godo, líder do clã e pai de Yuffie, disfarçado no topo da Pagoda de Da-Chao.",
+      "Após a reconciliação, Yuffie se junta permanentemente ao grupo."
+    ],
+    "items": [
+      "Leviathan Materia (recompensa ao vencer Godo)",
+      "Conformer (arma de Yuffie, se recrutada)",
+      "Materias devolvidas (se Yuffie as roubou antes)"
+    ],
+    "boss": "Godo e os quatro lutadores de Wutai (Gorki, Shake, Chekhov, Staniv) — cada um tem uma fraqueza elemental diferente; teste elementos no começo de cada luta antes de bater com tudo."
+  },
+  {
+    "id": "templo-anciaos",
+    "title": "Keystone e Temple of the Ancients",
+    "location": "Temple of the Ancients",
+    "disc": 1,
+    "steps": [
+      "Recupere a Keystone e leve-a até a entrada da floresta onde o templo se esconde.",
+      "Use a Keystone para revelar o Temple of the Ancients, construção com geometria alterada por dentro.",
+      "Resolva os quebra-cabeças de perspectiva e escala, incluindo a sala com blocos móveis.",
+      "Cuidado com o Red Dragon guardando uma sala de tesouro — encare-o se quiser os itens ou evite se preferir seguir direto.",
+      "No coração do templo, enfrente o Demons Gate, guardião final da estrutura.",
+      "Após vencer, veja Sephiroth manipular o templo, que desaba e vira a Black Materia."
+    ],
+    "items": [
+      "Turbo Ether (salas do templo)",
+      "Gold Saucer Ticket (usado para obter a Keystone antes de entrar)",
+      "Black Materia (roubada por Sephiroth logo após o chefe final)"
+    ],
+    "boss": "Demons Gate — agarra e imobiliza um personagem por vez; ataque os outros dois enquanto ele estiver preso e cure assim que for solto."
+  },
+  {
+    "id": "cidade-esquecida",
+    "title": "Bone Village, Sleeping Forest e Cidade Esquecida",
+    "location": "Forgotten City",
+    "disc": 1,
+    "steps": [
+      "Aeris parte sozinha rumo à Cidade Esquecida; siga seu rastro a partir de Bone Village.",
+      "Ajude a escavação (mini-jogo de arqueologia) para conseguir o mapa do Sleeping Forest.",
+      "Atravesse o Sleeping Forest, labirinto que exige entrar sempre no ponto oposto ao anterior para avançar.",
+      "Chegue à Cidade Esquecida e encontre Aeris orando na plataforma sobre o lago.",
+      "Assista Sephiroth surgir e matar Aeris antes que ela conclua a prece pelo Holy.",
+      "Derrote Jenova∙LIFE, forma que emerge logo em seguida, encerrando o Disco 1.",
+      "Leve o corpo de Aeris de volta ao lago e deposite-o na água."
+    ],
+    "items": [
+      "White Materia — Holy (deixada por Aeris ao final)",
+      "Elixir (Bone Village/Sleeping Forest)",
+      "Prêmios da escavação de Bone Village (mini-jogo, opcional)"
+    ],
+    "boss": "Jenova∙LIFE — combate logo após a morte de Aeris; sem padrão muito perigoso, ataques físicos contínuos resolvem bem."
+  },
+  {
+    "id": "icicle-glacier",
+    "title": "Icicle Inn e Great Glacier",
+    "location": "Icicle Inn",
+    "disc": 2,
+    "steps": [
+      "Chegue a Icicle Inn, vilarejo nevado onde Sephiroth passou ao fugir para o norte.",
+      "Explore o laboratório abandonado na cidade para achar pistas sobre os Ancients e Sephiroth.",
+      "Converse com o alpinista Holzoff, que ensina sobre a travessia do Great Glacier.",
+      "Atravesse o Great Glacier seguindo o rastro de pegadas na neve nas bifurcações certas.",
+      "Use itens de aquecimento ou magia de fogo quando a temperatura cair demais no percurso.",
+      "Deslize na descida de neve (mini-jogo de snowboard) até alcançar Gaea's Cliff."
+    ],
+    "items": [
+      "Ribbon (opcional, laboratório de Icicle Inn)",
+      "Elixir (travessia do Great Glacier)",
+      "Fire Materia equipada (recomendado para o frio do glacier)"
+    ],
+    "boss": null
+  },
+  {
+    "id": "gaeas-cliff",
+    "title": "Gaea's Cliff",
+    "location": "Gaea's Cliff",
+    "disc": 2,
+    "steps": [
+      "Escale a face congelada de Gaea's Cliff, penhasco que leva à Cratera do Norte.",
+      "Avance com cuidado pelas passagens estreitas de gelo, alternando escaladas verticais e horizontais.",
+      "Enfrente os monstros da região, fortes em gelo — leve Materia de Fire equipada para compensar.",
+      "No meio do caminho, o grupo é emboscado pelo monstro bicéfalo Schizo.",
+      "Derrote Schizo para continuar a escalada até o topo da cordilheira.",
+      "Alcance o topo e aviste a Cratera do Norte ao longe, onde Sephiroth se escondeu."
+    ],
+    "items": [
+      "Turbo Ether (passagens de gelo)",
+      "Elixir (antes da emboscada)",
+      "Fire Materia (recomendado contra os monstros da região)"
+    ],
+    "boss": "Schizo — duas cabeças com ataques diferentes (física e gelo); concentre o dano numa cabeça por vez para reduzir as ações dele."
+  },
+  {
+    "id": "whirlwind-maze",
+    "title": "Whirlwind Maze e a Cratera do Norte",
+    "location": "Northern Crater",
+    "disc": 2,
+    "steps": [
+      "Entre na Cratera do Norte e desça pelo Whirlwind Maze, labirinto de plataformas suspensas sobre o abismo.",
+      "Escolha os caminhos certos guiando-se pelas correntes de vento visíveis nas bordas das plataformas.",
+      "No fundo do labirinto, enfrente Jenova∙DEATH, a forma mais forte de Jenova encontrada até agora.",
+      "Logo depois, Sephiroth hipnotiza Cloud e toma a Black Materia à força, provocando o colapso da cratera.",
+      "Durante o desabamento, o grupo se divide: Cloud e Tifa caem na correnteza da Lifestream, os demais são capturados pela Shinra."
+    ],
+    "items": [
+      "Elixir (plataformas do labirinto)",
+      "Hi-Potion (antes do confronto com Jenova)"
+    ],
+    "boss": "Jenova∙DEATH — pode usar Silence em área; leve Esuna ou proteção contra status e mantenha o dano físico constante."
+  },
+  {
+    "id": "fuga-junon-mideel",
+    "title": "Fuga de Junon e Mideel",
+    "location": "Mideel",
+    "disc": 2,
+    "steps": [
+      "Controle o grupo capturado pela Shinra, preso a bordo de um navio-prisão ancorado em Junon.",
+      "Explore as celas e corredores do navio até encontrar uma rota de fuga, driblando os guardas.",
+      "Escape e tome de assalto o Highwind, o novo dirigível da Shinra ancorado no cais de Junon, com Cid nos comandos.",
+      "Com o Highwind livre, sobrevoe o mundo em busca de Cloud e Tifa, desaparecidos desde o colapso da cratera.",
+      "Siga as pistas até Mideel, cidade termal ao sul, onde os dois foram resgatados por moradores.",
+      "Encontre Cloud catatônico numa cadeira, com Tifa cuidando dele; o restante do grupo segue as próximas missões sob nova liderança."
+    ],
+    "items": [
+      "Highwind (dirigível, ganho na fuga)",
+      "Turbo Ether (navio-prisão)",
+      "Elixir (Mideel)"
+    ],
+    "boss": null
+  },
+  {
+    "id": "huge-materia-corel-condor",
+    "title": "Huge Materia: Trem de North Corel e Fort Condor",
+    "location": "North Corel",
+    "disc": 2,
+    "steps": [
+      "Com o Highwind, retorne a North Corel para investigar o trem Shinra carregando uma Huge Materia.",
+      "Infiltre-se no trem em movimento e avance vagão por vagão enfrentando a guarda Shinra.",
+      "Na locomotiva, resolva a sequência de ações para impedir o trem de descarrilar ou explodir.",
+      "Recupere a primeira Huge Materia após deter o trem.",
+      "Volte a Fort Condor, agora sob ataque direto de uma força-tarefa Shinra atrás da segunda Huge Materia.",
+      "Vença a batalha estratégica de defesa do ninho (obrigatória dessa vez) para proteger a Materia e o condor."
+    ],
+    "items": [
+      "Huge Materia (recuperada no trem de North Corel)",
+      "Huge Materia (recuperada na defesa de Fort Condor)",
+      "W-Item Materia (evento paralelo do trem, opcional)"
+    ],
+    "boss": null
+  },
+  {
+    "id": "reator-submarino",
+    "title": "Reator Submarino",
+    "location": "Underwater Reactor",
+    "disc": 2,
+    "steps": [
+      "Rume ao Underwater Reactor, instalação Shinra sob o mar que guarda a última Huge Materia acessível por enquanto.",
+      "Use o submarino disponível na doca para descer até a estrutura submersa.",
+      "Explore os corredores pressurizados do reator, evitando vazamentos e monstros aquáticos.",
+      "No núcleo, o mecanismo de contenção Carry Armor guarda a Huge Materia.",
+      "Derrote o Carry Armor para liberar a Materia e iniciar a fuga antes que a instalação afunde.",
+      "Retorne ao submarino e escape para a superfície com o Highwind aguardando."
+    ],
+    "items": [
+      "Huge Materia (núcleo do reator submarino)",
+      "Aurora Armlet (opcional, sala lateral)",
+      "Hi-Potion (corredores pressurizados)"
+    ],
+    "boss": "Carry Armor — prende dois personagens nos braços mecânicos, deixando um livre; destrua os braços para libertar os presos antes de focar no corpo central."
+  },
+  {
+    "id": "foguete",
+    "title": "Foguete de Rocket Town",
+    "location": "Rocket Town",
+    "disc": 2,
+    "steps": [
+      "Volte a Rocket Town para buscar a última Huge Materia, guardada dentro do foguete que a Shinra pretende lançar ao espaço.",
+      "Decida quem acompanha Cid no lançamento enquanto os demais ficam na base.",
+      "Durante o voo, jogue o mini-jogo de desviar de destroços para não danificar a nave.",
+      "Recupere a última Huge Materia guardada a bordo do foguete.",
+      "Pouse de volta em Rocket Town com todas as Huge Materias reunidas."
+    ],
+    "items": [
+      "Huge Materia (recuperada dentro do foguete)",
+      "Mind Source (opcional, oficina de Rocket Town)",
+      "Elixir (cabine do foguete)"
+    ],
+    "boss": null
+  },
+  {
+    "id": "retorno-midgar",
+    "title": "Retorno a Midgar",
+    "location": "Midgar",
+    "disc": 2,
+    "steps": [
+      "Leve o Highwind de volta a Midgar, agora quase abandonada, sob controle mínimo da Shinra enfraquecida.",
+      "Infiltre-se na cidade deserta, passando pelos setores destruídos até a sede da Shinra.",
+      "Suba os andares remanescentes do prédio, enfrentando as últimas defesas robóticas da companhia.",
+      "Enfrente o Proud Clod, arma robótica pilotada pela cúpula da Shinra, no topo do prédio.",
+      "Desça ao laboratório de Hojo, agora mutado, e enfrente suas transformações sucessivas.",
+      "Após vencer, o grupo parte rumo à Cratera do Norte, encerrando o Disco 2."
+    ],
+    "items": [
+      "Turbo Ether (setores destruídos de Midgar)",
+      "Elixir (subida da sede da Shinra)",
+      "Ultima Weapon (algumas rotas, sede da Shinra)"
+    ],
+    "boss": "Proud Clod e depois Hojo (múltiplas formas) — Proud Clod ataca à distância com canhão pesado; as formas de Hojo trocam de elemento fraco a cada estágio, então alterne seus ataques elementais."
+  },
+  {
+    "id": "preparacao-final",
+    "title": "Preparação Final e Sidequests",
+    "location": "World Map",
+    "disc": 3,
+    "steps": [
+      "Use o tempo livre antes da Cratera do Norte para farmar equipamentos, armas definitivas e Materias raras.",
+      "Complete sidequests pendentes: corrida e criação de chocobos dourados, torneio da Battle Square, Materia Kids em Kalm, panfletos do Turtle's Paradise.",
+      "Conquiste as armas definitivas de cada personagem completando suas missões pessoais.",
+      "Busque a Knights of the Round, a invocação mais poderosa do jogo, na Cave on the Island (acessível de submarino).",
+      "Se quiser desafios extras, procure enfrentar as Weapons opcionais Ruby Weapon e Emerald Weapon.",
+      "Quando se sentir pronto, siga para a Cratera do Norte para o confronto final."
+    ],
+    "items": [
+      "Knights of the Round Materia (Cave on the Island, via submarino)",
+      "Master Materia e W-Item Materia (sidequests diversas)",
+      "Armas definitivas de cada personagem (missões pessoais)"
+    ],
+    "boss": "Ruby Weapon e Emerald Weapon — opcionais, não obrigatórias para terminar o jogo; exigem equipe de nível muito alto. Ruby enterra dois personagens na areia deixando um sozinho lutando; Emerald ataca com um golpe devastador após um tempo, então vença rápido ou garanta sobrevivência a dano total."
+  },
+  {
+    "id": "cratera-norte",
+    "title": "Cratera do Norte — Confronto Final",
+    "location": "Northern Crater",
+    "disc": 3,
+    "steps": [
+      "Retorne à Cratera do Norte, agora reaberta e mais profunda, mergulhando direto no núcleo do planeta.",
+      "Desça pelas camadas de cristal e memória, enfrentando os monstros mais fortes do jogo.",
+      "Encontre corpos clonados de Sephiroth e ilusões que testam a resolução do grupo.",
+      "Enfrente Jenova∙SYNTHESIS, a forma final de Jenova, guardando o caminho para Sephiroth.",
+      "Avance até o núcleo e confronte o Bizarro∙Sephiroth, composto de múltiplas partes a derrotar em sequência.",
+      "Enfrente Safer∙Sephiroth dentro da barreira criada por sua magia, o penúltimo confronto do jogo.",
+      "Assista ao desfecho da história, com Cloud impedindo o Holy de ser bloqueado e o planeta sendo salvo."
+    ],
+    "items": [
+      "Elixir (camadas finais da cratera)",
+      "Megalixir (antes do confronto final)",
+      "Save the Queen (opcional, se ainda não obtida)"
+    ],
+    "boss": "Jenova∙SYNTHESIS, depois Bizarro∙Sephiroth e por fim Safer∙Sephiroth — Bizarro tem múltiplas partes (ataque a parte central para acelerar); Safer∙Sephiroth usa magia poderosa em área, então tenha barreiras e cura em grupo prontas."
+  }
+]

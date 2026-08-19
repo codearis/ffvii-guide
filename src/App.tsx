@@ -7,6 +7,7 @@ import CharactersPage from './pages/CharactersPage'
 import EnemiesPage from './pages/EnemiesPage'
 import StatsPage from './pages/StatsPage'
 import SimulatorPage from './pages/SimulatorPage'
+import WalkthroughPage from './pages/WalkthroughPage'
 
 const TABS = [
   { id: 'search', label: 'Buscar' },
@@ -16,6 +17,7 @@ const TABS = [
   { id: 'enemies', label: 'Inimigos' },
   { id: 'stats', label: 'Stats' },
   { id: 'sim', label: 'Simulador' },
+  { id: 'walkthrough', label: 'Detonado' },
 ]
 
 export default function App() {
@@ -51,6 +53,7 @@ export default function App() {
       {tab === 'enemies' && <EnemiesPage />}
       {tab === 'stats' && <StatsPage />}
       {tab === 'sim' && <SimulatorPage />}
+      {tab === 'walkthrough' && <WalkthroughPage />}
     </div>
   )
 }
