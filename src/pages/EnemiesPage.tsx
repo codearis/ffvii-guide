@@ -1,8 +1,25 @@
 import { Fragment, useMemo, useState } from 'react'
 import enemiesRaw from '../data/enemies.json'
-import { Enemy, fmtNum } from '../lib'
+import { Enemy, asset, fmtNum } from '../lib'
 
 const enemies = enemiesRaw as Enemy[]
+
+// mesmo slug usado ao baixar os sprites em public/img/enemies
+const slug = (n: string) => n.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '')
+
+function Sprite({ name }: { name: string }) {
+  const [err, setErr] = useState(false)
+  if (err) return null
+  return (
+    <img
+      className="enemy-sprite"
+      src={asset(`img/enemies/${slug(name)}.png`)}
+      alt=""
+      loading="lazy"
+      onError={() => setErr(true)}
+    />
+  )
+}
 
 export default function EnemiesPage() {
   const [q, setQ] = useState('')
@@ -49,6 +66,7 @@ export default function EnemiesPage() {
                 <Fragment key={key}>
                   <tr className="row-btn" onClick={() => setOpen(open === key ? null : key)}>
                     <td className="hl">
+                      <Sprite name={e.name} />
                       {e.name}
                       {e.type === 'Boss' && <span className="badge">BOSS</span>}
                     </td>

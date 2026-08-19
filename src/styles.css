@@ -251,6 +251,15 @@ td {
   color: #c2c9e8;
 }
 
+.enemy-sprite {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  margin-right: 8px;
+  vertical-align: middle;
+  image-rendering: pixelated;
+}
+
 .badge {
   margin-left: 6px;
   color: #f0e440;
