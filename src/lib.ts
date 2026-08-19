@@ -75,6 +75,10 @@ export const fmtNum = (n: number | null | undefined) =>
 // prefixa o base do Vite (raiz no dev, /ffvii-guide/ no GitHub Pages)
 export const asset = (p: string) => import.meta.env.BASE_URL + p
 
+// mesmo slug usado nos arquivos de sprite em public/img/enemies
+export const slugify = (n: string) =>
+  n.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '')
+
 // extrai o padrão "Slots O=O O" de uma descrição (armaduras) para renderizar com ícones
 export const splitSlots = (desc: string): { slots: string | null; rest: string } => {
   const m = desc.match(/(\s*·\s*)?Slots\s+(None|(?:O=O|O)(?:\s+(?:O=O|O))*)/)

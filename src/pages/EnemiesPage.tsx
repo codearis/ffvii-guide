@@ -1,6 +1,6 @@
 import { Fragment, useMemo, useState } from 'react'
 import enemiesRaw from '../data/enemies.json'
-import { Enemy, asset, fmtNum } from '../lib'
+import { Enemy, asset, fmtNum, slugify as slug } from '../lib'
 
 const enemies = enemiesRaw as Enemy[]
 
@@ -13,9 +13,6 @@ const SORTS: Record<string, { label: string; cmp: (a: Enemy, b: Enemy) => number
   ap: { label: 'AP ↓', cmp: (a, b) => (b.ap ?? -1) - (a.ap ?? -1) },
   gil: { label: 'Gil ↓', cmp: (a, b) => (b.gil ?? -1) - (a.gil ?? -1) },
 }
-
-// mesmo slug usado ao baixar os sprites em public/img/enemies
-const slug = (n: string) => n.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '')
 
 function Sprite({ name, large = false }: { name: string; large?: boolean }) {
   const [err, setErr] = useState(false)
