@@ -145,6 +145,11 @@ input:focus {
   border-color: #e6e6e6;
 }
 
+.search-input {
+  margin-left: 0;
+  flex: 1;
+}
+
 .table-wrap {
   max-height: 62vh;
   overflow: auto;
@@ -306,19 +311,58 @@ td {
     grid-template-columns: 1fr 1fr;
   }
 
+  .tab {
+    padding: 10px 4px;
+  }
+
+  .chip {
+    padding: 6px 12px;
+  }
+
   input {
     margin-left: 0;
     width: 100%;
     min-width: 0;
+    font-size: 16px; /* evita zoom automático do iOS ao focar */
   }
 
   .table-wrap {
     max-height: none;
   }
 
-  /* tabelas largas rolam na horizontal dentro da janela */
-  table {
-    min-width: 640px;
+  /* tabelas viram cards empilhados; o rótulo da coluna vem do data-label */
+  thead {
+    display: none;
+  }
+
+  tr {
+    display: block;
+    padding: 6px 0;
+    border-bottom: 2px solid #ffffff22;
+  }
+
+  td {
+    display: block;
+    border: none;
+    padding: 2px 8px;
+  }
+
+  td.num {
+    text-align: left;
+  }
+
+  td.hl {
+    font-size: 15px;
+  }
+
+  td[data-label]::before {
+    content: attr(data-label) ': ';
+    color: #9ab8ff;
+    font-size: 11px;
+  }
+
+  .detail td {
+    padding: 6px 8px;
   }
 
   .char-grid {

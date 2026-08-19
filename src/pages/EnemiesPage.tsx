@@ -52,12 +52,12 @@ export default function EnemiesPage() {
                       {e.name}
                       {e.type === 'Boss' && <span className="badge">BOSS</span>}
                     </td>
-                    <td className="num">{fmtNum(e.level)}</td>
-                    <td className="num">{fmtNum(e.hp)}</td>
-                    <td className="num">{fmtNum(e.mp)}</td>
-                    <td>{e.weaknesses.join(', ') || '—'}</td>
-                    <td className="dim">{e.attacks.join(', ') || '—'}</td>
-                    <td className="dim">{e.location ?? '—'}</td>
+                    <td className="num" data-label="LV">{fmtNum(e.level)}</td>
+                    <td className="num" data-label="HP">{fmtNum(e.hp)}</td>
+                    <td className="num" data-label="MP">{fmtNum(e.mp)}</td>
+                    <td data-label="Fraquezas">{e.weaknesses.join(', ') || '—'}</td>
+                    <td className="dim" data-label="Skills">{e.attacks.join(', ') || '—'}</td>
+                    <td className="dim" data-label="Local">{e.location ?? '—'}</td>
                   </tr>
                   {open === key && (
                     <tr className="detail">

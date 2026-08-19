@@ -54,8 +54,8 @@ export default function ItemsPage() {
             {rows.map((i, k) => (
               <tr key={`${i.section}-${i.name}-${k}`}>
                 <td className="hl">{i.name}</td>
-                <td>{i.section}</td>
-                <td className="num">{fmtNum(i.gil)}</td>
+                <td data-label="Seção">{i.section}</td>
+                <td className="num" data-label="Gil">{fmtNum(i.gil)}</td>
                 <td className="dim">{i.description}</td>
               </tr>
             ))}

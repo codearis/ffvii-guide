@@ -65,13 +65,13 @@ export default function MateriaPage() {
                   {m.name}
                   <div className="dim sub">{m.description}</div>
                 </td>
-                <td>{TYPES[m.type]?.label ?? m.type}</td>
-                <td className="dim">
+                <td data-label="Tipo">{TYPES[m.type]?.label ?? m.type}</td>
+                <td className="dim" data-label="AP">
                   {m.ap.length ? m.ap.map(n => n.toLocaleString('pt-BR')).join(' / ') : '—'}
                 </td>
-                <td className="dim">{m.abilities.join(', ') || '—'}</td>
-                <td className="num">{fmtNum(m.gil)}</td>
-                <td className="dim">{m.location}</td>
+                <td className="dim" data-label="Habilidades">{m.abilities.join(', ') || '—'}</td>
+                <td className="num" data-label="Gil">{fmtNum(m.gil)}</td>
+                <td className="dim" data-label="Onde obter">{m.location}</td>
               </tr>
             ))}
           </tbody>

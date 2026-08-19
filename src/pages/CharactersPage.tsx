@@ -59,10 +59,10 @@ export default function CharactersPage() {
               <tbody>
                 {sel.limits.map(l => (
                   <tr key={l.name}>
-                    <td className="num">{l.level}</td>
+                    <td className="num" data-label="Nível">{l.level}</td>
                     <td className="hl">{l.name}</td>
                     <td className="dim">{l.description}</td>
-                    <td className="dim">{l.obtain}</td>
+                    <td className="dim" data-label="Como aprender">{l.obtain}</td>
                   </tr>
                 ))}
               </tbody>
@@ -87,12 +87,12 @@ export default function CharactersPage() {
                 {charWeapons.map(w => (
                   <tr key={w.name}>
                     <td className="hl">{w.name}</td>
-                    <td className="num">{w.attack}</td>
-                    <td className="num">{fmtNum(w.attackPct)}</td>
-                    <td className="slots">{w.slots}</td>
-                    <td>{w.growth}</td>
-                    <td className="num">{fmtNum(w.gil)}</td>
-                    <td className="dim">{w.obtain}</td>
+                    <td className="num" data-label="ATK">{w.attack}</td>
+                    <td className="num" data-label="Acerto%">{fmtNum(w.attackPct)}</td>
+                    <td className="slots" data-label="Slots">{w.slots}</td>
+                    <td data-label="Growth">{w.growth}</td>
+                    <td className="num" data-label="Gil">{fmtNum(w.gil)}</td>
+                    <td className="dim" data-label="Obter">{w.obtain}</td>
                   </tr>
                 ))}
               </tbody>

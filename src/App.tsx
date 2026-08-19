@@ -1,11 +1,13 @@
 import { useState } from 'react'
 import { asset } from './lib'
+import SearchPage from './pages/SearchPage'
 import ItemsPage from './pages/ItemsPage'
 import MateriaPage from './pages/MateriaPage'
 import CharactersPage from './pages/CharactersPage'
 import EnemiesPage from './pages/EnemiesPage'
 
 const TABS = [
+  { id: 'search', label: 'Buscar' },
   { id: 'items', label: 'Itens' },
   { id: 'materia', label: 'Materias' },
   { id: 'characters', label: 'Personagens' },
@@ -13,7 +15,7 @@ const TABS = [
 ]
 
 export default function App() {
-  const [tab, setTab] = useState('items')
+  const [tab, setTab] = useState('search')
   const [logoOk, setLogoOk] = useState(true)
   return (
     <div className="app">
@@ -38,6 +40,7 @@ export default function App() {
           </button>
         ))}
       </nav>
+      {tab === 'search' && <SearchPage />}
       {tab === 'items' && <ItemsPage />}
       {tab === 'materia' && <MateriaPage />}
       {tab === 'characters' && <CharactersPage />}
