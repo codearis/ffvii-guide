@@ -1,0 +1,1350 @@
+[
+  {
+    "name": "Fire",
+    "type": "Magic",
+    "description": "Casts Fire-elemental attack magic against a single enemy or all enemies.",
+    "ap": [
+      2000,
+      18000,
+      35000
+    ],
+    "abilities": [
+      "Fire",
+      "Fire2",
+      "Fire3"
+    ],
+    "gil": 600,
+    "location": "Buy: Sector 7 Slums, Sector 5 Slums, Wall Market, Fort Condor, Mideel, Costa del Sol, Junon (Part 1); initially equipped on Red XIII"
+  },
+  {
+    "name": "Ice",
+    "type": "Magic",
+    "description": "Casts Ice-elemental attack magic against a single enemy or all enemies.",
+    "ap": [
+      2000,
+      18000,
+      35000
+    ],
+    "abilities": [
+      "Ice",
+      "Ice2",
+      "Ice3"
+    ],
+    "gil": 600,
+    "location": "Buy: Sector 7 Slums, Sector 5 Slums, Wall Market, Fort Condor, Mideel, Costa del Sol, Junon (Part 1); initially equipped on Cloud"
+  },
+  {
+    "name": "Lightning",
+    "type": "Magic",
+    "description": "Casts Lightning-elemental attack magic against a single enemy or all enemies.",
+    "ap": [
+      2000,
+      18000,
+      35000
+    ],
+    "abilities": [
+      "Bolt",
+      "Bolt2",
+      "Bolt3"
+    ],
+    "gil": 600,
+    "location": "Buy: Sector 7 Slums, Sector 5 Slums, Wall Market, Fort Condor, Mideel, Costa del Sol, Junon (Part 1)"
+  },
+  {
+    "name": "Earth",
+    "type": "Magic",
+    "description": "Casts Earth-elemental attack magic that hits all grounded enemies.",
+    "ap": [
+      6000,
+      22000,
+      40000
+    ],
+    "abilities": [
+      "Quake",
+      "Quake2",
+      "Quake3"
+    ],
+    "gil": 1500,
+    "location": "Buy: Kalm, Costa del Sol, Junon (Part 1)"
+  },
+  {
+    "name": "Restore",
+    "type": "Magic",
+    "description": "Restores HP and, at higher levels, grants Regen over time.",
+    "ap": [
+      2500,
+      17000,
+      25000,
+      40000
+    ],
+    "abilities": [
+      "Cure",
+      "Cure2",
+      "Regen",
+      "Cure3"
+    ],
+    "gil": 750,
+    "location": "Buy: Sector 7 Slums, Sector 5 Slums, Wall Market, Fort Condor, Mideel, Costa del Sol, Junon (Part 1); Find: No. 1 Reactor"
+  },
+  {
+    "name": "Heal",
+    "type": "Magic",
+    "description": "Cures status ailments and eventually grants resistance to them.",
+    "ap": [
+      12000,
+      52000,
+      60000
+    ],
+    "abilities": [
+      "Poisona",
+      "Esuna",
+      "Resist"
+    ],
+    "gil": 1500,
+    "location": "Buy: Kalm, Junon, Costa del Sol (Part 1), Gongaga"
+  },
+  {
+    "name": "Revive",
+    "type": "Magic",
+    "description": "Revives a KO'd ally and restores part of their HP.",
+    "ap": [
+      45000,
+      55000
+    ],
+    "abilities": [
+      "Life",
+      "Life2"
+    ],
+    "gil": 3000,
+    "location": "Buy: Junon, Costa del Sol (Part 1)"
+  },
+  {
+    "name": "Seal",
+    "type": "Magic",
+    "description": "Inflicts Sleep and, later, Silence on enemies.",
+    "ap": [
+      10000,
+      20000
+    ],
+    "abilities": [
+      "Sleepel",
+      "Silence"
+    ],
+    "gil": 3000,
+    "location": "Buy: Junon, Costa del Sol (Part 1)"
+  },
+  {
+    "name": "Mystify",
+    "type": "Magic",
+    "description": "Inflicts Confusion and, later, Berserk on enemies.",
+    "ap": [
+      12000,
+      25000
+    ],
+    "abilities": [
+      "Confu",
+      "Berserk"
+    ],
+    "gil": 6000,
+    "location": "Buy: Gongaga, Cosmo Canyon"
+  },
+  {
+    "name": "Transform",
+    "type": "Magic",
+    "description": "Shrinks or turns enemies into frogs, weakening them.",
+    "ap": [
+      8000,
+      24000
+    ],
+    "abilities": [
+      "Mini",
+      "Toad"
+    ],
+    "gil": 5000,
+    "location": "Buy: North Corel, Cosmo Canyon, Gongaga, Mideel (after Ultimate Weapon); Find: Corel Bridge; initially equipped on Cait Sith"
+  },
+  {
+    "name": "Exit",
+    "type": "Magic",
+    "description": "Allows fleeing from battle and, later, removing enemies from combat.",
+    "ap": [
+      10000,
+      30000
+    ],
+    "abilities": [
+      "Escape",
+      "Remove"
+    ],
+    "gil": 10000,
+    "location": "Buy: Rocket Town"
+  },
+  {
+    "name": "Poison",
+    "type": "Magic",
+    "description": "Casts Poison-elemental damage and inflicts the Poison status.",
+    "ap": [
+      5000,
+      20000,
+      38000
+    ],
+    "abilities": [
+      "Bio",
+      "Bio2",
+      "Bio3"
+    ],
+    "gil": 1500,
+    "location": "Buy: Kalm, Costa del Sol, Junon (Part 1); Find: Shinra Bldg. Floor 67"
+  },
+  {
+    "name": "Gravity",
+    "type": "Magic",
+    "description": "Deals damage equal to a percentage of the target's current HP.",
+    "ap": [
+      10000,
+      20000,
+      40000
+    ],
+    "abilities": [
+      "Demi",
+      "Demi2",
+      "Demi3"
+    ],
+    "gil": 8000,
+    "location": "Buy: Costa del Sol (Part 2/3), Mideel (after Ultimate Weapon); Find: Cave of the Gi"
+  },
+  {
+    "name": "Barrier",
+    "type": "Magic",
+    "description": "Casts defensive barriers against physical and magic damage, later adding Reflect and Wall.",
+    "ap": [
+      5000,
+      15000,
+      30000,
+      45000
+    ],
+    "abilities": [
+      "Barrier",
+      "MBarrier",
+      "Reflect",
+      "Wall"
+    ],
+    "gil": 10000,
+    "location": "Buy: Rocket Town"
+  },
+  {
+    "name": "Comet",
+    "type": "Magic",
+    "description": "Summons falling comets that strike random enemies.",
+    "ap": [
+      12000,
+      60000
+    ],
+    "abilities": [
+      "Comet",
+      "Comet2"
+    ],
+    "gil": null,
+    "location": "Find: Forgotten City"
+  },
+  {
+    "name": "Time",
+    "type": "Magic",
+    "description": "Alters the flow of time, hastening allies or slowing and stopping enemies.",
+    "ap": [
+      8000,
+      20000,
+      42000
+    ],
+    "abilities": [
+      "Haste",
+      "Slow",
+      "Stop"
+    ],
+    "gil": 6000,
+    "location": "Buy: Gongaga, Rocket Town"
+  },
+  {
+    "name": "Destruct",
+    "type": "Magic",
+    "description": "Strips buffs from enemies and can instantly kill non-immune foes.",
+    "ap": [
+      6000,
+      10000,
+      45000
+    ],
+    "abilities": [
+      "DeBarrier",
+      "DeSpell",
+      "Death"
+    ],
+    "gil": 9000,
+    "location": "Buy: Fort Condor (Part 2/3), Mideel (after Ultimate Weapon); Find: Shinra Mansion (Part 1)"
+  },
+  {
+    "name": "Contain",
+    "type": "Magic",
+    "description": "Casts powerful elemental and non-elemental attack magic, culminating in Flare.",
+    "ap": [
+      5000,
+      10000,
+      15000,
+      60000
+    ],
+    "abilities": [
+      "Freeze",
+      "Break",
+      "Tornado",
+      "Flare"
+    ],
+    "gil": null,
+    "location": "Find: Mideel; give the White Chocobo a Mimett Greens, then scratch its ear"
+  },
+  {
+    "name": "Full Cure",
+    "type": "Magic",
+    "description": "Fully restores a single ally's HP in one cast.",
+    "ap": [
+      3000,
+      100000
+    ],
+    "abilities": [
+      "FullCure"
+    ],
+    "gil": null,
+    "location": "Find: Cosmo Canyon (Part 2/3)"
+  },
+  {
+    "name": "Shield",
+    "type": "Magic",
+    "description": "Grants an ally complete immunity to physical attacks.",
+    "ap": [
+      10000,
+      100000
+    ],
+    "abilities": [
+      "Shield"
+    ],
+    "gil": null,
+    "location": "Find: Northern Cave"
+  },
+  {
+    "name": "Ultima",
+    "type": "Magic",
+    "description": "Casts the powerful non-elemental spell Ultima on all enemies.",
+    "ap": [
+      5000,
+      100000
+    ],
+    "abilities": [
+      "Ultima"
+    ],
+    "gil": null,
+    "location": "Find: North Corel, reward for stopping the runaway coal train (or a special 50,000 gil purchase if it crashes)"
+  },
+  {
+    "name": "Master Magic",
+    "type": "Magic",
+    "description": "Grants every Magic spell in the game at once; already mastered.",
+    "ap": [],
+    "abilities": [
+      "All magic spells"
+    ],
+    "gil": null,
+    "location": "Cosmo Canyon: bring a mastered copy of every Magic Materia to the green Huge Materia; also given by the Kalm traveler for the Earth Harp"
+  },
+  {
+    "name": "Slash-All",
+    "type": "Command",
+    "description": "Attacks all enemies with a single sword strike.",
+    "ap": [
+      130000,
+      150000
+    ],
+    "abilities": [
+      "Slash-All",
+      "Flash"
+    ],
+    "gil": null,
+    "location": "Find: Ancient Forest"
+  },
+  {
+    "name": "Double Cut",
+    "type": "Command",
+    "description": "Allows consecutive physical attacks in a single turn.",
+    "ap": [
+      100000,
+      150000
+    ],
+    "abilities": [
+      "2x-Cut",
+      "4x-Cut"
+    ],
+    "gil": null,
+    "location": "Find: Sunken Gelnika, Research Room"
+  },
+  {
+    "name": "W-Magic",
+    "type": "Command",
+    "description": "Casts two Magic spells in a single turn.",
+    "ap": [
+      250000
+    ],
+    "abilities": [
+      "W-Magic"
+    ],
+    "gil": null,
+    "location": "Find: Northern Cave"
+  },
+  {
+    "name": "W-Summon",
+    "type": "Command",
+    "description": "Casts two Summons in a single turn.",
+    "ap": [
+      250000
+    ],
+    "abilities": [
+      "W-Summon"
+    ],
+    "gil": null,
+    "location": "Battle Square prize for 64,000 BP (after obtaining the Highwind)"
+  },
+  {
+    "name": "W-Item",
+    "type": "Command",
+    "description": "Uses two items in a single turn.",
+    "ap": [
+      250000
+    ],
+    "abilities": [
+      "W-Item"
+    ],
+    "gil": null,
+    "location": "Winding Tunnel, during Mako Cannon Rampage (or dig it up at Bone Village if missed)"
+  },
+  {
+    "name": "Steal",
+    "type": "Command",
+    "description": "Attempts to steal an item from an enemy; later combines stealing with an attack.",
+    "ap": [
+      40000,
+      50000
+    ],
+    "abilities": [
+      "Steal",
+      "Mug"
+    ],
+    "gil": 1200,
+    "location": "Buy: Kalm; Find: Sewers beneath Wall Market"
+  },
+  {
+    "name": "Sense",
+    "type": "Command",
+    "description": "Reveals an enemy's HP, MP, and weaknesses.",
+    "ap": [
+      40000
+    ],
+    "abilities": [
+      "Sense"
+    ],
+    "gil": 1000,
+    "location": "Buy: Junon (Part 1), Kalm; Find: Sector 6 playground; initially equipped on Red XIII"
+  },
+  {
+    "name": "Throw",
+    "type": "Command",
+    "description": "Throws items or weapons at enemies; later allows throwing gil for damage.",
+    "ap": [
+      45000,
+      60000
+    ],
+    "abilities": [
+      "Throw",
+      "Coin"
+    ],
+    "gil": 10000,
+    "location": "Buy: Fort Condor, Rocket Town (after Highwind); initially equipped on Yuffie"
+  },
+  {
+    "name": "Morph",
+    "type": "Command",
+    "description": "Turns a sufficiently weakened enemy into an item.",
+    "ap": [
+      100000
+    ],
+    "abilities": [
+      "Morph"
+    ],
+    "gil": null,
+    "location": "Find: Temple of the Ancients, boulder room"
+  },
+  {
+    "name": "Deathblow",
+    "type": "Command",
+    "description": "A high-risk physical attack with a greatly increased critical hit chance.",
+    "ap": [
+      40000
+    ],
+    "abilities": [
+      "Deathblow"
+    ],
+    "gil": 10000,
+    "location": "Buy: Fort Condor, Rocket Town (after Highwind); Find: Gongaga forest"
+  },
+  {
+    "name": "Manipulate",
+    "type": "Command",
+    "description": "Takes control of an enemy, forcing it to use its own abilities for the party.",
+    "ap": [
+      40000
+    ],
+    "abilities": [
+      "Manipulate"
+    ],
+    "gil": 10000,
+    "location": "Buy: Fort Condor, Rocket Town (after Highwind); initially equipped on Cait Sith"
+  },
+  {
+    "name": "Mime",
+    "type": "Command",
+    "description": "Repeats the last command used by any party member at no MP or item cost.",
+    "ap": [
+      100000
+    ],
+    "abilities": [
+      "Mime"
+    ],
+    "gil": null,
+    "location": "Find: Materia Cave, Wutai Area"
+  },
+  {
+    "name": "Enemy Skill",
+    "type": "Command",
+    "description": "Learns powerful Blue Magic spells by being hit with them by certain enemies.",
+    "ap": [],
+    "abilities": [
+      "Frog Song",
+      "L4 Suicide",
+      "Magic Hammer",
+      "White Wind",
+      "Big Guard",
+      "Angel Whisper",
+      "Dragon Force",
+      "Death Force",
+      "Flame Thrower",
+      "Laser",
+      "Matra Magic",
+      "Bad Breath",
+      "Beta",
+      "Aqualung",
+      "Trine",
+      "Magic Breath",
+      "????",
+      "Goblin Punch",
+      "Chocobuckle",
+      "L5 Death",
+      "Death Sentence",
+      "Roulette",
+      "Shadow Flare",
+      "Pandora's Box"
+    ],
+    "gil": null,
+    "location": "Find: Shinra Bldg. (missable), Junon Beginner's Hall, Forgotten Capital, Chocobo Sage's home (four separate copies)"
+  },
+  {
+    "name": "Master Command",
+    "type": "Command",
+    "description": "Grants Steal, Sense, Throw, Morph, Deathblow, Manipulate, and Mime at once; already mastered.",
+    "ap": [],
+    "abilities": [
+      "Steal",
+      "Sense",
+      "Throw",
+      "Morph",
+      "Deathblow",
+      "Manipulate",
+      "Mime"
+    ],
+    "gil": null,
+    "location": "Cosmo Canyon: bring mastered Steal, Sense, Throw, Morph, Deathblow, Manipulate and Mime to the yellow Huge Materia; also given by the Kalm traveler"
+  },
+  {
+    "name": "Choco/Mog",
+    "type": "Summon",
+    "description": "Summons Choco/Mog to attack all enemies and inflict Stop.",
+    "ap": [
+      2000,
+      14000,
+      25000,
+      35000
+    ],
+    "abilities": [
+      "Choco/Mog"
+    ],
+    "gil": null,
+    "location": "Chocobo Farm; interact with a Chocobo by the fence"
+  },
+  {
+    "name": "Shiva",
+    "type": "Summon",
+    "description": "Summons Shiva to deal Ice-elemental damage to all enemies.",
+    "ap": [
+      4000,
+      15000,
+      30000,
+      50000
+    ],
+    "abilities": [
+      "Shiva"
+    ],
+    "gil": null,
+    "location": "Under Junon, gift from Priscilla"
+  },
+  {
+    "name": "Ifrit",
+    "type": "Summon",
+    "description": "Summons Ifrit to deal Fire-elemental damage to all enemies.",
+    "ap": [
+      5000,
+      20000,
+      35000,
+      60000
+    ],
+    "abilities": [
+      "Ifrit"
+    ],
+    "gil": null,
+    "location": "Cargo Ship, after defeating Jenova-BIRTH"
+  },
+  {
+    "name": "Ramuh",
+    "type": "Summon",
+    "description": "Summons Ramuh to deal Lightning-elemental damage to all enemies.",
+    "ap": [
+      10000,
+      25000,
+      50000,
+      70000
+    ],
+    "abilities": [
+      "Ramuh"
+    ],
+    "gil": null,
+    "location": "Chocobo racing lounge at Gold Saucer"
+  },
+  {
+    "name": "Titan",
+    "type": "Summon",
+    "description": "Summons Titan to deal Earth-elemental damage to all enemies.",
+    "ap": [
+      15000,
+      30000,
+      60000,
+      80000
+    ],
+    "abilities": [
+      "Titan"
+    ],
+    "gil": null,
+    "location": "Gongaga reactor (hidden, obtainable before North Crater on Disc 2)"
+  },
+  {
+    "name": "Odin",
+    "type": "Summon",
+    "description": "Summons Odin, who has a chance to instantly kill all enemies with Zantetsuken.",
+    "ap": [
+      16000,
+      32000,
+      65000,
+      90000
+    ],
+    "abilities": [
+      "Odin"
+    ],
+    "gil": null,
+    "location": "Nibelheim, second floor safe in Shinra Mansion (code: Right 36, Left 10, Right 59, Right 97)"
+  },
+  {
+    "name": "Leviathan",
+    "type": "Summon",
+    "description": "Summons Leviathan to deal Water damage to all enemies.",
+    "ap": [
+      18000,
+      38000,
+      70000,
+      100000
+    ],
+    "abilities": [
+      "Leviathan"
+    ],
+    "gil": null,
+    "location": "Defeat Godo in Wutai"
+  },
+  {
+    "name": "Bahamut",
+    "type": "Summon",
+    "description": "Summons Bahamut to unleash Mega Flare on all enemies.",
+    "ap": [
+      20000,
+      50000,
+      80000,
+      120000
+    ],
+    "abilities": [
+      "Bahamut"
+    ],
+    "gil": null,
+    "location": "Temple of the Ancients, after defeating the Red Dragon"
+  },
+  {
+    "name": "Kujata",
+    "type": "Summon",
+    "description": "Summons Kujata, striking enemies with combined Fire, Ice, and Lightning damage.",
+    "ap": [
+      22000,
+      60000,
+      90000,
+      140000
+    ],
+    "abilities": [
+      "Kujata"
+    ],
+    "gil": null,
+    "location": "Found in Sleeping Forest"
+  },
+  {
+    "name": "Alexander",
+    "type": "Summon",
+    "description": "Summons Alexander to deal Holy-elemental damage to all enemies.",
+    "ap": [
+      25000,
+      65000,
+      100000,
+      150000
+    ],
+    "abilities": [
+      "Alexander"
+    ],
+    "gil": null,
+    "location": "Great Glacier, after visiting the Hot Springs and speaking to the Snow Woman"
+  },
+  {
+    "name": "Phoenix",
+    "type": "Summon",
+    "description": "Summons Phoenix, dealing Fire damage to enemies while reviving fallen allies.",
+    "ap": [
+      28000,
+      70000,
+      120000,
+      180000
+    ],
+    "abilities": [
+      "Phoenix"
+    ],
+    "gil": null,
+    "location": "Fort Condor, after the Huge Materia mission (or excavated at Bone Village)"
+  },
+  {
+    "name": "Neo Bahamut",
+    "type": "Summon",
+    "description": "Summons Neo Bahamut for a stronger non-elemental attack on all enemies.",
+    "ap": [
+      30000,
+      80000,
+      140000,
+      200000
+    ],
+    "abilities": [
+      "Neo Bahamut"
+    ],
+    "gil": null,
+    "location": "Found in Whirlwind Maze"
+  },
+  {
+    "name": "Hades",
+    "type": "Summon",
+    "description": "Summons Hades to inflict a wide array of status ailments on all enemies.",
+    "ap": [
+      35000,
+      120000,
+      150000,
+      250000
+    ],
+    "abilities": [
+      "Hades"
+    ],
+    "gil": null,
+    "location": "Sunken Gelnika storage room"
+  },
+  {
+    "name": "Typhon",
+    "type": "Summon",
+    "description": "Summons Typhon to deal heavy damage and lower enemy stats.",
+    "ap": [
+      35000,
+      120000,
+      150000,
+      250000
+    ],
+    "abilities": [
+      "Typhon"
+    ],
+    "gil": null,
+    "location": "Found in Ancient Forest treetops"
+  },
+  {
+    "name": "Bahamut ZERO",
+    "type": "Summon",
+    "description": "Summons Bahamut ZERO for a devastating non-elemental Tera Flare attack.",
+    "ap": [
+      35000,
+      120000,
+      150000,
+      250000
+    ],
+    "abilities": [
+      "Bahamut ZERO"
+    ],
+    "gil": null,
+    "location": "Cosmo Canyon, blue Huge Materia (requires both Bahamut and Neo Bahamut, or excavate at Bone Village)"
+  },
+  {
+    "name": "Knights of the Round",
+    "type": "Summon",
+    "description": "Summons the thirteen Knights of the Round for the single strongest attack in the game.",
+    "ap": [
+      50000,
+      200000,
+      300000,
+      500000
+    ],
+    "abilities": [
+      "Knights of the Round"
+    ],
+    "gil": null,
+    "location": "Materia Cave on Round Island; requires a Gold Chocobo"
+  },
+  {
+    "name": "Master Summon",
+    "type": "Summon",
+    "description": "Grants unlimited use of every Summon in the game; already mastered.",
+    "ap": [],
+    "abilities": [
+      "All summons"
+    ],
+    "gil": null,
+    "location": "Cosmo Canyon, red Huge Materia (requires all 16 mastered Summon Materia); also given for the Earth Harp after defeating Emerald Weapon"
+  },
+  {
+    "name": "Added Cut",
+    "type": "Support",
+    "description": "Follows up the linked Materia's use with an automatic physical attack on the same target.",
+    "ap": [
+      200000
+    ],
+    "abilities": [
+      "Added Cut"
+    ],
+    "gil": null,
+    "location": "Great Glacier"
+  },
+  {
+    "name": "Added Effect",
+    "type": "Support",
+    "description": "Chance to inflict the linked Materia's status on hit when on a weapon, or grants immunity to it when on armor.",
+    "ap": [
+      100000
+    ],
+    "abilities": [
+      "Added Effect"
+    ],
+    "gil": null,
+    "location": "Cave of the Gi (missable)"
+  },
+  {
+    "name": "All",
+    "type": "Support",
+    "description": "Lets a linked Magic or Summon Materia target all allies or enemies at once.",
+    "ap": [
+      1500,
+      6000,
+      18000,
+      35000
+    ],
+    "abilities": [
+      "Target all (1x)",
+      "Target all (2x)",
+      "Target all (3x)",
+      "Target all (4x)",
+      "Target all (5x)"
+    ],
+    "gil": null,
+    "location": "Sector 7 Slums, Shinra Bldg. (FL63), Cargo Ship, Mt. Nibel, Great Glacier, Fort Condor shop (after Highwind), Snowboarding Course B prize"
+  },
+  {
+    "name": "Counter",
+    "type": "Support",
+    "description": "Grants a chance to counter physical attacks using the linked command Materia.",
+    "ap": [
+      20000,
+      40000,
+      60000,
+      100000
+    ],
+    "abilities": [
+      "Counter 30%",
+      "Counter 40%",
+      "Counter 60%",
+      "Counter 80%",
+      "Counter 100%"
+    ],
+    "gil": null,
+    "location": "Northern Cave"
+  },
+  {
+    "name": "Elemental",
+    "type": "Support",
+    "description": "Gives equipment the element of the linked Materia; on armor it resists, then nullifies, then absorbs that element.",
+    "ap": [
+      10000,
+      40000,
+      80000
+    ],
+    "abilities": [
+      "Weapon elemental / armor resists",
+      "Armor nullifies element",
+      "Armor absorbs element"
+    ],
+    "gil": null,
+    "location": "Shinra Bldg. (FL62, guess the mayor's password), Mt. Nibel mako fountain, or play Tifa's piano in Nibelheim with Tifa as leader"
+  },
+  {
+    "name": "Final Attack",
+    "type": "Support",
+    "description": "Automatically triggers the linked Materia's effect the moment the wearer is KO'd.",
+    "ap": [
+      20000,
+      40000,
+      80000,
+      160000
+    ],
+    "abilities": [
+      "Final Attack x1",
+      "Final Attack x2",
+      "Final Attack x3",
+      "Final Attack x4",
+      "Final Attack x5"
+    ],
+    "gil": null,
+    "location": "Battle Square special battle prize (missable)"
+  },
+  {
+    "name": "HP Absorb",
+    "type": "Support",
+    "description": "Restores HP to the user equal to 10% of the damage dealt by the linked Materia.",
+    "ap": [
+      100000
+    ],
+    "abilities": [
+      "HP Absorb"
+    ],
+    "gil": null,
+    "location": "Wutai, Northern Cave"
+  },
+  {
+    "name": "Magic Counter",
+    "type": "Support",
+    "description": "Grants a chance to counter attacks by casting the linked Magic or Summon Materia.",
+    "ap": [
+      20000,
+      40000,
+      80000,
+      300000
+    ],
+    "abilities": [
+      "Magic Counter 30%",
+      "Magic Counter 40%",
+      "Magic Counter 60%",
+      "Magic Counter 80%",
+      "Magic Counter 100%"
+    ],
+    "gil": null,
+    "location": "Northern Cave, Chocobo Square race prize"
+  },
+  {
+    "name": "MP Absorb",
+    "type": "Support",
+    "description": "Restores MP to the user equal to 1% of the damage dealt by the linked Materia.",
+    "ap": [
+      100000
+    ],
+    "abilities": [
+      "MP Absorb"
+    ],
+    "gil": null,
+    "location": "Wutai item shop (missable)"
+  },
+  {
+    "name": "MP Turbo",
+    "type": "Support",
+    "description": "Increases the linked Magic or Summon's damage and MP cost by a percentage.",
+    "ap": [
+      10000,
+      30000,
+      60000,
+      120000
+    ],
+    "abilities": [
+      "MP Turbo +10%",
+      "MP Turbo +20%",
+      "MP Turbo +30%",
+      "MP Turbo +40%",
+      "MP Turbo +50%"
+    ],
+    "gil": null,
+    "location": "Whirlwind Maze (missable)"
+  },
+  {
+    "name": "Quadra Magic",
+    "type": "Support",
+    "description": "Casts the linked Magic or Summon Materia four times in a row for a single MP cost.",
+    "ap": [
+      40000,
+      80000,
+      120000,
+      200000
+    ],
+    "abilities": [
+      "Quadra Magic (1 use)",
+      "Quadra Magic (2 uses)",
+      "Quadra Magic (3 uses)",
+      "Quadra Magic (4 uses)",
+      "Quadra Magic (5 uses)"
+    ],
+    "gil": null,
+    "location": "Materia Cave near Mideel Area"
+  },
+  {
+    "name": "Sneak Attack",
+    "type": "Support",
+    "description": "Grants a chance for the wearer to automatically use the linked Materia when battle begins.",
+    "ap": [
+      20000,
+      60000,
+      100000,
+      150000
+    ],
+    "abilities": [
+      "Sneak Attack 20%",
+      "Sneak Attack 35%",
+      "Sneak Attack 50%",
+      "Sneak Attack 60%",
+      "Sneak Attack 80%"
+    ],
+    "gil": null,
+    "location": "Chocobo Square race prize"
+  },
+  {
+    "name": "Steal as well",
+    "type": "Support",
+    "description": "Attempts to steal an item whenever the linked command Materia is used.",
+    "ap": [
+      200000
+    ],
+    "abilities": [
+      "Steal as well"
+    ],
+    "gil": null,
+    "location": "Da-chao Statue in Wutai"
+  },
+  {
+    "name": "Cover",
+    "type": "Independent",
+    "description": "Grants a chance to intercept attacks aimed at a weaker ally.",
+    "ap": [
+      2000,
+      10000,
+      25000,
+      40000
+    ],
+    "abilities": [
+      "Cover 20%",
+      "Cover 40%",
+      "Cover 60%",
+      "Cover 80%",
+      "Cover 100%"
+    ],
+    "gil": null,
+    "location": "Sector 5 Slum, near Aerith's house"
+  },
+  {
+    "name": "Chocobo Lure",
+    "type": "Independent",
+    "description": "Increases the chance of a random encounter with a Chocobo on the world map.",
+    "ap": [
+      3000,
+      10000,
+      30000
+    ],
+    "abilities": [
+      "Chocobo encounter (base rate)",
+      "Chocobo Lure x1.5",
+      "Chocobo Lure x2"
+    ],
+    "gil": 2000,
+    "location": "Buy: Chocobo Farm (from Choco Billy); also found near the farm's fence after obtaining the Highwind"
+  },
+  {
+    "name": "Long Range",
+    "type": "Independent",
+    "description": "Lets physical attacks hit at full damage regardless of the character's row.",
+    "ap": [
+      80000
+    ],
+    "abilities": [
+      "Long Range"
+    ],
+    "gil": null,
+    "location": "Mythril Mine"
+  },
+  {
+    "name": "Counter Attack",
+    "type": "Independent",
+    "description": "Grants a chance to counter physical attacks with a physical attack of its own.",
+    "ap": [
+      10000,
+      20000,
+      50000,
+      100000
+    ],
+    "abilities": [
+      "Counter Attack 20%",
+      "Counter Attack 40%",
+      "Counter Attack 60%",
+      "Counter Attack 80%",
+      "Counter Attack 100%"
+    ],
+    "gil": null,
+    "location": "Defeat Materia Keeper in Mt. Nibel; also a chocobo racing prize"
+  },
+  {
+    "name": "Enemy Lure",
+    "type": "Independent",
+    "description": "Increases the random encounter rate.",
+    "ap": [
+      10000,
+      50000
+    ],
+    "abilities": [
+      "Enemy Lure +43.75%",
+      "Enemy Lure +87.5%"
+    ],
+    "gil": null,
+    "location": "Battle Square prize"
+  },
+  {
+    "name": "Speed Plus",
+    "type": "Independent",
+    "description": "Increases the wearer's Dexterity by a percentage.",
+    "ap": [
+      15000,
+      30000,
+      60000,
+      100000
+    ],
+    "abilities": [
+      "Speed +10%",
+      "Speed +20%",
+      "Speed +30%",
+      "Speed +40%",
+      "Speed +50%"
+    ],
+    "gil": null,
+    "location": "Battle Square prize"
+  },
+  {
+    "name": "MP Plus",
+    "type": "Independent",
+    "description": "Increases the wearer's maximum MP by a percentage.",
+    "ap": [
+      10000,
+      20000,
+      30000,
+      50000
+    ],
+    "abilities": [
+      "MP +10%",
+      "MP +20%",
+      "MP +30%",
+      "MP +40%",
+      "MP +50%"
+    ],
+    "gil": 8000,
+    "location": "Buy: Cosmo Canyon, Mideel"
+  },
+  {
+    "name": "HP Plus",
+    "type": "Independent",
+    "description": "Increases the wearer's maximum HP by a percentage.",
+    "ap": [
+      10000,
+      20000,
+      30000,
+      50000
+    ],
+    "abilities": [
+      "HP +10%",
+      "HP +20%",
+      "HP +30%",
+      "HP +40%",
+      "HP +50%"
+    ],
+    "gil": 8000,
+    "location": "Junon (score 60-90 during Rufus's send-off); Buy: Cosmo Canyon, Mideel"
+  },
+  {
+    "name": "Luck Plus",
+    "type": "Independent",
+    "description": "Increases the wearer's Luck by a percentage.",
+    "ap": [
+      15000,
+      30000,
+      60000,
+      100000
+    ],
+    "abilities": [
+      "Luck +10%",
+      "Luck +20%",
+      "Luck +30%",
+      "Luck +40%",
+      "Luck +50%"
+    ],
+    "gil": null,
+    "location": "Temple of the Ancients (missable)"
+  },
+  {
+    "name": "Magic Plus",
+    "type": "Independent",
+    "description": "Increases the wearer's Magic stat by a percentage.",
+    "ap": [
+      10000,
+      20000,
+      30000,
+      50000
+    ],
+    "abilities": [
+      "Magic +10%",
+      "Magic +20%",
+      "Magic +30%",
+      "Magic +40%",
+      "Magic +50%"
+    ],
+    "gil": null,
+    "location": "Corel Valley"
+  },
+  {
+    "name": "Gil Plus",
+    "type": "Independent",
+    "description": "Doubles the amount of gil earned in battle.",
+    "ap": [
+      80000,
+      150000
+    ],
+    "abilities": [
+      "Gil x2"
+    ],
+    "gil": null,
+    "location": "Wonder Square prize (after obtaining the Highwind)"
+  },
+  {
+    "name": "Pre-Emptive",
+    "type": "Independent",
+    "description": "Increases the chance of a pre-emptive strike at the start of battle.",
+    "ap": [
+      8000,
+      20000,
+      40000,
+      80000
+    ],
+    "abilities": [
+      "Pre-Emptive +16/256",
+      "Pre-Emptive +22/256",
+      "Pre-Emptive +28/256",
+      "Pre-Emptive +34/256",
+      "Pre-Emptive +48/256"
+    ],
+    "gil": null,
+    "location": "Battle Square prize; also equipped on Cloud during the Nibelheim flashback"
+  },
+  {
+    "name": "EXP Plus",
+    "type": "Independent",
+    "description": "Increases the Experience earned by the wearer in battle.",
+    "ap": [
+      60000,
+      150000
+    ],
+    "abilities": [
+      "EXP x1.5",
+      "EXP x2"
+    ],
+    "gil": null,
+    "location": "Wonder Square prize (after Cloud and Tifa rejoin the party)"
+  },
+  {
+    "name": "Enemy Away",
+    "type": "Independent",
+    "description": "Decreases the random encounter rate.",
+    "ap": [
+      10000,
+      50000
+    ],
+    "abilities": [
+      "Enemy Away -43.75%",
+      "Enemy Away -87.5%"
+    ],
+    "gil": null,
+    "location": "Chocobo racing prize"
+  },
+  {
+    "name": "Mega All",
+    "type": "Independent",
+    "description": "Lets physical attacks and certain commands hit all enemies or allies at once.",
+    "ap": [
+      20000,
+      40000,
+      80000,
+      160000
+    ],
+    "abilities": [
+      "Mega All (1x)",
+      "Mega All (2x)",
+      "Mega All (3x)",
+      "Mega All (4x)",
+      "Mega All (5x)"
+    ],
+    "gil": null,
+    "location": "Northern Cave"
+  },
+  {
+    "name": "HP<->MP",
+    "type": "Independent",
+    "description": "Swaps the wearer's current HP and MP values.",
+    "ap": [
+      80000
+    ],
+    "abilities": [
+      "HP<->MP"
+    ],
+    "gil": null,
+    "location": "Materia Cave north of Corel"
+  },
+  {
+    "name": "Underwater",
+    "type": "Independent",
+    "description": "Removes the time limit when fighting Emerald Weapon underwater.",
+    "ap": [],
+    "abilities": [],
+    "gil": null,
+    "location": "Kalm traveler (missable if the Morph Materia was missed)"
+  }
+]

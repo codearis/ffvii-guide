@@ -1,0 +1,1280 @@
+[
+  {
+    "name": "Potion",
+    "section": "Itens",
+    "gil": 50,
+    "description": "Restores HP by 100"
+  },
+  {
+    "name": "Hi-Potion",
+    "section": "Itens",
+    "gil": 300,
+    "description": "Restores HP by 500"
+  },
+  {
+    "name": "X-Potion",
+    "section": "Itens",
+    "gil": null,
+    "description": "Fully Restores HP"
+  },
+  {
+    "name": "Ether",
+    "section": "Itens",
+    "gil": 1500,
+    "description": "Restores MP by 100"
+  },
+  {
+    "name": "Turbo Ether",
+    "section": "Itens",
+    "gil": null,
+    "description": "Fully Restores MP"
+  },
+  {
+    "name": "Elixir",
+    "section": "Itens",
+    "gil": null,
+    "description": "Fully Restores HP/MP"
+  },
+  {
+    "name": "Megalixir",
+    "section": "Itens",
+    "gil": null,
+    "description": "Fully restores all members HP/MP"
+  },
+  {
+    "name": "Phoenix Down",
+    "section": "Itens",
+    "gil": 300,
+    "description": "Restores life. Revive a KO'd ally (HP restored to 1/4 of max HP)."
+  },
+  {
+    "name": "Antidote",
+    "section": "Itens",
+    "gil": 80,
+    "description": "Cures [Poison]. Removes Poison from one target"
+  },
+  {
+    "name": "Eye drop",
+    "section": "Itens",
+    "gil": 50,
+    "description": "Cures [Darkness]. Removes Darkness from one target"
+  },
+  {
+    "name": "Soft",
+    "section": "Itens",
+    "gil": 150,
+    "description": "Cures [Petrify]. Removes Petrify and Slow-numb statuses from one target."
+  },
+  {
+    "name": "Maiden's Kiss",
+    "section": "Itens",
+    "gil": 150,
+    "description": "Cures [Frog]. Removes Frog status from one target."
+  },
+  {
+    "name": "Cornucopia",
+    "section": "Itens",
+    "gil": 150,
+    "description": "Cures [Small]. Removes Mini status from one target."
+  },
+  {
+    "name": "Echo Screen",
+    "section": "Itens",
+    "gil": 100,
+    "description": "Cures [Silence]. Removes Silence status from one target."
+  },
+  {
+    "name": "Hyper",
+    "section": "Itens",
+    "gil": 100,
+    "description": "Cures [Sadness]. Grants Fury status to one target. If the target has Sadness, neutralizes Sadness instead."
+  },
+  {
+    "name": "Tranquilizer",
+    "section": "Itens",
+    "gil": 100,
+    "description": "Cures [Fury]. Grants Sadness status to one target. If the target has Fury, neutralizes Fury instead."
+  },
+  {
+    "name": "Remedy",
+    "section": "Itens",
+    "gil": 1000,
+    "description": "Cures abnormal status. Removes Sleep, Poison, Sadness, Fury, Confusion, Silence, Frog, Mini, Slow-numb, Petrify, Berserk, Paralysis, and Darkness from one target"
+  },
+  {
+    "name": "Tent",
+    "section": "Itens",
+    "gil": 500,
+    "description": "Restores ally's max HP/MP. Use at Save Point. Restores everyone's HP/MP. Usable anywhere on the world map or on a save point."
+  },
+  {
+    "name": "Save Crystal",
+    "section": "Itens",
+    "gil": null,
+    "description": "Use this to create a SAVE Point in the 'North Cave. Creates a save point anywhere in the Northern Crater. See also: Save Crystal glitch."
+  },
+  {
+    "name": "Smoke Bomb",
+    "section": "Itens",
+    "gil": null,
+    "description": "Can escape from opponents during battle. Escape from random encounters; \"Give Up\" in the Battle Square during a battle, but accumulated BP is retained."
+  },
+  {
+    "name": "Light Curtain",
+    "section": "Itens",
+    "gil": null,
+    "description": "Creates [Barrier] around all allies. Casts Barrier on the party."
+  },
+  {
+    "name": "Lunar Curtain",
+    "section": "Itens",
+    "gil": null,
+    "description": "Creates [MBarrier] around all allies. Casts MBarrier on the party."
+  },
+  {
+    "name": "Mirror",
+    "section": "Itens",
+    "gil": null,
+    "description": "Uses \"Reflect\" on all allies. Casts Reflect on entire party."
+  },
+  {
+    "name": "Speed Drink",
+    "section": "Itens",
+    "gil": null,
+    "description": "Casts [Haste] on one ally. Inflict Haste status to ally."
+  },
+  {
+    "name": "Hero Drink",
+    "section": "Itens",
+    "gil": null,
+    "description": "Raises ability once during battle. Raises the Strength, Magic, Defense, and Spirit of one character by 30%; stackable up to four times."
+  },
+  {
+    "name": "Vaccine",
+    "section": "Itens",
+    "gil": null,
+    "description": "Protects against transformations. Causes Resist status to one target."
+  },
+  {
+    "name": "Holy Torch",
+    "section": "Itens",
+    "gil": null,
+    "description": "Uses \"DeSpell\" on all opponents. Removes the Haste, Slow, Stop, Small, Regen, Barrier, MBarrier, Reflect, and Shield statuses from all targets."
+  },
+  {
+    "name": "Impaler",
+    "section": "Itens",
+    "gil": 500,
+    "description": "Changes one opponent to a frog. Causes Frog to one target."
+  },
+  {
+    "name": "Shrivel",
+    "section": "Itens",
+    "gil": 500,
+    "description": "Uses \"Mini\" on one opponent. Causes Mini to one target."
+  },
+  {
+    "name": "Ink",
+    "section": "Itens",
+    "gil": null,
+    "description": "Uses [Darkness] against one opponent. Inflicts Darkness on one target."
+  },
+  {
+    "name": "Dazers",
+    "section": "Itens",
+    "gil": null,
+    "description": "Paralyzes one opponent. Causes Paralyzed status on one target."
+  },
+  {
+    "name": "Cauldron",
+    "section": "Itens",
+    "gil": null,
+    "description": "Uses [Poison/Confu/Sleepel/Silence/Small/Frog]. Inflicts the Poison, Sleep, Mini, Frog, Confuse, and Silence statuses on one enemy"
+  },
+  {
+    "name": "Ghost Hand",
+    "section": "Itens",
+    "gil": null,
+    "description": "Drains MP out of one opponent. Drains MP from target (effect reverses on Zombie-typed enemies)."
+  },
+  {
+    "name": "Hourglass",
+    "section": "Itens",
+    "gil": null,
+    "description": "Stops all opponents. Inflicts Stop upon all enemies with 80% precision."
+  },
+  {
+    "name": "Spider Web",
+    "section": "Itens",
+    "gil": null,
+    "description": "Slows all opponents. Inflicts Slow upon all enemies."
+  },
+  {
+    "name": "Dream Powder",
+    "section": "Itens",
+    "gil": null,
+    "description": "Uses \"Sleepel\" on all opponents. Inflicts Sleep upon all enemies with 80% precision."
+  },
+  {
+    "name": "Mute Mask",
+    "section": "Itens",
+    "gil": null,
+    "description": "Uses \"Silence\" on all opponents. Inflicts Silence upon all enemies with 80% precision."
+  },
+  {
+    "name": "War Gong",
+    "section": "Itens",
+    "gil": null,
+    "description": "Uses \"Berserk\" on all opponents. Inflicts Berserk upon all enemies with 80% precision. Works 100% of the time when used on allies."
+  },
+  {
+    "name": "Loco weed",
+    "section": "Itens",
+    "gil": null,
+    "description": "Uses \"Confu\" on all opponents. Inflicts Confuse upon all enemies with 80% precision."
+  },
+  {
+    "name": "Molotov",
+    "section": "Itens",
+    "gil": 400,
+    "description": "Fire damage on one opponent. Inflicts physical Fire-elemental damage on one enemy. Base Damage = 400."
+  },
+  {
+    "name": "Graviball",
+    "section": "Itens",
+    "gil": null,
+    "description": "Uses\" Demi\" against one opponent. Casts Demi on one enemy. Damage = 25% of HP."
+  },
+  {
+    "name": "T/S Bomb",
+    "section": "Itens",
+    "gil": null,
+    "description": "Uses \"Demi2\" against one opponent. Casts Demi2 on one enemy. Damage = 50% of HP."
+  },
+  {
+    "name": "Fire Veil",
+    "section": "Itens",
+    "gil": 800,
+    "description": "Uses \"Fire3\" on all opponents. Inflicts magical Fire-elemental damage upon all enemies; equivalent to Fire3. Base Damage = 1200."
+  },
+  {
+    "name": "Swift Bolt",
+    "section": "Itens",
+    "gil": 800,
+    "description": "Uses \"Bolt3\" on all opponents. Inflicts magical Lightning-elemental damage upon all enemies; equivalent to Bolt3. Base Damage = 1200."
+  },
+  {
+    "name": "Fire Fang",
+    "section": "Itens",
+    "gil": null,
+    "description": "Uses \"Fire2\" on all opponents. Inflicts magical Fire-elemental damage upon all enemies; equivalent to Fire2. Base Damage = 960."
+  },
+  {
+    "name": "Antarctic Wind",
+    "section": "Itens",
+    "gil": null,
+    "description": "Uses \"Ice2\" on all opponents. Inflicts magical Ice elemental damage upon all enemies; equivalent to Ice2. Base Damage = 1200."
+  },
+  {
+    "name": "Ice Crystal",
+    "section": "Itens",
+    "gil": null,
+    "description": "Uses \"Ice3\" on all opponents. Inflicts magical Ice elemental damage upon all enemies. Base Damage = 2080."
+  },
+  {
+    "name": "Bolt Plume",
+    "section": "Itens",
+    "gil": null,
+    "description": "Uses \"Bolt2\" on all opponents. Inflicts magical Lightning-elemental damage upon all enemies. Base Damage = 416."
+  },
+  {
+    "name": "Earth Drum",
+    "section": "Itens",
+    "gil": null,
+    "description": "Uses \"Quake2\" on all opponents. Inflicts magical Earth-elemental damage upon all enemies. Base Damage = 640."
+  },
+  {
+    "name": "Earth Mallet",
+    "section": "Itens",
+    "gil": null,
+    "description": "Uses \"Quake3\" on all opponents. Inflicts magical Earth-elemental damage upon all enemies. Base Damage = 2560."
+  },
+  {
+    "name": "Deadly Waste",
+    "section": "Itens",
+    "gil": null,
+    "description": "Uses \"Bio2\" on all opponents. Inflicts magical Poison-elemental damage upon all enemies, 20% chance of inflicting Poison. Base Damage = 96."
+  },
+  {
+    "name": "M-Tentacles",
+    "section": "Itens",
+    "gil": null,
+    "description": "Uses \"Bio3\" on all opponents. Inflicts magical Poison-elemental damage upon all enemies, 48% chance of inflicting Poison. Base Damage = 2400."
+  },
+  {
+    "name": "Bird Wing",
+    "section": "Itens",
+    "gil": null,
+    "description": "Uses whirlwind on all opponents. Inflicts magical Wind elemental damage upon all enemies. Base Damage = 1040."
+  },
+  {
+    "name": "Dragon Scales",
+    "section": "Itens",
+    "gil": null,
+    "description": "Water damage on all opponents. Inflicts magical Water damage upon all enemies. Base Damage = 3680."
+  },
+  {
+    "name": "Dragon Fang",
+    "section": "Itens",
+    "gil": null,
+    "description": "Lightning damage against all opponents. Inflicts magical Lightning-elemental attack upon all enemies. Base Damage = 2400."
+  },
+  {
+    "name": "Vagyrisk Claw",
+    "section": "Itens",
+    "gil": null,
+    "description": "Petrifies one opponent. Inflicts Petrify on one enemy with 68% precision."
+  },
+  {
+    "name": "Kiss of Death",
+    "section": "Itens",
+    "gil": null,
+    "description": "Uses \"Death\" on all opponents. Inflicts Death to all enemies (serves as a Megalixir upon zombie-typed enemies) with 68% precision."
+  },
+  {
+    "name": "Grenade",
+    "section": "Itens",
+    "gil": 80,
+    "description": "Explosive damage against one opponent. Inflicts long-range, physical shoot damage on all targets. Base Damage = 160."
+  },
+  {
+    "name": "Shrapnel",
+    "section": "Itens",
+    "gil": null,
+    "description": "Explosive damage against all opponents. Inflicts long-range, physical shoot damage on all targets. Base Damage = 416."
+  },
+  {
+    "name": "Right arm",
+    "section": "Itens",
+    "gil": null,
+    "description": "Explosive damage against all opponents. Inflicts long-range, physical shoot damage on all targets. Base Damage = 1600."
+  },
+  {
+    "name": "S-mine",
+    "section": "Itens",
+    "gil": 1000,
+    "description": "Explosive damage on one opponent. Inflicts long-range, physical shoot damage on one target. Base Damage = 1600."
+  },
+  {
+    "name": "Stardust",
+    "section": "Itens",
+    "gil": null,
+    "description": "Uses \"Comet2\" on all opponents. Inflicts magical non-elemental damage on up to four targets. Base Damage = 1120."
+  },
+  {
+    "name": "Vampire Fang",
+    "section": "Itens",
+    "gil": null,
+    "description": "Drains HP out of one opponent. Drains HP from target (effect reverses on Zombie-typed enemies). Base Damage = 192."
+  },
+  {
+    "name": "8-inch Cannon",
+    "section": "Itens",
+    "gil": null,
+    "description": "Explosive damage against one opponent. Deals long-range, physical shoot damage on one target. Base Damage = 3200."
+  },
+  {
+    "name": "Gysahl Greens",
+    "section": "Itens",
+    "gil": 100,
+    "description": "When you want a Chocobo. Increases speed, stamina, and co-operation; recovers 100 HP in battle (characters too); keeps a chocobo occupied in battle for 2 turns."
+  },
+  {
+    "name": "Krakka Greens",
+    "section": "Itens",
+    "gil": 250,
+    "description": "When you want a Chocobo. Increases intelligence and co-operation; recovers 100 HP in battle (characters too); reduces a chocobo's chance to run from battle to 33.3%."
+  },
+  {
+    "name": "Tantal Greens",
+    "section": "Itens",
+    "gil": 400,
+    "description": "When you want a Chocobo. Increases speed, stamina, intelligence, and co-operation; recovers 100 HP in battle (characters too); keeps a chocobo occupied in battle for 3 turns."
+  },
+  {
+    "name": "Pahsana Greens",
+    "section": "Itens",
+    "gil": 800,
+    "description": "When you want a Chocobo. Increases intelligence and co-operation; recovers 100 HP in battle (characters too); reduces a chocobo's chance to run from battle to 20%."
+  },
+  {
+    "name": "Curiel Greens",
+    "section": "Itens",
+    "gil": 1000,
+    "description": "When you want a Chocobo. Increases speed, stamina, and co-operation; recovers 100 HP in battle (characters too); keeps a chocobo occupied in battle for 5 turns."
+  },
+  {
+    "name": "Reagan Greens",
+    "section": "Itens",
+    "gil": 3000,
+    "description": "When you want a Chocobo. Increases speed, stamina, and co-operation; recovers 100 HP in battle (characters too); keeps a chocobo occupied in battle for 8 turns and reduces its chance to run from battle to 12.5%."
+  },
+  {
+    "name": "Mimett Greens",
+    "section": "Itens",
+    "gil": 1500,
+    "description": "When you want a Chocobo. Increases speed, acceleration and co-operation; recovers 100 HP in battle (characters too); keeps a chocobo occupied in battle for 1 turn and makes it use Chocobuckle."
+  },
+  {
+    "name": "Sylkis Greens",
+    "section": "Itens",
+    "gil": 5000,
+    "description": "When you want a Chocobo. Increases speed, stamina, intelligence, and co-operation; recovers 100 HP in battle (characters too); keeps a chocobo occupied in battle for 1 turn and makes it use Chocobuckle."
+  },
+  {
+    "name": "Pepio Nut",
+    "section": "Itens",
+    "gil": 100,
+    "description": "When you want to breed Chocobos."
+  },
+  {
+    "name": "Luchile Nut",
+    "section": "Itens",
+    "gil": 200,
+    "description": "When you want to breed Chocobos."
+  },
+  {
+    "name": "Saraha Nut",
+    "section": "Itens",
+    "gil": 400,
+    "description": "When you want to breed Chocobos."
+  },
+  {
+    "name": "Lasan Nut",
+    "section": "Itens",
+    "gil": 600,
+    "description": "When you want to breed Chocobos."
+  },
+  {
+    "name": "Pram Nut",
+    "section": "Itens",
+    "gil": 1500,
+    "description": "When you want to breed Chocobos."
+  },
+  {
+    "name": "Porov Nut",
+    "section": "Itens",
+    "gil": 2000,
+    "description": "When you want to breed Chocobos."
+  },
+  {
+    "name": "Carob Nut",
+    "section": "Itens",
+    "gil": null,
+    "description": "When you want to breed Chocobos. Required to breed Blue, Green, and Black Chocobos."
+  },
+  {
+    "name": "Zeio Nut",
+    "section": "Itens",
+    "gil": null,
+    "description": "When you want to breed Chocobos. Required to breed Gold Chocobos."
+  },
+  {
+    "name": "Power Source",
+    "section": "Itens",
+    "gil": null,
+    "description": "Raises [Strength]. Permanently raises a party member's Strength stat by 1 point."
+  },
+  {
+    "name": "Guard Source",
+    "section": "Itens",
+    "gil": null,
+    "description": "Raises [Vitality]. Permanently raises a party member's Vitality stat by 1 point."
+  },
+  {
+    "name": "Magic Source",
+    "section": "Itens",
+    "gil": null,
+    "description": "Raises [Magic Power]. Permanently raises a party member's Magic stat by 1 point."
+  },
+  {
+    "name": "Mind Source",
+    "section": "Itens",
+    "gil": null,
+    "description": "Raises [Spirit]. Permanently raises a party member's Spirit stat by 1 point."
+  },
+  {
+    "name": "Speed Source",
+    "section": "Itens",
+    "gil": null,
+    "description": "Raises [Dexterity]. Permanently raises a party member's Dexterity stat by 1 point."
+  },
+  {
+    "name": "Luck Source",
+    "section": "Itens",
+    "gil": null,
+    "description": "Raises [Luck]. Permanently raises a party member's Luck stat by 1 point."
+  },
+  {
+    "name": "All Creation",
+    "section": "Itens",
+    "gil": null,
+    "description": "Teaches Yuffie her ultimate Limit Break, All Creation."
+  },
+  {
+    "name": "Catastrophe",
+    "section": "Itens",
+    "gil": null,
+    "description": "Teaches Barret his ultimate Limit Break, Catastrophe."
+  },
+  {
+    "name": "Chaos",
+    "section": "Itens",
+    "gil": null,
+    "description": "Teaches Vincent his ultimate Limit Break, Chaos."
+  },
+  {
+    "name": "Cosmo Memory",
+    "section": "Itens",
+    "gil": null,
+    "description": "Teaches Red XIII his ultimate Limit Break, Cosmo Memory."
+  },
+  {
+    "name": "Final Heaven",
+    "section": "Itens",
+    "gil": null,
+    "description": "Teaches Tifa her ultimate Limit Break, Final Heaven."
+  },
+  {
+    "name": "Great Gospel",
+    "section": "Itens",
+    "gil": null,
+    "description": "Teaches Aeris her ultimate Limit Break, Great Gospel."
+  },
+  {
+    "name": "Highwind",
+    "section": "Itens",
+    "gil": null,
+    "description": "Teaches Cid his ultimate Limit Break, Highwind."
+  },
+  {
+    "name": "Omnislash",
+    "section": "Itens",
+    "gil": null,
+    "description": "Teaches Cloud his ultimate Limit Break, Omnislash."
+  },
+  {
+    "name": "Earth Harp",
+    "section": "Itens",
+    "gil": null,
+    "description": "Calms the hearts of all who hear it. Can be traded at Kalm traveler for a Master Magic, Master Command, and Master Summon Materia."
+  },
+  {
+    "name": "Desert Rose",
+    "section": "Itens",
+    "gil": null,
+    "description": "Blooms once every 1000 years. Can be traded at Kalm traveler for a Gold Chocobo."
+  },
+  {
+    "name": "Guide Book",
+    "section": "Itens",
+    "gil": null,
+    "description": "Map of another world. It slumbers with sunken ships. Can be traded at Kalm traveler for the Underwater Materia."
+  },
+  {
+    "name": "1/35 soldier",
+    "section": "Itens",
+    "gil": null,
+    "description": "Shinra armored \"attack\" soldiers: 12 in the set!. Collectible curio; cannot be used or equipped."
+  },
+  {
+    "name": "Tissue",
+    "section": "Itens",
+    "gil": null,
+    "description": "This one's a little tough... Collectible curio; cannot be used or equipped."
+  },
+  {
+    "name": "Super Sweeper",
+    "section": "Itens",
+    "gil": null,
+    "description": "A new machine to protect the reactor!. Collectible curio; cannot be used or equipped."
+  },
+  {
+    "name": "Masamune Blade",
+    "section": "Itens",
+    "gil": null,
+    "description": "A perfect copy of Sephiroth's sword!. Collectible curio; cannot be used or equipped."
+  },
+  {
+    "name": "Combat Diary",
+    "section": "Itens",
+    "gil": null,
+    "description": "A record of Master Dio's fiercest battles. Collectible curio; cannot be used or equipped."
+  },
+  {
+    "name": "Autograph",
+    "section": "Itens",
+    "gil": null,
+    "description": "Dio's autograph. Collectible curio; cannot be used or equipped."
+  },
+  {
+    "name": "Gambler",
+    "section": "Itens",
+    "gil": null,
+    "description": "Second part of Dio's diary: The Gold Saucer years. Collectible curio; cannot be used or equipped."
+  },
+  {
+    "name": "Bronze Bangle",
+    "section": "Armaduras",
+    "gil": 100,
+    "description": "DEF 8 · MDEF 0 · Slots None · Growth None — No additional effect."
+  },
+  {
+    "name": "Iron Bangle",
+    "section": "Armaduras",
+    "gil": 160,
+    "description": "DEF 10 · MDEF 2 · Slots O · Growth Normal — No additional effect."
+  },
+  {
+    "name": "Titan Bangle",
+    "section": "Armaduras",
+    "gil": 280,
+    "description": "DEF 14 (+2%) · MDEF 4 · Slots O O · Growth Normal — No additional effect."
+  },
+  {
+    "name": "Mythril Armlet",
+    "section": "Armaduras",
+    "gil": 350,
+    "description": "DEF 18 (+3%) · MDEF 8 · Slots O=O · Growth Normal — No additional effect."
+  },
+  {
+    "name": "Carbon Bangle",
+    "section": "Armaduras",
+    "gil": 800,
+    "description": "DEF 27 (+3%) · MDEF 14 · Slots O=O O · Growth Normal — No additional effect."
+  },
+  {
+    "name": "Silver Armlet",
+    "section": "Armaduras",
+    "gil": 1300,
+    "description": "DEF 34 (+4%) · MDEF 22 · Slots O=O O O · Growth Normal — No additional effect."
+  },
+  {
+    "name": "Gold Armlet",
+    "section": "Armaduras",
+    "gil": 2000,
+    "description": "DEF 46 (+4%) · MDEF 28 · Slots O=O O=O · Growth Normal — No additional effect."
+  },
+  {
+    "name": "Diamond Bangle",
+    "section": "Armaduras",
+    "gil": 3200,
+    "description": "DEF 57 (+6%) · MDEF 37 · Slots O=O O=O O · Growth Normal — No additional effect."
+  },
+  {
+    "name": "Crystal Bangle",
+    "section": "Armaduras",
+    "gil": 4800,
+    "description": "DEF 70 (+8%) · MDEF 45 (+1%) · Slots O=O O=O O=O · Growth Normal — No additional effect."
+  },
+  {
+    "name": "Platinum Bangle",
+    "section": "Armaduras",
+    "gil": 1800,
+    "description": "DEF 20 · MDEF 12 · Slots O O · Growth Double — No additional effect."
+  },
+  {
+    "name": "Rune Armlet",
+    "section": "Armaduras",
+    "gil": 3700,
+    "description": "DEF 43 (+5%) · MDEF 24 · Slots O O O O · Growth Double — No additional effect."
+  },
+  {
+    "name": "Edincoat",
+    "section": "Armaduras",
+    "gil": 8000,
+    "description": "DEF 50 · MDEF 33 · Slots O O O O O O O · Growth Normal — Magic +5"
+  },
+  {
+    "name": "Wizard Bracelet",
+    "section": "Armaduras",
+    "gil": 12000,
+    "description": "DEF 6 (+3%) · MDEF 85 (+3%) · Slots O=O O=O O=O O=O · Growth Normal — Magic +20"
+  },
+  {
+    "name": "Adaman Bangle",
+    "section": "Armaduras",
+    "gil": 600,
+    "description": "DEF 93 · MDEF 23 · Slots O=O · Growth Normal — No additional effect."
+  },
+  {
+    "name": "Gigas Armlet",
+    "section": "Armaduras",
+    "gil": 800,
+    "description": "DEF 59 · MDEF 0 · Slots O=O O=O O · Growth None — Strength +30"
+  },
+  {
+    "name": "Imperial Guard",
+    "section": "Armaduras",
+    "gil": 2,
+    "description": "DEF 82 · MDEF 74 · Slots O=O O=O O=O · Growth Normal — No additional effect."
+  },
+  {
+    "name": "Aegis Armlet",
+    "section": "Armaduras",
+    "gil": 2,
+    "description": "DEF 55 (+15%) · MDEF 86 (+50%) · Slots O=O O=O · Growth Normal — No additional effect."
+  },
+  {
+    "name": "Fourth Bracelet",
+    "section": "Armaduras",
+    "gil": 2,
+    "description": "DEF 74 (+3%) · MDEF 100 (+3%) · Slots O=O O=O O · Growth Normal — Magic +20"
+  },
+  {
+    "name": "Warrior Bangle",
+    "section": "Armaduras",
+    "gil": 1000,
+    "description": "DEF 96 · MDEF 21 · Slots O=O O=O · Growth None — Strength +20"
+  },
+  {
+    "name": "Shinra Beta",
+    "section": "Armaduras",
+    "gil": 950,
+    "description": "DEF 30 · MDEF 0 · Slots O=O O O · Growth Normal — No additional effect."
+  },
+  {
+    "name": "Shinra Alpha",
+    "section": "Armaduras",
+    "gil": 1500,
+    "description": "DEF 77 · MDEF 34 · Slots O=O O=O O=O · Growth Normal — No additional effect."
+  },
+  {
+    "name": "Four Slots",
+    "section": "Armaduras",
+    "gil": 1300,
+    "description": "DEF 12 · MDEF 10 · Slots O O O O · Growth Normal — No additional effect."
+  },
+  {
+    "name": "Fire Armlet",
+    "section": "Armaduras",
+    "gil": 4800,
+    "description": "DEF 72 (+8%) · MDEF 52 (+3%) · Slots O=O O=O · Growth Normal — Absorbs Fire damage"
+  },
+  {
+    "name": "Aurora Armlet",
+    "section": "Armaduras",
+    "gil": 4800,
+    "description": "DEF 76 (+8%) · MDEF 54 (+3%) · Slots O=O O=O · Growth Normal — Absorbs Ice damage"
+  },
+  {
+    "name": "Bolt Armlet",
+    "section": "Armaduras",
+    "gil": 4800,
+    "description": "DEF 74 (+8%) · MDEF 55 (+3%) · Slots O=O O=O · Growth Normal — Absorbs Lightning damage"
+  },
+  {
+    "name": "Dragon Armlet",
+    "section": "Armaduras",
+    "gil": 3800,
+    "description": "DEF 58 (+3%) · MDEF 47 (+2%) · Slots O=O O=O O=O · Growth Normal — Halves Fire, Ice, and Lightning damage."
+  },
+  {
+    "name": "Minerva Band",
+    "section": "Armaduras",
+    "gil": 2,
+    "description": "DEF 60 (+8%) · MDEF 57 · Slots O=O O=O O=O · Growth Normal — Nullifies Fire, Ice, Holy, and Gravity damage. Can only be equipped by Tifa, Aeris, and Yuffie."
+  },
+  {
+    "name": "Escort Guard",
+    "section": "Armaduras",
+    "gil": 2,
+    "description": "DEF 62 (+5%) · MDEF 55 · Slots O=O O=O O=O · Growth Normal — Nullifies Lightning, Water, Poison and Earth damage. Can be equipped by Cloud, Barret, Red XIII, Cait Sith, Vincent, and Cid."
+  },
+  {
+    "name": "Mystile",
+    "section": "Armaduras",
+    "gil": 2,
+    "description": "DEF 65 (+50%) · MDEF 72 (+60%) · Slots O=O O=O O=O · Growth Normal — No additional effect."
+  },
+  {
+    "name": "Ziedrich",
+    "section": "Armaduras",
+    "gil": 2,
+    "description": "DEF 100 (+15%) · MDEF 98 (+18%) · Slots None · Growth None — Strength and Magic +20. Halves Fire, Ice, Lightning, Earth, Poison, Gravity, Water, Wind, Holy, Cut, Hit, Punch, and Shoot damage."
+  },
+  {
+    "name": "Precious Watch",
+    "section": "Armaduras",
+    "gil": 2,
+    "description": "DEF 0 · MDEF 0 · Slots O O O O O O O O · Growth Normal — No additional effect."
+  },
+  {
+    "name": "Chocobracelet",
+    "section": "Armaduras",
+    "gil": 2,
+    "description": "DEF 35 (+10%) · MDEF 38 (+10%) · Slots O O O O · Growth Normal — Dexterity +30; Luck +20"
+  },
+  {
+    "name": "Protect Vest",
+    "section": "Acessórios",
+    "gil": 3500,
+    "description": "Vitality +10"
+  },
+  {
+    "name": "Talisman",
+    "section": "Acessórios",
+    "gil": 4000,
+    "description": "Spirit +10"
+  },
+  {
+    "name": "Power Wrist",
+    "section": "Acessórios",
+    "gil": 7500,
+    "description": "Strength +10"
+  },
+  {
+    "name": "Earring",
+    "section": "Acessórios",
+    "gil": 7500,
+    "description": "Magic +10"
+  },
+  {
+    "name": "Choco Feather",
+    "section": "Acessórios",
+    "gil": 10000,
+    "description": "Dexterity +10"
+  },
+  {
+    "name": "Amulet",
+    "section": "Acessórios",
+    "gil": 10000,
+    "description": "Luck +10"
+  },
+  {
+    "name": "Champion Belt",
+    "section": "Acessórios",
+    "gil": 2,
+    "description": "Strength +30; Vitality +30"
+  },
+  {
+    "name": "Circlet",
+    "section": "Acessórios",
+    "gil": 2,
+    "description": "Magic +30; Spirit +30"
+  },
+  {
+    "name": "Tough Ring",
+    "section": "Acessórios",
+    "gil": 2,
+    "description": "Vitality +50; Spirit +50"
+  },
+  {
+    "name": "Curse Ring",
+    "section": "Acessórios",
+    "gil": 2,
+    "description": "Strength +35; Dexterity +15; Vitality +15; Spirit +15; Luck +10; Magic +35. Start battle with Death-sentence."
+  },
+  {
+    "name": "Sprint Shoes",
+    "section": "Acessórios",
+    "gil": 500,
+    "description": "Automatically start battle with Haste."
+  },
+  {
+    "name": "Fury Ring",
+    "section": "Acessórios",
+    "gil": 5000,
+    "description": "Automatically puts character in Berserk status."
+  },
+  {
+    "name": "Protect Ring",
+    "section": "Acessórios",
+    "gil": 9000,
+    "description": "Automatically start battle with Barrier and MBarrier."
+  },
+  {
+    "name": "Reflect Ring",
+    "section": "Acessórios",
+    "gil": 12000,
+    "description": "Automatically start battle with Reflect."
+  },
+  {
+    "name": "Sneak Glove",
+    "section": "Acessórios",
+    "gil": 129000,
+    "description": "Increases Steal % rate."
+  },
+  {
+    "name": "HypnoCrown",
+    "section": "Acessórios",
+    "gil": 2,
+    "description": "Increases Manipulation % rate."
+  },
+  {
+    "name": "Silver Glasses",
+    "section": "Acessórios",
+    "gil": 3000,
+    "description": "Prevents Darkness."
+  },
+  {
+    "name": "Headband",
+    "section": "Acessórios",
+    "gil": 3000,
+    "description": "Prevents Sleep."
+  },
+  {
+    "name": "Star Pendant",
+    "section": "Acessórios",
+    "gil": 4000,
+    "description": "Prevents Poison."
+  },
+  {
+    "name": "White Cape",
+    "section": "Acessórios",
+    "gil": 5000,
+    "description": "Prevents Frog and Small."
+  },
+  {
+    "name": "Fairy Ring",
+    "section": "Acessórios",
+    "gil": 7000,
+    "description": "Prevents Poison and Darkness."
+  },
+  {
+    "name": "Jem Ring",
+    "section": "Acessórios",
+    "gil": 7500,
+    "description": "Prevents Petrify, Slow-numb, and Paralyzed."
+  },
+  {
+    "name": "Peace Ring",
+    "section": "Acessórios",
+    "gil": 7500,
+    "description": "Prevents Berserk, Fury, Sadness, and Confuse."
+  },
+  {
+    "name": "Safety Bit",
+    "section": "Acessórios",
+    "gil": 7500,
+    "description": "Prevents Death, Death-sentence, Slow-numb, and Petrify."
+  },
+  {
+    "name": "Ribbon",
+    "section": "Acessórios",
+    "gil": 2,
+    "description": "Prevents Sleep, Poison, Sadness, Fury, Confusion, Silence, Frog, Mini, Slow-numb, Petrify, Death sentence, Berserk, Paralysis, and Darkness."
+  },
+  {
+    "name": "Fire Ring",
+    "section": "Acessórios",
+    "gil": 8000,
+    "description": "Nullifies Fire-elemental damage."
+  },
+  {
+    "name": "Ice Ring",
+    "section": "Acessórios",
+    "gil": 8000,
+    "description": "Nullifies Ice-elemental damage."
+  },
+  {
+    "name": "Bolt Ring",
+    "section": "Acessórios",
+    "gil": 8000,
+    "description": "Nullifies Lightning-elemental damage."
+  },
+  {
+    "name": "Water Ring",
+    "section": "Acessórios",
+    "gil": 10000,
+    "description": "Absorbs Water-elemental damage."
+  },
+  {
+    "name": "Poison Ring",
+    "section": "Acessórios",
+    "gil": 20000,
+    "description": "Protects against Poison status. Absorbs Poison-elemental damage."
+  },
+  {
+    "name": "Tetra Elemental",
+    "section": "Acessórios",
+    "gil": 2,
+    "description": "Absorbs Fire, Ice, Earth and Lightning-elemental damage."
+  },
+  {
+    "name": "Cat's Bell",
+    "section": "Acessórios",
+    "gil": 2,
+    "description": "Recovers HP with each step. Every step heals 2 HP rounded up to the next even HP value. Works even when the user is KO'd."
+  },
+  {
+    "name": "Battery",
+    "section": "Itens-Chave",
+    "gil": null,
+    "description": "Looks like it can start some sort of machine. Allows the player to get back to the upper sectors of Midgar."
+  },
+  {
+    "name": "Key to Ancients",
+    "section": "Itens-Chave",
+    "gil": null,
+    "description": "An old key found in the ocean. Used in the Forgotten Capital to view a story sequence."
+  },
+  {
+    "name": "Lunar Harp",
+    "section": "Itens-Chave",
+    "gil": null,
+    "description": "An instrument used to wake the Sleeping Forest. Used to pass through the Sleeping Forest."
+  },
+  {
+    "name": "Basement Key",
+    "section": "Itens-Chave",
+    "gil": null,
+    "description": "Key to the basement room in the Shinra Mansion. Allows the player access to the basement room where Vincent is sleeping in the Shinra Mansion in Nibelheim."
+  },
+  {
+    "name": "PHS",
+    "section": "Itens-Chave",
+    "gil": null,
+    "description": "Able to call your party members from long distance. Allows the player to switch party members at will via the menu screen."
+  },
+  {
+    "name": "Keystone",
+    "section": "Itens-Chave",
+    "gil": null,
+    "description": "Key to the Temple of the Ancients. Used to enter the Temple of the Ancients."
+  },
+  {
+    "name": "Glacier Map",
+    "section": "Itens-Chave",
+    "gil": null,
+    "description": "A map you can use on the Great Glacier"
+  },
+  {
+    "name": "Snowboard",
+    "section": "Itens-Chave",
+    "gil": null,
+    "description": "Allows you to slide over the snow. Allows the player access to the snowboarding minigame."
+  },
+  {
+    "name": "Black Materia",
+    "section": "Itens-Chave",
+    "gil": null,
+    "description": "Black Materia. Storyline item which cannot be equipped or used. Summons Meteor."
+  },
+  {
+    "name": "Cotton Dress",
+    "section": "Itens-Chave",
+    "gil": null,
+    "description": "Cotton-woven dress. Used in the Don Corneo mission to rescue Tifa."
+  },
+  {
+    "name": "Satin Dress",
+    "section": "Itens-Chave",
+    "gil": null,
+    "description": "Dress made of satin. Used in the Don Corneo mission to rescue Tifa."
+  },
+  {
+    "name": "Silk Dress",
+    "section": "Itens-Chave",
+    "gil": null,
+    "description": "Dress made of silk. Used in the Don Corneo mission to rescue Tifa."
+  },
+  {
+    "name": "Wig",
+    "section": "Itens-Chave",
+    "gil": null,
+    "description": "Wig made from messed up hair. Used in the Don Corneo mission to rescue Tifa."
+  },
+  {
+    "name": "Dyed Wig",
+    "section": "Itens-Chave",
+    "gil": null,
+    "description": "Wig made of hair dyed light brown. Used in the Don Corneo mission to rescue Tifa."
+  },
+  {
+    "name": "Blonde Wig",
+    "section": "Itens-Chave",
+    "gil": null,
+    "description": "A blonde wig. Used in the Don Corneo mission to rescue Tifa."
+  },
+  {
+    "name": "Glass Tiara",
+    "section": "Itens-Chave",
+    "gil": null,
+    "description": "A glass tiara. Used in the Don Corneo mission to rescue Tifa."
+  },
+  {
+    "name": "Ruby Tiara",
+    "section": "Itens-Chave",
+    "gil": null,
+    "description": "A ruby tiara. Used in the Don Corneo mission to rescue Tifa."
+  },
+  {
+    "name": "Diamond Tiara",
+    "section": "Itens-Chave",
+    "gil": null,
+    "description": "A diamond tiara. Used in the Don Corneo mission to rescue Tifa."
+  },
+  {
+    "name": "Cologne",
+    "section": "Itens-Chave",
+    "gil": null,
+    "description": "Cheap perfume. Used in the Don Corneo mission to rescue Tifa."
+  },
+  {
+    "name": "Flower cologne",
+    "section": "Itens-Chave",
+    "gil": null,
+    "description": "Flower scented perfume. Used in the Don Corneo mission to rescue Tifa."
+  },
+  {
+    "name": "Sexy Cologne",
+    "section": "Itens-Chave",
+    "gil": null,
+    "description": "A perfume that amorously arouses. Used in the Don Corneo mission to rescue Tifa."
+  },
+  {
+    "name": "Lingerie",
+    "section": "Itens-Chave",
+    "gil": null,
+    "description": "Perfumed underwear. Used in the Don Corneo mission to rescue Tifa."
+  },
+  {
+    "name": "Bikini briefs",
+    "section": "Itens-Chave",
+    "gil": null,
+    "description": "Tight-fitting briefs. Used in the Don Corneo mission to rescue Tifa."
+  },
+  {
+    "name": "Pharmacy Coupons",
+    "section": "Itens-Chave",
+    "gil": null,
+    "description": "Can be exchanged for goods at the pharmacy. Used to purchase pharmacy items from Wall Market pharmacy."
+  },
+  {
+    "name": "Disinfectant",
+    "section": "Itens-Chave",
+    "gil": null,
+    "description": "A disinfectant. Must be given to the unhappy person in the bathroom at the bar for the Cologne."
+  },
+  {
+    "name": "Deodorant",
+    "section": "Itens-Chave",
+    "gil": null,
+    "description": "A deodorant. Must be given to the unhappy person in the bathroom at the bar for the Flower Cologne."
+  },
+  {
+    "name": "Digestive",
+    "section": "Itens-Chave",
+    "gil": null,
+    "description": "A digestive. Must be given to the unhappy person in the bathroom at the bar for the Sexy Cologne."
+  },
+  {
+    "name": "Member's Card",
+    "section": "Itens-Chave",
+    "gil": null,
+    "description": "Membership card to the Honeybee Inn. Allows the player access to the Honeybee Inn."
+  },
+  {
+    "name": "Keycard 60",
+    "section": "Itens-Chave",
+    "gil": null,
+    "description": "Allows you to go as far as the 60th floor in the Shinra Bldg"
+  },
+  {
+    "name": "Keycard 62",
+    "section": "Itens-Chave",
+    "gil": null,
+    "description": "Allows you to go as far as the 62nd floor in the Shinra Bldg"
+  },
+  {
+    "name": "Keycard 65",
+    "section": "Itens-Chave",
+    "gil": null,
+    "description": "Allows you to go as far as the 65th floor in the Shinra Bldg"
+  },
+  {
+    "name": "Keycard 66",
+    "section": "Itens-Chave",
+    "gil": null,
+    "description": "Allows you to go as far as the 66th floor in the Shinra Bldg"
+  },
+  {
+    "name": "Keycard 68",
+    "section": "Itens-Chave",
+    "gil": null,
+    "description": "Allows you to go as far as the 68th floor in the Shinra Bldg"
+  },
+  {
+    "name": "Midgar parts",
+    "section": "Itens-Chave",
+    "gil": null,
+    "description": "Part of the Midgar city model. Five are found on the 65th floor of the Shinra Bldg.; placing each one in the model unlocks the next chest, the final of which contains Keycard 66."
+  },
+  {
+    "name": "Huge Materia",
+    "section": "Itens-Chave",
+    "gil": null,
+    "description": "Materia you get at the Corel Reactor. Must be touched in Cosmo Canyon with mastered Ice, Fire, Lightning, Restore, Poison, Earth, Heal, Revive, Seal, Transform, Mystify, Time, Gravity, Barrier, Exit, Comet, Destruct, Contain, Full Cure, Shield, and Ultima materia to obtain Master Magic."
+  },
+  {
+    "name": "Huge Materia",
+    "section": "Itens-Chave",
+    "gil": null,
+    "description": "Materia you get at the Fort Condor Reactor. Must be touched in Cosmo Canyon with mastered Steal, Throw, Mime, Manipulate, Morph, Deathblow, and Sense materia to obtain Master Command."
+  },
+  {
+    "name": "Huge Materia",
+    "section": "Itens-Chave",
+    "gil": null,
+    "description": "Materia you get at the Underwater Reactor. Must be touched in Cosmo Canyon with mastered Choco/Mog, Shiva, Ifrit, Ramuh, Titan, Odin, Bahamut, Leviathan, Kujata, Alexander, Neo Bahamut, Phoenix, Hades, Bahamut ZERO, Typhon, and Knights of Round materia to obtain Master Summon."
+  },
+  {
+    "name": "Huge Materia",
+    "section": "Itens-Chave",
+    "gil": null,
+    "description": "Materia you get from the rocket. Must be touched in Cosmo Canyon with Bahamut and Neo Bahamut materia to obtain Bahamut ZERO."
+  },
+  {
+    "name": "Key to Sector 5",
+    "section": "Itens-Chave",
+    "gil": null,
+    "description": "Opens the gate to Sector 5 in Midgar. Allows the player access to Sector 5 and Wall Market."
+  },
+  {
+    "name": "Mythril",
+    "section": "Itens-Chave",
+    "gil": null,
+    "description": "Might be some help to you... Can be traded at the weapon seller in the Gongaga Area for either a Gold Armlet or Aeris's Great Gospel manual."
+  },
+  {
+    "name": "Gold Ticket",
+    "section": "Itens-Chave",
+    "gil": 30000,
+    "description": "Unlimited pass to the Gold Saucer"
+  },
+  {
+    "name": "Leviathan Scales",
+    "section": "Itens-Chave",
+    "gil": null,
+    "description": "Scales with the power of water. Used on Da-chao Statue in Wutai to put out fires to gain blocked-off items."
+  },
+  {
+    "name": "A Coupon",
+    "section": "Itens-Chave",
+    "gil": null,
+    "description": "Can be exchanged for items. Can be traded for a Star Pendant."
+  },
+  {
+    "name": "B Coupon",
+    "section": "Itens-Chave",
+    "gil": null,
+    "description": "Can be exchanged for items. Can be traded for a Four Slots armor."
+  },
+  {
+    "name": "C Coupon",
+    "section": "Itens-Chave",
+    "gil": null,
+    "description": "Can be exchanged for items. Can be traded for an All Materia."
+  }
+]

@@ -1,0 +1,138 @@
+[
+  {
+    "id": "cloud",
+    "name": "Cloud Strife",
+    "shortName": "Cloud",
+    "role": "Ex-SOLDIER, protagonista",
+    "description": "Ex-membro do SOLDIER que se junta ao grupo ecoterrorista AVALANCHE como mercenário. Carrega a Buster Sword e enfrenta segredos obscuros sobre seu próprio passado enquanto luta contra Sephiroth e a Shinra.",
+    "limits": [
+      { "level": 1, "name": "Braver", "description": "Ataque físico único com um corte descendente, causando 3x o dano normal.", "obtain": "Habilidade inicial." },
+      { "level": 1, "name": "Cross-slash", "description": "Ataque físico com três cortes, causando 3,25x o dano normal e aplicando paralisia.", "obtain": "Use Braver 8 vezes." },
+      { "level": 2, "name": "Blade Beam", "description": "Golpeia o inimigo e libera uma onda de energia: 3,5x de dano no alvo principal e dano quase normal nos demais.", "obtain": "Derrote 120 inimigos." },
+      { "level": 2, "name": "Climhazzard", "description": "Golpeia o inimigo e salta cortando com a espada, causando 4,375x o dano normal.", "obtain": "Use Blade Beam 7 vezes." },
+      { "level": 3, "name": "Meteorain", "description": "Seis meteoros caem sobre alvos aleatórios, cada um causando 1,625x o dano normal.", "obtain": "Derrote 320 inimigos." },
+      { "level": 3, "name": "Finishing Touch", "description": "Atinge todos os inimigos com um tornado, causando morte instantânea (ou 3,125x de dano em imunes).", "obtain": "Use Meteorain 6 vezes." },
+      { "level": 4, "name": "Omnislash", "description": "Atinge inimigos aleatórios 15 vezes com críticos automáticos, cada golpe causando 0,75x o dano normal.", "obtain": "Use o manual Omnislash após obter os outros seis limites de Cloud." }
+    ]
+  },
+  {
+    "id": "barret",
+    "name": "Barret Wallace",
+    "shortName": "Barret",
+    "role": "Líder do AVALANCHE, atirador",
+    "description": "Líder do grupo ecoterrorista AVALANCHE, luta contra a Shinra para proteger o planeta após a destruição de seu vilarejo natal, Corel. Tem uma arma no lugar do braço direito e cria sozinho a filha adotiva Marlene.",
+    "limits": [
+      { "level": 1, "name": "Big Shot", "description": "Dispara uma grande bola de fogo em um único inimigo, causando 3,25x o dano normal.", "obtain": "Habilidade inicial." },
+      { "level": 1, "name": "Mindblow", "description": "Dispara uma esfera de energia (elemento Gravidade) que esgota todo o MP do alvo.", "obtain": "Use Big Shot 9 vezes." },
+      { "level": 2, "name": "Grenade Bomb", "description": "Lança uma granada, causando 3,375x o dano normal em um único alvo, ou menos se atingir vários.", "obtain": "Derrote 80 inimigos." },
+      { "level": 2, "name": "Hammer Blow", "description": "Corre até o inimigo e o golpeia, causando morte instantânea (não afeta inimigos imunes).", "obtain": "Use Grenade Bomb 8 vezes." },
+      { "level": 3, "name": "Satellite Beam", "description": "Dispara um feixe do céu que acerta todos os inimigos com crítico automático, causando 2,1875x o dano normal.", "obtain": "Derrote 80 inimigos após obter Grenade Bomb." },
+      { "level": 3, "name": "Angermax", "description": "Dispara 18 tiros em inimigos aleatórios, cada um com metade do dano normal.", "obtain": "Use Satellite Beam 6 vezes." },
+      { "level": 4, "name": "Catastrophe", "description": "Atinge inimigos aleatórios dez vezes, cada golpe causando 1,25x o dano normal.", "obtain": "Use o manual Catastrophe após obter os outros seis limites de Barret." }
+    ]
+  },
+  {
+    "id": "tifa",
+    "name": "Tifa Lockhart",
+    "shortName": "Tifa",
+    "role": "Lutadora, amiga de infância de Cloud",
+    "description": "Dona do bar Sétimo Céu e membro do AVALANCHE, é amiga de infância de Cloud em Nibelheim. Luta com socos e chutes, e serve como âncora emocional do grupo.",
+    "limits": [
+      { "level": 1, "name": "Beat Rush", "description": "Corre até o inimigo e desfere vários socos, causando 1,25x o dano normal em um alvo.", "obtain": "Habilidade inicial." },
+      { "level": 1, "name": "Somersault", "description": "Dá um mortal no ar chutando o inimigo, causando 1,375x o dano normal.", "obtain": "Use Beat Rush 9 vezes." },
+      { "level": 2, "name": "Waterkick", "description": "Gira e chuta o inimigo com um jato de água, causando 1,5x o dano normal.", "obtain": "Derrote 96 inimigos." },
+      { "level": 2, "name": "Meteodrive", "description": "Ergue o inimigo e o arremessa contra o chão, causando 1,625x o dano normal.", "obtain": "Use Waterkick 7 vezes." },
+      { "level": 3, "name": "Dolphin Blow", "description": "Golpe ascendente acompanhado de um golfinho, causando 1,75x o dano normal.", "obtain": "Derrote 96 inimigos após obter Waterkick." },
+      { "level": 3, "name": "Meteor Strike", "description": "Ergue o inimigo, gira e o arremessa do alto, causando 1,875x o dano normal.", "obtain": "Use Dolphin Blow 6 vezes." },
+      { "level": 4, "name": "Final Heaven", "description": "Cria uma explosão de energia com um soco, causando 2,625x o dano normal.", "obtain": "Use o manual Final Heaven após obter os outros seis limites de Tifa." }
+    ]
+  },
+  {
+    "id": "aeris",
+    "name": "Aeris Gainsborough",
+    "shortName": "Aeris",
+    "role": "Última Ancião, florista",
+    "description": "Florista de Midgar e última descendente dos Ancestrais (Cetra), possui poderes espirituais ligados ao Planeta. Sua jornada é central para deter os planos de Sephiroth.",
+    "limits": [
+      { "level": 1, "name": "Healing Wind", "description": "Cura o grupo inteiro em metade do HP máximo.", "obtain": "Habilidade inicial." },
+      { "level": 1, "name": "Seal Evil", "description": "Aplica Parada e Silêncio em todos os inimigos não imunes.", "obtain": "Use Healing Wind 8 vezes." },
+      { "level": 2, "name": "Breath of the Earth", "description": "Cura o grupo de praticamente todos os status negativos (sono, veneno, tristeza, fúria, confusão, silêncio, berserk, paralisia, escuridão, lentidão, parada, sapo, encolhimento e petrificação).", "obtain": "Derrote 80 inimigos." },
+      { "level": 2, "name": "Fury Brand", "description": "Enche ao máximo a barra de limite dos outros dois aliados.", "obtain": "Use Breath of the Earth 6 vezes." },
+      { "level": 3, "name": "Planet Protector", "description": "Torna todo o grupo temporariamente invencível.", "obtain": "Derrote 80 inimigos após obter Breath of the Earth." },
+      { "level": 3, "name": "Pulse of Life", "description": "Restaura totalmente HP e MP do grupo e revive aliados caídos.", "obtain": "Use Planet Protector 5 vezes." },
+      { "level": 4, "name": "Great Gospel", "description": "Restaura totalmente HP e MP do grupo e o torna temporariamente invencível a ataques físicos e mágicos.", "obtain": "Use o manual Great Gospel após obter os outros seis limites de Aeris." }
+    ]
+  },
+  {
+    "id": "red-xiii",
+    "name": "Red XIII",
+    "shortName": "Red XIII",
+    "role": "Guardião de Cosmo Canyon",
+    "description": "Também conhecido como Nanaki, é um dos últimos de sua espécie e guardião de Cosmo Canyon. Foi capturado e usado em experimentos pela Shinra antes de se juntar ao grupo.",
+    "limits": [
+      { "level": 1, "name": "Sled Fang", "description": "Avança e ataca um inimigo, causando 3x o dano normal.", "obtain": "Habilidade inicial." },
+      { "level": 1, "name": "Lunatic High", "description": "Aplica Acelerar no grupo e aumenta a defesa de Red XIII em 50% para cada aliado vivo.", "obtain": "Use Sled Fang 8 vezes." },
+      { "level": 2, "name": "Blood Fang", "description": "Ataca um inimigo causando 1,25x o dano normal e absorve HP/MP equivalente a cerca de 25% do dano causado.", "obtain": "Derrote 72 inimigos." },
+      { "level": 2, "name": "Stardust Ray", "description": "Chuva de estrelas atinge os inimigos dez vezes aleatoriamente, cada uma causando 0,625x o dano normal.", "obtain": "Use Blood Fang 7 vezes." },
+      { "level": 3, "name": "Howling Moon", "description": "Uiva para a lua, aplicando Acelerar e Berserk em si mesmo e aumentando seu ataque em 60%.", "obtain": "Derrote 72 inimigos após obter Blood Fang." },
+      { "level": 3, "name": "Earth Rave", "description": "Ataca inimigos aleatórios 5 vezes, causando 1,875x o dano normal.", "obtain": "Use Howling Moon 6 vezes." },
+      { "level": 4, "name": "Cosmo Memory", "description": "Uiva para Cosmo Canyon, invocando um feixe de plasma que atinge todos os inimigos causando quase 7,8x o dano normal.", "obtain": "Use o manual Cosmo Memory após obter os outros seis limites de Red XIII." }
+    ]
+  },
+  {
+    "id": "yuffie",
+    "name": "Yuffie Kisaragi",
+    "shortName": "Yuffie",
+    "role": "Ninja de Wutai, ladra de materia",
+    "description": "Jovem ninja de Wutai obcecada por roubar materia dos outros personagens. Junta-se ao grupo em busca de recuperar o orgulho e a riqueza de sua terra natal, derrotada pela Shinra.",
+    "limits": [
+      { "level": 1, "name": "Greased Lightning", "description": "Avança e golpeia um inimigo com sua arma, causando 3,125x o dano normal.", "obtain": "Habilidade inicial." },
+      { "level": 1, "name": "Clear Tranquil", "description": "Restaura metade do HP máximo de todo o grupo.", "obtain": "Use Greased Lightning 8 vezes." },
+      { "level": 2, "name": "Landscaper", "description": "Causa um terremoto (elemento Terra) que atinge todos os inimigos por 3x o dano normal; erra voadores.", "obtain": "Derrote 64 inimigos." },
+      { "level": 2, "name": "Bloodfest", "description": "Ataca inimigos aleatórios dez vezes, cada um causando 0,625x o dano normal.", "obtain": "Use Landscaper 7 vezes." },
+      { "level": 3, "name": "Gauntlet", "description": "Lança uma bomba que atinge todos os inimigos, ignora a defesa deles e é sempre crítica, causando 1,75x o dano normal.", "obtain": "Derrote 64 inimigos após obter Landscaper." },
+      { "level": 3, "name": "Doom of the Living", "description": "Ataca inimigos aleatórios 15 vezes, cada um causando 0,625x o dano normal.", "obtain": "Use Gauntlet 6 vezes." },
+      { "level": 4, "name": "All Creation", "description": "Atinge todos os inimigos com um feixe de energia poderoso, causando 8x o dano normal.", "obtain": "Use o manual All Creation após obter os outros seis limites de Yuffie." }
+    ]
+  },
+  {
+    "id": "cait-sith",
+    "name": "Cait Sith",
+    "shortName": "Cait Sith",
+    "role": "Robô-boneco, agente disfarçado",
+    "description": "Boneco robótico controlado remotamente que atua como vidente no Gold Saucer. Revela-se um espião da Shinra, mas passa a ajudar genuinamente o grupo depois.",
+    "limits": [
+      { "level": 1, "name": "Dice", "description": "Joga dados (2 no nível 1, +1 a cada 10 níveis até 6 no nível 60+); o dano é a soma dos valores vezes o tamanho do maior grupo repetido, x100.", "obtain": "Habilidade inicial." },
+      { "level": 2, "name": "Slots", "description": "Aciona uma máquina caça-níqueis cujo resultado determina o efeito (dano, cura ou invocação, entre outros).", "obtain": "Derrote 40 inimigos." }
+    ]
+  },
+  {
+    "id": "vincent",
+    "name": "Vincent Valentine",
+    "shortName": "Vincent",
+    "role": "Ex-Turco, atirador amaldiçoado",
+    "description": "Ex-agente dos Turks transformado por experimentos de Hojo, capaz de se transformar em criaturas monstruosas ao usar seus limites. Carrega culpa por eventos ligados ao passado de Sephiroth e Lucrecia.",
+    "limits": [
+      { "level": 1, "name": "Galian Beast", "description": "Vincent se transforma numa fera roxa selvagem: defesa +20%, destreza +50%, HP máx. fixado em 130%. Ataca com Berserk Dance (físico, 1,5x) ou Beast Flare (mágico, fogo, 3,75x, todos os inimigos).", "obtain": "Habilidade inicial." },
+      { "level": 2, "name": "Death Gigas", "description": "Vincent se transforma num monstro corpulento: defesa +50%, defesa mágica -70%, destreza -20%, HP máx. fixado em 200%. Ataca com Gigadunk (físico, 2,625x) ou Livewire (mágico, raio, 4,375x, todos os inimigos).", "obtain": "Derrote 40 inimigos." },
+      { "level": 3, "name": "Hellmasker", "description": "Vincent se transforma num sujeito mascarado com motosserra: defesa e defesa mágica +50%. Ataca com Splattercombo (metade do dano, cinco alvos aleatórios) ou Nightmare (aplica sono, veneno, silêncio, confusão, sapo e encolhimento).", "obtain": "Derrote 56 inimigos após obter Death Gigas." },
+      { "level": 4, "name": "Chaos", "description": "Vincent se transforma num demônio alado: defesa e defesa mágica +100%. Ataca com Chaos Saber (físico, 2,5x, todos os inimigos) ou Satan Slam (28% de chance de morte instantânea, senão 5,625x em todos).", "obtain": "Use o manual Chaos após obter os outros três limites de Vincent." }
+    ]
+  },
+  {
+    "id": "cid",
+    "name": "Cid Highwind",
+    "shortName": "Cid",
+    "role": "Piloto, engenheiro aeroespacial",
+    "description": "Piloto veterano e engenheiro que sonha em ser o primeiro homem no espaço, sonho frustrado pela Shinra. Junta-se ao grupo e comanda a aeronave Highwind.",
+    "limits": [
+      { "level": 1, "name": "Boost Jump", "description": "Salta e desce com a lança sobre um inimigo, causando 3,25x o dano normal.", "obtain": "Habilidade inicial." },
+      { "level": 1, "name": "Dynamite", "description": "Acende um cartucho de dinamite e o arremessa no grupo inimigo, causando 2,25x o dano normal em todos.", "obtain": "Use Boost Jump 7 vezes." },
+      { "level": 2, "name": "Hyper Jump", "description": "Salta e golpeia com a lança causando uma explosão que atinge todos os inimigos por 3,5x o dano normal, com 20% de chance de morte instantânea.", "obtain": "Derrote 60 inimigos." },
+      { "level": 2, "name": "Dragon", "description": "Invoca um dragão que ataca um inimigo por 1,25x o dano normal, curando HP/MP de Cid em cerca de 25% do dano causado.", "obtain": "Use Hyper Jump 6 vezes." },
+      { "level": 3, "name": "Dragon Dive", "description": "Ataca seis inimigos aleatórios com investidas, causando 1,4375x o dano normal, com 28% de chance de morte instantânea.", "obtain": "Derrote 76 inimigos após obter Hyper Jump." },
+      { "level": 3, "name": "Big Brawl", "description": "Corta oito inimigos aleatórios, causando 1,125x o dano normal.", "obtain": "Use Dragon Dive 5 vezes." },
+      { "level": 4, "name": "Highwind", "description": "Invoca a aeronave Highwind para lançar mísseis sobre dezoito inimigos aleatórios, causando 0,6875x o dano normal.", "obtain": "Use o manual Highwind após obter os outros seis limites de Cid." }
+    ]
+  }
+]

@@ -1,0 +1,8044 @@
+[
+  {
+    "name": "1st Ray",
+    "level": 4,
+    "hp": 18,
+    "mp": 0,
+    "type": "Normal",
+    "weaknesses": [
+      "Lightning"
+    ],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Laser Cannon"
+    ],
+    "location": "No. 1 Reactor",
+    "exp": 12,
+    "ap": 1,
+    "gil": 5,
+    "steal": [],
+    "drops": [
+      "Potion"
+    ]
+  },
+  {
+    "name": "2-Faced",
+    "level": 18,
+    "hp": 330,
+    "mp": 80,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [
+      "Earth"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Cure3",
+      "Self-destruct"
+    ],
+    "location": "Corel Prison",
+    "exp": 100,
+    "ap": 10,
+    "gil": 156,
+    "steal": [
+      "Phoenix Down"
+    ],
+    "drops": [
+      "Hi-Potion"
+    ]
+  },
+  {
+    "name": "8 eye",
+    "level": 30,
+    "hp": 500,
+    "mp": 220,
+    "type": "Normal",
+    "weaknesses": [
+      "Poison"
+    ],
+    "resistances": [
+      "Gravity"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Eyesight (MP)",
+      "Eyesight (fractional)",
+      "Eyesight (magical)",
+      "Eyesight (status)"
+    ],
+    "location": "Temple of the Ancients; Battle Square",
+    "exp": 1000,
+    "ap": 100,
+    "gil": 720,
+    "steal": [],
+    "drops": [
+      "Magic Source"
+    ]
+  },
+  {
+    "name": "Acrophies",
+    "level": 35,
+    "hp": 2400,
+    "mp": 220,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [
+      "Gravity"
+    ],
+    "absorbs": [
+      "Water"
+    ],
+    "attacks": [
+      "Big Red Clipper",
+      "Isogin Smog",
+      "Huge Tidal Wave"
+    ],
+    "location": "Corel Valley Cave; Battle Square",
+    "exp": 800,
+    "ap": 90,
+    "gil": 1200,
+    "steal": [
+      "Water Ring"
+    ],
+    "drops": []
+  },
+  {
+    "name": "Adamantaimai",
+    "level": 30,
+    "hp": 1600,
+    "mp": 240,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [
+      "Gravity"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Light Shell",
+      "Death Force",
+      "Barrier",
+      "MBarrier"
+    ],
+    "location": "Wutai Area; Battle Square",
+    "exp": 720,
+    "ap": 100,
+    "gil": 2000,
+    "steal": [
+      "Adaman Bangle"
+    ],
+    "drops": [
+      "Dragon Scales",
+      "Phoenix Down"
+    ]
+  },
+  {
+    "name": "Aero Combatant",
+    "level": 11,
+    "hp": 190,
+    "mp": 0,
+    "type": "Normal",
+    "weaknesses": [
+      "Gravity",
+      "Wind"
+    ],
+    "resistances": [
+      "Earth"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Kick",
+      "Propeller",
+      "Drop Down"
+    ],
+    "location": "Sector 7 Slums; Battle Square",
+    "exp": 40,
+    "ap": 4,
+    "gil": 110,
+    "steal": [],
+    "drops": []
+  },
+  {
+    "name": "Air Buster",
+    "level": 15,
+    "hp": 1200,
+    "mp": 0,
+    "type": "Boss",
+    "weaknesses": [
+      "Lightning"
+    ],
+    "resistances": [
+      "Fire",
+      "Earth",
+      "Gravity"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Rear Gun",
+      "Destroyed",
+      "Bodyblow",
+      "Big Bomber",
+      "Energy Ball"
+    ],
+    "location": "No. 5 Reactor",
+    "exp": 180,
+    "ap": 16,
+    "gil": 150,
+    "steal": [],
+    "drops": [
+      "Titan Bangle"
+    ]
+  },
+  {
+    "name": "Allemagne",
+    "level": 48,
+    "hp": 8000,
+    "mp": 200,
+    "type": "Normal",
+    "weaknesses": [
+      "Wind"
+    ],
+    "resistances": [
+      "Earth"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Claw",
+      "Teardrop",
+      "Big Breath",
+      "L4 Death",
+      "L3 Flare"
+    ],
+    "location": "Northern Cave",
+    "exp": 1300,
+    "ap": 100,
+    "gil": 1360,
+    "steal": [
+      "Eye drop"
+    ],
+    "drops": [
+      "Eye drop"
+    ]
+  },
+  {
+    "name": "Ancient Dragon",
+    "level": 34,
+    "hp": 2400,
+    "mp": 450,
+    "type": "Normal",
+    "weaknesses": [
+      "Gravity",
+      "Wind"
+    ],
+    "resistances": [
+      "Earth",
+      "Water"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Horn",
+      "Southern Cross"
+    ],
+    "location": "Temple of the Ancients; Battle Square",
+    "exp": 800,
+    "ap": 80,
+    "gil": 800,
+    "steal": [],
+    "drops": [
+      "Turbo Ether"
+    ]
+  },
+  {
+    "name": "Aps",
+    "level": 18,
+    "hp": 1800,
+    "mp": 0,
+    "type": "Boss",
+    "weaknesses": [
+      "Fire"
+    ],
+    "resistances": [
+      "Gravity"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Tail Attack",
+      "Lick",
+      "Sewer Tsunami (enemy)",
+      "Sewer Tsunami (party)"
+    ],
+    "location": "Sewer",
+    "exp": 240,
+    "ap": 22,
+    "gil": 253,
+    "steal": [],
+    "drops": [
+      "Phoenix Down"
+    ]
+  },
+  {
+    "name": "Ark Dragon",
+    "level": 18,
+    "hp": 280,
+    "mp": 124,
+    "type": "Normal",
+    "weaknesses": [
+      "Wind"
+    ],
+    "resistances": [
+      "Earth"
+    ],
+    "absorbs": [
+      "Fire"
+    ],
+    "attacks": [
+      "Claw",
+      "Flame Thrower"
+    ],
+    "location": "Mythril Mine; Battle Square",
+    "exp": 84,
+    "ap": 10,
+    "gil": 180,
+    "steal": [
+      "Ether"
+    ],
+    "drops": [
+      "Phoenix Down",
+      "Ether"
+    ]
+  },
+  {
+    "name": "Armored Golem",
+    "level": 41,
+    "hp": 10000,
+    "mp": 200,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Golem Punch",
+      "Snap",
+      "Golem Laser",
+      "Advance",
+      "Retreat",
+      "Defense Start"
+    ],
+    "location": "Northern Cave",
+    "exp": 2500,
+    "ap": 100,
+    "gil": 2680,
+    "steal": [
+      "Turbo Ether"
+    ],
+    "drops": [
+      "Echo Screen",
+      "Guard Source"
+    ]
+  },
+  {
+    "name": "Attack Squad",
+    "level": 34,
+    "hp": 1300,
+    "mp": 100,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Machine Gun",
+      "Grenade",
+      "Smoke Bullet"
+    ],
+    "location": "Wutai Wilderness; Wutai Head Temple",
+    "exp": 300,
+    "ap": 10,
+    "gil": 420,
+    "steal": [
+      "8-inch Cannon"
+    ],
+    "drops": [
+      "S-mine"
+    ]
+  },
+  {
+    "name": "Bad Rap",
+    "level": 38,
+    "hp": 9000,
+    "mp": 120,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [
+      "Poison"
+    ],
+    "attacks": [
+      "Whip",
+      "Big Fang",
+      "Evil Poison"
+    ],
+    "location": "Sunken Gelnika",
+    "exp": 1100,
+    "ap": 70,
+    "gil": 2500,
+    "steal": [
+      "Ink"
+    ],
+    "drops": [
+      "Dazers",
+      "Luck Source"
+    ]
+  },
+  {
+    "name": "Bad Rap Sample",
+    "level": 34,
+    "hp": 11000,
+    "mp": 120,
+    "type": "Boss",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Whip",
+      "Big Fang",
+      "Evil Poison"
+    ],
+    "location": "Sector 8",
+    "exp": 2000,
+    "ap": 150,
+    "gil": 2200,
+    "steal": [],
+    "drops": []
+  },
+  {
+    "name": "Bagnadrana",
+    "level": 16,
+    "hp": 450,
+    "mp": 60,
+    "type": "Normal",
+    "weaknesses": [
+      "Ice"
+    ],
+    "resistances": [
+      "Fire",
+      "Gravity"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Fang",
+      "Claw",
+      "Horn",
+      "Poison Breath"
+    ],
+    "location": "Mt. Corel; Battle Square",
+    "exp": 110,
+    "ap": 11,
+    "gil": 120,
+    "steal": [
+      "Diamond Pin"
+    ],
+    "drops": [
+      "Hi-Potion",
+      "Guard Source"
+    ]
+  },
+  {
+    "name": "Bagrisk",
+    "level": 19,
+    "hp": 400,
+    "mp": 50,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Tail",
+      "Stone Strike",
+      "Quake2"
+    ],
+    "location": "Cosmo Area; Battle Square",
+    "exp": 240,
+    "ap": 30,
+    "gil": 275,
+    "steal": [
+      "Soft",
+      "Soft",
+      "Vagyrisk Claw"
+    ],
+    "drops": [
+      "Soft",
+      "Remedy"
+    ]
+  },
+  {
+    "name": "Bahba Velamyu",
+    "level": 23,
+    "hp": 640,
+    "mp": 40,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Bonecutter",
+      "Jumping Cutter",
+      "Magic Cutter",
+      "Silence",
+      "Slow"
+    ],
+    "location": "Nibel Area; Battle Square",
+    "exp": 285,
+    "ap": 20,
+    "gil": 280,
+    "steal": [],
+    "drops": [
+      "Mute Mask"
+    ]
+  },
+  {
+    "name": "Bandersnatch",
+    "level": 30,
+    "hp": 860,
+    "mp": 100,
+    "type": "Normal",
+    "weaknesses": [
+      "Fire"
+    ],
+    "resistances": [
+      "Ice"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Bodyblow",
+      "Bite",
+      "Howling"
+    ],
+    "location": "Icicle Area; Great Glacier",
+    "exp": 510,
+    "ap": 40,
+    "gil": 600,
+    "steal": [],
+    "drops": [
+      "Hi-Potion",
+      "Ice Crystal"
+    ]
+  },
+  {
+    "name": "Bandit",
+    "level": 17,
+    "hp": 360,
+    "mp": 0,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Hit",
+      "Hold-up",
+      "Mug",
+      "Escape"
+    ],
+    "location": "Corel Prison",
+    "exp": 99,
+    "ap": 10,
+    "gil": 220,
+    "steal": [
+      "X-Potion"
+    ],
+    "drops": [
+      "Tent",
+      "Hi-Potion"
+    ]
+  },
+  {
+    "name": "Battery Cap",
+    "level": 24,
+    "hp": 640,
+    "mp": 58,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Seed Shot",
+      "Four Laser"
+    ],
+    "location": "Nibel Area; Battle Square",
+    "exp": 270,
+    "ap": 32,
+    "gil": 386,
+    "steal": [
+      "Dazers"
+    ],
+    "drops": [
+      "Eye drop"
+    ]
+  },
+  {
+    "name": "Beachplug",
+    "level": 16,
+    "hp": 200,
+    "mp": 100,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [
+      "Ice"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Bite",
+      "Big Guard",
+      "Ice"
+    ],
+    "location": "Corel Area; Gold Saucer Area",
+    "exp": 95,
+    "ap": 10,
+    "gil": 155,
+    "steal": [],
+    "drops": [
+      "Hi-Potion",
+      "Turbo Ether"
+    ]
+  },
+  {
+    "name": "Behemoth",
+    "level": 45,
+    "hp": 7000,
+    "mp": 400,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Behemoth Horn",
+      "Flare",
+      "????",
+      "Claw"
+    ],
+    "location": "Sector 8; Battle Square",
+    "exp": 1500,
+    "ap": 100,
+    "gil": 2200,
+    "steal": [
+      "Phoenix Down",
+      "War Gong"
+    ],
+    "drops": [
+      "Stardust"
+    ]
+  },
+  {
+    "name": "Bizarre Bug",
+    "level": 28,
+    "hp": 975,
+    "mp": 0,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Bodyblow"
+    ],
+    "location": "Wutai Area; Da-chao Statue",
+    "exp": 420,
+    "ap": 40,
+    "gil": 340,
+    "steal": [],
+    "drops": [
+      "X-Potion"
+    ]
+  },
+  {
+    "name": "Bizarro∙Sephiroth",
+    "level": 61,
+    "hp": 40000,
+    "mp": 400,
+    "type": "Boss",
+    "weaknesses": [],
+    "resistances": [
+      "Gravity"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Sephiroth Shock",
+      "Aurora Fence",
+      "Bolt3",
+      "Quake3",
+      "Stigma",
+      "Heartless Angel",
+      "Ice3",
+      "Fire3",
+      "Demi3",
+      "Bizarro Enegy"
+    ],
+    "location": "Northern Cave (Planet's Core)",
+    "exp": null,
+    "ap": null,
+    "gil": null,
+    "steal": [],
+    "drops": []
+  },
+  {
+    "name": "Black Bat",
+    "level": 25,
+    "hp": 550,
+    "mp": 0,
+    "type": "Normal",
+    "weaknesses": [
+      "Wind",
+      "Holy"
+    ],
+    "resistances": [
+      "Earth"
+    ],
+    "absorbs": [
+      "Restorative"
+    ],
+    "attacks": [
+      "Blood Suck",
+      "Dodge"
+    ],
+    "location": "Mansion; Battle Square",
+    "exp": 270,
+    "ap": 24,
+    "gil": 80,
+    "steal": [],
+    "drops": [
+      "Vampire Fang"
+    ]
+  },
+  {
+    "name": "Bloatfloat",
+    "level": 18,
+    "hp": 240,
+    "mp": 0,
+    "type": "Normal",
+    "weaknesses": [
+      "Wind"
+    ],
+    "resistances": [
+      "Earth"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Bodyblow",
+      "Vacuum",
+      "Spiky Hell"
+    ],
+    "location": "Mt. Corel",
+    "exp": 90,
+    "ap": 9,
+    "gil": 125,
+    "steal": [
+      "Soft"
+    ],
+    "drops": [
+      "Hi-Potion"
+    ]
+  },
+  {
+    "name": "Blood Taste",
+    "level": 8,
+    "hp": 72,
+    "mp": 0,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Bite",
+      "Tentacle Drain"
+    ],
+    "location": "No.5 Reactor",
+    "exp": 24,
+    "ap": 2,
+    "gil": 32,
+    "steal": [
+      "Eye drop"
+    ],
+    "drops": [
+      "Antidote",
+      "Potion"
+    ]
+  },
+  {
+    "name": "Blue Dragon",
+    "level": 41,
+    "hp": 8800,
+    "mp": 500,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [
+      "Gravity"
+    ],
+    "absorbs": [
+      "Ice"
+    ],
+    "attacks": [
+      "Dragon Fang",
+      "Tail Attack",
+      "Blue Dragon Breath",
+      "Great Gale",
+      "Dragon Force"
+    ],
+    "location": "Gaea's Cliff; Battle Square",
+    "exp": 1200,
+    "ap": 200,
+    "gil": 1000,
+    "steal": [],
+    "drops": [
+      "Dragon Armlet"
+    ]
+  },
+  {
+    "name": "Blugu",
+    "level": 4,
+    "hp": 120,
+    "mp": 0,
+    "type": "Normal",
+    "weaknesses": [
+      "Lightning",
+      "Wind"
+    ],
+    "resistances": [
+      "Earth"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Bodyblow",
+      "Hell Bubbles"
+    ],
+    "location": "Sector 4 Plate, Battle Square",
+    "exp": 18,
+    "ap": 2,
+    "gil": 35,
+    "steal": [
+      "Eye drop"
+    ],
+    "drops": [
+      "Potion"
+    ]
+  },
+  {
+    "name": "Bomb",
+    "level": 18,
+    "hp": 600,
+    "mp": 30,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [
+      "Fire",
+      "Earth"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Bodyblow",
+      "Fireball",
+      "Bomb Blast"
+    ],
+    "location": "Mt. Corel",
+    "exp": 150,
+    "ap": 20,
+    "gil": 192,
+    "steal": [
+      "Right arm"
+    ],
+    "drops": [
+      "Shrapnel"
+    ]
+  },
+  {
+    "name": "Bottomswell",
+    "level": 23,
+    "hp": 2500,
+    "mp": 100,
+    "type": "Boss",
+    "weaknesses": [
+      "Wind"
+    ],
+    "resistances": [
+      "Earth",
+      "Gravity"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "First form: Bodyblow",
+      "Tail Attack",
+      "Waterball",
+      "Fury Blast",
+      "Second form: Bodyblow",
+      "Moonstrike",
+      "Third form: Big Wave",
+      "Chill",
+      "Vanish"
+    ],
+    "location": "Under Junon",
+    "exp": 550,
+    "ap": 52,
+    "gil": 1000,
+    "steal": [],
+    "drops": [
+      "Power Wrist"
+    ]
+  },
+  {
+    "name": "Boundfat",
+    "level": 27,
+    "hp": 500,
+    "mp": 80,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [
+      "Ice"
+    ],
+    "attacks": [
+      "Bodyblow",
+      "Ice2",
+      "Dark Needle",
+      "Death Sentence"
+    ],
+    "location": "Corel Valley; Forgotten Capital",
+    "exp": 420,
+    "ap": 40,
+    "gil": 350,
+    "steal": [
+      "Dazers"
+    ],
+    "drops": [
+      "Dazers"
+    ]
+  },
+  {
+    "name": "Brain Pod",
+    "level": 15,
+    "hp": 240,
+    "mp": 46,
+    "type": "Normal",
+    "weaknesses": [
+      "Holy"
+    ],
+    "resistances": [
+      "Earth"
+    ],
+    "absorbs": [
+      "Poison",
+      "Restorative"
+    ],
+    "attacks": [
+      "Bodyblow",
+      "Refuse (Sleep version)",
+      "Refuse (Poison version)"
+    ],
+    "location": "Shinra Bldg.; Battle Square",
+    "exp": 52,
+    "ap": 6,
+    "gil": 95,
+    "steal": [
+      "Antidote"
+    ],
+    "drops": [
+      "Deadly Waste"
+    ]
+  },
+  {
+    "name": "Bullmotor",
+    "level": 19,
+    "hp": 420,
+    "mp": 96,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Bodyblow",
+      "Matra Magic"
+    ],
+    "location": "Corel Prison; Battle Square",
+    "exp": 92,
+    "ap": 9,
+    "gil": 140,
+    "steal": [
+      "X-Potion"
+    ],
+    "drops": [
+      "Ether",
+      "Turbo Ether"
+    ]
+  },
+  {
+    "name": "Cactuar",
+    "level": 20,
+    "hp": 200,
+    "mp": 20,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [
+      "Fire",
+      "Ice",
+      "Lightning",
+      "Earth",
+      "Gravity",
+      "Water",
+      "Holy",
+      "Restorative"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Mystery Kick",
+      "1000 Needles",
+      "Dodge",
+      "Report"
+    ],
+    "location": "Corel Desert",
+    "exp": 1,
+    "ap": 1,
+    "gil": 10000,
+    "steal": [],
+    "drops": [
+      "Hi-Potion"
+    ]
+  },
+  {
+    "name": "Cactuer",
+    "level": 40,
+    "hp": 6000,
+    "mp": 120,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Mystery Kick",
+      "1000 Needles",
+      "Dodge"
+    ],
+    "location": "North Corel Area; Cactus Island",
+    "exp": 1000,
+    "ap": 100,
+    "gil": 1000,
+    "steal": [],
+    "drops": [
+      "Tetra Elemental"
+    ]
+  },
+  {
+    "name": "Capparwire",
+    "level": 15,
+    "hp": 210,
+    "mp": 20,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Wire Attack",
+      "Grand Spark"
+    ],
+    "location": "Junon Area; Battle Square",
+    "exp": 60,
+    "ap": 6,
+    "gil": 103,
+    "steal": [
+      "Ether"
+    ],
+    "drops": [
+      "Potion"
+    ]
+  },
+  {
+    "name": "Captain",
+    "level": 34,
+    "hp": 2000,
+    "mp": 90,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Machine Gun",
+      "Hand Grenade"
+    ],
+    "location": "Submarine #2; Submarine #1",
+    "exp": 850,
+    "ap": 84,
+    "gil": 1050,
+    "steal": [
+      "Shinra Alpha"
+    ],
+    "drops": [
+      "S-mine"
+    ]
+  },
+  {
+    "name": "Carry Armor",
+    "level": 45,
+    "hp": 24000,
+    "mp": 200,
+    "type": "Boss",
+    "weaknesses": [
+      "Lightning"
+    ],
+    "resistances": [
+      "Poison",
+      "Gravity"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Lapis Laser",
+      "Damage Attack Free Right Character",
+      "Free Left Character",
+      "Vanish"
+    ],
+    "location": "Underwater Reactor",
+    "exp": 2800,
+    "ap": 240,
+    "gil": 4000,
+    "steal": [],
+    "drops": [
+      "God's Hand"
+    ]
+  },
+  {
+    "name": "Castanets",
+    "level": 15,
+    "hp": 190,
+    "mp": 0,
+    "type": "Normal",
+    "weaknesses": [
+      "Fire"
+    ],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "2-stage attack",
+      "Scissor Spark"
+    ],
+    "location": "Mythril Mine; Battle Square",
+    "exp": 65,
+    "ap": 7,
+    "gil": 113,
+    "steal": [],
+    "drops": [
+      "Hi-Potion"
+    ]
+  },
+  {
+    "name": "Ceasar",
+    "level": 8,
+    "hp": 120,
+    "mp": 0,
+    "type": "Normal",
+    "weaknesses": [
+      "Ice"
+    ],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Bodyblow",
+      "Bubble"
+    ],
+    "location": "Sewer; Battle Square",
+    "exp": 23,
+    "ap": 2,
+    "gil": 55,
+    "steal": [
+      "Tranquilizer"
+    ],
+    "drops": [
+      "Potion",
+      "Tranquilizer"
+    ]
+  },
+  {
+    "name": "Chekhov",
+    "level": 34,
+    "hp": 5000,
+    "mp": 210,
+    "type": "Boss",
+    "weaknesses": [],
+    "resistances": [
+      "Gravity"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Absorb",
+      "Stare Down"
+    ],
+    "location": "Wutai",
+    "exp": 2900,
+    "ap": 50,
+    "gil": 0,
+    "steal": [],
+    "drops": [
+      "Ice Ring"
+    ]
+  },
+  {
+    "name": "Chocobo",
+    "level": 13,
+    "hp": 130,
+    "mp": 13,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Chocobuckle",
+      "Goes nuts"
+    ],
+    "location": "Grasslands Area",
+    "exp": 10,
+    "ap": 1,
+    "gil": 1,
+    "steal": [],
+    "drops": []
+  },
+  {
+    "name": "Christopher",
+    "level": 34,
+    "hp": 6000,
+    "mp": 200,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Flutilizer",
+      "Cure2",
+      "Bolt3",
+      "Aspil",
+      "Frog Song",
+      "High/Low Suit",
+      "Suffocation Song",
+      "Stardust March"
+    ],
+    "location": "Northern Cave",
+    "exp": 1300,
+    "ap": 80,
+    "gil": 800,
+    "steal": [
+      "Earth Drum"
+    ],
+    "drops": [
+      "Phoenix Down"
+    ]
+  },
+  {
+    "name": "Chuse Tank",
+    "level": 6,
+    "hp": 36,
+    "mp": 0,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Claw",
+      "Rolling Claw"
+    ],
+    "location": "Sector 4 Plate; Battle Square",
+    "exp": 23,
+    "ap": 2,
+    "gil": 30,
+    "steal": [
+      "Potion"
+    ],
+    "drops": [
+      "Potion"
+    ]
+  },
+  {
+    "name": "CMD.Grand Horn",
+    "level": 19,
+    "hp": 2000,
+    "mp": 100,
+    "type": "Boss",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Punch",
+      "Poison Breath",
+      "Grand Attack"
+    ],
+    "location": "Fort Condor",
+    "exp": 200,
+    "ap": 20,
+    "gil": 2400,
+    "steal": [],
+    "drops": []
+  },
+  {
+    "name": "Cokatolis",
+    "level": 17,
+    "hp": 420,
+    "mp": 0,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Beak",
+      "Bird Kick",
+      "Petrify Smog"
+    ],
+    "location": "Corel Area; Mt. Corel",
+    "exp": 97,
+    "ap": 10,
+    "gil": 168,
+    "steal": [
+      "Soft"
+    ],
+    "drops": [
+      "Soft"
+    ]
+  },
+  {
+    "name": "Corneo's Lackey",
+    "level": 8,
+    "hp": 42,
+    "mp": 0,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Hit",
+      "Machine Gun"
+    ],
+    "location": "Corneo Hall",
+    "exp": 8,
+    "ap": 0,
+    "gil": 10,
+    "steal": [],
+    "drops": [
+      "Potion"
+    ]
+  },
+  {
+    "name": "Corvette",
+    "level": 36,
+    "hp": 3200,
+    "mp": 260,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [
+      "Earth",
+      "Water"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Bodyblow",
+      "Gash",
+      "Slap",
+      "Sawback",
+      "Spinning Cut"
+    ],
+    "location": "Underwater Reactor",
+    "exp": 1050,
+    "ap": 60,
+    "gil": 2200,
+    "steal": [
+      "Hyper"
+    ],
+    "drops": [
+      "Loco weed",
+      "Light Curtain"
+    ]
+  },
+  {
+    "name": "Crawler",
+    "level": 15,
+    "hp": 140,
+    "mp": 48,
+    "type": "Normal",
+    "weaknesses": [
+      "Earth"
+    ],
+    "resistances": [
+      "Ice"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Bite",
+      "Cold Breath"
+    ],
+    "location": "Mythril Mine; Battle Square",
+    "exp": 56,
+    "ap": 6,
+    "gil": 65,
+    "steal": [],
+    "drops": [
+      "Hi-Potion"
+    ]
+  },
+  {
+    "name": "Crazy Saw",
+    "level": 44,
+    "hp": 3900,
+    "mp": 340,
+    "type": "Normal",
+    "weaknesses": [
+      "Lightning"
+    ],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Uppercut",
+      "Rifle"
+    ],
+    "location": "Sector 8",
+    "exp": 800,
+    "ap": 80,
+    "gil": 1300,
+    "steal": [
+      "Mute Mask"
+    ],
+    "drops": [
+      "Phoenix Down",
+      "Ether",
+      "Turbo Ether"
+    ]
+  },
+  {
+    "name": "Cripshay",
+    "level": 8,
+    "hp": 100,
+    "mp": 0,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Scissors",
+      "Dual Spike"
+    ],
+    "location": "Train Graveyard; Battle Square",
+    "exp": 26,
+    "ap": 3,
+    "gil": 53,
+    "steal": [
+      "Potion"
+    ],
+    "drops": [
+      "Potion"
+    ]
+  },
+  {
+    "name": "Cromwell",
+    "level": 42,
+    "hp": 3500,
+    "mp": 120,
+    "type": "Normal",
+    "weaknesses": [
+      "Lightning"
+    ],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Normal Shell"
+    ],
+    "location": "Sector 8",
+    "exp": 800,
+    "ap": 80,
+    "gil": 1500,
+    "steal": [],
+    "drops": [
+      "8-inch Cannon"
+    ]
+  },
+  {
+    "name": "Crown Lance",
+    "level": 20,
+    "hp": 440,
+    "mp": 70,
+    "type": "Normal",
+    "weaknesses": [
+      "Fire"
+    ],
+    "resistances": [
+      "Earth"
+    ],
+    "absorbs": [
+      "Lightning"
+    ],
+    "attacks": [
+      "Claw",
+      "Sleepel",
+      "Bolt",
+      "Deadly Needles",
+      "Advance",
+      "Retreat"
+    ],
+    "location": "Cosmo Area; Nibel Area",
+    "exp": 225,
+    "ap": 23,
+    "gil": 400,
+    "steal": [],
+    "drops": [
+      "Hi-Potion",
+      "Dream Powder"
+    ]
+  },
+  {
+    "name": "Crysales",
+    "level": 37,
+    "hp": 1500,
+    "mp": 100,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Bite",
+      "Sleep Scales"
+    ],
+    "location": "Mideel Area",
+    "exp": 800,
+    "ap": 80,
+    "gil": 600,
+    "steal": [],
+    "drops": [
+      "Ether",
+      "Dream Powder"
+    ]
+  },
+  {
+    "name": "Cuahl",
+    "level": 33,
+    "hp": 1300,
+    "mp": 60,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Light Shell",
+      "Blaster"
+    ],
+    "location": "Gaea's Cliff; Battle Square",
+    "exp": 720,
+    "ap": 70,
+    "gil": 800,
+    "steal": [
+      "Tranquilizer"
+    ],
+    "drops": [
+      "Hi-Potion",
+      "Tranquilizer"
+    ]
+  },
+  {
+    "name": "Custom Sweeper",
+    "level": 15,
+    "hp": 300,
+    "mp": 100,
+    "type": "Normal",
+    "weaknesses": [
+      "Lightning"
+    ],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "W Machine Gun",
+      "Smoke Shot",
+      "Matra Magic"
+    ],
+    "location": "Midgar Area; Battle Square",
+    "exp": 63,
+    "ap": 7,
+    "gil": 120,
+    "steal": [
+      "Atomic Scissors"
+    ],
+    "drops": [
+      "Potion",
+      "X-Potion"
+    ]
+  },
+  {
+    "name": "Dark Dragon",
+    "level": 57,
+    "hp": 14000,
+    "mp": 600,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [
+      "Lightning"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Claw",
+      "Tail Attack",
+      "Dark Dragon Breath",
+      "Ultima",
+      "Dragon Force",
+      "Laser"
+    ],
+    "location": "Northern Cave",
+    "exp": 5000,
+    "ap": 350,
+    "gil": 2500,
+    "steal": [
+      "Dragon Armlet"
+    ],
+    "drops": [
+      "Elixir",
+      "Vaccine"
+    ]
+  },
+  {
+    "name": "Dark Nation",
+    "level": 18,
+    "hp": 140,
+    "mp": 80,
+    "type": "Boss",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Bite",
+      "Barrier",
+      "MBarrier",
+      "Bolt"
+    ],
+    "location": "Shinra Bldg.",
+    "exp": 70,
+    "ap": 7,
+    "gil": 250,
+    "steal": [],
+    "drops": [
+      "Guard Source"
+    ]
+  },
+  {
+    "name": "Death Claw",
+    "level": 19,
+    "hp": 400,
+    "mp": 120,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Claw",
+      "Death Claw",
+      "Laser",
+      "Barrier",
+      "MBarrier"
+    ],
+    "location": "Corel Prison",
+    "exp": 96,
+    "ap": 10,
+    "gil": 168,
+    "steal": [
+      "Platinum Bangle"
+    ],
+    "drops": [
+      "Hi-Potion"
+    ]
+  },
+  {
+    "name": "Death Dealer",
+    "level": 48,
+    "hp": 7000,
+    "mp": 400,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [
+      "Restorative"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Spin Turn",
+      "Fire",
+      "Emperor",
+      "Hidden One",
+      "Star",
+      "Sun",
+      "World",
+      "Roulette"
+    ],
+    "location": "Northern Cave",
+    "exp": 1800,
+    "ap": 200,
+    "gil": 1200,
+    "steal": [
+      "Turbo Ether"
+    ],
+    "drops": [
+      "Kiss of Death",
+      "X-Potion"
+    ]
+  },
+  {
+    "name": "Death Machine",
+    "level": 35,
+    "hp": 2500,
+    "mp": 150,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "W Machine Gun",
+      "100 Needles",
+      "Matra Magic"
+    ],
+    "location": "Junon Branch; Junon Path",
+    "exp": 900,
+    "ap": 80,
+    "gil": 1200,
+    "steal": [
+      "W Machine Gun"
+    ],
+    "drops": []
+  },
+  {
+    "name": "Deenglow",
+    "level": 10,
+    "hp": 120,
+    "mp": 72,
+    "type": "Normal",
+    "weaknesses": [
+      "Wind"
+    ],
+    "resistances": [
+      "Lightning",
+      "Earth",
+      "Gravity",
+      "Water"
+    ],
+    "absorbs": [
+      "Ice"
+    ],
+    "attacks": [
+      "Wing Cutter",
+      "Ice",
+      "Demi"
+    ],
+    "location": "Train Graveyard; Battle Square",
+    "exp": 35,
+    "ap": 4,
+    "gil": 70,
+    "steal": [
+      "Ether"
+    ],
+    "drops": [
+      "Graviball",
+      "Phoenix Down"
+    ]
+  },
+  {
+    "name": "Demons Gate",
+    "level": 45,
+    "hp": 10000,
+    "mp": 400,
+    "type": "Boss",
+    "weaknesses": [],
+    "resistances": [
+      "Earth",
+      "Poison",
+      "Gravity"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Falling Rocks",
+      "Cave-in",
+      "Petrif-Eye",
+      "Advance",
+      "Advanced: Demon Rush",
+      "Retreat"
+    ],
+    "location": "Temple of the Ancients",
+    "exp": 3800,
+    "ap": 220,
+    "gil": 4000,
+    "steal": [],
+    "drops": [
+      "Gigas Armlet"
+    ]
+  },
+  {
+    "name": "Desert Sahagin",
+    "level": 20,
+    "hp": 580,
+    "mp": 0,
+    "type": "Normal",
+    "weaknesses": [
+      "Ice"
+    ],
+    "resistances": [
+      "Fire"
+    ],
+    "absorbs": [
+      "Water"
+    ],
+    "attacks": [
+      "Harpoon",
+      "Sandgun",
+      "Shell Defense"
+    ],
+    "location": "Cosmo Area; Battle Square",
+    "exp": 230,
+    "ap": 21,
+    "gil": 300,
+    "steal": [
+      "Potion"
+    ],
+    "drops": [
+      "Potion",
+      "Fire Veil"
+    ]
+  },
+  {
+    "name": "Devil Ride",
+    "level": 13,
+    "hp": 240,
+    "mp": 0,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Wheelie",
+      "Drift Turn"
+    ],
+    "location": "Midgar Area; Battle Square",
+    "exp": 60,
+    "ap": 6,
+    "gil": 100,
+    "steal": [
+      "Hi-Potion"
+    ],
+    "drops": [
+      "Potion",
+      "Hi-Potion"
+    ]
+  },
+  {
+    "name": "Diablo",
+    "level": 41,
+    "hp": 4000,
+    "mp": 200,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [
+      "Fire",
+      "Ice"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Horn Bomber",
+      "Flame",
+      "Cold"
+    ],
+    "location": "Ancient Forest",
+    "exp": 1100,
+    "ap": 70,
+    "gil": 1100,
+    "steal": [],
+    "drops": []
+  },
+  {
+    "name": "Diamond Weapon",
+    "level": 49,
+    "hp": 30000,
+    "mp": 30000,
+    "type": "Boss",
+    "weaknesses": [
+      "Lightning"
+    ],
+    "resistances": [
+      "Fire",
+      "Gravity"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Diamond Fire",
+      "Foot Stamp",
+      "Diamond Flash",
+      "Report"
+    ],
+    "location": "Midgar Area",
+    "exp": 35000,
+    "ap": 3500,
+    "gil": 25000,
+    "steal": [
+      "Rising Sun"
+    ],
+    "drops": []
+  },
+  {
+    "name": "Diver Nest",
+    "level": 38,
+    "hp": 2800,
+    "mp": 100,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [
+      "Earth",
+      "Water"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Bodyblow",
+      "Big Wave",
+      "Tornade Wave"
+    ],
+    "location": "Junon Path",
+    "exp": 1340,
+    "ap": 60,
+    "gil": 1250,
+    "steal": [],
+    "drops": [
+      "X-Potion"
+    ]
+  },
+  {
+    "name": "Doorbull",
+    "level": 35,
+    "hp": 2800,
+    "mp": 160,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [
+      "Gravity"
+    ],
+    "absorbs": [
+      "Fire"
+    ],
+    "attacks": [
+      "Claw",
+      "Fang",
+      "Fire Shell",
+      "Light Shell"
+    ],
+    "location": "Temple of the Ancients; Battle Square",
+    "exp": 760,
+    "ap": 50,
+    "gil": 680,
+    "steal": [
+      "Hi-Potion"
+    ],
+    "drops": [
+      "Hi-Potion"
+    ]
+  },
+  {
+    "name": "Dorky Face",
+    "level": 23,
+    "hp": 520,
+    "mp": 80,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Cutter",
+      "Curses",
+      "Funny Breath",
+      "Ascend"
+    ],
+    "location": "Mansion",
+    "exp": 300,
+    "ap": 35,
+    "gil": 202,
+    "steal": [
+      "Echo Screen"
+    ],
+    "drops": [
+      "Phoenix Down",
+      "Mute Mask"
+    ]
+  },
+  {
+    "name": "Dragon",
+    "level": 32,
+    "hp": 3500,
+    "mp": 250,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [
+      "Gravity"
+    ],
+    "absorbs": [
+      "Fire"
+    ],
+    "attacks": [
+      "Dragon Fang",
+      "Flame Thrower"
+    ],
+    "location": "Mt. Nibel; Battle Square",
+    "exp": 900,
+    "ap": 110,
+    "gil": 1400,
+    "steal": [
+      "Gold Armlet"
+    ],
+    "drops": [
+      "Fire Fang"
+    ]
+  },
+  {
+    "name": "Dragon Rider",
+    "level": 35,
+    "hp": 3500,
+    "mp": 180,
+    "type": "Normal",
+    "weaknesses": [
+      "Wind"
+    ],
+    "resistances": [
+      "Earth",
+      "Gravity",
+      "Water"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Fang",
+      "Head Hunting",
+      "Dual Attack",
+      "Rider Breath",
+      "Head Hunting 2"
+    ],
+    "location": "Whirlwind Maze; Battle Square",
+    "exp": 1000,
+    "ap": 80,
+    "gil": 690,
+    "steal": [
+      "Hi-Potion"
+    ],
+    "drops": [
+      "Hi-Potion",
+      "Mind Source"
+    ]
+  },
+  {
+    "name": "Dragon Zombie",
+    "level": 54,
+    "hp": 13000,
+    "mp": 400,
+    "type": "Normal",
+    "weaknesses": [
+      "Holy"
+    ],
+    "resistances": [],
+    "absorbs": [
+      "Restorative",
+      "Death"
+    ],
+    "attacks": [
+      "Poison Fang",
+      "Body Tail",
+      "Abnormal Breath",
+      "Bone",
+      "Shadow Flare",
+      "Pandora's Box"
+    ],
+    "location": "Northern Cave",
+    "exp": 4000,
+    "ap": 300,
+    "gil": 2800,
+    "steal": [
+      "Cauldron"
+    ],
+    "drops": [
+      "Cauldron",
+      "X-Potion",
+      "Vaccine"
+    ]
+  },
+  {
+    "name": "Dual Horn",
+    "level": 30,
+    "hp": 2500,
+    "mp": 0,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Angle Punch",
+      "Horn Lift",
+      "[unnamed attack]"
+    ],
+    "location": "Woodlands Area; Cactus Island",
+    "exp": 550,
+    "ap": 45,
+    "gil": 500,
+    "steal": [
+      "Pepio Nut"
+    ],
+    "drops": [
+      "Pepio Nut"
+    ]
+  },
+  {
+    "name": "Dyne",
+    "level": 23,
+    "hp": 1200,
+    "mp": 20,
+    "type": "Boss",
+    "weaknesses": [],
+    "resistances": [
+      "Gravity"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Needle Gun",
+      "Fire",
+      "S-Mine",
+      "Molotov Cocktail",
+      "Report"
+    ],
+    "location": "Corel Prison",
+    "exp": 600,
+    "ap": 55,
+    "gil": 750,
+    "steal": [],
+    "drops": [
+      "Silver Armlet"
+    ]
+  },
+  {
+    "name": "Eagle Gun",
+    "level": 46,
+    "hp": 17000,
+    "mp": 50,
+    "type": "Normal",
+    "weaknesses": [
+      "Lightning"
+    ],
+    "resistances": [
+      "Earth",
+      "Water"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Claw",
+      "Single Wing Fire",
+      "Dual Wing Fire"
+    ],
+    "location": "Coal Train",
+    "exp": 2000,
+    "ap": 90,
+    "gil": 3800,
+    "steal": [
+      "Warrior Bangle"
+    ],
+    "drops": [
+      "X-Potion"
+    ]
+  },
+  {
+    "name": "Edgehead",
+    "level": 27,
+    "hp": 900,
+    "mp": 80,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [
+      "Lightning"
+    ],
+    "attacks": [
+      "Scissors",
+      "Electric Burst"
+    ],
+    "location": "Wutai Area",
+    "exp": 370,
+    "ap": 36,
+    "gil": 385,
+    "steal": [],
+    "drops": [
+      "X-Potion",
+      "Smoke Bomb",
+      "Hourglass"
+    ]
+  },
+  {
+    "name": "Elfadunk",
+    "level": 14,
+    "hp": 220,
+    "mp": 34,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Bodyblow",
+      "Shower"
+    ],
+    "location": "Grasslands Area; Battle Square",
+    "exp": 64,
+    "ap": 7,
+    "gil": 140,
+    "steal": [
+      "Hi-Potion"
+    ],
+    "drops": [
+      "Potion"
+    ]
+  },
+  {
+    "name": "Eligor",
+    "level": 12,
+    "hp": 300,
+    "mp": 67,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [
+      "Gravity"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Sword Attack",
+      "Mono Laser",
+      "Silence",
+      "Sleepel"
+    ],
+    "location": "Train Graveyard; Battle Square",
+    "exp": 36,
+    "ap": 4,
+    "gil": 120,
+    "steal": [
+      "Striking Staff"
+    ],
+    "drops": [
+      "Echo Screen",
+      "Mute Mask"
+    ]
+  },
+  {
+    "name": "Emerald Weapon",
+    "level": 99,
+    "hp": 1000000,
+    "mp": 100,
+    "type": "Boss",
+    "weaknesses": [
+      "Lightning"
+    ],
+    "resistances": [
+      "Earth",
+      "Gravity"
+    ],
+    "absorbs": [
+      "Ice",
+      "Water"
+    ],
+    "attacks": [
+      "Foot Stamp",
+      "Emerald Shoot (A)",
+      "Emerald Beam (A)",
+      "Revenge Stamp",
+      "Emerald Shoot (B)",
+      "Emerald Beam (B)",
+      "Aire Tam Storm"
+    ],
+    "location": "Bottom of the Sea",
+    "exp": 50000,
+    "ap": 50000,
+    "gil": 50000,
+    "steal": [],
+    "drops": [
+      "Earth Harp"
+    ]
+  },
+  {
+    "name": "Epiolnis",
+    "level": 36,
+    "hp": 1800,
+    "mp": 90,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [
+      "Poison"
+    ],
+    "attacks": [
+      "Bird Kick",
+      "Catapult",
+      "Acid Rain"
+    ],
+    "location": "Ancient Forest",
+    "exp": 950,
+    "ap": 70,
+    "gil": 1500,
+    "steal": [
+      "Wizard Bracelet"
+    ],
+    "drops": []
+  },
+  {
+    "name": "êúô0(äñ)",
+    "level": 3,
+    "hp": 30000,
+    "mp": 255,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "í3",
+      "í4",
+      "í5",
+      "í6",
+      "í7",
+      "í8",
+      "í9",
+      "í10",
+      "í11",
+      "í12",
+      "í13",
+      "í14",
+      "í15"
+    ],
+    "location": "Corel Prison - Basement (JORG only)",
+    "exp": 1000,
+    "ap": 100,
+    "gil": 10000,
+    "steal": [],
+    "drops": [
+      "Potion"
+    ]
+  },
+  {
+    "name": "êúô1()",
+    "level": 2,
+    "hp": 80,
+    "mp": 0,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "í3",
+      "í4",
+      "í5",
+      "í6",
+      "í7",
+      "í8",
+      "í9",
+      "í10",
+      "í11",
+      "í12",
+      "í13",
+      "í14",
+      "í15"
+    ],
+    "location": null,
+    "exp": 12,
+    "ap": 1,
+    "gil": 25,
+    "steal": [],
+    "drops": [
+      "Potion"
+    ]
+  },
+  {
+    "name": "Êúô2(ñ)",
+    "level": 4,
+    "hp": 10,
+    "mp": 200,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "í3",
+      "í4",
+      "í5",
+      "í6",
+      "í7",
+      "í8",
+      "í9",
+      "í10",
+      "í11",
+      "í12",
+      "í13",
+      "í14",
+      "í15",
+      "Cure3",
+      "Bolt3"
+    ],
+    "location": null,
+    "exp": 100000,
+    "ap": 2000,
+    "gil": 100000,
+    "steal": [],
+    "drops": [
+      "Turbo Ether"
+    ]
+  },
+  {
+    "name": "êúô4(ëöù)",
+    "level": 6,
+    "hp": 9999,
+    "mp": 0,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "í3",
+      "í4",
+      "í5",
+      "í6",
+      "í7",
+      "í8",
+      "í9",
+      "í10",
+      "í11",
+      "í12",
+      "í13",
+      "í14",
+      "í15"
+    ],
+    "location": null,
+    "exp": 32,
+    "ap": 2,
+    "gil": 80,
+    "steal": [],
+    "drops": [
+      "Hi-Potion"
+    ]
+  },
+  {
+    "name": "Êúô5(áñô)",
+    "level": 7,
+    "hp": 9999,
+    "mp": 0,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "í3",
+      "í4",
+      "í5",
+      "í6",
+      "í7",
+      "í8",
+      "í9",
+      "í10",
+      "í11",
+      "í12",
+      "í13",
+      "í14",
+      "í15"
+    ],
+    "location": null,
+    "exp": 40,
+    "ap": 2,
+    "gil": 15,
+    "steal": [],
+    "drops": [
+      "Ether"
+    ]
+  },
+  {
+    "name": "Êúô6(ñȃ)",
+    "level": 4,
+    "hp": 9999,
+    "mp": 0,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "í3",
+      "í4",
+      "í5",
+      "í6",
+      "í7",
+      "í8",
+      "í9",
+      "í10",
+      "í11",
+      "í12",
+      "í13",
+      "í14",
+      "í15"
+    ],
+    "location": null,
+    "exp": 8,
+    "ap": 1,
+    "gil": 5,
+    "steal": [],
+    "drops": [
+      "Potion"
+    ]
+  },
+  {
+    "name": "êúô7(úñA)",
+    "level": 4,
+    "hp": 1000,
+    "mp": 0,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "í3",
+      "í4",
+      "í5",
+      "í6",
+      "í7",
+      "í8",
+      "í9",
+      "í10",
+      "í11",
+      "í12",
+      "í13",
+      "í14",
+      "í15"
+    ],
+    "location": null,
+    "exp": 8,
+    "ap": 1,
+    "gil": 5,
+    "steal": [],
+    "drops": [
+      "Potion"
+    ]
+  },
+  {
+    "name": "Êúô8(úñB)",
+    "level": 4,
+    "hp": 1000,
+    "mp": 0,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "í3",
+      "í4",
+      "í5",
+      "í6",
+      "í7",
+      "í8",
+      "í9",
+      "í10",
+      "í11",
+      "í12",
+      "í13",
+      "í14",
+      "í15"
+    ],
+    "location": null,
+    "exp": 8,
+    "ap": 1,
+    "gil": 5,
+    "steal": [],
+    "drops": [
+      "Potion"
+    ]
+  },
+  {
+    "name": "êúô9(úñC)",
+    "level": 4,
+    "hp": 1000,
+    "mp": 0,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "í3",
+      "í4",
+      "í5",
+      "í6",
+      "í7",
+      "í8",
+      "í9",
+      "í10",
+      "í11",
+      "í12",
+      "í13",
+      "í14",
+      "í15"
+    ],
+    "location": null,
+    "exp": 8,
+    "ap": 1,
+    "gil": 5,
+    "steal": [],
+    "drops": [
+      "Potion"
+    ]
+  },
+  {
+    "name": "Evilhead",
+    "level": 28,
+    "hp": 740,
+    "mp": 45,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Blood Suck",
+      "Ultrasound",
+      "Dodge"
+    ],
+    "location": "Gaea's Cliff; Battle Square",
+    "exp": 650,
+    "ap": 50,
+    "gil": 400,
+    "steal": [],
+    "drops": [
+      "Vampire Fang",
+      "Holy Torch"
+    ]
+  },
+  {
+    "name": "Eye",
+    "level": 50,
+    "hp": 25000,
+    "mp": 100,
+    "type": "Boss",
+    "weaknesses": [
+      "Fire"
+    ],
+    "resistances": [
+      "Earth"
+    ],
+    "absorbs": [
+      "Ice",
+      "Water"
+    ],
+    "attacks": [
+      "Emerald Laser (HP for Blue, MP for Yellow)",
+      "Vanish"
+    ],
+    "location": "Bottom of the Sea",
+    "exp": 0,
+    "ap": 0,
+    "gil": 0,
+    "steal": [],
+    "drops": []
+  },
+  {
+    "name": "Flapbeat",
+    "level": 18,
+    "hp": 330,
+    "mp": 60,
+    "type": "Normal",
+    "weaknesses": [
+      "Wind"
+    ],
+    "resistances": [
+      "Earth"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Tailbeat",
+      "Flying Sickle"
+    ],
+    "location": "Gold Saucer Area; Battle Square",
+    "exp": 140,
+    "ap": 15,
+    "gil": 186,
+    "steal": [
+      "T/S Bomb"
+    ],
+    "drops": [
+      "T/S Bomb"
+    ]
+  },
+  {
+    "name": "Flower Prong",
+    "level": 19,
+    "hp": 550,
+    "mp": 68,
+    "type": "Normal",
+    "weaknesses": [
+      "Fire",
+      "Earth"
+    ],
+    "resistances": [],
+    "absorbs": [
+      "Poison"
+    ],
+    "attacks": [
+      "Bio2",
+      "Drain",
+      "Energy Siphon",
+      "Change"
+    ],
+    "location": "Gongaga; Battle Square",
+    "exp": 240,
+    "ap": 24,
+    "gil": 400,
+    "steal": [],
+    "drops": []
+  },
+  {
+    "name": "Formula",
+    "level": 16,
+    "hp": 240,
+    "mp": 100,
+    "type": "Normal",
+    "weaknesses": [
+      "Wind"
+    ],
+    "resistances": [
+      "Earth"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Air Bomber",
+      "Blue Impulse",
+      "Cross Impulse"
+    ],
+    "location": "Junon Area Battle Square",
+    "exp": 65,
+    "ap": 7,
+    "gil": 120,
+    "steal": [
+      "Boomerang"
+    ],
+    "drops": [
+      "Hi-Potion",
+      "Speed Drink"
+    ]
+  },
+  {
+    "name": "Foulander",
+    "level": 27,
+    "hp": 800,
+    "mp": 100,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [
+      "Fire"
+    ],
+    "attacks": [
+      "Claw",
+      "Flame Dance"
+    ],
+    "location": "Da-chao Statue; Battle Square",
+    "exp": 440,
+    "ap": 34,
+    "gil": 460,
+    "steal": [],
+    "drops": [
+      "Lunar Curtain",
+      "Fire Veil"
+    ]
+  },
+  {
+    "name": "Frozen Nail",
+    "level": 28,
+    "hp": 1300,
+    "mp": 100,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Continu-claw",
+      "Flying Sickle"
+    ],
+    "location": "Great Glacier; Battle Square",
+    "exp": 520,
+    "ap": 50,
+    "gil": 800,
+    "steal": [],
+    "drops": []
+  },
+  {
+    "name": "Fuseya Kazumasa-kun",
+    "level": 4,
+    "hp": 10000,
+    "mp": 100,
+    "type": "Normal",
+    "weaknesses": [
+      "Fire",
+      "Restorative"
+    ],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Machine Gun",
+      "Bolt",
+      "Matra Magic",
+      "Cure3"
+    ],
+    "location": null,
+    "exp": 50,
+    "ap": 1,
+    "gil": 5,
+    "steal": [
+      "Shrivel"
+    ],
+    "drops": [
+      "Potion",
+      "Fire Veil"
+    ]
+  },
+  {
+    "name": "Gagighandi",
+    "level": 19,
+    "hp": 480,
+    "mp": 55,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Claw",
+      "Stone Stare"
+    ],
+    "location": "Gongaga Area; Cosmo Area",
+    "exp": 173,
+    "ap": 18,
+    "gil": 220,
+    "steal": [
+      "Soft"
+    ],
+    "drops": [
+      "Soft",
+      "Remedy"
+    ]
+  },
+  {
+    "name": "Gargoyle",
+    "level": 43,
+    "hp": 2000,
+    "mp": 200,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Rock Finger",
+      "Vanish"
+    ],
+    "location": "Northern Cave",
+    "exp": 800,
+    "ap": 80,
+    "gil": 2500,
+    "steal": [],
+    "drops": []
+  },
+  {
+    "name": "Garuda",
+    "level": 29,
+    "hp": 1400,
+    "mp": 200,
+    "type": "Normal",
+    "weaknesses": [
+      "Wind"
+    ],
+    "resistances": [
+      "Earth"
+    ],
+    "absorbs": [
+      "Ice",
+      "Lightning"
+    ],
+    "attacks": [
+      "Rod",
+      "Ice2",
+      "Bolt2",
+      "Dance"
+    ],
+    "location": "Da-chao Statue; Battle Square",
+    "exp": 520,
+    "ap": 30,
+    "gil": 520,
+    "steal": [],
+    "drops": [
+      "Ice Crystal",
+      "Bolt Plume",
+      "Light Curtain",
+      "Mute Mask"
+    ]
+  },
+  {
+    "name": "Gas Ducter",
+    "level": 42,
+    "hp": 3000,
+    "mp": 200,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [
+      "Poison"
+    ],
+    "attacks": [
+      "Punch",
+      "Smog Alert"
+    ],
+    "location": "Coal Train",
+    "exp": 900,
+    "ap": 75,
+    "gil": 1100,
+    "steal": [],
+    "drops": []
+  },
+  {
+    "name": "Ghirofelgo",
+    "level": 26,
+    "hp": 1600,
+    "mp": 0,
+    "type": "Normal",
+    "weaknesses": [
+      "Gravity"
+    ],
+    "resistances": [
+      "Earth"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Guillotine",
+      "Catch Chain",
+      "Fail to catch"
+    ],
+    "location": "Mansion; Battle Square",
+    "exp": 380,
+    "ap": 44,
+    "gil": 300,
+    "steal": [],
+    "drops": [
+      "Phoenix Down"
+    ]
+  },
+  {
+    "name": "Ghost",
+    "level": 10,
+    "hp": 130,
+    "mp": 80,
+    "type": "Normal",
+    "weaknesses": [
+      "Fire",
+      "Holy"
+    ],
+    "resistances": [
+      "Ice",
+      "Earth",
+      "Water"
+    ],
+    "absorbs": [
+      "Restorative",
+      "Death"
+    ],
+    "attacks": [
+      "Scratch",
+      "Fire",
+      "Drain",
+      "Vanish",
+      "Appear"
+    ],
+    "location": "Train Graveyard; Battle Square",
+    "exp": 30,
+    "ap": 3,
+    "gil": 22,
+    "steal": [
+      "Ghost Hand"
+    ],
+    "drops": [
+      "Ghost Hand",
+      "Ether"
+    ]
+  },
+  {
+    "name": "Ghost Ship",
+    "level": 44,
+    "hp": 6600,
+    "mp": 100,
+    "type": "Normal",
+    "weaknesses": [
+      "Holy"
+    ],
+    "resistances": [
+      "Earth",
+      "Gravity",
+      "Water"
+    ],
+    "absorbs": [
+      "Restorative",
+      "Death"
+    ],
+    "attacks": [
+      "Fight",
+      "St.Elmos Fire",
+      "Goannai"
+    ],
+    "location": "Underwater Reactor; Battle Square",
+    "exp": 1600,
+    "ap": 60,
+    "gil": 2000,
+    "steal": [
+      "Phoenix Down"
+    ],
+    "drops": [
+      "Phoenix Down",
+      "Guide Book"
+    ]
+  },
+  {
+    "name": "Gi Nattak",
+    "level": 29,
+    "hp": 5500,
+    "mp": 200,
+    "type": "Boss",
+    "weaknesses": [
+      "Holy"
+    ],
+    "resistances": [
+      "Earth",
+      "Poison",
+      "Gravity",
+      "Water"
+    ],
+    "absorbs": [
+      "Restorative"
+    ],
+    "attacks": [
+      "Spear Attack",
+      "Take Over",
+      "Drain",
+      "Aspil",
+      "DeBarrier",
+      "Vanish"
+    ],
+    "location": "Cave of the Gi",
+    "exp": 1400,
+    "ap": 150,
+    "gil": 3000,
+    "steal": [],
+    "drops": [
+      "Wizer Staff"
+    ]
+  },
+  {
+    "name": "Gi Spector",
+    "level": 23,
+    "hp": 450,
+    "mp": 88,
+    "type": "Normal",
+    "weaknesses": [
+      "Fire",
+      "Holy"
+    ],
+    "resistances": [],
+    "absorbs": [
+      "Restorative"
+    ],
+    "attacks": [
+      "Skewer",
+      "Hell Spear",
+      "Death Sentence"
+    ],
+    "location": "Cave of the Gi; Battle Square",
+    "exp": 260,
+    "ap": 20,
+    "gil": 150,
+    "steal": [],
+    "drops": [
+      "Smoke Bomb",
+      "Ghost Hand"
+    ]
+  },
+  {
+    "name": "Gigas",
+    "level": 40,
+    "hp": 3500,
+    "mp": 100,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [
+      "Gravity"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Squash",
+      "Moon Wars",
+      "Quake3"
+    ],
+    "location": "Crater, Whirlwind Maze; Battle Square",
+    "exp": 840,
+    "ap": 84,
+    "gil": 560,
+    "steal": [
+      "Gigas Armlet"
+    ],
+    "drops": [
+      "Earth Mallet"
+    ]
+  },
+  {
+    "name": "Gighee",
+    "level": 34,
+    "hp": 5500,
+    "mp": 100,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Guitar Slap",
+      "Petrif-Eye",
+      "Voice of Ages",
+      "Sun Diver"
+    ],
+    "location": "Northern Cave",
+    "exp": 700,
+    "ap": 60,
+    "gil": 600,
+    "steal": [
+      "Elixir"
+    ],
+    "drops": [
+      "Ether"
+    ]
+  },
+  {
+    "name": "Goblin",
+    "level": 40,
+    "hp": 2000,
+    "mp": 80,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Fight",
+      "Goblin Punch",
+      "Sleepel"
+    ],
+    "location": "Goblin Island; Round Island",
+    "exp": 20,
+    "ap": 20,
+    "gil": 20,
+    "steal": [
+      "Zeio Nut"
+    ],
+    "drops": [
+      "Zeio Nut"
+    ]
+  },
+  {
+    "name": "Godo",
+    "level": 41,
+    "hp": 10000,
+    "mp": 1000,
+    "type": "Boss",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Human form: Cure2",
+      "Sleepel",
+      "Mini",
+      "to Beast",
+      "to Cheater",
+      "Beast form: Beast Sword",
+      "Trine",
+      "to Human",
+      "to Cheat",
+      "Cheater form: Bio2",
+      "Demi3",
+      "Drain"
+    ],
+    "location": "Wutai",
+    "exp": 5000,
+    "ap": 60,
+    "gil": 40000,
+    "steal": [],
+    "drops": [
+      "All Creation"
+    ]
+  },
+  {
+    "name": "Golem",
+    "level": 24,
+    "hp": 1000,
+    "mp": 0,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Golem Punch",
+      "Finger Shot",
+      "Advance"
+    ],
+    "location": "Cosmo Area; Battle Square",
+    "exp": 300,
+    "ap": 22,
+    "gil": 500,
+    "steal": [
+      "Turbo Ether"
+    ],
+    "drops": [
+      "Hi-Potion"
+    ]
+  },
+  {
+    "name": "Gorkii",
+    "level": 30,
+    "hp": 3000,
+    "mp": 150,
+    "type": "Boss",
+    "weaknesses": [
+      "Wind"
+    ],
+    "resistances": [
+      "Earth",
+      "Gravity"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Dive Kick",
+      "Barrier",
+      "Demi2",
+      "Reflect",
+      "Regen"
+    ],
+    "location": "Wutai",
+    "exp": 1500,
+    "ap": 50,
+    "gil": 0,
+    "steal": [],
+    "drops": [
+      "X-Potion"
+    ]
+  },
+  {
+    "name": "Grand Horn",
+    "level": 19,
+    "hp": 460,
+    "mp": 43,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Punch",
+      "Grand Punch"
+    ],
+    "location": "Gongaga Area; Cosmo Area",
+    "exp": 180,
+    "ap": 15,
+    "gil": 240,
+    "steal": [],
+    "drops": [
+      "War Gong",
+      "Hi-Potion"
+    ]
+  },
+  {
+    "name": "Grangalan",
+    "level": 16,
+    "hp": 550,
+    "mp": 60,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [
+      "Earth",
+      "Gravity",
+      "Water"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Darkeye",
+      "Silver Wheel",
+      "Put out",
+      "Vanish"
+    ],
+    "location": "Corel Area; Gold Saucer Area",
+    "exp": 88,
+    "ap": 10,
+    "gil": 220,
+    "steal": [],
+    "drops": [
+      "Hi-Potion"
+    ]
+  },
+  {
+    "name": "Grangalan Jr.",
+    "level": 15,
+    "hp": 330,
+    "mp": 40,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [
+      "Earth",
+      "Gravity",
+      "Water"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Triclops",
+      "Silver Wheel",
+      "Put out"
+    ],
+    "location": "world map - Corel Area; Gold Saucer Area",
+    "exp": 77,
+    "ap": 8,
+    "gil": 110,
+    "steal": [],
+    "drops": [
+      "Hi-Potion"
+    ]
+  },
+  {
+    "name": "Grangalan Jr. Jr.",
+    "level": 14,
+    "hp": 110,
+    "mp": 20,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [
+      "Earth",
+      "Gravity",
+      "Water"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Stop Eye",
+      "Silver Wheel"
+    ],
+    "location": "Corel Area; Gold Saucer Area",
+    "exp": 66,
+    "ap": 6,
+    "gil": 55,
+    "steal": [],
+    "drops": [
+      "Potion"
+    ]
+  },
+  {
+    "name": "Grashtrike",
+    "level": 8,
+    "hp": 42,
+    "mp": 0,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Sickle",
+      "Silk"
+    ],
+    "location": "Sector 4 Plate; Battle Square",
+    "exp": 20,
+    "ap": 2,
+    "gil": 20,
+    "steal": [
+      "Spider Web"
+    ],
+    "drops": [
+      "Spider Web"
+    ]
+  },
+  {
+    "name": "Gremlin",
+    "level": 36,
+    "hp": 1500,
+    "mp": 100,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Claw",
+      "Bad mouth",
+      "Fury",
+      "Fury 2"
+    ],
+    "location": "Whirlwind Maze; Battle Square",
+    "exp": 750,
+    "ap": 60,
+    "gil": 750,
+    "steal": [
+      "Tent"
+    ],
+    "drops": [
+      "Shrivel",
+      "X-Potion"
+    ]
+  },
+  {
+    "name": "Grenade",
+    "level": 32,
+    "hp": 2000,
+    "mp": 0,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [
+      "Fire",
+      "Earth"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Bodyblow",
+      "Gush",
+      "Eruption",
+      "Bomb Blast"
+    ],
+    "location": "Crater, Whirlwind Maze",
+    "exp": 900,
+    "ap": 100,
+    "gil": 400,
+    "steal": [
+      "Right arm"
+    ],
+    "drops": [
+      "Right arm"
+    ]
+  },
+  {
+    "name": "Grenade Combatant",
+    "level": 10,
+    "hp": 130,
+    "mp": 0,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Machine Gun",
+      "Hand Grenade"
+    ],
+    "location": "Sector 0; Shinra Bldg.",
+    "exp": 42,
+    "ap": 4,
+    "gil": 72,
+    "steal": [
+      "Tranquilizer"
+    ],
+    "drops": [
+      "Grenade"
+    ]
+  },
+  {
+    "name": "Grenadiers",
+    "level": null,
+    "hp": null,
+    "mp": null,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Grenade",
+      "Machine gun"
+    ],
+    "location": "Sector 1",
+    "exp": 24,
+    "ap": 2,
+    "gil": 40,
+    "steal": [],
+    "drops": []
+  },
+  {
+    "name": "Griffin",
+    "level": 21,
+    "hp": 760,
+    "mp": 40,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Claw",
+      "Peacock"
+    ],
+    "location": "Cosmo Area; Battle Square",
+    "exp": 260,
+    "ap": 25,
+    "gil": 350,
+    "steal": [
+      "Phoenix Down"
+    ],
+    "drops": [
+      "Phoenix Down"
+    ]
+  },
+  {
+    "name": "Grimguard",
+    "level": 31,
+    "hp": 880,
+    "mp": 120,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Ice2",
+      "Bolt2",
+      "Spin Shield",
+      "Magic Defense"
+    ],
+    "location": "Corel Valley Cave",
+    "exp": 600,
+    "ap": 45,
+    "gil": 560,
+    "steal": [
+      "Shrivel"
+    ],
+    "drops": [
+      "Shrivel"
+    ]
+  },
+  {
+    "name": "Grosspanzer∙Big",
+    "level": 46,
+    "hp": 4600,
+    "mp": 200,
+    "type": "Normal",
+    "weaknesses": [
+      "Lightning"
+    ],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Napalm Bomb"
+    ],
+    "location": "Sector 8",
+    "exp": 800,
+    "ap": 80,
+    "gil": 2100,
+    "steal": [],
+    "drops": [
+      "8-inch Cannon"
+    ]
+  },
+  {
+    "name": "Grosspanzer∙Mobile",
+    "level": 50,
+    "hp": 10000,
+    "mp": 300,
+    "type": "Normal",
+    "weaknesses": [
+      "Lightning"
+    ],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Napalm Bomb",
+      "Normal Shell",
+      "Bodyblow",
+      "Deadly Wheel",
+      "Vanish"
+    ],
+    "location": "Sector 8",
+    "exp": 400,
+    "ap": 80,
+    "gil": 1400,
+    "steal": [],
+    "drops": []
+  },
+  {
+    "name": "Grosspanzer∙Small",
+    "level": 42,
+    "hp": 2900,
+    "mp": 160,
+    "type": "Normal",
+    "weaknesses": [
+      "Lightning"
+    ],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Normal Shell"
+    ],
+    "location": "Sector 8",
+    "exp": 600,
+    "ap": 80,
+    "gil": 700,
+    "steal": [],
+    "drops": []
+  },
+  {
+    "name": "Grunt",
+    "level": 7,
+    "hp": 40,
+    "mp": 0,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Handclaw",
+      "Beam Gun"
+    ],
+    "location": "No. 1 Reactor; Battle Square (before Tiny Bronco)",
+    "exp": 22,
+    "ap": 2,
+    "gil": 15,
+    "steal": [
+      "Grenade"
+    ],
+    "drops": [
+      "Potion",
+      "Potion"
+    ]
+  },
+  {
+    "name": "Guard Hound",
+    "level": 3,
+    "hp": 42,
+    "mp": 0,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Bite"
+    ],
+    "location": "Sector 1; Church in the Slums, Train Graveyard (before Aps is fought)",
+    "exp": 20,
+    "ap": 2,
+    "gil": 12,
+    "steal": [
+      "Potion"
+    ],
+    "drops": [
+      "Potion"
+    ]
+  },
+  {
+    "name": "Guard Scorpion",
+    "level": 12,
+    "hp": 800,
+    "mp": 0,
+    "type": "Boss",
+    "weaknesses": [
+      "Lightning"
+    ],
+    "resistances": [
+      "Gravity"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Rifle",
+      "Scorpion Tail",
+      "Search Scope"
+    ],
+    "location": "No. 1 Reactor",
+    "exp": 100,
+    "ap": 10,
+    "gil": 100,
+    "steal": [],
+    "drops": [
+      "Assault Gun"
+    ]
+  },
+  {
+    "name": "Guard System",
+    "level": 35,
+    "hp": 2200,
+    "mp": 200,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [
+      "Lightning"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Vanish"
+    ],
+    "location": "Junon Path",
+    "exp": 1100,
+    "ap": 80,
+    "gil": 1200,
+    "steal": [],
+    "drops": [
+      "Molotov"
+    ]
+  },
+  {
+    "name": "Guardian",
+    "level": 40,
+    "hp": 4000,
+    "mp": 340,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Rocket Punch",
+      "W Rocket Punch",
+      "Jumping Blow",
+      "Power Plus",
+      "Vanish"
+    ],
+    "location": "Underwater Reactor",
+    "exp": 940,
+    "ap": 60,
+    "gil": 500,
+    "steal": [],
+    "drops": []
+  },
+  {
+    "name": "Gun Carrier",
+    "level": 39,
+    "hp": 3400,
+    "mp": 240,
+    "type": "Normal",
+    "weaknesses": [
+      "Lightning"
+    ],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Normal Shell",
+      "Abnormal Shell",
+      "Bodyblow"
+    ],
+    "location": "Underwater Reactor",
+    "exp": 860,
+    "ap": 75,
+    "gil": 1600,
+    "steal": [],
+    "drops": [
+      "S-mine"
+    ]
+  },
+  {
+    "name": "Hammer Blaster",
+    "level": 12,
+    "hp": 210,
+    "mp": 0,
+    "type": "Normal",
+    "weaknesses": [
+      "Lightning"
+    ],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Hammer Attack",
+      "Muyddle Mallet",
+      "Zip Hammer",
+      "Zip Confu",
+      "Appear",
+      "Vanish",
+      "Flying Hammer",
+      "Flying Muddle",
+      "Flying Zip",
+      "Flying Zip Confu",
+      "Report"
+    ],
+    "location": "Shinra Bldg.",
+    "exp": 43,
+    "ap": 5,
+    "gil": 80,
+    "steal": [
+      "Echo Screen"
+    ],
+    "drops": [
+      "Loco weed",
+      "Smoke Bomb"
+    ]
+  },
+  {
+    "name": "Hard Attacker",
+    "level": 32,
+    "hp": 2500,
+    "mp": 150,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [
+      "Fire",
+      "Water"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Bodyblow",
+      "Oil"
+    ],
+    "location": "Underwater Reactor",
+    "exp": 750,
+    "ap": 58,
+    "gil": 600,
+    "steal": [],
+    "drops": [
+      "Molotov"
+    ]
+  },
+  {
+    "name": "Harpy",
+    "level": 18,
+    "hp": 800,
+    "mp": 200,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [
+      "Gravity"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Claw",
+      "Poison Storm",
+      "Aqualung"
+    ],
+    "location": "Gold Saucer Area; Battle Square",
+    "exp": 148,
+    "ap": 14,
+    "gil": 210,
+    "steal": [
+      "Striking Staff"
+    ],
+    "drops": [
+      "Hi-Potion",
+      "Elixir"
+    ]
+  },
+  {
+    "name": "Head Hunter",
+    "level": 30,
+    "hp": 2000,
+    "mp": 100,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Sickle",
+      "Rising Dagger"
+    ],
+    "location": "Mideel Area",
+    "exp": 650,
+    "ap": 80,
+    "gil": 1000,
+    "steal": [
+      "Tranquilizer"
+    ],
+    "drops": [
+      "Ether"
+    ]
+  },
+  {
+    "name": "Headbomber",
+    "level": 35,
+    "hp": 1600,
+    "mp": 200,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Dorsal Punch",
+      "Extreme Bomber"
+    ],
+    "location": "Gaea's Cliff; Battle Square",
+    "exp": 640,
+    "ap": 64,
+    "gil": 460,
+    "steal": [
+      "Tranquilizer"
+    ],
+    "drops": [
+      "Hyper",
+      "Tranquilizer"
+    ]
+  },
+  {
+    "name": "Heavy Tank",
+    "level": 21,
+    "hp": 1600,
+    "mp": 25,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [
+      "Gravity"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Charge",
+      "Wheelie Attack",
+      "Big Spiral"
+    ],
+    "location": "Gongaga (Reactor); Battle Square",
+    "exp": 340,
+    "ap": 45,
+    "gil": 1300,
+    "steal": [
+      "Phoenix Down"
+    ],
+    "drops": [
+      "Hi-Potion",
+      "Power Source"
+    ]
+  },
+  {
+    "name": "Hedgehog Pie",
+    "level": 6,
+    "hp": 40,
+    "mp": 52,
+    "type": "Normal",
+    "weaknesses": [
+      "Ice"
+    ],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Bodyblow",
+      "Fire"
+    ],
+    "location": "Sector 5 Slum; Church in the Slums",
+    "exp": 20,
+    "ap": 3,
+    "gil": 25,
+    "steal": [
+      "Ether"
+    ],
+    "drops": [
+      "Potion",
+      "Ether"
+    ]
+  },
+  {
+    "name": "Heg",
+    "level": 22,
+    "hp": 400,
+    "mp": 0,
+    "type": "Normal",
+    "weaknesses": [
+      "Ice"
+    ],
+    "resistances": [],
+    "absorbs": [
+      "Poison"
+    ],
+    "attacks": [
+      "Poison Fang",
+      "Halt Whip"
+    ],
+    "location": "Cave of the Gi; Battle Square",
+    "exp": 250,
+    "ap": 20,
+    "gil": 240,
+    "steal": [],
+    "drops": [
+      "Hi-Potion"
+    ]
+  },
+  {
+    "name": "Heli Gunner",
+    "level": 19,
+    "hp": 1000,
+    "mp": 0,
+    "type": "Boss",
+    "weaknesses": [
+      "Lightning",
+      "Wind"
+    ],
+    "resistances": [
+      "Earth"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Spinning Bodyblow",
+      "Flying Drill"
+    ],
+    "location": "Shinra Bldg.",
+    "exp": 250,
+    "ap": 25,
+    "gil": 200,
+    "steal": [],
+    "drops": [
+      "Mythril Armlet"
+    ]
+  },
+  {
+    "name": "Hell House",
+    "level": 11,
+    "hp": 450,
+    "mp": 0,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Erupt",
+      "Hell Bomber",
+      "Suicide Drop"
+    ],
+    "location": "Sector 6",
+    "exp": 44,
+    "ap": 6,
+    "gil": 250,
+    "steal": [],
+    "drops": []
+  },
+  {
+    "name": "Hell Rider VR2",
+    "level": 18,
+    "hp": 350,
+    "mp": 50,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [
+      "Gravity"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Iron Mallet",
+      "Electromag",
+      "Ballistic"
+    ],
+    "location": "Junon Area; Battle Square",
+    "exp": 72,
+    "ap": 8,
+    "gil": 130,
+    "steal": [
+      "Hi-Potion"
+    ],
+    "drops": [
+      "Potion",
+      "Hi-Potion"
+    ]
+  },
+  {
+    "name": "Helletic Hojo",
+    "level": 55,
+    "hp": 26000,
+    "mp": 200,
+    "type": "Boss",
+    "weaknesses": [],
+    "resistances": [
+      "Gravity"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Pile Banger",
+      "Bio Gas",
+      "Confu",
+      "Sleepel",
+      "Silence"
+    ],
+    "location": "Sector 8",
+    "exp": 0,
+    "ap": 0,
+    "gil": 0,
+    "steal": [],
+    "drops": []
+  },
+  {
+    "name": "Hippogriff",
+    "level": 37,
+    "hp": 3000,
+    "mp": 280,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Beak",
+      "???",
+      "L2 Confu"
+    ],
+    "location": "Mideel Area; Battle Square",
+    "exp": 800,
+    "ap": 80,
+    "gil": 1500,
+    "steal": [],
+    "drops": [
+      "Echo Screen"
+    ]
+  },
+  {
+    "name": "Ho-chu",
+    "level": 39,
+    "hp": 4300,
+    "mp": 290,
+    "type": "Normal",
+    "weaknesses": [
+      "Water"
+    ],
+    "resistances": [
+      "Gravity"
+    ],
+    "absorbs": [
+      "Poison"
+    ],
+    "attacks": [
+      "Whip Sting",
+      "Big Pollen"
+    ],
+    "location": "Battle Square",
+    "exp": 750,
+    "ap": 70,
+    "gil": 2500,
+    "steal": [
+      "Circlet"
+    ],
+    "drops": [
+      "Ribbon"
+    ]
+  },
+  {
+    "name": "Hojo",
+    "level": 50,
+    "hp": 13000,
+    "mp": 250,
+    "type": "Boss",
+    "weaknesses": [],
+    "resistances": [
+      "Gravity"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Capsule"
+    ],
+    "location": "Sector 8",
+    "exp": 0,
+    "ap": 0,
+    "gil": 0,
+    "steal": [],
+    "drops": []
+  },
+  {
+    "name": "Hundred Gunner",
+    "level": 18,
+    "hp": 1600,
+    "mp": 0,
+    "type": "Boss",
+    "weaknesses": [
+      "Lightning"
+    ],
+    "resistances": [
+      "Gravity"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Glass Shatter",
+      "Aux Artillery",
+      "Hidden Artillery",
+      "Destroyed",
+      "Main Artillery",
+      "Sub Artillery",
+      "Wave Artillery",
+      "Charging"
+    ],
+    "location": "Shinra Bldg.",
+    "exp": 330,
+    "ap": 35,
+    "gil": 300,
+    "steal": [],
+    "drops": []
+  },
+  {
+    "name": "Hungry",
+    "level": 33,
+    "hp": 2000,
+    "mp": 100,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Bodyblow",
+      "Mini",
+      "Eat"
+    ],
+    "location": "Corel Valley; Corel Valley Cave",
+    "exp": 700,
+    "ap": 60,
+    "gil": 600,
+    "steal": [],
+    "drops": [
+      "Ether"
+    ]
+  },
+  {
+    "name": "Ice Golem",
+    "level": 40,
+    "hp": 4000,
+    "mp": 300,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [
+      "Ice"
+    ],
+    "attacks": [
+      "Golem Punch",
+      "Cold Snap",
+      "Wide Grazer",
+      "Megaton Punch",
+      "Advance",
+      "Retreat",
+      "Defense Start",
+      "Defense Down"
+    ],
+    "location": "Great Glacier; Battle Square",
+    "exp": 1000,
+    "ap": 70,
+    "gil": 1500,
+    "steal": [
+      "Hi-Potion"
+    ],
+    "drops": [
+      "Hi-Potion"
+    ]
+  },
+  {
+    "name": "Icicle",
+    "level": 30,
+    "hp": 3000,
+    "mp": 300,
+    "type": "Normal",
+    "weaknesses": [
+      "Fire",
+      "Earth",
+      "Gravity"
+    ],
+    "resistances": [],
+    "absorbs": [
+      "Ice"
+    ],
+    "attacks": [
+      "Icicle Drop",
+      "Crack"
+    ],
+    "location": "Gaea's Cliff",
+    "exp": 500,
+    "ap": 0,
+    "gil": 0,
+    "steal": [],
+    "drops": []
+  },
+  {
+    "name": "Iron Man",
+    "level": 46,
+    "hp": 20000,
+    "mp": 100,
+    "type": "Normal",
+    "weaknesses": [
+      "Water"
+    ],
+    "resistances": [
+      "Fire",
+      "Ice",
+      "Earth"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Heavy Sword",
+      "Grand Sword",
+      "Adrenaline"
+    ],
+    "location": "Northern Cave",
+    "exp": 10000,
+    "ap": 150,
+    "gil": 600,
+    "steal": [
+      "Elixir"
+    ],
+    "drops": [
+      "Phoenix Down",
+      "Escort Guard"
+    ]
+  },
+  {
+    "name": "Ironite",
+    "level": 30,
+    "hp": 2400,
+    "mp": 100,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Bodyblow",
+      "Flying Upper",
+      "Sleepel"
+    ],
+    "location": "Whirlwind Maze; Battle Square",
+    "exp": 900,
+    "ap": 48,
+    "gil": 680,
+    "steal": [
+      "Phoenix Down"
+    ],
+    "drops": [
+      "Hi-Potion"
+    ]
+  },
+  {
+    "name": "Jamar Armor",
+    "level": 62,
+    "hp": 20000,
+    "mp": 300,
+    "type": "Boss",
+    "weaknesses": [],
+    "resistances": [
+      "Gravity"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Bodyblow"
+    ],
+    "location": "Sector 8; Battle Square",
+    "exp": 8000,
+    "ap": 1500,
+    "gil": 10000,
+    "steal": [],
+    "drops": []
+  },
+  {
+    "name": "Jayjujayme",
+    "level": 28,
+    "hp": 640,
+    "mp": 20,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Bite",
+      "Confu-scales",
+      "Silk",
+      "Thread"
+    ],
+    "location": "Da-chao Statue; Battle Square",
+    "exp": 410,
+    "ap": 35,
+    "gil": 350,
+    "steal": [],
+    "drops": [
+      "Remedy",
+      "Remedy",
+      "Deadly Waste",
+      "X-Potion"
+    ]
+  },
+  {
+    "name": "Jemnezmy",
+    "level": 24,
+    "hp": 800,
+    "mp": 80,
+    "type": "Normal",
+    "weaknesses": [
+      "Poison"
+    ],
+    "resistances": [
+      "Ice"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Toad",
+      "Poisona",
+      "Fascination",
+      "Cold Breath"
+    ],
+    "location": "Temple of the Ancients; Battle Square",
+    "exp": 510,
+    "ap": 50,
+    "gil": 400,
+    "steal": [],
+    "drops": []
+  },
+  {
+    "name": "Jenova∙BIRTH",
+    "level": 25,
+    "hp": 4000,
+    "mp": 110,
+    "type": "Boss",
+    "weaknesses": [],
+    "resistances": [
+      "Poison",
+      "Gravity"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Laser",
+      "Gas",
+      "W-Laser",
+      "Tail Laser",
+      "Stop"
+    ],
+    "location": "Cargo Ship",
+    "exp": 680,
+    "ap": 64,
+    "gil": 800,
+    "steal": [],
+    "drops": [
+      "White Cape"
+    ]
+  },
+  {
+    "name": "Jenova∙DEATH",
+    "level": 55,
+    "hp": 25000,
+    "mp": 800,
+    "type": "Boss",
+    "weaknesses": [],
+    "resistances": [
+      "Gravity"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Red Light",
+      "Tropic Wind",
+      "Silence"
+    ],
+    "location": "Whirlwind Maze",
+    "exp": 6000,
+    "ap": 400,
+    "gil": 5000,
+    "steal": [],
+    "drops": [
+      "Reflect Ring"
+    ]
+  },
+  {
+    "name": "Jenova∙LIFE",
+    "level": 50,
+    "hp": 10000,
+    "mp": 300,
+    "type": "Boss",
+    "weaknesses": [
+      "Earth"
+    ],
+    "resistances": [
+      "Gravity"
+    ],
+    "absorbs": [
+      "Water"
+    ],
+    "attacks": [
+      "Blue Light",
+      "Aqualung",
+      "Blue Flame",
+      "Reflect"
+    ],
+    "location": "Forgotten Capital",
+    "exp": 4000,
+    "ap": 350,
+    "gil": 1500,
+    "steal": [],
+    "drops": [
+      "Wizard Bracelet"
+    ]
+  },
+  {
+    "name": "Jenova∙SYNTHESIS",
+    "level": 61,
+    "hp": 60000,
+    "mp": 600,
+    "type": "Boss",
+    "weaknesses": [],
+    "resistances": [
+      "Earth",
+      "Gravity"
+    ],
+    "absorbs": [
+      "Poison"
+    ],
+    "attacks": [
+      "Absorb",
+      "Repeating Slap",
+      "Bio2",
+      "Cure3",
+      "Stop",
+      "Left Hand Revived",
+      "Right Hand Revived",
+      "Ultima"
+    ],
+    "location": "Northern Cave",
+    "exp": 60000,
+    "ap": 500,
+    "gil": 0,
+    "steal": [],
+    "drops": []
+  },
+  {
+    "name": "Jersey",
+    "level": 25,
+    "hp": 500,
+    "mp": 100,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Spin Attack",
+      "????",
+      "Lean to LL"
+    ],
+    "location": "Mansion",
+    "exp": 320,
+    "ap": 30,
+    "gil": 384,
+    "steal": [
+      "Turbo Ether"
+    ],
+    "drops": [
+      "Turbo Ether"
+    ]
+  },
+  {
+    "name": "Joker",
+    "level": 18,
+    "hp": 370,
+    "mp": 0,
+    "type": "Normal",
+    "weaknesses": [
+      "Wind"
+    ],
+    "resistances": [
+      "Earth"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Spinning Card",
+      "Spade",
+      "Heart",
+      "Club",
+      "Diamond",
+      "Joker"
+    ],
+    "location": "Gold Saucer Area; Battle Square",
+    "exp": 150,
+    "ap": 30,
+    "gil": 260,
+    "steal": [],
+    "drops": [
+      "Hi-Potion"
+    ]
+  },
+  {
+    "name": "Jumping",
+    "level": 24,
+    "hp": 999,
+    "mp": 0,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Dive Kick",
+      "Club Sword"
+    ],
+    "location": "Icicle Area; Great Glacier",
+    "exp": 400,
+    "ap": 30,
+    "gil": 50,
+    "steal": [],
+    "drops": [
+      "Hi-Potion",
+      "Antarctic Wind"
+    ]
+  },
+  {
+    "name": "Kalm Fang",
+    "level": 10,
+    "hp": 160,
+    "mp": 0,
+    "type": "Normal",
+    "weaknesses": [
+      "Fire"
+    ],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Fang",
+      "Bodyblow"
+    ],
+    "location": "Midgar Area; Battle Square",
+    "exp": 53,
+    "ap": 5,
+    "gil": 92,
+    "steal": [
+      "Ether"
+    ],
+    "drops": [
+      "Potion",
+      "Hi-Potion"
+    ]
+  },
+  {
+    "name": "Kelzmelzer",
+    "level": 30,
+    "hp": 800,
+    "mp": 0,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Claw",
+      "Liquid poison"
+    ],
+    "location": "Temple of the Ancients; Woodlands Area",
+    "exp": 410,
+    "ap": 35,
+    "gil": 400,
+    "steal": [
+      "Antidote"
+    ],
+    "drops": [
+      "Potion",
+      "Antidote"
+    ]
+  },
+  {
+    "name": "Killbin",
+    "level": 30,
+    "hp": 3200,
+    "mp": 380,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "x",
+      "Cure2",
+      "Fire2",
+      "Ice2",
+      "Aspil",
+      "Slow"
+    ],
+    "location": "Whirlwind Maze",
+    "exp": 700,
+    "ap": 150,
+    "gil": 1000,
+    "steal": [
+      "Turbo Ether"
+    ],
+    "drops": [
+      "Ether",
+      "Mind Source"
+    ]
+  },
+  {
+    "name": "Kimara Bug",
+    "level": 19,
+    "hp": 700,
+    "mp": 25,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [
+      "Gravity"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Butterfly Attack",
+      "Stop Web",
+      "Spider Attack"
+    ],
+    "location": "Gongaga; Battle Square",
+    "exp": 190,
+    "ap": 19,
+    "gil": 278,
+    "steal": [
+      "Spider Web"
+    ],
+    "drops": [
+      "Hi-Potion",
+      "Hourglass"
+    ]
+  },
+  {
+    "name": "King Behemoth",
+    "level": 60,
+    "hp": 18000,
+    "mp": 560,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [
+      "Gravity"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Behemoth Horn",
+      "King Teel",
+      "Flare",
+      "Comet2",
+      "Bite"
+    ],
+    "location": "Northern Cave",
+    "exp": 2000,
+    "ap": 250,
+    "gil": 950,
+    "steal": [
+      "Phoenix Down"
+    ],
+    "drops": [
+      "X-Potion"
+    ]
+  },
+  {
+    "name": "Kyuvilduns",
+    "level": 24,
+    "hp": 800,
+    "mp": 0,
+    "type": "Normal",
+    "weaknesses": [
+      "Fire"
+    ],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Lay Flat"
+    ],
+    "location": "Mt. Nibel; Rocket Launch Pad Area",
+    "exp": 340,
+    "ap": 34,
+    "gil": 368,
+    "steal": [],
+    "drops": [
+      "Hi-Potion"
+    ]
+  },
+  {
+    "name": "Land Worm",
+    "level": 22,
+    "hp": 1500,
+    "mp": 80,
+    "type": "Normal",
+    "weaknesses": [
+      "Ice"
+    ],
+    "resistances": [
+      "Fire",
+      "Gravity"
+    ],
+    "absorbs": [
+      "Earth"
+    ],
+    "attacks": [
+      "Earthquake",
+      "Sandstorm"
+    ],
+    "location": "Corel Desert",
+    "exp": 400,
+    "ap": 40,
+    "gil": 256,
+    "steal": [
+      "Turbo Ether"
+    ],
+    "drops": [
+      "Ether",
+      "Fire Fang"
+    ]
+  },
+  {
+    "name": "Laser Cannon",
+    "level": 8,
+    "hp": 155,
+    "mp": 0,
+    "type": "Normal",
+    "weaknesses": [
+      "Lightning"
+    ],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Laser Cannon",
+      "Paralaser",
+      "Appear",
+      "Vanish"
+    ],
+    "location": "Shinra Bldg.",
+    "exp": 5,
+    "ap": 0,
+    "gil": 0,
+    "steal": [],
+    "drops": [
+      "Hi-Potion"
+    ]
+  },
+  {
+    "name": "Left Arm",
+    "level": 45,
+    "hp": 10000,
+    "mp": 100,
+    "type": "Boss",
+    "weaknesses": [
+      "Lightning"
+    ],
+    "resistances": [
+      "Poison",
+      "Gravity"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Arm Punch",
+      "Arm Grab",
+      "Damage Attack",
+      "Free Right Character",
+      "Free Left Character",
+      "Vanish"
+    ],
+    "location": "Underwater Reactor",
+    "exp": 1500,
+    "ap": 90,
+    "gil": 0,
+    "steal": [],
+    "drops": []
+  },
+  {
+    "name": "Left Arm",
+    "level": 55,
+    "hp": 24000,
+    "mp": 400,
+    "type": "Boss",
+    "weaknesses": [],
+    "resistances": [
+      "Gravity"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Appear",
+      "Transform"
+    ],
+    "location": "Sector 8",
+    "exp": 0,
+    "ap": 0,
+    "gil": 0,
+    "steal": [],
+    "drops": []
+  },
+  {
+    "name": "Lessaloploth",
+    "level": 34,
+    "hp": 2000,
+    "mp": 400,
+    "type": "Normal",
+    "weaknesses": [
+      "Wind"
+    ],
+    "resistances": [
+      "Ice",
+      "Earth",
+      "Gravity",
+      "Water"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Wing Cut",
+      "Scorpion's Tail",
+      "Snowstorm",
+      "Avalanche"
+    ],
+    "location": "Great Glacier; Battle Square",
+    "exp": 920,
+    "ap": 65,
+    "gil": 1000,
+    "steal": [
+      "Phoenix Down"
+    ],
+    "drops": [
+      "Phoenix Down"
+    ]
+  },
+  {
+    "name": "Levrikon",
+    "level": 14,
+    "hp": 200,
+    "mp": 0,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Bird Kick",
+      "Flaming Peck"
+    ],
+    "location": "Grasslands Area; Battle Square",
+    "exp": 65,
+    "ap": 7,
+    "gil": 128,
+    "steal": [
+      "Ether"
+    ],
+    "drops": [
+      "Hi-Potion"
+    ]
+  },
+  {
+    "name": "Lifeform-Hojo N",
+    "level": 58,
+    "hp": 30000,
+    "mp": 100,
+    "type": "Boss",
+    "weaknesses": [],
+    "resistances": [
+      "Gravity"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Absorb",
+      "Combo",
+      "Slow",
+      "Silence"
+    ],
+    "location": "Sector 8",
+    "exp": 25000,
+    "ap": 2500,
+    "gil": 6000,
+    "steal": [],
+    "drops": [
+      "Power Source"
+    ]
+  },
+  {
+    "name": "Lost Number",
+    "level": 35,
+    "hp": 7000,
+    "mp": 300,
+    "type": "Boss",
+    "weaknesses": [],
+    "resistances": [
+      "Gravity"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Punch",
+      "Bolt2",
+      "Bolt"
+    ],
+    "location": "Shinra Mansion",
+    "exp": 2000,
+    "ap": 80,
+    "gil": 2000,
+    "steal": [],
+    "drops": []
+  },
+  {
+    "name": "Machine Gun",
+    "level": 8,
+    "hp": 155,
+    "mp": 0,
+    "type": "Normal",
+    "weaknesses": [
+      "Lightning"
+    ],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Machine Gun",
+      "Appear",
+      "Vanish"
+    ],
+    "location": "Shinra Bldg.",
+    "exp": 5,
+    "ap": 0,
+    "gil": 0,
+    "steal": [],
+    "drops": [
+      "Hi-Potion"
+    ]
+  },
+  {
+    "name": "Madouge",
+    "level": 16,
+    "hp": 220,
+    "mp": 0,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Ironball",
+      "Swamp Shoot"
+    ],
+    "location": "Mythril Mine; Battle Square",
+    "exp": 70,
+    "ap": 8,
+    "gil": 150,
+    "steal": [
+      "Grand Glove"
+    ],
+    "drops": [
+      "Hi-Potion"
+    ]
+  },
+  {
+    "name": "Magic Pot",
+    "level": 41,
+    "hp": 4096,
+    "mp": 128,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Gimme",
+      "Report"
+    ],
+    "location": "Northern Cave",
+    "exp": 8000,
+    "ap": 1000,
+    "gil": 8500,
+    "steal": [],
+    "drops": [
+      "Turbo Ether"
+    ]
+  },
+  {
+    "name": "Magnade",
+    "level": 35,
+    "hp": 1000,
+    "mp": 100,
+    "type": "Normal",
+    "weaknesses": [
+      "Fire",
+      "Gravity"
+    ],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Shield Throw",
+      "W-Shield Throw",
+      "Strong Kick",
+      "Shield Defense",
+      "Vanish"
+    ],
+    "location": "Great Glacier; Battle Square",
+    "exp": 980,
+    "ap": 50,
+    "gil": 1200,
+    "steal": [
+      "Phoenix Down"
+    ],
+    "drops": [
+      "X-Potion"
+    ]
+  },
+  {
+    "name": "Malboro",
+    "level": 44,
+    "hp": 4400,
+    "mp": 900,
+    "type": "Normal",
+    "weaknesses": [
+      "Water"
+    ],
+    "resistances": [
+      "Gravity"
+    ],
+    "absorbs": [
+      "Poison"
+    ],
+    "attacks": [
+      "Frozen Beam",
+      "Bio2",
+      "Bad Breath"
+    ],
+    "location": "Gaea's Cliff; Northern Cave",
+    "exp": 1000,
+    "ap": 100,
+    "gil": 100,
+    "steal": [
+      "M-Tentacles",
+      "Echo Screen"
+    ],
+    "drops": [
+      "M-Tentacles"
+    ]
+  },
+  {
+    "name": "Malldancer",
+    "level": 32,
+    "hp": 600,
+    "mp": 100,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [
+      "Earth",
+      "Water"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Claw",
+      "Dance"
+    ],
+    "location": "Corel Valley; Battle Square",
+    "exp": 500,
+    "ap": 56,
+    "gil": 700,
+    "steal": [
+      "Phoenix Down"
+    ],
+    "drops": [
+      "Hi-Potion",
+      "X-Potion"
+    ]
+  },
+  {
+    "name": "Mandragora",
+    "level": 10,
+    "hp": 120,
+    "mp": 0,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Grass Punch",
+      "Slow Dance"
+    ],
+    "location": "Grasslands Area",
+    "exp": 55,
+    "ap": 6,
+    "gil": 135,
+    "steal": [
+      "Lasan Nut"
+    ],
+    "drops": [
+      "Lasan Nut",
+      "Ether"
+    ]
+  },
+  {
+    "name": "Manhole",
+    "level": 35,
+    "hp": 2500,
+    "mp": 110,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Rockbreaker",
+      "Ice2",
+      "Fire2",
+      "Vanish"
+    ],
+    "location": "Sector 8",
+    "exp": 900,
+    "ap": 80,
+    "gil": 3000,
+    "steal": [],
+    "drops": [
+      "X-Potion"
+    ]
+  },
+  {
+    "name": "Marine",
+    "level": 16,
+    "hp": 300,
+    "mp": 20,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Machine Gun",
+      "Grenade",
+      "Smoke Bullet"
+    ],
+    "location": "Cargo Ship",
+    "exp": 75,
+    "ap": 8,
+    "gil": 150,
+    "steal": [
+      "Shinra Beta"
+    ],
+    "drops": [
+      "Eye drop",
+      "X-Potion"
+    ]
+  },
+  {
+    "name": "Master Tonberry",
+    "level": 77,
+    "hp": 44444,
+    "mp": 100,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [
+      "Gravity"
+    ],
+    "attacks": [
+      "Everyone's Grudge",
+      "Knife",
+      "Move",
+      "Move Right",
+      "Move Left"
+    ],
+    "location": "Northern Cave",
+    "exp": 6000,
+    "ap": 200,
+    "gil": 6800,
+    "steal": [
+      "Elixir"
+    ],
+    "drops": [
+      "Megalixir",
+      "Ribbon"
+    ]
+  },
+  {
+    "name": "Materia Keeper",
+    "level": 38,
+    "hp": 8400,
+    "mp": 300,
+    "type": "Boss",
+    "weaknesses": [],
+    "resistances": [
+      "Gravity"
+    ],
+    "absorbs": [
+      "Fire"
+    ],
+    "attacks": [
+      "Keyclaw",
+      "Big Horn",
+      "Hell Combo",
+      "Trine",
+      "Cure2"
+    ],
+    "location": "Mt. Nibel",
+    "exp": 3000,
+    "ap": 200,
+    "gil": 2400,
+    "steal": [],
+    "drops": [
+      "Jem Ring"
+    ]
+  },
+  {
+    "name": "Matsumura Yasushi-kun",
+    "level": 4,
+    "hp": 200,
+    "mp": 100,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Machine Gun",
+      "Cure3",
+      "Fire"
+    ],
+    "location": null,
+    "exp": 8,
+    "ap": 1,
+    "gil": 5,
+    "steal": [
+      "Ether"
+    ],
+    "drops": [
+      "Potion"
+    ]
+  },
+  {
+    "name": "Maximum Kimaira",
+    "level": 49,
+    "hp": 4000,
+    "mp": 350,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Claw",
+      "Freeze",
+      "Northern Cross"
+    ],
+    "location": "Sector 8; Battle Square",
+    "exp": 1200,
+    "ap": 90,
+    "gil": 3800,
+    "steal": [],
+    "drops": [
+      "Guard Source"
+    ]
+  },
+  {
+    "name": "Midgar Zolom",
+    "level": 26,
+    "hp": 4000,
+    "mp": 348,
+    "type": "Boss",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Sitting form: Bite",
+      "Change",
+      "Standing form: Bite",
+      "Beta",
+      "Blown Away"
+    ],
+    "location": "Grasslands Area",
+    "exp": 250,
+    "ap": 25,
+    "gil": 400,
+    "steal": [],
+    "drops": [
+      "X-Potion"
+    ]
+  },
+  {
+    "name": "Mighty Grunt",
+    "level": 12,
+    "hp": 230,
+    "mp": 0,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Machine Gun",
+      "Double Shot",
+      "Grunt Death"
+    ],
+    "location": "Shinra Bldg.",
+    "exp": 50,
+    "ap": 5,
+    "gil": 98,
+    "steal": [],
+    "drops": []
+  },
+  {
+    "name": "Mirage",
+    "level": 24,
+    "hp": 570,
+    "mp": 0,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Swing Attack",
+      "Reflection"
+    ],
+    "location": "Mansion",
+    "exp": 290,
+    "ap": 22,
+    "gil": 280,
+    "steal": [],
+    "drops": [
+      "Mirror"
+    ]
+  },
+  {
+    "name": "Mono Drive",
+    "level": 2,
+    "hp": 28,
+    "mp": 28,
+    "type": "Normal",
+    "weaknesses": [
+      "Wind"
+    ],
+    "resistances": [
+      "Earth"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Drilldrive",
+      "Fire"
+    ],
+    "location": "Sector 1 No. 1 Reactor Train Graveyard (before Aps is fought); Battle Square (before Tiny Bronco)",
+    "exp": 18,
+    "ap": 3,
+    "gil": 8,
+    "steal": [],
+    "drops": [
+      "Potion",
+      "Ether"
+    ]
+  },
+  {
+    "name": "Moth Slasher",
+    "level": 13,
+    "hp": 260,
+    "mp": 0,
+    "type": "Normal",
+    "weaknesses": [
+      "Lightning"
+    ],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Verbal Attack",
+      "Speed Slash"
+    ],
+    "location": "Shinra Bldg.; Battle Square",
+    "exp": 46,
+    "ap": 5,
+    "gil": 75,
+    "steal": [
+      "Carbon Bangle"
+    ],
+    "drops": []
+  },
+  {
+    "name": "Motor Ball",
+    "level": 19,
+    "hp": 2600,
+    "mp": 120,
+    "type": "Boss",
+    "weaknesses": [
+      "Lightning"
+    ],
+    "resistances": [
+      "Fire",
+      "Gravity"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Upright form: Deadly Wheel",
+      "Rolling Fire",
+      "Arm Attack",
+      "x",
+      "Flamethrower form: Highway",
+      "Deadly Wheel",
+      "Twin Burner"
+    ],
+    "location": "Midgar Expressway; Debug Room",
+    "exp": 440,
+    "ap": 45,
+    "gil": 350,
+    "steal": [],
+    "drops": [
+      "Star Pendant"
+    ]
+  },
+  {
+    "name": "Mover",
+    "level": 59,
+    "hp": 3000,
+    "mp": 120,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [
+      "Fire",
+      "Ice",
+      "Lightning",
+      "Earth"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Exchange",
+      "Bodyblow",
+      "Triangle Attack"
+    ],
+    "location": "Northern Cave",
+    "exp": 0,
+    "ap": 800,
+    "gil": 30000,
+    "steal": [
+      "Turbo Ether"
+    ],
+    "drops": [
+      "Turbo Ether",
+      "Protect Ring"
+    ]
+  },
+  {
+    "name": "MP",
+    "level": 2,
+    "hp": 30,
+    "mp": 0,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Machine Gun",
+      "Tonfa"
+    ],
+    "location": "Sector 1, Sector 8, Church in the Slums",
+    "exp": 16,
+    "ap": 2,
+    "gil": 10,
+    "steal": [
+      "Grenade"
+    ],
+    "drops": [
+      "Potion"
+    ]
+  },
+  {
+    "name": "Mu",
+    "level": 12,
+    "hp": 210,
+    "mp": 52,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Rock Toss",
+      "Sewer",
+      "Sinking",
+      "Hot Springs",
+      "L4 Suicide"
+    ],
+    "location": "Grasslands Area; Battle Square",
+    "exp": 54,
+    "ap": 6,
+    "gil": 130,
+    "steal": [],
+    "drops": [
+      "Hi-Potion"
+    ]
+  },
+  {
+    "name": "Mystery Ninja",
+    "level": 17,
+    "hp": 600,
+    "mp": 117,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Fight",
+      "Throw",
+      "Spider Web",
+      "Fire Veil",
+      "Leviathan Scales",
+      "Swift Bolt"
+    ],
+    "location": "Forests: Junon Area, Gongaga Area, Nibel Area, Rocket Launch Pad Area, Woodlands Area, Mideel Area, Goblin Island, Round Island",
+    "exp": 160,
+    "ap": 20,
+    "gil": 40,
+    "steal": [],
+    "drops": []
+  },
+  {
+    "name": "Needle Kiss",
+    "level": 17,
+    "hp": 180,
+    "mp": 40,
+    "type": "Normal",
+    "weaknesses": [
+      "Wind"
+    ],
+    "resistances": [
+      "Lightning",
+      "Earth"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Chute Attack",
+      "Thunder Kiss"
+    ],
+    "location": "Mt. Corel; Corel Area",
+    "exp": 75,
+    "ap": 8,
+    "gil": 130,
+    "steal": [
+      "Soft"
+    ],
+    "drops": [
+      "Bolt Plume",
+      "Remedy"
+    ]
+  },
+  {
+    "name": "Nerosuferoth",
+    "level": 16,
+    "hp": 150,
+    "mp": 20,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Beak",
+      "Heatwing"
+    ],
+    "location": "Junon Area; Battle Square",
+    "exp": 53,
+    "ap": 5,
+    "gil": 146,
+    "steal": [],
+    "drops": [
+      "Hi-Potion"
+    ]
+  },
+  {
+    "name": "Nibel Wolf",
+    "level": 23,
+    "hp": 700,
+    "mp": 0,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Bodyblow",
+      "Fang",
+      "Howling"
+    ],
+    "location": "Nibel Area; Rocket Launch Pad Area",
+    "exp": 265,
+    "ap": 24,
+    "gil": 260,
+    "steal": [
+      "Luchile Nut"
+    ],
+    "drops": [
+      "Luchile Nut",
+      "Hi-Potion"
+    ]
+  },
+  {
+    "name": "Palmer",
+    "level": 38,
+    "hp": 6000,
+    "mp": 240,
+    "type": "Boss",
+    "weaknesses": [],
+    "resistances": [
+      "Gravity"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Fire2",
+      "Ice2",
+      "Bolt2",
+      "Incite",
+      "Palmer “Ugh!”"
+    ],
+    "location": "Rocket Town",
+    "exp": 1800,
+    "ap": 98,
+    "gil": 5000,
+    "steal": [],
+    "drops": [
+      "Edincoat"
+    ]
+  },
+  {
+    "name": "Parasite",
+    "level": 51,
+    "hp": 6000,
+    "mp": 300,
+    "type": "Normal",
+    "weaknesses": [
+      "Wind",
+      "Holy"
+    ],
+    "resistances": [
+      "Earth"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Head Attack",
+      "Para Tail",
+      "Magic Extinguish",
+      "L5 Death",
+      "Magic Breath"
+    ],
+    "location": "Northern Cave",
+    "exp": 1100,
+    "ap": 100,
+    "gil": 1000,
+    "steal": [
+      "Remedy"
+    ],
+    "drops": [
+      "Remedy"
+    ]
+  },
+  {
+    "name": "Pollensalta",
+    "level": 41,
+    "hp": 4000,
+    "mp": 220,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [
+      "Fire"
+    ],
+    "attacks": [
+      "Fire",
+      "Fire3",
+      "Fascination",
+      "Cold Breath",
+      "Angel Whisper"
+    ],
+    "location": "Northern Cave",
+    "exp": 1000,
+    "ap": 100,
+    "gil": 1000,
+    "steal": [
+      "Hyper"
+    ],
+    "drops": [
+      "X-Potion"
+    ]
+  },
+  {
+    "name": "Poodler",
+    "level": 42,
+    "hp": 6000,
+    "mp": 220,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Bodyblow",
+      "Fire"
+    ],
+    "location": "Sunken Gelnika",
+    "exp": 900,
+    "ap": 70,
+    "gil": 2500,
+    "steal": [
+      "Turbo Ether"
+    ],
+    "drops": [
+      "X-Potion",
+      "Speed Source"
+    ]
+  },
+  {
+    "name": "Poodler Sample",
+    "level": 42,
+    "hp": 10000,
+    "mp": 200,
+    "type": "Boss",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Bodyblow",
+      "Fire2"
+    ],
+    "location": "Sector 8",
+    "exp": 2000,
+    "ap": 150,
+    "gil": 2000,
+    "steal": [],
+    "drops": []
+  },
+  {
+    "name": "Proto Machinegun",
+    "level": 4,
+    "hp": 100,
+    "mp": 0,
+    "type": "Normal",
+    "weaknesses": [
+      "Lightning"
+    ],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Machine Gun"
+    ],
+    "location": "No. 5 Reactor",
+    "exp": 16,
+    "ap": 2,
+    "gil": 15,
+    "steal": [],
+    "drops": [
+      "Potion"
+    ]
+  },
+  {
+    "name": "Proud Clod",
+    "level": 53,
+    "hp": 60000,
+    "mp": 320,
+    "type": "Boss",
+    "weaknesses": [],
+    "resistances": [
+      "Gravity"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Standing: Big Hand Clash",
+      "Wrist Laser",
+      "Knee Fire",
+      "Knee Blend",
+      "W Machine Gun",
+      "Materia-jammer",
+      "Charging: Beam Cannon",
+      "Charging"
+    ],
+    "location": "Sector 8; Battle Square",
+    "exp": 7000,
+    "ap": 1000,
+    "gil": 10000,
+    "steal": [],
+    "drops": [
+      "Ragnarok"
+    ]
+  },
+  {
+    "name": "Prowler",
+    "level": 12,
+    "hp": 150,
+    "mp": 0,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Hit",
+      "Steal",
+      "Grind",
+      "Seize",
+      "Escape"
+    ],
+    "location": "Midgar Area",
+    "exp": 55,
+    "ap": 5,
+    "gil": 160,
+    "steal": [
+      "Ether"
+    ],
+    "drops": [
+      "Potion",
+      "Hi-Potion"
+    ]
+  },
+  {
+    "name": "Pyramid",
+    "level": 2,
+    "hp": 10,
+    "mp": 0,
+    "type": "Boss",
+    "weaknesses": [
+      "Gravity"
+    ],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Appear",
+      "Vanish"
+    ],
+    "location": "Sector 7 Slums - Pillar",
+    "exp": 0,
+    "ap": 1,
+    "gil": 0,
+    "steal": [],
+    "drops": []
+  },
+  {
+    "name": "Quick Machine Gun",
+    "level": 20,
+    "hp": 1000,
+    "mp": 0,
+    "type": "Normal",
+    "weaknesses": [
+      "Lightning"
+    ],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Machine Gun",
+      "Appear",
+      "Vanish"
+    ],
+    "location": "Junon Path",
+    "exp": 600,
+    "ap": 60,
+    "gil": 300,
+    "steal": [],
+    "drops": [
+      "Hi-Potion"
+    ]
+  },
+  {
+    "name": "Rapps",
+    "level": 39,
+    "hp": 6000,
+    "mp": 300,
+    "type": "Boss",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Wing Cut",
+      "Scorpion's Tail",
+      "Aero3"
+    ],
+    "location": "Da-chao Statue",
+    "exp": 3200,
+    "ap": 33,
+    "gil": 20000,
+    "steal": [],
+    "drops": [
+      "Peace Ring"
+    ]
+  },
+  {
+    "name": "Razor Weed",
+    "level": 27,
+    "hp": 1000,
+    "mp": 145,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Glasscutter",
+      "Spaz Voice",
+      "Magic Hammer"
+    ],
+    "location": "Wutai Area; Da-chao Statue",
+    "exp": 375,
+    "ap": 30,
+    "gil": 350,
+    "steal": [],
+    "drops": [
+      "Tranquilizer",
+      "Hi-Potion",
+      "Loco weed"
+    ]
+  },
+  {
+    "name": "Red Dragon",
+    "level": 39,
+    "hp": 6800,
+    "mp": 300,
+    "type": "Boss",
+    "weaknesses": [],
+    "resistances": [
+      "Gravity"
+    ],
+    "absorbs": [
+      "Fire"
+    ],
+    "attacks": [
+      "Dragon Fang",
+      "Tail Attack",
+      "Red Dragon Breath"
+    ],
+    "location": null,
+    "exp": 3500,
+    "ap": 200,
+    "gil": 1000,
+    "steal": [],
+    "drops": [
+      "Dragon Armlet"
+    ]
+  },
+  {
+    "name": "Right Arm",
+    "level": 45,
+    "hp": 10000,
+    "mp": 100,
+    "type": "Boss",
+    "weaknesses": [
+      "Lightning"
+    ],
+    "resistances": [
+      "Poison",
+      "Gravity"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Arm Punch",
+      "Arm Grab",
+      "Damage Attack",
+      "Free Right Character",
+      "Free Left Character",
+      "Vanish"
+    ],
+    "location": "Underwater Reactor",
+    "exp": 1400,
+    "ap": 95,
+    "gil": 0,
+    "steal": [],
+    "drops": []
+  },
+  {
+    "name": "Right Arm",
+    "level": 55,
+    "hp": 5000,
+    "mp": 300,
+    "type": "Boss",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Appear",
+      "Transform"
+    ],
+    "location": "Sector 8",
+    "exp": 0,
+    "ap": 0,
+    "gil": 0,
+    "steal": [],
+    "drops": []
+  },
+  {
+    "name": "Rilfsak",
+    "level": 40,
+    "hp": 2000,
+    "mp": 500,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [
+      "Earth"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Blood Suck",
+      "Autumn Leaves",
+      "Dodge",
+      "Exchange"
+    ],
+    "location": "Ancient Forest",
+    "exp": 1000,
+    "ap": 70,
+    "gil": 900,
+    "steal": [],
+    "drops": [
+      "X-Potion"
+    ]
+  },
+  {
+    "name": "Rocket Launcher",
+    "level": 5,
+    "hp": 50,
+    "mp": 0,
+    "type": "Normal",
+    "weaknesses": [
+      "Lightning"
+    ],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Rocket Launcher"
+    ],
+    "location": "Sector 4 Plate",
+    "exp": 13,
+    "ap": 3,
+    "gil": 7,
+    "steal": [],
+    "drops": []
+  },
+  {
+    "name": "Roulette Cannon",
+    "level": 38,
+    "hp": 3000,
+    "mp": 200,
+    "type": "Normal",
+    "weaknesses": [
+      "Lightning"
+    ],
+    "resistances": [
+      "Poison"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Fire Roulette",
+      "Vanish"
+    ],
+    "location": "Upper Junon",
+    "exp": 1200,
+    "ap": 100,
+    "gil": 1600,
+    "steal": [],
+    "drops": [
+      "X-Potion"
+    ]
+  },
+  {
+    "name": "Ruby Weapon",
+    "level": 59,
+    "hp": 800000,
+    "mp": 2560,
+    "type": "Boss",
+    "weaknesses": [],
+    "resistances": [
+      "Gravity",
+      "Water"
+    ],
+    "absorbs": [
+      "Fire",
+      "Ice",
+      "Lightning",
+      "Earth",
+      "Restorative"
+    ],
+    "attacks": [
+      "Whirlsand",
+      "Ruby Flame",
+      "Ultima",
+      "Ruby Ray",
+      "Shadow Flare",
+      "Big Claw",
+      "Big Swing",
+      "Comet2",
+      "Right Revenge",
+      "Right Thrust",
+      "Left Revenge",
+      "Left Thrust"
+    ],
+    "location": "Gold Saucer Area desert",
+    "exp": 45000,
+    "ap": 50000,
+    "gil": 30000,
+    "steal": [],
+    "drops": [
+      "Desert Rose"
+    ]
+  },
+  {
+    "name": "Ruby's Tentacle",
+    "level": 37,
+    "hp": 40000,
+    "mp": 1000,
+    "type": "Boss",
+    "weaknesses": [],
+    "resistances": [
+      "Gravity",
+      "Water"
+    ],
+    "absorbs": [],
+    "attacks": [],
+    "location": "Gold Saucer Area",
+    "exp": 0,
+    "ap": 0,
+    "gil": 0,
+    "steal": [],
+    "drops": []
+  },
+  {
+    "name": "Rufus",
+    "level": 21,
+    "hp": 500,
+    "mp": 0,
+    "type": "Boss",
+    "weaknesses": [],
+    "resistances": [
+      "Gravity"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Shotgun",
+      "Dodge"
+    ],
+    "location": "Shinra Bldg.",
+    "exp": 240,
+    "ap": 35,
+    "gil": 400,
+    "steal": [],
+    "drops": [
+      "Protect Vest"
+    ]
+  },
+  {
+    "name": "Safer∙Sephiroth",
+    "level": 87,
+    "hp": 80000,
+    "mp": 680,
+    "type": "Boss",
+    "weaknesses": [],
+    "resistances": [
+      "Earth",
+      "Gravity"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Deen",
+      "Wall",
+      "Appear",
+      "Pale Horse",
+      "Shadow Flare",
+      "x",
+      "DeSpell",
+      "Heartless Angel",
+      "Break",
+      "Flare",
+      "Super Nova",
+      "Slow",
+      "Death Sentence"
+    ],
+    "location": "Northern Cave",
+    "exp": 0,
+    "ap": 0,
+    "gil": 0,
+    "steal": [],
+    "drops": []
+  },
+  {
+    "name": "Sahagin",
+    "level": 10,
+    "hp": 150,
+    "mp": 0,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [
+      "Water"
+    ],
+    "attacks": [
+      "Harpoon",
+      "Water Gun",
+      "Shell Defense"
+    ],
+    "location": "Sewer; Battle Square",
+    "exp": 30,
+    "ap": 3,
+    "gil": 89,
+    "steal": [
+      "Hyper"
+    ],
+    "drops": [
+      "Potion",
+      "Hyper"
+    ]
+  },
+  {
+    "name": "Sample:H0512",
+    "level": 19,
+    "hp": 1000,
+    "mp": 120,
+    "type": "Boss",
+    "weaknesses": [],
+    "resistances": [
+      "Lightning",
+      "Gravity"
+    ],
+    "absorbs": [
+      "Poison"
+    ],
+    "attacks": [
+      "Keyclaw",
+      "Shady Breath",
+      "Reanimagic",
+      "Order",
+      "Vanish"
+    ],
+    "location": "Shinra Bldg.",
+    "exp": 300,
+    "ap": 30,
+    "gil": 250,
+    "steal": [],
+    "drops": [
+      "Talisman"
+    ]
+  },
+  {
+    "name": "Sample:H0512-opt",
+    "level": 7,
+    "hp": 300,
+    "mp": 48,
+    "type": "Boss",
+    "weaknesses": [],
+    "resistances": [
+      "Earth"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Bodyblow",
+      "Fire",
+      "Ice",
+      "Rolling Attack"
+    ],
+    "location": "Shinra Bldg.",
+    "exp": 20,
+    "ap": 2,
+    "gil": 0,
+    "steal": [],
+    "drops": [
+      "Tranquilizer"
+    ]
+  },
+  {
+    "name": "Schizo",
+    "level": 43,
+    "hp": 18000,
+    "mp": 350,
+    "type": "Boss",
+    "weaknesses": [],
+    "resistances": [
+      "Gravity"
+    ],
+    "absorbs": [
+      "Fire"
+    ],
+    "attacks": [
+      "Right Breath",
+      "Right Breath 2",
+      "Double Breath",
+      "Tremor"
+    ],
+    "location": "Gaea's Cliff",
+    "exp": 2200,
+    "ap": 120,
+    "gil": 1500,
+    "steal": [],
+    "drops": []
+  },
+  {
+    "name": "Scissors",
+    "level": 33,
+    "hp": 2900,
+    "mp": 88,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Cross Scissor",
+      "Scissor Kick",
+      "Scissor Attack"
+    ],
+    "location": "Northern Cave",
+    "exp": 1000,
+    "ap": 90,
+    "gil": 1400,
+    "steal": [],
+    "drops": []
+  },
+  {
+    "name": "Scotch",
+    "level": 11,
+    "hp": 150,
+    "mp": 0,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Hit",
+      "Machine Gun"
+    ],
+    "location": "Corneo Hall",
+    "exp": 22,
+    "ap": 0,
+    "gil": 60,
+    "steal": [],
+    "drops": [
+      "Potion"
+    ]
+  },
+  {
+    "name": "Screamer",
+    "level": 26,
+    "hp": 800,
+    "mp": 40,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [
+      "Gravity"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Ironball",
+      "Iron Attack",
+      "War Cry"
+    ],
+    "location": "Mt. Nibel; Nibel Reactor",
+    "exp": 400,
+    "ap": 33,
+    "gil": 400,
+    "steal": [],
+    "drops": [
+      "Earth Drum",
+      "Power Source"
+    ]
+  },
+  {
+    "name": "Scrutin Eye",
+    "level": 15,
+    "hp": 240,
+    "mp": 60,
+    "type": "Normal",
+    "weaknesses": [
+      "Wind"
+    ],
+    "resistances": [
+      "Earth",
+      "Water"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Drilldrive",
+      "Ice2",
+      "Fire2"
+    ],
+    "location": "Cargo Ship; Battle Square",
+    "exp": 80,
+    "ap": 8,
+    "gil": 120,
+    "steal": [
+      "Ether"
+    ],
+    "drops": [
+      "Ether",
+      "Turbo Ether"
+    ]
+  },
+  {
+    "name": "Sculpture",
+    "level": 32,
+    "hp": 1700,
+    "mp": 100,
+    "type": "Normal",
+    "weaknesses": [
+      "Holy"
+    ],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Bodyblow",
+      "Fire Shell"
+    ],
+    "location": "Whirlwind Maze; Battle Square",
+    "exp": 860,
+    "ap": 60,
+    "gil": 640,
+    "steal": [],
+    "drops": [
+      "Tranquilizer"
+    ]
+  },
+  {
+    "name": "Sea Worm",
+    "level": 22,
+    "hp": 9000,
+    "mp": 200,
+    "type": "Normal",
+    "weaknesses": [
+      "Ice"
+    ],
+    "resistances": [
+      "Fire",
+      "Gravity"
+    ],
+    "absorbs": [
+      "Earth"
+    ],
+    "attacks": [
+      "Earthquake",
+      "Sandstorm",
+      "Crush"
+    ],
+    "location": "Mideel Area; North Corel Area",
+    "exp": 1300,
+    "ap": 200,
+    "gil": 5000,
+    "steal": [
+      "Dragon Scales"
+    ],
+    "drops": [
+      "Turbo Ether",
+      "Dragon Scales"
+    ]
+  },
+  {
+    "name": "Search Crown",
+    "level": 16,
+    "hp": 150,
+    "mp": 30,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [
+      "Fire"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Seed Shot",
+      "Four Laser"
+    ],
+    "location": "Mt. Corel; Battle Square",
+    "exp": 80,
+    "ap": 8,
+    "gil": 111,
+    "steal": [
+      "Turbo Ether"
+    ],
+    "drops": [
+      "Hi-Potion"
+    ]
+  },
+  {
+    "name": "Senior Grunt",
+    "level": 35,
+    "hp": 2600,
+    "mp": 245,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [
+      "Water"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Handclaw",
+      "Harrier Beam",
+      "Water Wave"
+    ],
+    "location": "Underwater Reactor; Rocket Town",
+    "exp": 930,
+    "ap": 90,
+    "gil": 800,
+    "steal": [],
+    "drops": []
+  },
+  {
+    "name": "Sephiroth",
+    "level": 50,
+    "hp": 1,
+    "mp": 0,
+    "type": "Boss",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Cut",
+      "Done-in"
+    ],
+    "location": "Northern Cave",
+    "exp": 0,
+    "ap": 0,
+    "gil": 0,
+    "steal": [],
+    "drops": []
+  },
+  {
+    "name": "Serpent",
+    "level": 40,
+    "hp": 14000,
+    "mp": 290,
+    "type": "Normal",
+    "weaknesses": [
+      "Wind"
+    ],
+    "resistances": [
+      "Earth",
+      "Gravity"
+    ],
+    "absorbs": [
+      "Water"
+    ],
+    "attacks": [
+      "Huge Tidal Wave",
+      "Viper Breath",
+      "Dragon Dance",
+      "Aqualung"
+    ],
+    "location": "Sunken Gelnika; Battle Square",
+    "exp": 1400,
+    "ap": 70,
+    "gil": 2500,
+    "steal": [
+      "Water Ring"
+    ],
+    "drops": [
+      "Dragon Scales",
+      "Stardust",
+      "Mind Source"
+    ]
+  },
+  {
+    "name": "Shadow Maker",
+    "level": 42,
+    "hp": 2000,
+    "mp": 120,
+    "type": "Normal",
+    "weaknesses": [
+      "Lightning"
+    ],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Support Beam"
+    ],
+    "location": "Sector 8",
+    "exp": 500,
+    "ap": 25,
+    "gil": 500,
+    "steal": [
+      "Graviball"
+    ],
+    "drops": [
+      "Turbo Ether"
+    ]
+  },
+  {
+    "name": "Shake",
+    "level": 32,
+    "hp": 4000,
+    "mp": 180,
+    "type": "Boss",
+    "weaknesses": [],
+    "resistances": [
+      "Gravity"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Beak",
+      "Rage Bomber"
+    ],
+    "location": "Wutai",
+    "exp": 2200,
+    "ap": 50,
+    "gil": 0,
+    "steal": [],
+    "drops": [
+      "Turbo Ether"
+    ]
+  },
+  {
+    "name": "Shred",
+    "level": 32,
+    "hp": 900,
+    "mp": 100,
+    "type": "Normal",
+    "weaknesses": [
+      "Fire",
+      "Wind"
+    ],
+    "resistances": [
+      "Ice",
+      "Earth",
+      "Water"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Tail",
+      "Crazy Claw",
+      "Cure3"
+    ],
+    "location": "Great Glacier; Battle Square",
+    "exp": 500,
+    "ap": 40,
+    "gil": 950,
+    "steal": [],
+    "drops": [
+      "Ether"
+    ]
+  },
+  {
+    "name": "Skeeskee",
+    "level": 20,
+    "hp": 540,
+    "mp": 0,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Beak",
+      "Rage Bomber"
+    ],
+    "location": "Cosmo Area; Battle Square",
+    "exp": 222,
+    "ap": 22,
+    "gil": 222,
+    "steal": [
+      "Tranquilizer"
+    ],
+    "drops": [
+      "Hyper"
+    ]
+  },
+  {
+    "name": "Slalom",
+    "level": 37,
+    "hp": 1600,
+    "mp": 30,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [
+      "Poison"
+    ],
+    "attacks": [
+      "Punch",
+      "Smog (Poison)",
+      "Smog (Darkness)"
+    ],
+    "location": "Junon Branch; Junon Path",
+    "exp": 700,
+    "ap": 70,
+    "gil": 1500,
+    "steal": [
+      "Smoke Bomb"
+    ],
+    "drops": [
+      "Deadly Waste",
+      "Hi-Potion"
+    ]
+  },
+  {
+    "name": "Slaps",
+    "level": 29,
+    "hp": 900,
+    "mp": 50,
+    "type": "Normal",
+    "weaknesses": [
+      "Wind"
+    ],
+    "resistances": [
+      "Earth"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Bug Needle",
+      "Berserk Needle",
+      "Paralyzer Needle"
+    ],
+    "location": "Woodlands Area; Battle Square",
+    "exp": 370,
+    "ap": 30,
+    "gil": 450,
+    "steal": [],
+    "drops": [
+      "Hi-Potion",
+      "Hyper"
+    ]
+  },
+  {
+    "name": "Smogger",
+    "level": 8,
+    "hp": 90,
+    "mp": 0,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [
+      "Poison"
+    ],
+    "attacks": [
+      "Punch",
+      "Smog (Poison)",
+      "Smog (Darkness)"
+    ],
+    "location": "No.5 Reactor",
+    "exp": 32,
+    "ap": 3,
+    "gil": 60,
+    "steal": [
+      "Smoke Bomb"
+    ],
+    "drops": [
+      "Deadly Waste",
+      "Hi-Potion"
+    ]
+  },
+  {
+    "name": "Sneaky Step",
+    "level": 21,
+    "hp": 600,
+    "mp": 65,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Triple Attack",
+      "Death Sentence"
+    ],
+    "location": "Cave of the Gi; Battle Square",
+    "exp": 270,
+    "ap": 24,
+    "gil": 330,
+    "steal": [],
+    "drops": [
+      "M-Tentacles",
+      "Ghost Hand"
+    ]
+  },
+  {
+    "name": "Snow",
+    "level": 32,
+    "hp": 4000,
+    "mp": 160,
+    "type": "Boss",
+    "weaknesses": [
+      "Fire"
+    ],
+    "resistances": [],
+    "absorbs": [
+      "Ice"
+    ],
+    "attacks": [
+      "Ice",
+      "Ice2",
+      "Fascination",
+      "Cold Breath"
+    ],
+    "location": "Great Glacier; Battle Square",
+    "exp": 500,
+    "ap": 42,
+    "gil": 700,
+    "steal": [
+      "Circlet"
+    ],
+    "drops": [
+      "Ice Crystal"
+    ]
+  },
+  {
+    "name": "SOLDIER:1st",
+    "level": 44,
+    "hp": 5000,
+    "mp": 400,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Fight",
+      "Silence",
+      "Sword of Doom",
+      "Quadra-Cut"
+    ],
+    "location": "Sector 8",
+    "exp": 960,
+    "ap": 90,
+    "gil": 2400,
+    "steal": [
+      "Shinra Alpha"
+    ],
+    "drops": []
+  },
+  {
+    "name": "SOLDIER:2nd",
+    "level": 35,
+    "hp": 4000,
+    "mp": 340,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Fight",
+      "Silence",
+      "Sword of Doom",
+      "Quadra-Cut"
+    ],
+    "location": "Upper Junon, Underwater Reactor",
+    "exp": 1000,
+    "ap": 85,
+    "gil": 750,
+    "steal": [
+      "Remedy"
+    ],
+    "drops": [
+      "X-Potion"
+    ]
+  },
+  {
+    "name": "SOLDIER:3rd",
+    "level": 13,
+    "hp": 250,
+    "mp": 40,
+    "type": "Normal",
+    "weaknesses": [
+      "Fire"
+    ],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Split",
+      "Bolt2",
+      "Ice2",
+      "Sleepel",
+      "Flying Sickle"
+    ],
+    "location": "Shinra Bldg.",
+    "exp": 54,
+    "ap": 6,
+    "gil": 116,
+    "steal": [
+      "Hardedge"
+    ],
+    "drops": [
+      "Loco weed",
+      "Bolt Plume"
+    ]
+  },
+  {
+    "name": "Sonic Speed",
+    "level": 26,
+    "hp": 750,
+    "mp": 50,
+    "type": "Normal",
+    "weaknesses": [
+      "Wind"
+    ],
+    "resistances": [
+      "Earth"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Sonic Attack",
+      "Harrier"
+    ],
+    "location": "Mt. Nibel; Nibel Reactor",
+    "exp": 370,
+    "ap": 28,
+    "gil": 330,
+    "steal": [
+      "Ether"
+    ],
+    "drops": [
+      "Hi-Potion",
+      "Speed Drink"
+    ]
+  },
+  {
+    "name": "Soul Fire",
+    "level": 21,
+    "hp": 1300,
+    "mp": 220,
+    "type": "Boss",
+    "weaknesses": [
+      "Wind",
+      "Holy"
+    ],
+    "resistances": [
+      "Earth",
+      "Poison",
+      "Gravity",
+      "Water"
+    ],
+    "absorbs": [
+      "Fire"
+    ],
+    "attacks": [
+      "Take Over",
+      "Return",
+      "Fire2"
+    ],
+    "location": "Cave of the Gi",
+    "exp": 200,
+    "ap": 10,
+    "gil": 100,
+    "steal": [],
+    "drops": [
+      "Phoenix Down"
+    ]
+  },
+  {
+    "name": "Special Combatant",
+    "level": 9,
+    "hp": 60,
+    "mp": 0,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Handclaw",
+      "Beam Gun",
+      "Wave"
+    ],
+    "location": "Sector 4; No.5 Reactor",
+    "exp": 28,
+    "ap": 3,
+    "gil": 40,
+    "steal": [
+      "Eye drop"
+    ],
+    "drops": [
+      "Antidote",
+      "Grenade",
+      "Hi-Potion"
+    ]
+  },
+  {
+    "name": "Spencer",
+    "level": 17,
+    "hp": 250,
+    "mp": 0,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Swordblade",
+      "Upper Cutter"
+    ],
+    "location": "Gold Saucer Area; Battle Square",
+    "exp": 110,
+    "ap": 11,
+    "gil": 175,
+    "steal": [
+      "Saraha Nut"
+    ],
+    "drops": [
+      "Saraha Nut"
+    ]
+  },
+  {
+    "name": "Spiral",
+    "level": 39,
+    "hp": 2800,
+    "mp": 100,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Angle Punch"
+    ],
+    "location": "Mideel Area",
+    "exp": 700,
+    "ap": 80,
+    "gil": 1300,
+    "steal": [
+      "X-Potion"
+    ],
+    "drops": [
+      "Hi-Potion",
+      "Guard Source"
+    ]
+  },
+  {
+    "name": "Staniv",
+    "level": 36,
+    "hp": 6000,
+    "mp": 240,
+    "type": "Boss",
+    "weaknesses": [],
+    "resistances": [
+      "Gravity"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Ironball",
+      "Iron Attack",
+      "War Cry"
+    ],
+    "location": "Wutai",
+    "exp": 3600,
+    "ap": 50,
+    "gil": 0,
+    "steal": [],
+    "drops": [
+      "Elixir"
+    ]
+  },
+  {
+    "name": "Stilva",
+    "level": 40,
+    "hp": 2000,
+    "mp": 300,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [
+      "Gravity"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Big Red Clipper",
+      "Big Horn",
+      "Jump Attack",
+      "Trine",
+      "Magic Breath"
+    ],
+    "location": "Gaea's Cliff, Battle Square",
+    "exp": 1000,
+    "ap": 110,
+    "gil": 1100,
+    "steal": [],
+    "drops": [
+      "Tent",
+      "Holy Torch"
+    ]
+  },
+  {
+    "name": "Stinger",
+    "level": 25,
+    "hp": 2200,
+    "mp": 60,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Sting",
+      "Sting Bomb",
+      "Rabbit Gouge"
+    ],
+    "location": "Cave of the Gi",
+    "exp": 290,
+    "ap": 25,
+    "gil": 358,
+    "steal": [
+      "Ether"
+    ],
+    "drops": [
+      "Hi-Potion"
+    ]
+  },
+  {
+    "name": "Submarine Crew",
+    "level": 32,
+    "hp": 1500,
+    "mp": 85,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Machine Gun",
+      "Hand Grenade"
+    ],
+    "location": "Junon Path; Underwater Reactor",
+    "exp": 850,
+    "ap": 80,
+    "gil": 500,
+    "steal": [
+      "8-inch Cannon"
+    ],
+    "drops": [
+      "S-mine",
+      "Shinra Beta"
+    ]
+  },
+  {
+    "name": "Sweeper",
+    "level": 8,
+    "hp": 140,
+    "mp": 0,
+    "type": "Normal",
+    "weaknesses": [
+      "Lightning"
+    ],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Machine Gun",
+      "W Machine Gun",
+      "Smoke Shot"
+    ],
+    "location": "No. 1 Reactor; Train Graveyard (before Aps is fought)",
+    "exp": 27,
+    "ap": 3,
+    "gil": 30,
+    "steal": [],
+    "drops": [
+      "Potion"
+    ]
+  },
+  {
+    "name": "Sword Dance",
+    "level": 11,
+    "hp": 160,
+    "mp": 0,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [
+      "Earth"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Bodyblow",
+      "Gash",
+      "Slap",
+      "Sawback",
+      "Spinning Cut"
+    ],
+    "location": "Shinra Bldg.; Battle Square",
+    "exp": 39,
+    "ap": 6,
+    "gil": 90,
+    "steal": [
+      "Hyper"
+    ],
+    "drops": [
+      "Loco weed",
+      "Light Curtain"
+    ]
+  },
+  {
+    "name": "Tail Vault",
+    "level": 28,
+    "hp": 960,
+    "mp": 0,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Bite",
+      "Somersault"
+    ],
+    "location": "Wutai Area; Battle Square",
+    "exp": 440,
+    "ap": 36,
+    "gil": 380,
+    "steal": [],
+    "drops": [
+      "Phoenix Down"
+    ]
+  },
+  {
+    "name": "Thunderbird",
+    "level": 28,
+    "hp": 800,
+    "mp": 80,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [
+      "Lightning"
+    ],
+    "attacks": [
+      "Stab",
+      "Lightning"
+    ],
+    "location": "Wutai Area",
+    "exp": 385,
+    "ap": 36,
+    "gil": 420,
+    "steal": [
+      "Bolt Plume"
+    ],
+    "drops": [
+      "Bolt Plume",
+      "Hi-Potion",
+      "Echo Screen",
+      "Swift Bolt"
+    ]
+  },
+  {
+    "name": "Tonadu",
+    "level": 30,
+    "hp": 1600,
+    "mp": 0,
+    "type": "Normal",
+    "weaknesses": [
+      "Wind"
+    ],
+    "resistances": [
+      "Earth",
+      "Water"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Claw",
+      "Great Gale",
+      "Big Sound"
+    ],
+    "location": "Woodlands Area; Icicle Area",
+    "exp": 600,
+    "ap": 45,
+    "gil": 600,
+    "steal": [
+      "Bird Wing"
+    ],
+    "drops": [
+      "Bird Wing"
+    ]
+  },
+  {
+    "name": "Tonberry",
+    "level": 25,
+    "hp": 15000,
+    "mp": 250,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [
+      "Gravity"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Time Damage",
+      "Knife",
+      "Move",
+      "Move Right",
+      "Move Left"
+    ],
+    "location": "Battle Square",
+    "exp": 999,
+    "ap": 99,
+    "gil": 999,
+    "steal": [
+      "Turbo Ether"
+    ],
+    "drops": [
+      "Phoenix Down",
+      "Elixir"
+    ]
+  },
+  {
+    "name": "Touch Me",
+    "level": 18,
+    "hp": 300,
+    "mp": 74,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Frog Jab",
+      "Frog Song"
+    ],
+    "location": "Gongaga Area; Gongaga",
+    "exp": 170,
+    "ap": 23,
+    "gil": 180,
+    "steal": [
+      "Impaler"
+    ],
+    "drops": [
+      "Maiden's Kiss",
+      "Remedy"
+    ]
+  },
+  {
+    "name": "Toxic Frog",
+    "level": 26,
+    "hp": 500,
+    "mp": 100,
+    "type": "Normal",
+    "weaknesses": [
+      "Ice"
+    ],
+    "resistances": [],
+    "absorbs": [
+      "Poison"
+    ],
+    "attacks": [
+      "Frog Jab",
+      "Frog Song",
+      "Poisona"
+    ],
+    "location": "Temple of the Ancients; Battle Square",
+    "exp": 420,
+    "ap": 30,
+    "gil": 260,
+    "steal": [
+      "Impaler"
+    ],
+    "drops": [
+      "Impaler",
+      "Remedy"
+    ]
+  },
+  {
+    "name": "Trickplay",
+    "level": 24,
+    "hp": 1500,
+    "mp": 100,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [
+      "Earth"
+    ],
+    "attacks": [
+      "Rock Toss",
+      "Magma",
+      "Sewer",
+      "Sinking",
+      "Hot Springs",
+      "Gold Mountain",
+      "L4 Suicide"
+    ],
+    "location": "Icicle Area; Forgotten Capital",
+    "exp": 480,
+    "ap": 35,
+    "gil": 800,
+    "steal": [],
+    "drops": [
+      "Hi-Potion"
+    ]
+  },
+  {
+    "name": "Turks:Elena",
+    "level": 53,
+    "hp": 30000,
+    "mp": 100,
+    "type": "Boss",
+    "weaknesses": [],
+    "resistances": [
+      "Gravity"
+    ],
+    "absorbs": [
+      "Ice"
+    ],
+    "attacks": [
+      "Kick",
+      "Bewildered",
+      "Throw",
+      "Report"
+    ],
+    "location": "Sector 8 Tunnel",
+    "exp": 6400,
+    "ap": 800,
+    "gil": 7000,
+    "steal": [
+      "Minerva Band"
+    ],
+    "drops": []
+  },
+  {
+    "name": "Turks:Reno",
+    "level": 17,
+    "hp": 1000,
+    "mp": 0,
+    "type": "Boss",
+    "weaknesses": [],
+    "resistances": [
+      "Lightning",
+      "Gravity"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Short Staff",
+      "Pyramid",
+      "Pyramid Release",
+      "Electro-mag Rod",
+      "Report"
+    ],
+    "location": "Sector 7 Slums",
+    "exp": 290,
+    "ap": 22,
+    "gil": 500,
+    "steal": [],
+    "drops": []
+  },
+  {
+    "name": "Turks:Rude",
+    "level": 23,
+    "hp": 2000,
+    "mp": 135,
+    "type": "Boss",
+    "weaknesses": [],
+    "resistances": [
+      "Gravity"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Shoulder Attack",
+      "Fire",
+      "Cure",
+      "Grand Spark",
+      "Cover",
+      "Report"
+    ],
+    "location": "Gongaga",
+    "exp": 720,
+    "ap": 70,
+    "gil": 2000,
+    "steal": [],
+    "drops": []
+  },
+  {
+    "name": "Twin Brain",
+    "level": 25,
+    "hp": 400,
+    "mp": 20,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Absorb",
+      "Stare Down"
+    ],
+    "location": "Mt. Nibel; Nibel Reactor",
+    "exp": 340,
+    "ap": 32,
+    "gil": 320,
+    "steal": [
+      "Ether"
+    ],
+    "drops": [
+      "Ether",
+      "Turbo Ether"
+    ]
+  },
+  {
+    "name": "Ultimate Weapon",
+    "level": 61,
+    "hp": 100000,
+    "mp": 400,
+    "type": "Boss",
+    "weaknesses": [],
+    "resistances": [
+      "Gravity"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Quake2",
+      "Claw",
+      "Ultima Beam",
+      "Report",
+      "Shadow Flare"
+    ],
+    "location": "Mideel",
+    "exp": 0,
+    "ap": 0,
+    "gil": 0,
+    "steal": [],
+    "drops": []
+  },
+  {
+    "name": "Under Lizard",
+    "level": 29,
+    "hp": 1400,
+    "mp": 140,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Bodyblow",
+      "Petrified Frog"
+    ],
+    "location": "Temple of the Ancients; Woodlands Area",
+    "exp": 440,
+    "ap": 45,
+    "gil": 420,
+    "steal": [
+      "Remedy"
+    ],
+    "drops": [
+      "Remedy"
+    ]
+  },
+  {
+    "name": "Underwater MP",
+    "level": 34,
+    "hp": 1000,
+    "mp": 100,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Machine Gun",
+      "Hand Grenade"
+    ],
+    "location": "Underwater Reactor",
+    "exp": 820,
+    "ap": 80,
+    "gil": 600,
+    "steal": [
+      "Shinra Alpha"
+    ],
+    "drops": [
+      "Grenade"
+    ]
+  },
+  {
+    "name": "Unknown",
+    "level": 50,
+    "hp": 11000,
+    "mp": 110,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [
+      "Fire"
+    ],
+    "attacks": [
+      "Bite",
+      "Tongue",
+      "Blaster"
+    ],
+    "location": "Sunken Gelnika",
+    "exp": 1500,
+    "ap": 150,
+    "gil": 5000,
+    "steal": [
+      "Fire Armlet"
+    ],
+    "drops": [
+      "Light Curtain",
+      "Power Source"
+    ]
+  },
+  {
+    "name": "Unknown 2",
+    "level": 51,
+    "hp": 13000,
+    "mp": 130,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [
+      "Poison"
+    ],
+    "attacks": [
+      "? Needle",
+      "Abnormal Breath"
+    ],
+    "location": "Sunken Gelnika",
+    "exp": 3000,
+    "ap": 300,
+    "gil": 10000,
+    "steal": [
+      "Aurora Armlet"
+    ],
+    "drops": [
+      "Lunar Curtain",
+      "Guard Source"
+    ]
+  },
+  {
+    "name": "Unknown 3",
+    "level": 52,
+    "hp": 15000,
+    "mp": 150,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [
+      "Lightning"
+    ],
+    "attacks": [
+      "Poison Fang",
+      "Bolt2",
+      "Slap",
+      "Creepy Touch"
+    ],
+    "location": "Sunken Gelnika; Battle Square",
+    "exp": 2000,
+    "ap": 200,
+    "gil": 7500,
+    "steal": [
+      "Bolt Armlet"
+    ],
+    "drops": [
+      "Holy Torch",
+      "Magic Source"
+    ]
+  },
+  {
+    "name": "Valron",
+    "level": 24,
+    "hp": 950,
+    "mp": 80,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Speed Punch",
+      "Jump Kick"
+    ],
+    "location": "Nibel Area; Rocket Launch Pad Area",
+    "exp": 300,
+    "ap": 30,
+    "gil": 300,
+    "steal": [],
+    "drops": [
+      "Hi-Potion"
+    ]
+  },
+  {
+    "name": "Vargid Police",
+    "level": 9,
+    "hp": 140,
+    "mp": 28,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Needle",
+      "Suicide"
+    ],
+    "location": "Shinra Bldg.; Battle Square",
+    "exp": 44,
+    "ap": 7,
+    "gil": 40,
+    "steal": [
+      "Tranquilizer"
+    ],
+    "drops": [
+      "Phoenix Down",
+      "Tranquilizer"
+    ]
+  },
+  {
+    "name": "Velcher Task",
+    "level": 26,
+    "hp": 900,
+    "mp": 28,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [
+      "Poison"
+    ],
+    "attacks": [
+      "Claw",
+      "Poison Blow"
+    ],
+    "location": "Rocket Launch Pad Area; Battle Square",
+    "exp": 320,
+    "ap": 31,
+    "gil": 350,
+    "steal": [
+      "Remedy"
+    ],
+    "drops": [
+      "Hi-Potion",
+      "Remedy"
+    ]
+  },
+  {
+    "name": "Vice",
+    "level": 7,
+    "hp": 68,
+    "mp": 0,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Hit",
+      "Steal",
+      "Grind",
+      "Seize",
+      "Escape"
+    ],
+    "location": "Sector 5 Slums",
+    "exp": 24,
+    "ap": 3,
+    "gil": 80,
+    "steal": [
+      "Speed Drink"
+    ],
+    "drops": [
+      "Potion"
+    ]
+  },
+  {
+    "name": "Vlakorados",
+    "level": 33,
+    "hp": 33333,
+    "mp": 333,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [
+      "Gravity"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Tail Attack",
+      "Violent Advance",
+      "Bolt Ball"
+    ],
+    "location": "Icicle Area; Battle Square",
+    "exp": 510,
+    "ap": 40,
+    "gil": 460,
+    "steal": [
+      "Carob Nut"
+    ],
+    "drops": [
+      "Carob Nut",
+      "Elixir"
+    ]
+  },
+  {
+    "name": "Warning Board",
+    "level": 12,
+    "hp": 270,
+    "mp": 0,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [
+      "Lightning"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Vanish"
+    ],
+    "location": "Shinra Bldg.",
+    "exp": 38,
+    "ap": 4,
+    "gil": 75,
+    "steal": [],
+    "drops": []
+  },
+  {
+    "name": "Waterpolo",
+    "level": 4,
+    "hp": 40,
+    "mp": 0,
+    "type": "Boss",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Appear",
+      "Vanish"
+    ],
+    "location": "Under Junon",
+    "exp": 10,
+    "ap": 0,
+    "gil": 0,
+    "steal": [],
+    "drops": []
+  },
+  {
+    "name": "Whole Eater",
+    "level": 9,
+    "hp": 72,
+    "mp": 0,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Sickle"
+    ],
+    "location": "Sector 5 Slums, Sector 6 Slums; Battle Square",
+    "exp": 24,
+    "ap": 2,
+    "gil": 70,
+    "steal": [
+      "Potion"
+    ],
+    "drops": [
+      "Potion"
+    ]
+  },
+  {
+    "name": "Wind Wing",
+    "level": 36,
+    "hp": 1900,
+    "mp": 350,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Tailbeat",
+      "Sham Seal",
+      "Aero3",
+      "White Wind"
+    ],
+    "location": "Whirlwind Maze; Battle Square",
+    "exp": 800,
+    "ap": 60,
+    "gil": 500,
+    "steal": [
+      "Hi-Potion"
+    ],
+    "drops": [
+      "Phoenix Down"
+    ]
+  },
+  {
+    "name": "Wolfmeister",
+    "level": 43,
+    "hp": 10000,
+    "mp": 200,
+    "type": "Normal",
+    "weaknesses": [
+      "Water"
+    ],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Big Punch",
+      "Heavy Sword",
+      "Atomic Ray",
+      "Big Guard"
+    ],
+    "location": "Coal Train",
+    "exp": 10000,
+    "ap": 100,
+    "gil": 600,
+    "steal": [],
+    "drops": []
+  },
+  {
+    "name": "XCannon",
+    "level": 46,
+    "hp": 20000,
+    "mp": 100,
+    "type": "Normal",
+    "weaknesses": [
+      "Lightning"
+    ],
+    "resistances": [],
+    "absorbs": [],
+    "attacks": [
+      "Search",
+      "Drain",
+      "Dragon Cannon",
+      "Before Firing",
+      "Vanish"
+    ],
+    "location": "Sector 8",
+    "exp": 2000,
+    "ap": 90,
+    "gil": 3000,
+    "steal": [],
+    "drops": [
+      "Turbo Ether"
+    ]
+  },
+  {
+    "name": "Yang",
+    "level": 24,
+    "hp": 1200,
+    "mp": 220,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [
+      "Gravity"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Bolt2",
+      "Ice2",
+      "Suicide Yang",
+      "Happy Yang",
+      "Enchanted Yang",
+      "Vanish"
+    ],
+    "location": "Shinra Mansion; Battle Square",
+    "exp": 300,
+    "ap": 40,
+    "gil": 400,
+    "steal": [],
+    "drops": []
+  },
+  {
+    "name": "Ying",
+    "level": 24,
+    "hp": 1200,
+    "mp": 0,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [
+      "Gravity"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Ying Punch",
+      "Sadistic Attack",
+      "Vanish"
+    ],
+    "location": "Mansion; Battle Square",
+    "exp": 400,
+    "ap": 30,
+    "gil": 400,
+    "steal": [],
+    "drops": []
+  },
+  {
+    "name": "Zemzelett",
+    "level": 17,
+    "hp": 285,
+    "mp": 36,
+    "type": "Normal",
+    "weaknesses": [
+      "Wind"
+    ],
+    "resistances": [
+      "Earth",
+      "Gravity",
+      "Water"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Flap",
+      "Thunderbolt",
+      "White Wind",
+      "Clap"
+    ],
+    "location": "Junon Area; Battle Square",
+    "exp": 70,
+    "ap": 7,
+    "gil": 165,
+    "steal": [],
+    "drops": [
+      "Hi-Potion"
+    ]
+  },
+  {
+    "name": "Zenene",
+    "level": 14,
+    "hp": 250,
+    "mp": 93,
+    "type": "Normal",
+    "weaknesses": [
+      "Holy"
+    ],
+    "resistances": [
+      "Fire"
+    ],
+    "absorbs": [
+      "Poison",
+      "Restorative",
+      "Death"
+    ],
+    "attacks": [
+      "Fang",
+      "Piazzo Shower",
+      "Ghenghana"
+    ],
+    "location": "Shinra Bldg.; Battle Square",
+    "exp": 58,
+    "ap": 6,
+    "gil": 60,
+    "steal": [
+      "Deadly Waste"
+    ],
+    "drops": [
+      "Ether",
+      "Remedy"
+    ]
+  },
+  {
+    "name": "Zolokalter",
+    "level": 30,
+    "hp": 950,
+    "mp": 90,
+    "type": "Normal",
+    "weaknesses": [],
+    "resistances": [],
+    "absorbs": [
+      "Poison"
+    ],
+    "attacks": [
+      "Bite",
+      "Toxic Barf"
+    ],
+    "location": "Gaea's Cliff; Battle Square",
+    "exp": 700,
+    "ap": 60,
+    "gil": 700,
+    "steal": [],
+    "drops": [
+      "X-Potion",
+      "Antidote"
+    ]
+  },
+  {
+    "name": "Zuu",
+    "level": 27,
+    "hp": 1200,
+    "mp": 40,
+    "type": "Normal",
+    "weaknesses": [
+      "Wind"
+    ],
+    "resistances": [
+      "Earth",
+      "Gravity"
+    ],
+    "absorbs": [],
+    "attacks": [
+      "Claw",
+      "Great Gale"
+    ],
+    "location": "Mt. Nibel; Nibel Reactor",
+    "exp": 450,
+    "ap": 38,
+    "gil": 430,
+    "steal": [
+      "Bird Wing"
+    ],
+    "drops": [
+      "Bird Wing"
+    ]
+  }
+]
