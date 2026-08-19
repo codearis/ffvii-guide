@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "vite build && cd dist && rm -rf .git && git init -b gh-pages && git add -A && git -c user.name=codearis -c user.email=codearis@users.noreply.github.com commit -m deploy && git -c credential.helper= -c 'credential.helper=!gh auth git-credential' push -f https://github.com/codearis/ffvii-guide.git gh-pages && cd .. && rm -rf dist/.git"
   },
   "dependencies": {
     "react": "^19.0.0",
