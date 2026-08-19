@@ -26,7 +26,15 @@
     "defense": 1,
     "magicDef": 0,
     "dexterity": 40,
-    "skills": []
+    "skills": [
+      {
+        "name": "Laser Cannon",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      }
+    ]
   },
   {
     "name": "2-Faced",
@@ -58,7 +66,22 @@
     "defense": 19,
     "magicDef": 75,
     "dexterity": 48,
-    "skills": []
+    "skills": [
+      {
+        "name": "Cure3",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Restorative magic that heals one of its allies, never misses, costs 64 MP."
+      },
+      {
+        "name": "Self-destruct",
+        "multiplier": null,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Magic attack against one target, deals damage equal to 75% of the target’s current HP, never misses."
+      }
+    ]
   },
   {
     "name": "8 eye",
@@ -92,7 +115,29 @@
     "defense": 100,
     "magicDef": 200,
     "dexterity": 25,
-    "skills": []
+    "skills": [
+      {
+        "name": "Eyesight",
+        "multiplier": null,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Magic attack against one target, deals damage equal to 75% of the target’s current HP."
+      },
+      {
+        "name": "Eyesight",
+        "multiplier": 3,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Magic attack against one target, 3x base damage, never misses."
+      },
+      {
+        "name": "Eyesight",
+        "multiplier": null,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Magic attack against one target, never misses. Inflicts Slow, Darkness unless the target is immune."
+      }
+    ]
   },
   {
     "name": "Acrophies",
@@ -125,7 +170,29 @@
     "defense": 35,
     "magicDef": 80,
     "dexterity": 54,
-    "skills": []
+    "skills": [
+      {
+        "name": "Big Red Clipper",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": 95,
+        "desc": "Physical attack against one target, 1x base damage, 95% accuracy."
+      },
+      {
+        "name": "Isogin Smog",
+        "multiplier": 1,
+        "type": "magical",
+        "accuracy": 95,
+        "desc": "Magic attack against one target, 1x base damage, 95% accuracy, costs 10 MP. Inflicts Darkness unless the target is immune."
+      },
+      {
+        "name": "Huge Tidal Wave",
+        "multiplier": 1.25,
+        "type": "physical",
+        "accuracy": 95,
+        "desc": "Water-elemental physical attack against the whole party, 1.25x base damage, 95% accuracy, costs 20 MP."
+      }
+    ]
   },
   {
     "name": "Adamantaimai",
@@ -160,7 +227,36 @@
     "defense": 30,
     "magicDef": 140,
     "dexterity": 62,
-    "skills": []
+    "skills": [
+      {
+        "name": "Light Shell",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": 95,
+        "desc": "Physical attack against one target, 1x base damage, 95% accuracy."
+      },
+      {
+        "name": "Death Force",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Grants one ally immunity to instant-Death effects, costs 3 MP."
+      },
+      {
+        "name": "Barrier",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Casts a barrier over one of its allies that halves the physical damage that ally takes, costs 16 MP."
+      },
+      {
+        "name": "MBarrier",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Casts a barrier over one of its allies that halves the magic damage that ally takes, costs 24 MP."
+      }
+    ]
   },
   {
     "name": "Aero Combatant",
@@ -192,7 +288,22 @@
     "defense": 12,
     "magicDef": 12,
     "dexterity": 72,
-    "skills": []
+    "skills": [
+      {
+        "name": "Kick",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Propeller",
+        "multiplier": 1.5,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1.5x base damage."
+      }
+    ]
   },
   {
     "name": "Air Buster",
@@ -266,7 +377,43 @@
     "defense": 45,
     "magicDef": 48,
     "dexterity": 85,
-    "skills": []
+    "skills": [
+      {
+        "name": "Claw",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Teardrop",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage. Inflicts Sadness unless the target is immune."
+      },
+      {
+        "name": "Big Breath",
+        "multiplier": 1,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Magic attack against one target or an entire group, 1x base damage, costs 20 MP."
+      },
+      {
+        "name": "L4 Death",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Magic that only affects targets whose level is a multiple of 4, costs 20 MP. Inflicts Death unless the target is immune."
+      },
+      {
+        "name": "L3 Flare",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Magic that only affects targets whose level is a multiple of 3, deals damage equal to 125% of the target’s current HP, costs 20 MP."
+      }
+    ]
   },
   {
     "name": "Ancient Dragon",
@@ -300,7 +447,22 @@
     "defense": 45,
     "magicDef": 140,
     "dexterity": 70,
-    "skills": []
+    "skills": [
+      {
+        "name": "Horn",
+        "multiplier": 1.12,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1.12x base damage."
+      },
+      {
+        "name": "Southern Cross",
+        "multiplier": 2,
+        "type": "physical",
+        "accuracy": 95,
+        "desc": "Ice-elemental physical attack against one target, 2x base damage, 95% accuracy."
+      }
+    ]
   },
   {
     "name": "Aps",
@@ -371,7 +533,22 @@
     "defense": 25,
     "magicDef": 65,
     "dexterity": 61,
-    "skills": []
+    "skills": [
+      {
+        "name": "Claw",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Flame Thrower",
+        "multiplier": 0.88,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Fire-elemental magic attack against one target, 0.88x base damage, costs 10 MP."
+      }
+    ]
   },
   {
     "name": "Armored Golem",
@@ -406,7 +583,64 @@
     "defense": 50,
     "magicDef": 60,
     "dexterity": 110,
-    "skills": []
+    "skills": [
+      {
+        "name": "Golem Punch",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": 95,
+        "desc": "Physical attack against one target, 1x base damage, 95% accuracy."
+      },
+      {
+        "name": "Snap",
+        "multiplier": 2.5,
+        "type": "physical",
+        "accuracy": 95,
+        "desc": "Physical attack against the whole party, 2.5x base damage, 95% accuracy."
+      },
+      {
+        "name": "Megaton Punch",
+        "multiplier": 1.88,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1.88x base damage."
+      },
+      {
+        "name": "Golem Laser",
+        "multiplier": 1,
+        "type": "magical",
+        "accuracy": 95,
+        "desc": "Magic attack against the whole party, 1x base damage, 95% accuracy, costs 20 MP."
+      },
+      {
+        "name": "Advance",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Special attack against one target."
+      },
+      {
+        "name": "Retreat",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Special attack against one target."
+      },
+      {
+        "name": "Defense Start",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Special attack against one target, never misses."
+      },
+      {
+        "name": "Defense Down",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Special attack against one target, never misses."
+      }
+    ]
   },
   {
     "name": "Attack Squad",
@@ -437,7 +671,29 @@
     "defense": 33,
     "magicDef": 30,
     "dexterity": 55,
-    "skills": []
+    "skills": [
+      {
+        "name": "Machine Gun",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Grenade",
+        "multiplier": 1.25,
+        "type": "physical",
+        "accuracy": 85,
+        "desc": "Physical attack against the whole party, 1.25x base damage, 85% accuracy."
+      },
+      {
+        "name": "Smoke Bullet",
+        "multiplier": null,
+        "type": "physical",
+        "accuracy": 75,
+        "desc": "Physical attack against one target, 75% accuracy. Inflicts Sleep, Darkness unless the target is immune."
+      }
+    ]
   },
   {
     "name": "Bad Rap",
@@ -471,7 +727,29 @@
     "defense": 45,
     "magicDef": 45,
     "dexterity": 60,
-    "skills": []
+    "skills": [
+      {
+        "name": "Whip",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Big Fang",
+        "multiplier": 2.62,
+        "type": "physical",
+        "accuracy": 85,
+        "desc": "Physical attack against one target, 2.62x base damage, 85% accuracy."
+      },
+      {
+        "name": "Evil Poison",
+        "multiplier": 0.75,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Poison-elemental physical attack against one target, 0.75x base damage, costs 4 MP. Inflicts Darkness unless the target is immune."
+      }
+    ]
   },
   {
     "name": "Bad Rap Sample",
@@ -536,7 +814,36 @@
     "defense": 20,
     "magicDef": 40,
     "dexterity": 43,
-    "skills": []
+    "skills": [
+      {
+        "name": "Fang",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Claw",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Horn",
+        "multiplier": 1.12,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1.12x base damage."
+      },
+      {
+        "name": "Poison Breath",
+        "multiplier": 0.75,
+        "type": "magical",
+        "accuracy": 90,
+        "desc": "Poison-elemental magic attack against one target, 0.75x base damage, 90% accuracy, costs 10 MP. May inflict Poison (84% chance)."
+      }
+    ]
   },
   {
     "name": "Bagrisk",
@@ -570,7 +877,29 @@
     "defense": 22,
     "magicDef": 50,
     "dexterity": 45,
-    "skills": []
+    "skills": [
+      {
+        "name": "Tail",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Stone Strike",
+        "multiplier": null,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Magic attack against one target, never misses, costs 10 MP. Inflicts Petrify unless the target is immune."
+      },
+      {
+        "name": "Quake2",
+        "multiplier": 1.5,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Earth-elemental magic attack against one target or an entire group, 1.5x base damage, costs 28 MP."
+      }
+    ]
   },
   {
     "name": "Bahba Velamyu",
@@ -601,7 +930,43 @@
     "defense": 19,
     "magicDef": 88,
     "dexterity": 55,
-    "skills": []
+    "skills": [
+      {
+        "name": "Bonecutter",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Jumping Cutter",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage, never misses."
+      },
+      {
+        "name": "Magic Cutter",
+        "multiplier": 0.12,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Magic attack against one target, 0.12x base damage, never misses, costs 4 MP."
+      },
+      {
+        "name": "Silence",
+        "multiplier": null,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Magic attack against one target or an entire group, costs 24 MP. May inflict Silence (80% chance)."
+      },
+      {
+        "name": "Slow",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Status attack against one target or an entire group, costs 20 MP. Inflicts Slow unless the target is immune."
+      }
+    ]
   },
   {
     "name": "Bandersnatch",
@@ -635,7 +1000,36 @@
     "defense": 23,
     "magicDef": 38,
     "dexterity": 55,
-    "skills": []
+    "skills": [
+      {
+        "name": "Bodyblow",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Bite",
+        "multiplier": 1.25,
+        "type": "physical",
+        "accuracy": 95,
+        "desc": "Physical attack against one target, 1.25x base damage, 95% accuracy. May inflict Confusion (48% chance)."
+      },
+      {
+        "name": "Howling",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Restorative magic that heals one of its allies, never misses. Removes Death."
+      },
+      {
+        "name": "Howling",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": 95,
+        "desc": "Special attack against one target, 95% accuracy."
+      }
+    ]
   },
   {
     "name": "Bandit",
@@ -668,7 +1062,36 @@
     "defense": 20,
     "magicDef": 48,
     "dexterity": 68,
-    "skills": []
+    "skills": [
+      {
+        "name": "Hit",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Hold-up",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Special attack against one target."
+      },
+      {
+        "name": "Mug",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Escape",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Special attack against one target, never misses."
+      }
+    ]
   },
   {
     "name": "Battery Cap",
@@ -698,7 +1121,22 @@
     "defense": 19,
     "magicDef": 73,
     "dexterity": 40,
-    "skills": []
+    "skills": [
+      {
+        "name": "Seed Shot",
+        "multiplier": null,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target. Inflicts Darkness unless the target is immune."
+      },
+      {
+        "name": "Four Laser",
+        "multiplier": 1,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Magic attack against one target, 1x base damage, costs 16 MP."
+      }
+    ]
   },
   {
     "name": "Beachplug",
@@ -730,7 +1168,29 @@
     "defense": 18,
     "magicDef": 18,
     "dexterity": 52,
-    "skills": []
+    "skills": [
+      {
+        "name": "Bite",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": 95,
+        "desc": "Physical attack against one target, 1x base damage, 95% accuracy."
+      },
+      {
+        "name": "Big Guard",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Casts Haste, Barrier, and MBarrier on its entire side, costs 56 MP."
+      },
+      {
+        "name": "Ice",
+        "multiplier": 0.5,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Ice-elemental magic attack against one target or an entire group, 0.5x base damage, costs 4 MP."
+      }
+    ]
   },
   {
     "name": "Behemoth",
@@ -763,7 +1223,36 @@
     "defense": 60,
     "magicDef": 100,
     "dexterity": 120,
-    "skills": []
+    "skills": [
+      {
+        "name": "Behemoth Horn",
+        "multiplier": 1.12,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1.12x base damage."
+      },
+      {
+        "name": "Flare",
+        "multiplier": 7.19,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Fire-elemental magic attack against one target, 7.19x base damage, costs 100 MP."
+      },
+      {
+        "name": "????",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Special attack against one target, costs 3 MP."
+      },
+      {
+        "name": "Claw",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      }
+    ]
   },
   {
     "name": "Bizarre Bug",
@@ -790,7 +1279,29 @@
     "defense": 25,
     "magicDef": 80,
     "dexterity": 59,
-    "skills": []
+    "skills": [
+      {
+        "name": "Bodyblow",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": 95,
+        "desc": "Physical attack against one target, 1x base damage, 95% accuracy."
+      },
+      {
+        "name": "Scorpion Attack",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": 95,
+        "desc": "Physical attack against one target, 1x base damage, 95% accuracy."
+      },
+      {
+        "name": "Toxic Powder",
+        "multiplier": 1.56,
+        "type": "physical",
+        "accuracy": 95,
+        "desc": "Poison-elemental physical attack against the whole party, 1.56x base damage, 95% accuracy. Inflicts Poison unless the target is immune."
+      }
+    ]
   },
   {
     "name": "Bizarro∙Sephiroth",
@@ -861,7 +1372,22 @@
     "defense": 18,
     "magicDef": 90,
     "dexterity": 52,
-    "skills": []
+    "skills": [
+      {
+        "name": "Blood Suck",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage, never misses."
+      },
+      {
+        "name": "Dodge",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Special attack against one target, never misses."
+      }
+    ]
   },
   {
     "name": "Bloatfloat",
@@ -896,7 +1422,29 @@
     "defense": 18,
     "magicDef": 20,
     "dexterity": 52,
-    "skills": []
+    "skills": [
+      {
+        "name": "Bodyblow",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": 95,
+        "desc": "Physical attack against one target, 1x base damage, 95% accuracy."
+      },
+      {
+        "name": "Vacuum",
+        "multiplier": 1.56,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1.56x base damage."
+      },
+      {
+        "name": "Spiky Hell",
+        "multiplier": 0.62,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Magic attack against one target, 0.62x base damage."
+      }
+    ]
   },
   {
     "name": "Blood Taste",
@@ -927,7 +1475,22 @@
     "defense": 11,
     "magicDef": 12,
     "dexterity": 65,
-    "skills": []
+    "skills": [
+      {
+        "name": "Bite",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Tentacle Drain",
+        "multiplier": 0.62,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 0.62x base damage."
+      }
+    ]
   },
   {
     "name": "Blue Dragon",
@@ -962,7 +1525,43 @@
     "defense": 43,
     "magicDef": 120,
     "dexterity": 80,
-    "skills": []
+    "skills": [
+      {
+        "name": "Dragon Fang",
+        "multiplier": 2.5,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 2.5x base damage."
+      },
+      {
+        "name": "Tail Attack",
+        "multiplier": 1.25,
+        "type": "physical",
+        "accuracy": 90,
+        "desc": "Physical attack against one target, 1.25x base damage, 90% accuracy."
+      },
+      {
+        "name": "Blue Dragon Breath",
+        "multiplier": 0.88,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Ice-elemental magic attack against the whole party, 0.88x base damage, costs 20 MP."
+      },
+      {
+        "name": "Great Gale",
+        "multiplier": 1.88,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Wind-elemental physical attack against the whole party, 1.88x base damage. May inflict Darkness (40% chance)."
+      },
+      {
+        "name": "Dragon Force",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Raises the user’s Defense and Magic Defense by 50%, costs 19 MP."
+      }
+    ]
   },
   {
     "name": "Blugu",
@@ -997,7 +1596,22 @@
     "defense": 90,
     "magicDef": 64,
     "dexterity": 52,
-    "skills": []
+    "skills": [
+      {
+        "name": "Bodyblow",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": 95,
+        "desc": "Physical attack against one target, 1x base damage, 95% accuracy."
+      },
+      {
+        "name": "Hell Bubbles",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Status attack against one target. May inflict Sleep (80% chance)."
+      }
+    ]
   },
   {
     "name": "Bomb",
@@ -1031,7 +1645,29 @@
     "defense": 30,
     "magicDef": 30,
     "dexterity": 65,
-    "skills": []
+    "skills": [
+      {
+        "name": "Bodyblow",
+        "multiplier": null,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x to 2.5x base damage depending on the version used."
+      },
+      {
+        "name": "Fireball",
+        "multiplier": 1,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Fire-elemental magic attack against one target, 1x base damage, costs 3 MP."
+      },
+      {
+        "name": "Bomb Blast",
+        "multiplier": 15.88,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 15.88x base damage."
+      }
+    ]
   },
   {
     "name": "Bottomswell",
@@ -1105,7 +1741,36 @@
     "defense": 30,
     "magicDef": 50,
     "dexterity": 60,
-    "skills": []
+    "skills": [
+      {
+        "name": "Bodyblow",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": 95,
+        "desc": "Physical attack against one target, 1x base damage, 95% accuracy."
+      },
+      {
+        "name": "Ice2",
+        "multiplier": 1.25,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Ice-elemental magic attack against one target or an entire group, 1.25x base damage, costs 22 MP."
+      },
+      {
+        "name": "Dark Needle",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": 95,
+        "desc": "Physical attack against one target, 1x base damage, 95% accuracy. Inflicts Darkness unless the target is immune."
+      },
+      {
+        "name": "Death Sentence",
+        "multiplier": null,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Magic attack against one target, costs 10 MP. Inflicts Death-sentence unless the target is immune."
+      }
+    ]
   },
   {
     "name": "Brain Pod",
@@ -1143,7 +1808,29 @@
     "defense": 13,
     "magicDef": 16,
     "dexterity": 48,
-    "skills": []
+    "skills": [
+      {
+        "name": "Bodyblow",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Refuse",
+        "multiplier": 0.38,
+        "type": "magical",
+        "accuracy": 95,
+        "desc": "Poison-elemental magic attack against one target, 0.38x base damage, 95% accuracy, costs 4 MP. May inflict Sleep (64% chance)."
+      },
+      {
+        "name": "Refuse",
+        "multiplier": 0.75,
+        "type": "magical",
+        "accuracy": 95,
+        "desc": "Poison-elemental magic attack against one target, 0.75x base damage, 95% accuracy, costs 4 MP. May inflict Poison (64% chance)."
+      }
+    ]
   },
   {
     "name": "Bullmotor",
@@ -1174,7 +1861,22 @@
     "defense": 20,
     "magicDef": 60,
     "dexterity": 61,
-    "skills": []
+    "skills": [
+      {
+        "name": "Bodyblow",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Matra Magic",
+        "multiplier": 0.69,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Magic attack against the whole party, 0.69x base damage, costs 8 MP."
+      }
+    ]
   },
   {
     "name": "Cactuar",
@@ -1213,7 +1915,29 @@
     "defense": 20,
     "magicDef": 0,
     "dexterity": 40,
-    "skills": []
+    "skills": [
+      {
+        "name": "Mystery Kick",
+        "multiplier": 3,
+        "type": "physical",
+        "accuracy": 90,
+        "desc": "Physical attack against one target, 3x base damage, 90% accuracy."
+      },
+      {
+        "name": "1000 Needles",
+        "multiplier": 3.12,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Magic attack against one target, 3.12x base damage."
+      },
+      {
+        "name": "Dodge",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Special attack against one target, never misses."
+      }
+    ]
   },
   {
     "name": "Cactuer",
@@ -1242,7 +1966,29 @@
     "defense": 45,
     "magicDef": 50,
     "dexterity": 75,
-    "skills": []
+    "skills": [
+      {
+        "name": "Mystery Kick",
+        "multiplier": 3,
+        "type": "physical",
+        "accuracy": 90,
+        "desc": "Physical attack against one target, 3x base damage, 90% accuracy."
+      },
+      {
+        "name": "1000 Needles",
+        "multiplier": 3.12,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Magic attack against one target, 3.12x base damage."
+      },
+      {
+        "name": "Dodge",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Special attack against one target, never misses."
+      }
+    ]
   },
   {
     "name": "Capparwire",
@@ -1272,7 +2018,22 @@
     "defense": 19,
     "magicDef": 5,
     "dexterity": 42,
-    "skills": []
+    "skills": [
+      {
+        "name": "Wire Attack",
+        "multiplier": 1,
+        "type": "magical",
+        "accuracy": 95,
+        "desc": "Magic attack against one target, 1x base damage, 95% accuracy."
+      },
+      {
+        "name": "Grand Spark",
+        "multiplier": 1.5,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Magic attack against one target, 1.5x base damage."
+      }
+    ]
   },
   {
     "name": "Captain",
@@ -1302,7 +2063,22 @@
     "defense": 33,
     "magicDef": 40,
     "dexterity": 63,
-    "skills": []
+    "skills": [
+      {
+        "name": "Machine Gun",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Hand Grenade",
+        "multiplier": 2.19,
+        "type": "physical",
+        "accuracy": 70,
+        "desc": "Physical attack against one target, 2.19x base damage, 70% accuracy."
+      }
+    ]
   },
   {
     "name": "Carry Armor",
@@ -1367,7 +2143,22 @@
     "defense": 38,
     "magicDef": 2,
     "dexterity": 49,
-    "skills": []
+    "skills": [
+      {
+        "name": "2-stage attack",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Scissor Spark",
+        "multiplier": 1.38,
+        "type": "physical",
+        "accuracy": 75,
+        "desc": "Lightning-elemental physical attack against one target, 1.38x base damage, 75% accuracy."
+      }
+    ]
   },
   {
     "name": "Ceasar",
@@ -1400,7 +2191,22 @@
     "defense": 54,
     "magicDef": 16,
     "dexterity": 47,
-    "skills": []
+    "skills": [
+      {
+        "name": "Bodyblow",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": 95,
+        "desc": "Physical attack against one target, 1x base damage, 95% accuracy."
+      },
+      {
+        "name": "Bubble",
+        "multiplier": 0.75,
+        "type": "physical",
+        "accuracy": 75,
+        "desc": "Water-elemental physical attack against one target, 0.75x base damage, 75% accuracy."
+      }
+    ]
   },
   {
     "name": "Chekhov",
@@ -1456,7 +2262,50 @@
     "defense": 40,
     "magicDef": 26,
     "dexterity": 101,
-    "skills": []
+    "skills": [
+      {
+        "name": "Chocobo, goes nuts",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": 95,
+        "desc": "Physical attack against one target, 1x base damage, 95% accuracy."
+      },
+      {
+        "name": "Chocobuckle",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Special attack against one target, costs 3 MP."
+      },
+      {
+        "name": "Taking Bait",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Special attack against one target, never misses."
+      },
+      {
+        "name": "Escape",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Special attack against one target."
+      },
+      {
+        "name": "Chocobo, goes nuts",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": 95,
+        "desc": "Physical attack against one target or an entire group, 1x base damage, 95% accuracy."
+      },
+      {
+        "name": "Finished Bait",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Special attack against one target, never misses."
+      }
+    ]
   },
   {
     "name": "Christopher",
@@ -1492,7 +2341,71 @@
     "defense": 33,
     "magicDef": 75,
     "dexterity": 90,
-    "skills": []
+    "skills": [
+      {
+        "name": "Flutilizer",
+        "multiplier": 1.25,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1.25x base damage."
+      },
+      {
+        "name": "Cure2",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Restorative magic that heals one of its allies, never misses, costs 24 MP."
+      },
+      {
+        "name": "Bolt3",
+        "multiplier": 4,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Lightning-elemental magic attack against one target or an entire group, 4x base damage, costs 52 MP."
+      },
+      {
+        "name": "Aspil",
+        "multiplier": 0.12,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Magic attack against one target, 0.12x base damage, never misses, costs 1 MP."
+      },
+      {
+        "name": "Frog Song",
+        "multiplier": null,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Magic attack against one target, costs 5 MP. Toggles Sleep, Frog."
+      },
+      {
+        "name": "High/Low Suit",
+        "multiplier": null,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Magic attack against one target, costs 10 MP. Inflicts Sadness unless the target is immune."
+      },
+      {
+        "name": "High/Low Suit",
+        "multiplier": null,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Magic attack against one target, costs 10 MP. Inflicts Fury unless the target is immune."
+      },
+      {
+        "name": "Suffocation Song",
+        "multiplier": null,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target. Inflicts Death unless the target is immune."
+      },
+      {
+        "name": "Stardust March",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      }
+    ]
   },
   {
     "name": "Chuse Tank",
@@ -1522,7 +2435,22 @@
     "defense": 3,
     "magicDef": 33,
     "dexterity": 57,
-    "skills": []
+    "skills": [
+      {
+        "name": "Claw",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Rolling Claw",
+        "multiplier": null,
+        "type": "magical",
+        "accuracy": 75,
+        "desc": "Magic attack against one target, deals damage equal to 12.5% of the target’s current HP, 75% accuracy."
+      }
+    ]
   },
   {
     "name": "CMD.Grand Horn",
@@ -1580,7 +2508,29 @@
     "defense": 18,
     "magicDef": 30,
     "dexterity": 55,
-    "skills": []
+    "skills": [
+      {
+        "name": "Beak",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Bird Kick",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Petrify Smog",
+        "multiplier": null,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Magic attack against one target. May inflict Slow-numb (72% chance)."
+      }
+    ]
   },
   {
     "name": "Corneo's Lackey",
@@ -1608,7 +2558,22 @@
     "defense": 6,
     "magicDef": 3,
     "dexterity": 48,
-    "skills": []
+    "skills": [
+      {
+        "name": "Hit",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Machine Gun",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      }
+    ]
   },
   {
     "name": "Corvette",
@@ -1645,7 +2610,43 @@
     "defense": 34,
     "magicDef": 37,
     "dexterity": 69,
-    "skills": []
+    "skills": [
+      {
+        "name": "Bodyblow",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Gash",
+        "multiplier": 1.25,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1.25x base damage."
+      },
+      {
+        "name": "Slap",
+        "multiplier": 1.25,
+        "type": "physical",
+        "accuracy": 95,
+        "desc": "Physical attack against one target, 1.25x base damage, 95% accuracy. May inflict Fury (48% chance)."
+      },
+      {
+        "name": "Sawback",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against the whole party, 1x base damage."
+      },
+      {
+        "name": "Spinning Cut",
+        "multiplier": 1.88,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1.88x base damage."
+      }
+    ]
   },
   {
     "name": "Crawler",
@@ -1677,7 +2678,22 @@
     "defense": 5,
     "magicDef": 16,
     "dexterity": 36,
-    "skills": []
+    "skills": [
+      {
+        "name": "Bite",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Cold Breath",
+        "multiplier": 0.06,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Ice-elemental magic attack against one target, 0.06x base damage, costs 2 MP."
+      }
+    ]
   },
   {
     "name": "Crazy Saw",
@@ -1711,7 +2727,22 @@
     "defense": 50,
     "magicDef": 60,
     "dexterity": 80,
-    "skills": []
+    "skills": [
+      {
+        "name": "Uppercut",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage. Inflicts Confusion unless the target is immune."
+      },
+      {
+        "name": "Rifle",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      }
+    ]
   },
   {
     "name": "Cripshay",
@@ -1741,7 +2772,22 @@
     "defense": 9,
     "magicDef": 13,
     "dexterity": 46,
-    "skills": []
+    "skills": [
+      {
+        "name": "Scissors",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Dual Spike",
+        "multiplier": 1.25,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1.25x base damage."
+      }
+    ]
   },
   {
     "name": "Cromwell",
@@ -1770,7 +2816,15 @@
     "defense": 55,
     "magicDef": 52,
     "dexterity": 70,
-    "skills": []
+    "skills": [
+      {
+        "name": "Normal Shell",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      }
+    ]
   },
   {
     "name": "Crown Lance",
@@ -1809,7 +2863,50 @@
     "defense": 15,
     "magicDef": 70,
     "dexterity": 60,
-    "skills": []
+    "skills": [
+      {
+        "name": "Claw",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Sleepel",
+        "multiplier": null,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Magic attack against one target or an entire group, costs 8 MP. May inflict Sleep (72% chance)."
+      },
+      {
+        "name": "Bolt",
+        "multiplier": 0.5,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Lightning-elemental magic attack against one target or an entire group, 0.5x base damage, costs 4 MP."
+      },
+      {
+        "name": "Deadly Needles",
+        "multiplier": 0.06,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Magic attack against one target, 0.06x base damage. Inflicts Petrify unless the target is immune."
+      },
+      {
+        "name": "Advance",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Special attack against one target, never misses."
+      },
+      {
+        "name": "Retreat",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Special attack against one target, never misses."
+      }
+    ]
   },
   {
     "name": "Crysales",
@@ -1838,7 +2935,22 @@
     "defense": 23,
     "magicDef": 42,
     "dexterity": 59,
-    "skills": []
+    "skills": [
+      {
+        "name": "Bite",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Sleep Scales",
+        "multiplier": null,
+        "type": "magical",
+        "accuracy": 95,
+        "desc": "Magic attack against one target, 95% accuracy, costs 10 MP. Inflicts Sleep unless the target is immune."
+      }
+    ]
   },
   {
     "name": "Cuahl",
@@ -1869,7 +2981,22 @@
     "defense": 21,
     "magicDef": 35,
     "dexterity": 60,
-    "skills": []
+    "skills": [
+      {
+        "name": "Light Shell",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": 95,
+        "desc": "Physical attack against one target, 1x base damage, 95% accuracy."
+      },
+      {
+        "name": "Blaster",
+        "multiplier": 1.75,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Magic attack against one target, 1.75x base damage, never misses, costs 20 MP."
+      }
+    ]
   },
   {
     "name": "Custom Sweeper",
@@ -1903,7 +3030,29 @@
     "defense": 15,
     "magicDef": 20,
     "dexterity": 43,
-    "skills": []
+    "skills": [
+      {
+        "name": "W Machine Gun",
+        "multiplier": 1.75,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1.75x base damage."
+      },
+      {
+        "name": "Smoke Shot",
+        "multiplier": 1.5,
+        "type": "physical",
+        "accuracy": 75,
+        "desc": "Physical attack against one target, 1.5x base damage, 75% accuracy."
+      },
+      {
+        "name": "Matra Magic",
+        "multiplier": 0.69,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Magic attack against the whole party, 0.69x base damage, costs 8 MP."
+      }
+    ]
   },
   {
     "name": "Dark Dragon",
@@ -1940,7 +3089,50 @@
     "defense": 60,
     "magicDef": 120,
     "dexterity": 100,
-    "skills": []
+    "skills": [
+      {
+        "name": "Claw",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Tail Attack",
+        "multiplier": 1.25,
+        "type": "physical",
+        "accuracy": 90,
+        "desc": "Physical attack against one target, 1.25x base damage, 90% accuracy."
+      },
+      {
+        "name": "Dark Dragon Breath",
+        "multiplier": 1.25,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Magic attack against one target or an entire group, 1.25x base damage, costs 20 MP. May inflict Darkness (80% chance)."
+      },
+      {
+        "name": "Ultima",
+        "multiplier": 6.56,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Magic attack against the whole party, 6.56x base damage, costs 130 MP."
+      },
+      {
+        "name": "Dragon Force",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Raises the user’s Defense and Magic Defense by 50%, costs 19 MP."
+      },
+      {
+        "name": "Laser",
+        "multiplier": null,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Gravity-elemental magic attack against one target, deals damage equal to 50% of the target’s current HP, costs 16 MP."
+      }
+    ]
   },
   {
     "name": "Dark Nation",
@@ -2003,7 +3195,43 @@
     "defense": 22,
     "magicDef": 50,
     "dexterity": 51,
-    "skills": []
+    "skills": [
+      {
+        "name": "Claw",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Death Claw",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage, costs 10 MP. May inflict Paralysed (20% chance)."
+      },
+      {
+        "name": "Laser",
+        "multiplier": null,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Gravity-elemental magic attack against one target, deals damage equal to 50% of the target’s current HP, costs 16 MP."
+      },
+      {
+        "name": "Barrier",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Casts a barrier over one of its allies that halves the physical damage that ally takes, costs 16 MP."
+      },
+      {
+        "name": "MBarrier",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Casts a barrier over one of its allies that halves the magic damage that ally takes, costs 24 MP."
+      }
+    ]
   },
   {
     "name": "Death Dealer",
@@ -2042,7 +3270,64 @@
     "defense": 70,
     "magicDef": 70,
     "dexterity": 90,
-    "skills": []
+    "skills": [
+      {
+        "name": "Spin Turn",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Fire",
+        "multiplier": 0.5,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Fire-elemental magic attack against one target or an entire group, 0.5x base damage, costs 4 MP."
+      },
+      {
+        "name": "Emperor",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Restorative magic that heals one of its allies, never misses."
+      },
+      {
+        "name": "Hidden One",
+        "multiplier": null,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Magic attack against one target. Inflicts Death unless the target is immune."
+      },
+      {
+        "name": "Star",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Sun",
+        "multiplier": null,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Magic attack against one target. Inflicts Silence, Darkness unless the target is immune."
+      },
+      {
+        "name": "World",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Status attack against one target. Inflicts Stop unless the target is immune."
+      },
+      {
+        "name": "Roulette",
+        "multiplier": null,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Magic attack against a random target, never misses, costs 6 MP. Inflicts Death unless the target is immune."
+      }
+    ]
   },
   {
     "name": "Death Machine",
@@ -2071,7 +3356,29 @@
     "defense": 29,
     "magicDef": 30,
     "dexterity": 66,
-    "skills": []
+    "skills": [
+      {
+        "name": "W Machine Gun",
+        "multiplier": 1.75,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1.75x base damage."
+      },
+      {
+        "name": "100 Needles",
+        "multiplier": 1.25,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1.25x base damage."
+      },
+      {
+        "name": "Matra Magic",
+        "multiplier": 0.69,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Magic attack against the whole party, 0.69x base damage, costs 8 MP."
+      }
+    ]
   },
   {
     "name": "Deenglow",
@@ -2112,7 +3419,29 @@
     "defense": 16,
     "magicDef": 120,
     "dexterity": 58,
-    "skills": []
+    "skills": [
+      {
+        "name": "Wing Cutter",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Ice",
+        "multiplier": 0.5,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Ice-elemental magic attack against one target or an entire group, 0.5x base damage, costs 4 MP."
+      },
+      {
+        "name": "Demi",
+        "multiplier": null,
+        "type": "magical",
+        "accuracy": 75,
+        "desc": "Gravity-elemental magic attack against one target or an entire group, deals damage equal to 25% of the target’s current HP, 75% accuracy, costs 14 MP."
+      }
+    ]
   },
   {
     "name": "Demons Gate",
@@ -2186,7 +3515,29 @@
     "defense": 16,
     "magicDef": 60,
     "dexterity": 56,
-    "skills": []
+    "skills": [
+      {
+        "name": "Harpoon",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Sandgun",
+        "multiplier": null,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Earth-elemental physical attack against one target. May inflict Darkness (48% chance)."
+      },
+      {
+        "name": "Shell Defense",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Special attack against one target, never misses."
+      }
+    ]
   },
   {
     "name": "Devil Ride",
@@ -2217,7 +3568,22 @@
     "defense": 20,
     "magicDef": 11,
     "dexterity": 56,
-    "skills": []
+    "skills": [
+      {
+        "name": "Wheelie",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Drift Turn",
+        "multiplier": 1.25,
+        "type": "physical",
+        "accuracy": 95,
+        "desc": "Physical attack against the whole party, 1.25x base damage, 95% accuracy."
+      }
+    ]
   },
   {
     "name": "Diablo",
@@ -2247,7 +3613,29 @@
     "defense": 40,
     "magicDef": 55,
     "dexterity": 75,
-    "skills": []
+    "skills": [
+      {
+        "name": "Horn Bomber",
+        "multiplier": 1.88,
+        "type": "physical",
+        "accuracy": 95,
+        "desc": "Physical attack against one target, 1.88x base damage, 95% accuracy."
+      },
+      {
+        "name": "Flame",
+        "multiplier": 1,
+        "type": "magical",
+        "accuracy": 95,
+        "desc": "Fire-elemental magic attack against one target, 1x base damage, 95% accuracy, costs 16 MP."
+      },
+      {
+        "name": "Cold",
+        "multiplier": 1,
+        "type": "magical",
+        "accuracy": 95,
+        "desc": "Ice-elemental magic attack against one target, 1x base damage, 95% accuracy, costs 16 MP."
+      }
+    ]
   },
   {
     "name": "Diamond Weapon",
@@ -2314,7 +3702,29 @@
     "defense": 45,
     "magicDef": 55,
     "dexterity": 64,
-    "skills": []
+    "skills": [
+      {
+        "name": "Bodyblow",
+        "multiplier": 2.5,
+        "type": "physical",
+        "accuracy": 90,
+        "desc": "Physical attack against one target, 2.5x base damage, 90% accuracy."
+      },
+      {
+        "name": "Big Wave",
+        "multiplier": 1.25,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against the whole party, 1.25x base damage."
+      },
+      {
+        "name": "Tornade Wave",
+        "multiplier": 1.25,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Wind-elemental magic attack against one target, 1.25x base damage, costs 20 MP."
+      }
+    ]
   },
   {
     "name": "Doorbull",
@@ -2350,7 +3760,36 @@
     "defense": 33,
     "magicDef": 80,
     "dexterity": 80,
-    "skills": []
+    "skills": [
+      {
+        "name": "Claw",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Fang",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": 95,
+        "desc": "Physical attack against one target, 1x base damage, 95% accuracy."
+      },
+      {
+        "name": "Fire Shell",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": 95,
+        "desc": "Fire-elemental physical attack against one target, 1x base damage, 95% accuracy, costs 30 MP."
+      },
+      {
+        "name": "Light Shell",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": 95,
+        "desc": "Physical attack against one target, 1x base damage, 95% accuracy."
+      }
+    ]
   },
   {
     "name": "Dorky Face",
@@ -2383,7 +3822,36 @@
     "defense": 18,
     "magicDef": 60,
     "dexterity": 35,
-    "skills": []
+    "skills": [
+      {
+        "name": "Cutter",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Curses",
+        "multiplier": null,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Magic attack against one target, costs 10 MP. Inflicts Silence unless the target is immune."
+      },
+      {
+        "name": "Funny Breath",
+        "multiplier": null,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Magic attack against the whole party, never misses, costs 10 MP. May inflict Confusion (24% chance)."
+      },
+      {
+        "name": "Ascend",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Special attack against one target, never misses."
+      }
+    ]
   },
   {
     "name": "Dragon",
@@ -2417,7 +3885,22 @@
     "defense": 60,
     "magicDef": 150,
     "dexterity": 90,
-    "skills": []
+    "skills": [
+      {
+        "name": "Dragon Fang",
+        "multiplier": 2.5,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 2.5x base damage."
+      },
+      {
+        "name": "Flame Thrower",
+        "multiplier": 0.88,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Fire-elemental magic attack against one target, 0.88x base damage, costs 10 MP."
+      }
+    ]
   },
   {
     "name": "Dragon Rider",
@@ -2457,7 +3940,43 @@
     "defense": 40,
     "magicDef": 60,
     "dexterity": 77,
-    "skills": []
+    "skills": [
+      {
+        "name": "Fang",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Head Hunting",
+        "multiplier": 2.5,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 2.5x base damage."
+      },
+      {
+        "name": "Dual Attack",
+        "multiplier": 1.25,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1.25x base damage."
+      },
+      {
+        "name": "Rider Breath",
+        "multiplier": 1.88,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Magic attack against one target, 1.88x base damage, costs 20 MP."
+      },
+      {
+        "name": "Head Hunting 2",
+        "multiplier": 5,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 5x base damage."
+      }
+    ]
   },
   {
     "name": "Dragon Zombie",
@@ -2498,7 +4017,50 @@
     "defense": 75,
     "magicDef": 100,
     "dexterity": 110,
-    "skills": []
+    "skills": [
+      {
+        "name": "Poison Fang",
+        "multiplier": 3,
+        "type": "physical",
+        "accuracy": 90,
+        "desc": "Poison-elemental physical attack against one target, 3x base damage, 90% accuracy. Inflicts Poison unless the target is immune."
+      },
+      {
+        "name": "Body Tail",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target or an entire group, 1x base damage."
+      },
+      {
+        "name": "Abnormal Breath",
+        "multiplier": 1,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Magic attack against one target or an entire group, 1x base damage, costs 20 MP. Inflicts Poison unless the target is immune."
+      },
+      {
+        "name": "Bone",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage. Inflicts Paralysed unless the target is immune."
+      },
+      {
+        "name": "Shadow Flare",
+        "multiplier": 7.81,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Magic attack against one target, 7.81x base damage, costs 100 MP."
+      },
+      {
+        "name": "Pandora's Box",
+        "multiplier": 3.75,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Magic attack against the whole party, 3.75x base damage, costs 110 MP."
+      }
+    ]
   },
   {
     "name": "Dual Horn",
@@ -2529,7 +4091,22 @@
     "defense": 35,
     "magicDef": 83,
     "dexterity": 62,
-    "skills": []
+    "skills": [
+      {
+        "name": "Angle Punch",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": 95,
+        "desc": "Physical attack against one target, 1x base damage, 95% accuracy."
+      },
+      {
+        "name": "Horn Lift",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": 95,
+        "desc": "Physical attack against one target, 1x base damage, 95% accuracy."
+      }
+    ]
   },
   {
     "name": "Dyne",
@@ -2598,7 +4175,29 @@
     "defense": 43,
     "magicDef": 50,
     "dexterity": 90,
-    "skills": []
+    "skills": [
+      {
+        "name": "Claw",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Single Wing Fire",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Dual Wing Fire",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target or an entire group, 1x base damage."
+      }
+    ]
   },
   {
     "name": "Edgehead",
@@ -2630,7 +4229,22 @@
     "defense": 24,
     "magicDef": 70,
     "dexterity": 62,
-    "skills": []
+    "skills": [
+      {
+        "name": "Scissors",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Electric Burst",
+        "multiplier": 1,
+        "type": "magical",
+        "accuracy": 95,
+        "desc": "Lightning-elemental magic attack against one target, 1x base damage, 95% accuracy, costs 8 MP."
+      }
+    ]
   },
   {
     "name": "Elfadunk",
@@ -2660,7 +4274,22 @@
     "defense": 20,
     "magicDef": 4,
     "dexterity": 55,
-    "skills": []
+    "skills": [
+      {
+        "name": "Bodyblow",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Shower",
+        "multiplier": 0.5,
+        "type": "magical",
+        "accuracy": 95,
+        "desc": "Magic attack against one target, 0.5x base damage, 95% accuracy, costs 5 MP. Inflicts Sadness unless the target is immune."
+      }
+    ]
   },
   {
     "name": "Eligor",
@@ -2695,7 +4324,36 @@
     "defense": 23,
     "magicDef": 55,
     "dexterity": 56,
-    "skills": []
+    "skills": [
+      {
+        "name": "Sword Attack",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Mono Laser",
+        "multiplier": 0.88,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 0.88x base damage."
+      },
+      {
+        "name": "Silence",
+        "multiplier": null,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Magic attack against one target or an entire group, costs 24 MP. May inflict Silence (80% chance)."
+      },
+      {
+        "name": "Sleepel",
+        "multiplier": null,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Magic attack against one target or an entire group, costs 8 MP. May inflict Sleep (72% chance)."
+      }
+    ]
   },
   {
     "name": "Emerald Weapon",
@@ -2767,7 +4425,29 @@
     "defense": 29,
     "magicDef": 50,
     "dexterity": 86,
-    "skills": []
+    "skills": [
+      {
+        "name": "Bird Kick",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Catapult",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": 95,
+        "desc": "Physical attack against one target, 1x base damage, 95% accuracy."
+      },
+      {
+        "name": "Acid Rain",
+        "multiplier": 1.25,
+        "type": "magical",
+        "accuracy": 95,
+        "desc": "Poison-elemental magic attack against one target, 1.25x base damage, 95% accuracy, costs 15 MP. Inflicts Poison unless the target is immune."
+      }
+    ]
   },
   {
     "name": "Evilhead",
@@ -2797,7 +4477,29 @@
     "defense": 25,
     "magicDef": 30,
     "dexterity": 65,
-    "skills": []
+    "skills": [
+      {
+        "name": "Blood Suck",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage, never misses."
+      },
+      {
+        "name": "Ultrasound",
+        "multiplier": 0.56,
+        "type": "magical",
+        "accuracy": 95,
+        "desc": "Magic attack against one target, 0.56x base damage, 95% accuracy. Inflicts Silence unless the target is immune."
+      },
+      {
+        "name": "Dodge",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Special attack against one target, never misses."
+      }
+    ]
   },
   {
     "name": "Eye",
@@ -2864,7 +4566,22 @@
     "defense": 18,
     "magicDef": 78,
     "dexterity": 50,
-    "skills": []
+    "skills": [
+      {
+        "name": "Tailbeat",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage, never misses."
+      },
+      {
+        "name": "Flying Sickle",
+        "multiplier": 0.75,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Wind-elemental magic attack against one target, 0.75x base damage, never misses, costs 8 MP."
+      }
+    ]
   },
   {
     "name": "Flower Prong",
@@ -2897,7 +4614,36 @@
     "defense": 29,
     "magicDef": 100,
     "dexterity": 68,
-    "skills": []
+    "skills": [
+      {
+        "name": "Bio2",
+        "multiplier": 1.31,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Poison-elemental magic attack against one target or an entire group, 1.31x base damage, costs 36 MP. May inflict Poison (48% chance)."
+      },
+      {
+        "name": "Drain",
+        "multiplier": 0.38,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Magic attack against one target, 0.38x base damage, never misses, costs 1 MP."
+      },
+      {
+        "name": "Energy Siphon",
+        "multiplier": null,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Magic attack against one target, deals damage equal to 87.5% of the target’s current HP, never misses."
+      },
+      {
+        "name": "Change",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Special attack against one target, never misses."
+      }
+    ]
   },
   {
     "name": "Formula",
@@ -2933,7 +4679,29 @@
     "defense": 18,
     "magicDef": 16,
     "dexterity": 57,
-    "skills": []
+    "skills": [
+      {
+        "name": "Air Bomber",
+        "multiplier": 1,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Wind-elemental magic attack against one target, 1x base damage, costs 5 MP."
+      },
+      {
+        "name": "Blue Impulse",
+        "multiplier": 0.62,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Wind-elemental magic attack against the whole party, 0.62x base damage, costs 18 MP."
+      },
+      {
+        "name": "Cross Impulse",
+        "multiplier": 0.88,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Wind-elemental magic attack against the whole party, 0.88x base damage, costs 26 MP."
+      }
+    ]
   },
   {
     "name": "Foulander",
@@ -2964,7 +4732,22 @@
     "defense": 23,
     "magicDef": 50,
     "dexterity": 54,
-    "skills": []
+    "skills": [
+      {
+        "name": "Claw",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Flame Dance",
+        "multiplier": 1.25,
+        "type": "magical",
+        "accuracy": 95,
+        "desc": "Fire-elemental magic attack against one target or an entire group, 1.25x base damage, 95% accuracy, costs 16 MP."
+      }
+    ]
   },
   {
     "name": "Frozen Nail",
@@ -2990,7 +4773,22 @@
     "defense": 26,
     "magicDef": 64,
     "dexterity": 60,
-    "skills": []
+    "skills": [
+      {
+        "name": "Continu-claw",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Flying Sickle",
+        "multiplier": 0.75,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Wind-elemental magic attack against one target, 0.75x base damage, never misses, costs 8 MP."
+      }
+    ]
   },
   {
     "name": "Fuseya Kazumasa-kun",
@@ -3057,7 +4855,22 @@
     "defense": 19,
     "magicDef": 36,
     "dexterity": 45,
-    "skills": []
+    "skills": [
+      {
+        "name": "Claw",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Stone Stare",
+        "multiplier": null,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Magic attack against one target, never misses, costs 5 MP. Inflicts Slow-numb unless the target is immune."
+      }
+    ]
   },
   {
     "name": "Gargoyle",
@@ -3083,7 +4896,22 @@
     "defense": 70,
     "magicDef": 60,
     "dexterity": 90,
-    "skills": []
+    "skills": [
+      {
+        "name": "Rock Finger",
+        "multiplier": 1,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Magic attack against one target, 1x base damage, costs 10 MP. Inflicts Slow-numb unless the target is immune."
+      },
+      {
+        "name": "Vanish",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Special attack against one target, never misses."
+      }
+    ]
   },
   {
     "name": "Garuda",
@@ -3123,7 +4951,36 @@
     "defense": 26,
     "magicDef": 75,
     "dexterity": 59,
-    "skills": []
+    "skills": [
+      {
+        "name": "Rod",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": 90,
+        "desc": "Physical attack against one target, 1x base damage, 90% accuracy."
+      },
+      {
+        "name": "Ice2",
+        "multiplier": 1.25,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Ice-elemental magic attack against one target or an entire group, 1.25x base damage, costs 22 MP."
+      },
+      {
+        "name": "Bolt2",
+        "multiplier": 1.25,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Lightning-elemental magic attack against one target or an entire group, 1.25x base damage, costs 22 MP."
+      },
+      {
+        "name": "Dance",
+        "multiplier": 0.5,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Magic attack against one target, 0.5x base damage, costs 8 MP."
+      }
+    ]
   },
   {
     "name": "Gas Ducter",
@@ -3151,7 +5008,22 @@
     "defense": 38,
     "magicDef": 68,
     "dexterity": 85,
-    "skills": []
+    "skills": [
+      {
+        "name": "Punch",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Smog Alert",
+        "multiplier": 1.25,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1.25x base damage. Inflicts Poison, Sadness, Silence, Darkness unless the target is immune."
+      }
+    ]
   },
   {
     "name": "Ghirofelgo",
@@ -3184,7 +5056,29 @@
     "defense": 50,
     "magicDef": 200,
     "dexterity": 120,
-    "skills": []
+    "skills": [
+      {
+        "name": "Guillotine",
+        "multiplier": 2.5,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 2.5x base damage, never misses."
+      },
+      {
+        "name": "Catch Chain",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Special attack against one target, never misses."
+      },
+      {
+        "name": "Fail to catch",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Special attack against one target, never misses."
+      }
+    ]
   },
   {
     "name": "Ghost",
@@ -3228,7 +5122,43 @@
     "defense": 4,
     "magicDef": 28,
     "dexterity": 48,
-    "skills": []
+    "skills": [
+      {
+        "name": "Scratch",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Fire",
+        "multiplier": 0.5,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Fire-elemental magic attack against one target or an entire group, 0.5x base damage, costs 4 MP."
+      },
+      {
+        "name": "Drain",
+        "multiplier": 0.38,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Magic attack against one target, 0.38x base damage, never misses, costs 1 MP."
+      },
+      {
+        "name": "Vanish",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Special attack against one target, never misses."
+      },
+      {
+        "name": "Appear",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Special attack against one target, never misses."
+      }
+    ]
   },
   {
     "name": "Ghost Ship",
@@ -3269,7 +5199,29 @@
     "defense": 35,
     "magicDef": 40,
     "dexterity": 80,
-    "skills": []
+    "skills": [
+      {
+        "name": "Fight",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": 95,
+        "desc": "Physical attack against one target, 1x base damage, 95% accuracy."
+      },
+      {
+        "name": "St.Elmos Fire",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Goannai",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Special attack against one target, never misses."
+      }
+    ]
   },
   {
     "name": "Gi Nattak",
@@ -3345,7 +5297,29 @@
     "defense": 15,
     "magicDef": 60,
     "dexterity": 59,
-    "skills": []
+    "skills": [
+      {
+        "name": "Skewer",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Hell Spear",
+        "multiplier": 1.25,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1.25x base damage. May inflict Paralysed (28% chance)."
+      },
+      {
+        "name": "Death Sentence",
+        "multiplier": null,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Magic attack against one target, costs 10 MP. Inflicts Death-sentence unless the target is immune."
+      }
+    ]
   },
   {
     "name": "Gigas",
@@ -3378,7 +5352,29 @@
     "defense": 40,
     "magicDef": 49,
     "dexterity": 79,
-    "skills": []
+    "skills": [
+      {
+        "name": "Squash",
+        "multiplier": 0.75,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Earth-elemental physical attack against one target, 0.75x base damage."
+      },
+      {
+        "name": "Moon Wars",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Quake3",
+        "multiplier": 4.38,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Earth-elemental magic attack against one target or an entire group, 4.38x base damage, costs 68 MP."
+      }
+    ]
   },
   {
     "name": "Gighee",
@@ -3410,7 +5406,36 @@
     "defense": 38,
     "magicDef": 95,
     "dexterity": 90,
-    "skills": []
+    "skills": [
+      {
+        "name": "Guitar Slap",
+        "multiplier": 1.5,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1.5x base damage. Inflicts Fury unless the target is immune."
+      },
+      {
+        "name": "Petrif-Eye",
+        "multiplier": 1,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Magic attack against one target, 1x base damage, costs 10 MP. Inflicts Petrify unless the target is immune."
+      },
+      {
+        "name": "Voice of Ages",
+        "multiplier": 1,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Magic attack against one target or an entire group, 1x base damage, costs 10 MP. Inflicts Silence unless the target is immune."
+      },
+      {
+        "name": "Sun Diver",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Special attack against one target, never misses."
+      }
+    ]
   },
   {
     "name": "Goblin",
@@ -3441,7 +5466,29 @@
     "defense": 37,
     "magicDef": 37,
     "dexterity": 68,
-    "skills": []
+    "skills": [
+      {
+        "name": "Fight",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": 95,
+        "desc": "Physical attack against one target, 1x base damage, 95% accuracy."
+      },
+      {
+        "name": "Goblin Punch",
+        "multiplier": 0.75,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 0.75x base damage."
+      },
+      {
+        "name": "Sleepel",
+        "multiplier": null,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Magic attack against one target or an entire group, costs 8 MP. May inflict Sleep (72% chance)."
+      }
+    ]
   },
   {
     "name": "Godo",
@@ -3510,7 +5557,43 @@
     "defense": 28,
     "magicDef": 50,
     "dexterity": 80,
-    "skills": []
+    "skills": [
+      {
+        "name": "Golem Punch",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": 95,
+        "desc": "Physical attack against one target, 1x base damage, 95% accuracy."
+      },
+      {
+        "name": "Finger Shot",
+        "multiplier": 1.25,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1.25x base damage."
+      },
+      {
+        "name": "Megaton Punch",
+        "multiplier": 1.88,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1.88x base damage."
+      },
+      {
+        "name": "Advance",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Special attack against one target, never misses."
+      },
+      {
+        "name": "Retreat",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Special attack against one target, never misses."
+      }
+    ]
   },
   {
     "name": "Gorkii",
@@ -3575,7 +5658,22 @@
     "defense": 21,
     "magicDef": 45,
     "dexterity": 60,
-    "skills": []
+    "skills": [
+      {
+        "name": "Punch",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": 95,
+        "desc": "Physical attack against one target, 1x base damage, 95% accuracy."
+      },
+      {
+        "name": "Grand Punch",
+        "multiplier": 1.5,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Earth-elemental magic attack against one target, 1.5x base damage, never misses."
+      }
+    ]
   },
   {
     "name": "Grangalan",
@@ -3609,7 +5707,36 @@
     "defense": 44,
     "magicDef": 60,
     "dexterity": 50,
-    "skills": []
+    "skills": [
+      {
+        "name": "Darkeye",
+        "multiplier": null,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Magic attack against one target, never misses, costs 4 MP. May inflict Darkness (72% chance)."
+      },
+      {
+        "name": "Silver Wheel",
+        "multiplier": 1.25,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1.25x base damage."
+      },
+      {
+        "name": "Put out",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Special attack against one target, never misses."
+      },
+      {
+        "name": "Vanish",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Special attack against one target, never misses."
+      }
+    ]
   },
   {
     "name": "Grangalan Jr.",
@@ -3704,7 +5831,22 @@
     "defense": 9,
     "magicDef": 1,
     "dexterity": 58,
-    "skills": []
+    "skills": [
+      {
+        "name": "Sickle",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Silk",
+        "multiplier": null,
+        "type": "magical",
+        "accuracy": 90,
+        "desc": "Magic attack against one target, 90% accuracy. Inflicts Slow unless the target is immune."
+      }
+    ]
   },
   {
     "name": "Gremlin",
@@ -3737,7 +5879,36 @@
     "defense": 30,
     "magicDef": 40,
     "dexterity": 62,
-    "skills": []
+    "skills": [
+      {
+        "name": "Claw",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Bad mouth",
+        "multiplier": 3,
+        "type": "physical",
+        "accuracy": 90,
+        "desc": "Physical attack against one target, 3x base damage, 90% accuracy. Inflicts Sadness unless the target is immune."
+      },
+      {
+        "name": "Fury",
+        "multiplier": null,
+        "type": "physical",
+        "accuracy": 90,
+        "desc": "Physical attack against one target, 90% accuracy."
+      },
+      {
+        "name": "Fury 2",
+        "multiplier": null,
+        "type": "physical",
+        "accuracy": 90,
+        "desc": "Physical attack against one target, 90% accuracy."
+      }
+    ]
   },
   {
     "name": "Grenade",
@@ -3772,7 +5943,36 @@
     "defense": 30,
     "magicDef": 32,
     "dexterity": 68,
-    "skills": []
+    "skills": [
+      {
+        "name": "Bodyblow",
+        "multiplier": null,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x to 2.5x base damage depending on the version used."
+      },
+      {
+        "name": "Gush",
+        "multiplier": 1.88,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Fire-elemental physical attack against one target, 1.88x base damage."
+      },
+      {
+        "name": "Eruption",
+        "multiplier": 3.12,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Fire-elemental physical attack against the whole party, 3.12x base damage."
+      },
+      {
+        "name": "Bomb Blast",
+        "multiplier": 15.88,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 15.88x base damage."
+      }
+    ]
   },
   {
     "name": "Grenade Combatant",
@@ -3802,7 +6002,22 @@
     "defense": 12,
     "magicDef": 15,
     "dexterity": 54,
-    "skills": []
+    "skills": [
+      {
+        "name": "Machine Gun",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Hand Grenade",
+        "multiplier": 2.19,
+        "type": "physical",
+        "accuracy": 70,
+        "desc": "Physical attack against one target, 2.19x base damage, 70% accuracy."
+      }
+    ]
   },
   {
     "name": "Grenadiers",
@@ -3858,7 +6073,22 @@
     "defense": 21,
     "magicDef": 80,
     "dexterity": 58,
-    "skills": []
+    "skills": [
+      {
+        "name": "Claw",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Peacock",
+        "multiplier": 0.25,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Magic attack against the whole party, 0.25x base damage, costs 8 MP."
+      }
+    ]
   },
   {
     "name": "Grimguard",
@@ -3890,7 +6120,50 @@
     "defense": 26,
     "magicDef": 90,
     "dexterity": 58,
-    "skills": []
+    "skills": [
+      {
+        "name": "Ice2",
+        "multiplier": 1.25,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Ice-elemental magic attack against one target or an entire group, 1.25x base damage, costs 22 MP."
+      },
+      {
+        "name": "Bolt2",
+        "multiplier": 1.25,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Lightning-elemental magic attack against one target or an entire group, 1.25x base damage, costs 22 MP."
+      },
+      {
+        "name": "Spin Shield",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Special attack against one target."
+      },
+      {
+        "name": "Magic Defense",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Special attack against one target, never misses."
+      },
+      {
+        "name": "Grim Rod",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": 95,
+        "desc": "Physical attack against one target, 1x base damage, 95% accuracy."
+      },
+      {
+        "name": "Defense",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Special attack against one target, never misses."
+      }
+    ]
   },
   {
     "name": "Grosspanzer∙Big",
@@ -3919,7 +6192,15 @@
     "defense": 60,
     "magicDef": 80,
     "dexterity": 110,
-    "skills": []
+    "skills": [
+      {
+        "name": "Napalm Bomb",
+        "multiplier": 1.5,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Fire-elemental physical attack against one target, 1.5x base damage."
+      }
+    ]
   },
   {
     "name": "Grosspanzer∙Mobile",
@@ -3950,7 +6231,43 @@
     "defense": 68,
     "magicDef": 80,
     "dexterity": 75,
-    "skills": []
+    "skills": [
+      {
+        "name": "Napalm Bomb",
+        "multiplier": 1.5,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Fire-elemental physical attack against one target, 1.5x base damage."
+      },
+      {
+        "name": "Normal Shell",
+        "multiplier": null,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x to 1.88x base damage depending on the version used."
+      },
+      {
+        "name": "Bodyblow",
+        "multiplier": 2.5,
+        "type": "physical",
+        "accuracy": 90,
+        "desc": "Physical attack against one target, 2.5x base damage, 90% accuracy."
+      },
+      {
+        "name": "Deadly Wheel",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": 95,
+        "desc": "Physical attack against one target or an entire group, 1x base damage, 95% accuracy."
+      },
+      {
+        "name": "Vanish",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Special attack against one target, never misses."
+      }
+    ]
   },
   {
     "name": "Grosspanzer∙Small",
@@ -3977,7 +6294,15 @@
     "defense": 50,
     "magicDef": 65,
     "dexterity": 136,
-    "skills": []
+    "skills": [
+      {
+        "name": "Normal Shell",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      }
+    ]
   },
   {
     "name": "Grunt",
@@ -4008,7 +6333,22 @@
     "defense": 5,
     "magicDef": 1,
     "dexterity": 58,
-    "skills": []
+    "skills": [
+      {
+        "name": "Handclaw",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Beam Gun",
+        "multiplier": 1.12,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1.12x base damage."
+      }
+    ]
   },
   {
     "name": "Guard Hound",
@@ -4037,7 +6377,22 @@
     "defense": 2,
     "magicDef": 1,
     "dexterity": 64,
-    "skills": []
+    "skills": [
+      {
+        "name": "Bite",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Tentacle",
+        "multiplier": 1.5,
+        "type": "physical",
+        "accuracy": 90,
+        "desc": "Physical attack against one target, 1.5x base damage, 90% accuracy."
+      }
+    ]
   },
   {
     "name": "Guard Scorpion",
@@ -4099,7 +6454,15 @@
     "defense": 35,
     "magicDef": 25,
     "dexterity": 67,
-    "skills": []
+    "skills": [
+      {
+        "name": "Vanish",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Special attack against one target, never misses."
+      }
+    ]
   },
   {
     "name": "Guardian",
@@ -4128,7 +6491,43 @@
     "defense": 38,
     "magicDef": 40,
     "dexterity": 67,
-    "skills": []
+    "skills": [
+      {
+        "name": "Rocket Punch",
+        "multiplier": 1.25,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1.25x base damage."
+      },
+      {
+        "name": "W Rocket Punch",
+        "multiplier": 1.25,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1.25x base damage."
+      },
+      {
+        "name": "Jumping Blow",
+        "multiplier": 1.25,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1.25x base damage."
+      },
+      {
+        "name": "Power Plus",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Special attack against one target, never misses."
+      },
+      {
+        "name": "Vanish",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Special attack against one target, never misses."
+      }
+    ]
   },
   {
     "name": "Gun Carrier",
@@ -4159,7 +6558,29 @@
     "defense": 38,
     "magicDef": 42,
     "dexterity": 59,
-    "skills": []
+    "skills": [
+      {
+        "name": "Normal Shell",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Abnormal Shell",
+        "multiplier": 0.25,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 0.25x base damage. Inflicts Slow, Darkness unless the target is immune."
+      },
+      {
+        "name": "Bodyblow",
+        "multiplier": 2.5,
+        "type": "physical",
+        "accuracy": 90,
+        "desc": "Physical attack against one target, 2.5x base damage, 90% accuracy."
+      }
+    ]
   },
   {
     "name": "Hammer Blaster",
@@ -4201,7 +6622,78 @@
     "defense": 6,
     "magicDef": 22,
     "dexterity": 50,
-    "skills": []
+    "skills": [
+      {
+        "name": "Hammer Attack",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": 95,
+        "desc": "Physical attack against one target, 1x base damage, 95% accuracy."
+      },
+      {
+        "name": "Muyddle Mallet",
+        "multiplier": 0.5,
+        "type": "physical",
+        "accuracy": 90,
+        "desc": "Physical attack against one target, 0.5x base damage, 90% accuracy. May inflict Confusion (48% chance)."
+      },
+      {
+        "name": "Zip Hammer",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Zip Confu",
+        "multiplier": 0.5,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 0.5x base damage. May inflict Confusion (48% chance)."
+      },
+      {
+        "name": "Appear",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Special attack against one target."
+      },
+      {
+        "name": "Vanish",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Special attack against one target."
+      },
+      {
+        "name": "Flying Hammer",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": 90,
+        "desc": "Physical attack against one target, 1x base damage, 90% accuracy."
+      },
+      {
+        "name": "Flying Muddle",
+        "multiplier": 0.5,
+        "type": "physical",
+        "accuracy": 85,
+        "desc": "Physical attack against one target, 0.5x base damage, 85% accuracy. May inflict Confusion (48% chance)."
+      },
+      {
+        "name": "Flying Zip",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Flying Zip Confu",
+        "multiplier": 0.5,
+        "type": "physical",
+        "accuracy": 95,
+        "desc": "Physical attack against one target, 0.5x base damage, 95% accuracy. May inflict Confusion (48% chance)."
+      }
+    ]
   },
   {
     "name": "Hard Attacker",
@@ -4232,7 +6724,22 @@
     "defense": 45,
     "magicDef": 37,
     "dexterity": 77,
-    "skills": []
+    "skills": [
+      {
+        "name": "Bodyblow",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Oil",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": 95,
+        "desc": "Fire-elemental physical attack against one target, 1x base damage, 95% accuracy."
+      }
+    ]
   },
   {
     "name": "Harpy",
@@ -4266,7 +6773,29 @@
     "defense": 16,
     "magicDef": 50,
     "dexterity": 58,
-    "skills": []
+    "skills": [
+      {
+        "name": "Claw",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Poison Storm",
+        "multiplier": null,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Magic attack against one target, costs 20 MP. Inflicts Poison unless the target is immune."
+      },
+      {
+        "name": "Aqualung",
+        "multiplier": 3.25,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Water-elemental magic attack against the whole party, 3.25x base damage, costs 34 MP."
+      }
+    ]
   },
   {
     "name": "Head Hunter",
@@ -4296,7 +6825,22 @@
     "defense": 30,
     "magicDef": 30,
     "dexterity": 67,
-    "skills": []
+    "skills": [
+      {
+        "name": "Sickle",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Rising Dagger",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": 95,
+        "desc": "Physical attack against one target, 1x base damage, 95% accuracy."
+      }
+    ]
   },
   {
     "name": "Headbomber",
@@ -4327,7 +6871,22 @@
     "defense": 30,
     "magicDef": 23,
     "dexterity": 60,
-    "skills": []
+    "skills": [
+      {
+        "name": "Dorsal Punch",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": 95,
+        "desc": "Physical attack against one target, 1x base damage, 95% accuracy."
+      },
+      {
+        "name": "Extreme Bomber",
+        "multiplier": 4.38,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 4.38x base damage. May inflict Fury (72% chance)."
+      }
+    ]
   },
   {
     "name": "Heavy Tank",
@@ -4361,7 +6920,29 @@
     "defense": 17,
     "magicDef": 45,
     "dexterity": 68,
-    "skills": []
+    "skills": [
+      {
+        "name": "Charge",
+        "multiplier": 1.5,
+        "type": "physical",
+        "accuracy": 80,
+        "desc": "Physical attack against one target, 1.5x base damage, 80% accuracy."
+      },
+      {
+        "name": "Wheelie Attack",
+        "multiplier": 1.5,
+        "type": "physical",
+        "accuracy": 90,
+        "desc": "Physical attack against one target, 1.5x base damage, 90% accuracy."
+      },
+      {
+        "name": "Big Spiral",
+        "multiplier": 1.5,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against the whole party, 1.5x base damage."
+      }
+    ]
   },
   {
     "name": "Hedgehog Pie",
@@ -4394,7 +6975,22 @@
     "defense": 9,
     "magicDef": 6,
     "dexterity": 42,
-    "skills": []
+    "skills": [
+      {
+        "name": "Bodyblow",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": 95,
+        "desc": "Physical attack against one target, 1x base damage, 95% accuracy."
+      },
+      {
+        "name": "Fire",
+        "multiplier": 0.5,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Fire-elemental magic attack against one target or an entire group, 0.5x base damage, costs 4 MP."
+      }
+    ]
   },
   {
     "name": "Heg",
@@ -4426,7 +7022,22 @@
     "defense": 15,
     "magicDef": 32,
     "dexterity": 40,
-    "skills": []
+    "skills": [
+      {
+        "name": "Poison Fang",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage. Inflicts Poison unless the target is immune."
+      },
+      {
+        "name": "Halt Whip",
+        "multiplier": 0.88,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 0.88x base damage. May inflict Paralysed (28% chance)."
+      }
+    ]
   },
   {
     "name": "Heli Gunner",
@@ -4486,7 +7097,29 @@
     "defense": 1,
     "magicDef": 24,
     "dexterity": 52,
-    "skills": []
+    "skills": [
+      {
+        "name": "Erupt",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": 80,
+        "desc": "Physical attack against one target, 1x base damage, 80% accuracy. May inflict Darkness (28% chance)."
+      },
+      {
+        "name": "Hell Bomber",
+        "multiplier": 1.5,
+        "type": "physical",
+        "accuracy": 88,
+        "desc": "Physical attack against one target, 1.5x base damage, 88% accuracy."
+      },
+      {
+        "name": "Suicide Drop",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Earth-elemental physical attack against the whole party, 1x base damage, never misses."
+      }
+    ]
   },
   {
     "name": "Hell Rider VR2",
@@ -4520,7 +7153,29 @@
     "defense": 23,
     "magicDef": 30,
     "dexterity": 60,
-    "skills": []
+    "skills": [
+      {
+        "name": "Iron Mallet",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": 95,
+        "desc": "Physical attack against one target, 1x base damage, 95% accuracy."
+      },
+      {
+        "name": "Electromag",
+        "multiplier": null,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Magic attack against the whole party, never misses, costs 12 MP."
+      },
+      {
+        "name": "Ballistic",
+        "multiplier": 1.5,
+        "type": "physical",
+        "accuracy": 95,
+        "desc": "Physical attack against one target, 1.5x base damage, 95% accuracy."
+      }
+    ]
   },
   {
     "name": "Helletic Hojo",
@@ -4580,7 +7235,29 @@
     "defense": 40,
     "magicDef": 60,
     "dexterity": 80,
-    "skills": []
+    "skills": [
+      {
+        "name": "Beak",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "???",
+        "multiplier": 3,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 3x base damage, costs 16 MP."
+      },
+      {
+        "name": "L2 Confu",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Magic that only affects targets whose level is a multiple of 2, costs 18 MP. Inflicts Confusion unless the target is immune."
+      }
+    ]
   },
   {
     "name": "Ho-chu",
@@ -4616,7 +7293,22 @@
     "defense": 34,
     "magicDef": 47,
     "dexterity": 95,
-    "skills": []
+    "skills": [
+      {
+        "name": "Whip Sting",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": 95,
+        "desc": "Physical attack against one target, 1x base damage, 95% accuracy. Inflicts Paralysed unless the target is immune."
+      },
+      {
+        "name": "Big Pollen",
+        "multiplier": 1,
+        "type": "magical",
+        "accuracy": 95,
+        "desc": "Magic attack against one target or an entire group, 1x base damage, 95% accuracy. May inflict Sleep (48% chance)."
+      }
+    ]
   },
   {
     "name": "Hojo",
@@ -4708,7 +7400,29 @@
     "defense": 32,
     "magicDef": 65,
     "dexterity": 62,
-    "skills": []
+    "skills": [
+      {
+        "name": "Bodyblow",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Mini",
+        "multiplier": null,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Magic attack against one target or an entire group, costs 10 MP. Toggles Small."
+      },
+      {
+        "name": "Eat",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Special attack against one target, never misses."
+      }
+    ]
   },
   {
     "name": "Ice Golem",
@@ -4746,7 +7460,64 @@
     "defense": 40,
     "magicDef": 50,
     "dexterity": 75,
-    "skills": []
+    "skills": [
+      {
+        "name": "Golem Punch",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": 95,
+        "desc": "Physical attack against one target, 1x base damage, 95% accuracy."
+      },
+      {
+        "name": "Cold Snap",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": 95,
+        "desc": "Ice-elemental physical attack against one target, 1x base damage, 95% accuracy."
+      },
+      {
+        "name": "Wide Grazer",
+        "multiplier": 0.94,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Lightning-elemental magic attack against the whole party, 0.94x base damage, costs 15 MP."
+      },
+      {
+        "name": "Megaton Punch",
+        "multiplier": 1.88,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1.88x base damage."
+      },
+      {
+        "name": "Advance",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Special attack against one target."
+      },
+      {
+        "name": "Retreat",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Special attack against one target."
+      },
+      {
+        "name": "Defense Start",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Special attack against one target, never misses."
+      },
+      {
+        "name": "Defense Down",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Special attack against one target, never misses."
+      }
+    ]
   },
   {
     "name": "Icicle",
@@ -4778,7 +7549,22 @@
     "defense": 32,
     "magicDef": 48,
     "dexterity": 60,
-    "skills": []
+    "skills": [
+      {
+        "name": "Icicle Drop",
+        "multiplier": 3,
+        "type": "physical",
+        "accuracy": 90,
+        "desc": "Physical attack against one target, 3x base damage, 90% accuracy."
+      },
+      {
+        "name": "Crack",
+        "multiplier": 3,
+        "type": "physical",
+        "accuracy": 90,
+        "desc": "Physical attack against one target, 3x base damage, 90% accuracy."
+      }
+    ]
   },
   {
     "name": "Iron Man",
@@ -4816,7 +7602,29 @@
     "defense": 120,
     "magicDef": 200,
     "dexterity": 200,
-    "skills": []
+    "skills": [
+      {
+        "name": "Heavy Sword",
+        "multiplier": 1.25,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1.25x base damage."
+      },
+      {
+        "name": "Grand Sword",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target or an entire group, 1x base damage."
+      },
+      {
+        "name": "Adrenaline",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Casts Haste and Barrier on itself."
+      }
+    ]
   },
   {
     "name": "Ironite",
@@ -4847,7 +7655,29 @@
     "defense": 29,
     "magicDef": 20,
     "dexterity": 70,
-    "skills": []
+    "skills": [
+      {
+        "name": "Bodyblow",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Flying Upper",
+        "multiplier": 3,
+        "type": "physical",
+        "accuracy": 90,
+        "desc": "Physical attack against one target, 3x base damage, 90% accuracy."
+      },
+      {
+        "name": "Sleepel",
+        "multiplier": null,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Magic attack against one target or an entire group, costs 8 MP. May inflict Sleep (72% chance)."
+      }
+    ]
   },
   {
     "name": "Jamar Armor",
@@ -4907,7 +7737,36 @@
     "defense": 23,
     "magicDef": 80,
     "dexterity": 45,
-    "skills": []
+    "skills": [
+      {
+        "name": "Bite",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Confu-scales",
+        "multiplier": 0.75,
+        "type": "magical",
+        "accuracy": 95,
+        "desc": "Magic attack against one target, 0.75x base damage, 95% accuracy, costs 5 MP. Inflicts Confusion unless the target is immune."
+      },
+      {
+        "name": "Silk",
+        "multiplier": null,
+        "type": "magical",
+        "accuracy": 90,
+        "desc": "Magic attack against one target, 90% accuracy. Inflicts Slow unless the target is immune."
+      },
+      {
+        "name": "Thread",
+        "multiplier": null,
+        "type": "magical",
+        "accuracy": 95,
+        "desc": "Magic attack against one target, 95% accuracy. Inflicts Stop unless the target is immune."
+      }
+    ]
   },
   {
     "name": "Jemnezmy",
@@ -4939,7 +7798,36 @@
     "defense": 29,
     "magicDef": 40,
     "dexterity": 60,
-    "skills": []
+    "skills": [
+      {
+        "name": "Toad",
+        "multiplier": null,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Magic attack against one target or an entire group, costs 14 MP. Toggles Frog."
+      },
+      {
+        "name": "Poisona",
+        "multiplier": null,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Magic attack against one target or an entire group, never misses, costs 3 MP. Removes Poison."
+      },
+      {
+        "name": "Fascination",
+        "multiplier": null,
+        "type": "magical",
+        "accuracy": 90,
+        "desc": "Magic attack against one target, 90% accuracy, costs 5 MP. Inflicts Confusion unless the target is immune."
+      },
+      {
+        "name": "Cold Breath",
+        "multiplier": 0.38,
+        "type": "magical",
+        "accuracy": 90,
+        "desc": "Ice-elemental magic attack against one target, 0.38x base damage, 90% accuracy, costs 12 MP."
+      }
+    ]
   },
   {
     "name": "Jenova∙BIRTH",
@@ -5108,7 +7996,43 @@
     "defense": 20,
     "magicDef": 72,
     "dexterity": 60,
-    "skills": []
+    "skills": [
+      {
+        "name": "Spin Attack",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "????",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Special attack against one target, costs 3 MP."
+      },
+      {
+        "name": "Lean to LL",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Special attack against one target, never misses."
+      },
+      {
+        "name": "Fire2",
+        "multiplier": 1.25,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Fire-elemental magic attack against one target or an entire group, 1.25x base damage, costs 22 MP."
+      },
+      {
+        "name": "Lean to LR",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Special attack against one target, never misses."
+      }
+    ]
   },
   {
     "name": "Joker",
@@ -5144,7 +8068,50 @@
     "defense": 16,
     "magicDef": 81,
     "dexterity": 60,
-    "skills": []
+    "skills": [
+      {
+        "name": "Spinning Card",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Spade",
+        "multiplier": 1.5,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1.5x base damage."
+      },
+      {
+        "name": "Heart",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Restorative magic that heals one of its allies, never misses."
+      },
+      {
+        "name": "Club",
+        "multiplier": 0.75,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Earth-elemental magic attack against one target, 0.75x base damage, never misses."
+      },
+      {
+        "name": "Diamond",
+        "multiplier": 0.06,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Magic attack against one target, 0.06x base damage, never misses."
+      },
+      {
+        "name": "Joker",
+        "multiplier": null,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Magic attack against one target, never misses. May inflict Death (48% chance)."
+      }
+    ]
   },
   {
     "name": "Jumping",
@@ -5173,7 +8140,22 @@
     "defense": 20,
     "magicDef": 25,
     "dexterity": 74,
-    "skills": []
+    "skills": [
+      {
+        "name": "Dive Kick",
+        "multiplier": 1.25,
+        "type": "physical",
+        "accuracy": 95,
+        "desc": "Physical attack against one target, 1.25x base damage, 95% accuracy."
+      },
+      {
+        "name": "Club Sword",
+        "multiplier": 12.5,
+        "type": "physical",
+        "accuracy": 95,
+        "desc": "Physical attack against one target, 12.5x base damage, 95% accuracy."
+      }
+    ]
   },
   {
     "name": "Kalm Fang",
@@ -5206,7 +8188,22 @@
     "defense": 15,
     "magicDef": 7,
     "dexterity": 57,
-    "skills": []
+    "skills": [
+      {
+        "name": "Fang",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Bodyblow",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      }
+    ]
   },
   {
     "name": "Kelzmelzer",
@@ -5237,7 +8234,22 @@
     "defense": 28,
     "magicDef": 45,
     "dexterity": 53,
-    "skills": []
+    "skills": [
+      {
+        "name": "Claw",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Liquid poison",
+        "multiplier": null,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Poison-elemental physical attack against one target. Inflicts Poison unless the target is immune."
+      }
+    ]
   },
   {
     "name": "Killbin",
@@ -5272,7 +8284,50 @@
     "defense": 32,
     "magicDef": 63,
     "dexterity": 68,
-    "skills": []
+    "skills": [
+      {
+        "name": "x",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Cure2",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Restorative magic that heals one of its allies, never misses, costs 24 MP."
+      },
+      {
+        "name": "Fire2",
+        "multiplier": 1.25,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Fire-elemental magic attack against one target or an entire group, 1.25x base damage, costs 22 MP."
+      },
+      {
+        "name": "Ice2",
+        "multiplier": 1.25,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Ice-elemental magic attack against one target or an entire group, 1.25x base damage, costs 22 MP."
+      },
+      {
+        "name": "Aspil",
+        "multiplier": 0.12,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Magic attack against one target, 0.12x base damage, never misses, costs 1 MP."
+      },
+      {
+        "name": "Slow",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Status attack against one target or an entire group, costs 20 MP. Inflicts Slow unless the target is immune."
+      }
+    ]
   },
   {
     "name": "Kimara Bug",
@@ -5306,7 +8361,29 @@
     "defense": 20,
     "magicDef": 90,
     "dexterity": 61,
-    "skills": []
+    "skills": [
+      {
+        "name": "Butterfly Attack",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Stop Web",
+        "multiplier": null,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Magic attack against one target, costs 5 MP. Inflicts Stop unless the target is immune."
+      },
+      {
+        "name": "Spider Attack",
+        "multiplier": 2.12,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 2.12x base damage, never misses."
+      }
+    ]
   },
   {
     "name": "King Behemoth",
@@ -5341,7 +8418,43 @@
     "defense": 70,
     "magicDef": 128,
     "dexterity": 90,
-    "skills": []
+    "skills": [
+      {
+        "name": "Behemoth Horn",
+        "multiplier": 1.12,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1.12x base damage."
+      },
+      {
+        "name": "King Teel",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Flare",
+        "multiplier": 7.19,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Fire-elemental magic attack against one target, 7.19x base damage, costs 100 MP."
+      },
+      {
+        "name": "Comet2",
+        "multiplier": 1.88,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Magic attack against a random target, 1.88x base damage, costs 110 MP."
+      },
+      {
+        "name": "Bite",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      }
+    ]
   },
   {
     "name": "Kyuvilduns",
@@ -5370,7 +8483,15 @@
     "defense": 21,
     "magicDef": 32,
     "dexterity": 56,
-    "skills": []
+    "skills": [
+      {
+        "name": "Lay Flat",
+        "multiplier": 2.5,
+        "type": "physical",
+        "accuracy": 97,
+        "desc": "Physical attack against one target, 2.5x base damage, 97% accuracy."
+      }
+    ]
   },
   {
     "name": "Land Worm",
@@ -5408,7 +8529,22 @@
     "defense": 40,
     "magicDef": 115,
     "dexterity": 68,
-    "skills": []
+    "skills": [
+      {
+        "name": "Earthquake",
+        "multiplier": 0.38,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Earth-elemental magic attack against the whole party, 0.38x base damage, never misses, costs 10 MP."
+      },
+      {
+        "name": "Sandstorm",
+        "multiplier": 2,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Earth-elemental physical attack against the whole party, 2x base damage, never misses. May inflict Darkness (48% chance)."
+      }
+    ]
   },
   {
     "name": "Laser Cannon",
@@ -5542,7 +8678,36 @@
     "defense": 37,
     "magicDef": 95,
     "dexterity": 77,
-    "skills": []
+    "skills": [
+      {
+        "name": "Wing Cut",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": 95,
+        "desc": "Physical attack against one target, 1x base damage, 95% accuracy."
+      },
+      {
+        "name": "Scorpion's Tail",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": 95,
+        "desc": "Physical attack against one target, 1x base damage, 95% accuracy. May inflict Poison (48% chance)."
+      },
+      {
+        "name": "Snowstorm",
+        "multiplier": 6.25,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Ice-elemental magic attack against one target, 6.25x base damage, costs 16 MP."
+      },
+      {
+        "name": "Avalanche",
+        "multiplier": 3.75,
+        "type": "physical",
+        "accuracy": 95,
+        "desc": "Ice-elemental physical attack against one target or an entire group, 3.75x base damage, 95% accuracy."
+      }
+    ]
   },
   {
     "name": "Levrikon",
@@ -5572,7 +8737,22 @@
     "defense": 40,
     "magicDef": 12,
     "dexterity": 60,
-    "skills": []
+    "skills": [
+      {
+        "name": "Bird Kick",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Flaming Peck",
+        "multiplier": 2,
+        "type": "physical",
+        "accuracy": 95,
+        "desc": "Physical attack against one target, 2x base damage, 95% accuracy. May inflict Fury (8% chance)."
+      }
+    ]
   },
   {
     "name": "Lifeform-Hojo N",
@@ -5694,7 +8874,22 @@
     "defense": 11,
     "magicDef": 13,
     "dexterity": 56,
-    "skills": []
+    "skills": [
+      {
+        "name": "Ironball",
+        "multiplier": 1.25,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1.25x base damage."
+      },
+      {
+        "name": "Swamp Shoot",
+        "multiplier": 0.25,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 0.25x base damage. Inflicts Darkness unless the target is immune."
+      }
+    ]
   },
   {
     "name": "Magic Pot",
@@ -5722,7 +8917,15 @@
     "defense": 32,
     "magicDef": 32,
     "dexterity": 64,
-    "skills": []
+    "skills": [
+      {
+        "name": "Gimme",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Steals a random item from your inventory (defeat the enemy to get it back)."
+      }
+    ]
   },
   {
     "name": "Magnade",
@@ -5758,7 +8961,43 @@
     "defense": 35,
     "magicDef": 24,
     "dexterity": 50,
-    "skills": []
+    "skills": [
+      {
+        "name": "Shield Throw",
+        "multiplier": 0.38,
+        "type": "physical",
+        "accuracy": 95,
+        "desc": "Physical attack against one target, 0.38x base damage, 95% accuracy."
+      },
+      {
+        "name": "W-Shield Throw",
+        "multiplier": 0.75,
+        "type": "physical",
+        "accuracy": 95,
+        "desc": "Physical attack against one target, 0.75x base damage, 95% accuracy."
+      },
+      {
+        "name": "Strong Kick",
+        "multiplier": 0.62,
+        "type": "physical",
+        "accuracy": 95,
+        "desc": "Physical attack against one target, 0.62x base damage, 95% accuracy."
+      },
+      {
+        "name": "Shield Defense",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": 95,
+        "desc": "Special attack against one target, 95% accuracy."
+      },
+      {
+        "name": "Vanish",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Special attack against one target."
+      }
+    ]
   },
   {
     "name": "Malboro",
@@ -5796,7 +9035,29 @@
     "defense": 55,
     "magicDef": 60,
     "dexterity": 80,
-    "skills": []
+    "skills": [
+      {
+        "name": "Frozen Beam",
+        "multiplier": 1.88,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Ice-elemental magic attack against one target, 1.88x base damage, costs 20 MP."
+      },
+      {
+        "name": "Bio2",
+        "multiplier": 1.31,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Poison-elemental magic attack against one target or an entire group, 1.31x base damage, costs 36 MP. May inflict Poison (48% chance)."
+      },
+      {
+        "name": "Bad Breath",
+        "multiplier": null,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Magic attack against the whole party, costs 58 MP. Inflicts Sleep, Poison, Confusion, Silence, Frog, Small unless the target is immune."
+      }
+    ]
   },
   {
     "name": "Malldancer",
@@ -5830,7 +9091,22 @@
     "defense": 29,
     "magicDef": 48,
     "dexterity": 60,
-    "skills": []
+    "skills": [
+      {
+        "name": "Claw",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Dance",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": 95,
+        "desc": "Physical attack against one target or an entire group, 1x base damage, 95% accuracy. Inflicts Slow, Darkness unless the target is immune."
+      }
+    ]
   },
   {
     "name": "Mandragora",
@@ -5861,7 +9137,22 @@
     "defense": 6,
     "magicDef": 225,
     "dexterity": 49,
-    "skills": []
+    "skills": [
+      {
+        "name": "Grass Punch",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Slow Dance",
+        "multiplier": 0.62,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 0.62x base damage. Inflicts Slow unless the target is immune."
+      }
+    ]
   },
   {
     "name": "Manhole",
@@ -5891,7 +9182,36 @@
     "defense": 60,
     "magicDef": 55,
     "dexterity": 90,
-    "skills": []
+    "skills": [
+      {
+        "name": "Rockbreaker",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": 90,
+        "desc": "Physical attack against one target, 1x base damage, 90% accuracy."
+      },
+      {
+        "name": "Ice2",
+        "multiplier": 1.25,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Ice-elemental magic attack against one target or an entire group, 1.25x base damage, costs 22 MP."
+      },
+      {
+        "name": "Fire2",
+        "multiplier": 1.25,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Fire-elemental magic attack against one target or an entire group, 1.25x base damage, costs 22 MP."
+      },
+      {
+        "name": "Vanish",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Special attack against one target."
+      }
+    ]
   },
   {
     "name": "Marine",
@@ -5923,7 +9243,29 @@
     "defense": 15,
     "magicDef": 30,
     "dexterity": 59,
-    "skills": []
+    "skills": [
+      {
+        "name": "Machine Gun",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Grenade",
+        "multiplier": 1.25,
+        "type": "physical",
+        "accuracy": 85,
+        "desc": "Physical attack against the whole party, 1.25x base damage, 85% accuracy."
+      },
+      {
+        "name": "Smoke Bullet",
+        "multiplier": null,
+        "type": "physical",
+        "accuracy": 75,
+        "desc": "Physical attack against one target, 75% accuracy. Inflicts Sleep, Darkness unless the target is immune."
+      }
+    ]
   },
   {
     "name": "Master Tonberry",
@@ -5959,7 +9301,43 @@
     "defense": 68,
     "magicDef": 75,
     "dexterity": 70,
-    "skills": []
+    "skills": [
+      {
+        "name": "Everyone's Grudge",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Special attack against one target, never misses."
+      },
+      {
+        "name": "Knife",
+        "multiplier": null,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Magic attack against one target, never misses. Inflicts Death unless the target is immune."
+      },
+      {
+        "name": "Move",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Special attack against one target, never misses."
+      },
+      {
+        "name": "Move Right",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Special attack against one target, never misses."
+      },
+      {
+        "name": "Move Left",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Special attack against one target, never misses."
+      }
+    ]
   },
   {
     "name": "Materia Keeper",
@@ -6054,7 +9432,29 @@
     "defense": 70,
     "magicDef": 63,
     "dexterity": 90,
-    "skills": []
+    "skills": [
+      {
+        "name": "Claw",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Freeze",
+        "multiplier": 5.94,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Ice-elemental magic attack against one target, 5.94x base damage, costs 82 MP. May inflict Stop (68% chance)."
+      },
+      {
+        "name": "Northern Cross",
+        "multiplier": null,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Magic attack against one target, costs 30 MP. Inflicts Poison unless the target is immune."
+      }
+    ]
   },
   {
     "name": "Midgar Zolom",
@@ -6085,7 +9485,36 @@
     "defense": 45,
     "magicDef": 35,
     "dexterity": 54,
-    "skills": []
+    "skills": [
+      {
+        "name": "Bite",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Beta",
+        "multiplier": 3.38,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Fire-elemental magic attack against the whole party, 3.38x base damage, costs 35 MP."
+      },
+      {
+        "name": "Blown Away",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Special attack against one target, never misses."
+      },
+      {
+        "name": "Change",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Special attack against one target, never misses."
+      }
+    ]
   },
   {
     "name": "Mighty Grunt",
@@ -6112,7 +9541,29 @@
     "defense": 50,
     "magicDef": 32,
     "dexterity": 40,
-    "skills": []
+    "skills": [
+      {
+        "name": "Machine Gun",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Double Shot",
+        "multiplier": 1.88,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1.88x base damage."
+      },
+      {
+        "name": "Grunt Death",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Special attack against one target, never misses."
+      }
+    ]
   },
   {
     "name": "Mirage",
@@ -6140,7 +9591,22 @@
     "defense": 18,
     "magicDef": 50,
     "dexterity": 50,
-    "skills": []
+    "skills": [
+      {
+        "name": "Swing Attack",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": 90,
+        "desc": "Physical attack against one target, 1x base damage, 90% accuracy."
+      },
+      {
+        "name": "Reflection",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Special attack against one target, never misses."
+      }
+    ]
   },
   {
     "name": "Mono Drive",
@@ -6173,7 +9639,22 @@
     "defense": 3,
     "magicDef": 2,
     "dexterity": 49,
-    "skills": []
+    "skills": [
+      {
+        "name": "Drilldrive",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Fire",
+        "multiplier": 0.5,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Fire-elemental magic attack against one target or an entire group, 0.5x base damage, costs 4 MP."
+      }
+    ]
   },
   {
     "name": "Moth Slasher",
@@ -6203,7 +9684,22 @@
     "defense": 14,
     "magicDef": 29,
     "dexterity": 59,
-    "skills": []
+    "skills": [
+      {
+        "name": "Verbal Attack",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Speed Slash",
+        "multiplier": 1.81,
+        "type": "physical",
+        "accuracy": 85,
+        "desc": "Physical attack against one target, 1.81x base damage, 85% accuracy."
+      }
+    ]
   },
   {
     "name": "Motor Ball",
@@ -6278,7 +9774,29 @@
     "defense": 75,
     "magicDef": 125,
     "dexterity": 200,
-    "skills": []
+    "skills": [
+      {
+        "name": "Exchange",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Special attack against one target."
+      },
+      {
+        "name": "Bodyblow",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Triangle Attack",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      }
+    ]
   },
   {
     "name": "MP",
@@ -6308,7 +9826,22 @@
     "defense": 2,
     "magicDef": 0,
     "dexterity": 50,
-    "skills": []
+    "skills": [
+      {
+        "name": "Machine Gun",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Tonfa",
+        "multiplier": 1.5,
+        "type": "physical",
+        "accuracy": 85,
+        "desc": "Physical attack against one target, 1.5x base damage, 85% accuracy."
+      }
+    ]
   },
   {
     "name": "Mu",
@@ -6339,7 +9872,43 @@
     "defense": 15,
     "magicDef": 16,
     "dexterity": 59,
-    "skills": []
+    "skills": [
+      {
+        "name": "Rock Toss",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Sewer",
+        "multiplier": 1,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Water-elemental magic attack against one target, 1x base damage."
+      },
+      {
+        "name": "Sinking",
+        "multiplier": 2.38,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Earth-elemental physical attack against one target, 2.38x base damage."
+      },
+      {
+        "name": "Hot Springs",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Restorative magic that heals one of its allies, never misses."
+      },
+      {
+        "name": "L4 Suicide",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Magic that only affects targets whose level is a multiple of 4, deals damage equal to 96.9% of the target’s current HP, costs 10 MP. Inflicts Small unless the target is immune."
+      }
+    ]
   },
   {
     "name": "Mystery Ninja",
@@ -6369,7 +9938,43 @@
     "defense": 56,
     "magicDef": 30,
     "dexterity": 50,
-    "skills": []
+    "skills": [
+      {
+        "name": "Fight",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": 95,
+        "desc": "Physical attack against one target, 1x base damage, 95% accuracy."
+      },
+      {
+        "name": "Throw",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Special attack against one target, never misses."
+      },
+      {
+        "name": "Spider Web",
+        "multiplier": null,
+        "type": "physical",
+        "accuracy": 95,
+        "desc": "Physical attack against one target, 95% accuracy. Inflicts Slow unless the target is immune."
+      },
+      {
+        "name": "Impaler",
+        "multiplier": null,
+        "type": "physical",
+        "accuracy": 95,
+        "desc": "Physical attack against one target, 95% accuracy. Inflicts Frog unless the target is immune."
+      },
+      {
+        "name": "Fire Fang",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": 95,
+        "desc": "Fire-elemental physical attack against one target or an entire group, 1x base damage, 95% accuracy."
+      }
+    ]
   },
   {
     "name": "Needle Kiss",
@@ -6405,7 +10010,22 @@
     "defense": 19,
     "magicDef": 30,
     "dexterity": 47,
-    "skills": []
+    "skills": [
+      {
+        "name": "Chute Attack",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Thunder Kiss",
+        "multiplier": 0.75,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Lightning-elemental magic attack against one target, 0.75x base damage, never misses, costs 4 MP."
+      }
+    ]
   },
   {
     "name": "Nerosuferoth",
@@ -6433,7 +10053,22 @@
     "defense": 17,
     "magicDef": 12,
     "dexterity": 53,
-    "skills": []
+    "skills": [
+      {
+        "name": "Beak",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Heatwing",
+        "multiplier": 1,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Fire-elemental magic attack against one target, 1x base damage, never misses, costs 4 MP."
+      }
+    ]
   },
   {
     "name": "Nibel Wolf",
@@ -6465,7 +10100,36 @@
     "defense": 18,
     "magicDef": 80,
     "dexterity": 57,
-    "skills": []
+    "skills": [
+      {
+        "name": "Bodyblow",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Fang",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Howling",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Restorative magic that heals one of its allies, never misses. Removes Death."
+      },
+      {
+        "name": "Howling",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": 95,
+        "desc": "Special attack against one target, 95% accuracy."
+      }
+    ]
   },
   {
     "name": "Palmer",
@@ -6536,7 +10200,43 @@
     "defense": 75,
     "magicDef": 70,
     "dexterity": 90,
-    "skills": []
+    "skills": [
+      {
+        "name": "Head Attack",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Para Tail",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage. Inflicts Sadness unless the target is immune."
+      },
+      {
+        "name": "Magic Extinguish",
+        "multiplier": null,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Magic attack against one target. Inflicts Silence unless the target is immune."
+      },
+      {
+        "name": "L5 Death",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Magic that only affects targets whose level is a multiple of 5, costs 22 MP. Inflicts Death unless the target is immune."
+      },
+      {
+        "name": "Magic Breath",
+        "multiplier": 4.81,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Fire/ice/lightning-elemental magic attack against the whole party, 4.81x base damage, costs 75 MP."
+      }
+    ]
   },
   {
     "name": "Pollensalta",
@@ -6571,7 +10271,43 @@
     "defense": 30,
     "magicDef": 68,
     "dexterity": 85,
-    "skills": []
+    "skills": [
+      {
+        "name": "Fire",
+        "multiplier": 0.5,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Fire-elemental magic attack against one target or an entire group, 0.5x base damage, costs 4 MP."
+      },
+      {
+        "name": "Fire3",
+        "multiplier": 4,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Fire-elemental magic attack against one target or an entire group, 4x base damage, costs 52 MP."
+      },
+      {
+        "name": "Fascination",
+        "multiplier": null,
+        "type": "magical",
+        "accuracy": 90,
+        "desc": "Magic attack against one target, 90% accuracy, costs 5 MP. Inflicts Confusion unless the target is immune."
+      },
+      {
+        "name": "Cold Breath",
+        "multiplier": 0.38,
+        "type": "magical",
+        "accuracy": 90,
+        "desc": "Ice-elemental magic attack against one target, 0.38x base damage, 90% accuracy, costs 12 MP."
+      },
+      {
+        "name": "Angel Whisper",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Restorative magic that fully restores one ally’s HP, costs 50 MP. Removes Death, Sleep, Poison, Confusion, Silence, Slow, Stop, Frog, Small, Slow-numb, Petrify, Berserk, Paralysed, Darkness."
+      }
+    ]
   },
   {
     "name": "Poodler",
@@ -6602,7 +10338,22 @@
     "defense": 55,
     "magicDef": 100,
     "dexterity": 86,
-    "skills": []
+    "skills": [
+      {
+        "name": "Bodyblow",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Fire",
+        "multiplier": 0.5,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Fire-elemental magic attack against one target or an entire group, 0.5x base damage, costs 4 MP."
+      }
+    ]
   },
   {
     "name": "Poodler Sample",
@@ -6657,7 +10408,15 @@
     "defense": 1,
     "magicDef": 64,
     "dexterity": 45,
-    "skills": []
+    "skills": [
+      {
+        "name": "Machine Gun",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      }
+    ]
   },
   {
     "name": "Proud Clod",
@@ -6727,7 +10486,43 @@
     "defense": 14,
     "magicDef": 14,
     "dexterity": 66,
-    "skills": []
+    "skills": [
+      {
+        "name": "Hit",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Steal",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": 5,
+        "desc": "Special attack against one target, 5% accuracy."
+      },
+      {
+        "name": "Grind",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": 20,
+        "desc": "Special attack against one target, 20% accuracy."
+      },
+      {
+        "name": "Seize",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Escape",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Special attack against one target, never misses."
+      }
+    ]
   },
   {
     "name": "Pyramid",
@@ -6786,7 +10581,29 @@
     "defense": 25,
     "magicDef": 15,
     "dexterity": 69,
-    "skills": []
+    "skills": [
+      {
+        "name": "Machine Gun",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Appear",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Special attack against one target, never misses."
+      },
+      {
+        "name": "Vanish",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Special attack against one target, never misses."
+      }
+    ]
   },
   {
     "name": "Rapps",
@@ -6846,7 +10663,29 @@
     "defense": 25,
     "magicDef": 50,
     "dexterity": 60,
-    "skills": []
+    "skills": [
+      {
+        "name": "Glasscutter",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": 95,
+        "desc": "Physical attack against one target, 1x base damage, 95% accuracy."
+      },
+      {
+        "name": "Spaz Voice",
+        "multiplier": null,
+        "type": "magical",
+        "accuracy": 95,
+        "desc": "Magic attack against one target, 95% accuracy, costs 15 MP. May inflict Fury (48% chance)."
+      },
+      {
+        "name": "Magic Hammer",
+        "multiplier": 0.31,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Magic attack against one target, 0.31x base damage, costs 3 MP."
+      }
+    ]
   },
   {
     "name": "Red Dragon",
@@ -6972,7 +10811,36 @@
     "defense": 45,
     "magicDef": 85,
     "dexterity": 58,
-    "skills": []
+    "skills": [
+      {
+        "name": "Blood Suck",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage, never misses."
+      },
+      {
+        "name": "Autumn Leaves",
+        "multiplier": 1.25,
+        "type": "physical",
+        "accuracy": 95,
+        "desc": "Physical attack against one target or an entire group, 1.25x base damage, 95% accuracy. May inflict Darkness (48% chance)."
+      },
+      {
+        "name": "Dodge",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Special attack against one target, never misses."
+      },
+      {
+        "name": "Exchange",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": 95,
+        "desc": "Special attack against one target, 95% accuracy."
+      }
+    ]
   },
   {
     "name": "Rocket Launcher",
@@ -6999,7 +10867,15 @@
     "defense": 1,
     "magicDef": 100,
     "dexterity": 50,
-    "skills": []
+    "skills": [
+      {
+        "name": "Rocket Launcher",
+        "multiplier": 1.5,
+        "type": "physical",
+        "accuracy": 75,
+        "desc": "Physical attack against one target, 1.5x base damage, 75% accuracy."
+      }
+    ]
   },
   {
     "name": "Roulette Cannon",
@@ -7031,7 +10907,22 @@
     "defense": 30,
     "magicDef": 25,
     "dexterity": 55,
-    "skills": []
+    "skills": [
+      {
+        "name": "Fire Roulette",
+        "multiplier": 1.88,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1.88x base damage."
+      },
+      {
+        "name": "Vanish",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Special attack against one target, never misses."
+      }
+    ]
   },
   {
     "name": "Ruby Weapon",
@@ -7208,7 +11099,29 @@
     "defense": 16,
     "magicDef": 32,
     "dexterity": 59,
-    "skills": []
+    "skills": [
+      {
+        "name": "Harpoon",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Water Gun",
+        "multiplier": 1.38,
+        "type": "physical",
+        "accuracy": 90,
+        "desc": "Physical attack against one target, 1.38x base damage, 90% accuracy."
+      },
+      {
+        "name": "Shell Defense",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Special attack against one target, never misses."
+      }
+    ]
   },
   {
     "name": "Sample:H0512",
@@ -7335,7 +11248,29 @@
     "defense": 29,
     "magicDef": 40,
     "dexterity": 70,
-    "skills": []
+    "skills": [
+      {
+        "name": "Cross Scissor",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Scissor Kick",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Scissor Attack",
+        "multiplier": 0.06,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 0.06x base damage. Inflicts Death unless the target is immune."
+      }
+    ]
   },
   {
     "name": "Scotch",
@@ -7363,7 +11298,22 @@
     "defense": 16,
     "magicDef": 9,
     "dexterity": 44,
-    "skills": []
+    "skills": [
+      {
+        "name": "Hit",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Machine Gun",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      }
+    ]
   },
   {
     "name": "Screamer",
@@ -7395,7 +11345,29 @@
     "defense": 22,
     "magicDef": 60,
     "dexterity": 68,
-    "skills": []
+    "skills": [
+      {
+        "name": "Ironball",
+        "multiplier": 1.25,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1.25x base damage."
+      },
+      {
+        "name": "Iron Attack",
+        "multiplier": 2.5,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Earth-elemental physical attack against the whole party, 2.5x base damage."
+      },
+      {
+        "name": "War Cry",
+        "multiplier": null,
+        "type": "magical",
+        "accuracy": 94,
+        "desc": "Magic attack against one target, 94% accuracy, costs 4 MP. Inflicts Sadness unless the target is immune."
+      }
+    ]
   },
   {
     "name": "Scrutin Eye",
@@ -7432,7 +11404,29 @@
     "defense": 10,
     "magicDef": 48,
     "dexterity": 36,
-    "skills": []
+    "skills": [
+      {
+        "name": "Drilldrive",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Ice2",
+        "multiplier": 1.25,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Ice-elemental magic attack against one target or an entire group, 1.25x base damage, costs 22 MP."
+      },
+      {
+        "name": "Fire2",
+        "multiplier": 1.25,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Fire-elemental magic attack against one target or an entire group, 1.25x base damage, costs 22 MP."
+      }
+    ]
   },
   {
     "name": "Sculpture",
@@ -7462,7 +11456,22 @@
     "defense": 20,
     "magicDef": 34,
     "dexterity": 53,
-    "skills": []
+    "skills": [
+      {
+        "name": "Bodyblow",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Fire Shell",
+        "multiplier": 3,
+        "type": "physical",
+        "accuracy": 90,
+        "desc": "Fire-elemental physical attack against one target, 3x base damage, 90% accuracy."
+      }
+    ]
   },
   {
     "name": "Sea Worm",
@@ -7501,7 +11510,29 @@
     "defense": 40,
     "magicDef": 115,
     "dexterity": 68,
-    "skills": []
+    "skills": [
+      {
+        "name": "Earthquake",
+        "multiplier": 0.38,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Earth-elemental magic attack against the whole party, 0.38x base damage, never misses, costs 10 MP."
+      },
+      {
+        "name": "Sandstorm",
+        "multiplier": 2,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Earth-elemental physical attack against the whole party, 2x base damage, never misses. May inflict Darkness (48% chance)."
+      },
+      {
+        "name": "Crush",
+        "multiplier": 3,
+        "type": "physical",
+        "accuracy": 90,
+        "desc": "Physical attack against one target, 3x base damage, 90% accuracy."
+      }
+    ]
   },
   {
     "name": "Search Crown",
@@ -7533,7 +11564,22 @@
     "defense": 13,
     "magicDef": 35,
     "dexterity": 40,
-    "skills": []
+    "skills": [
+      {
+        "name": "Seed Shot",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Four Laser",
+        "multiplier": 0.44,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Magic attack against one target, 0.44x base damage, costs 8 MP."
+      }
+    ]
   },
   {
     "name": "Senior Grunt",
@@ -7562,7 +11608,29 @@
     "defense": 35,
     "magicDef": 45,
     "dexterity": 69,
-    "skills": []
+    "skills": [
+      {
+        "name": "Handclaw",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Harrier Beam",
+        "multiplier": 1.25,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1.25x base damage."
+      },
+      {
+        "name": "Water Wave",
+        "multiplier": 1.25,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1.25x base damage."
+      }
+    ]
   },
   {
     "name": "Sephiroth",
@@ -7629,7 +11697,36 @@
     "defense": 60,
     "magicDef": 162,
     "dexterity": 110,
-    "skills": []
+    "skills": [
+      {
+        "name": "Huge Tidal Wave",
+        "multiplier": 1.25,
+        "type": "physical",
+        "accuracy": 95,
+        "desc": "Water-elemental physical attack against the whole party, 1.25x base damage, 95% accuracy, costs 20 MP."
+      },
+      {
+        "name": "Viper Breath",
+        "multiplier": 1.25,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Ice/water-elemental magic attack against one target, 1.25x base damage, costs 20 MP."
+      },
+      {
+        "name": "Dragon Dance",
+        "multiplier": 1.25,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1.25x base damage."
+      },
+      {
+        "name": "Aqualung",
+        "multiplier": 3.25,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Water-elemental magic attack against the whole party, 3.25x base damage, costs 34 MP."
+      }
+    ]
   },
   {
     "name": "Shadow Maker",
@@ -7660,7 +11757,15 @@
     "defense": 45,
     "magicDef": 34,
     "dexterity": 40,
-    "skills": []
+    "skills": [
+      {
+        "name": "Support Beam",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Status attack against one target, costs 8 MP. Inflicts Slow unless the target is immune."
+      }
+    ]
   },
   {
     "name": "Shake",
@@ -7726,7 +11831,29 @@
     "defense": 33,
     "magicDef": 60,
     "dexterity": 55,
-    "skills": []
+    "skills": [
+      {
+        "name": "Tail",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Crazy Claw",
+        "multiplier": 0.06,
+        "type": "physical",
+        "accuracy": 95,
+        "desc": "Physical attack against one target, 0.06x base damage, 95% accuracy. Inflicts Berserk unless the target is immune."
+      },
+      {
+        "name": "Cure3",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Restorative magic that heals one of its allies, never misses, costs 64 MP."
+      }
+    ]
   },
   {
     "name": "Skeeskee",
@@ -7756,7 +11883,22 @@
     "defense": 20,
     "magicDef": 60,
     "dexterity": 55,
-    "skills": []
+    "skills": [
+      {
+        "name": "Beak",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Rage Bomber",
+        "multiplier": 2.5,
+        "type": "physical",
+        "accuracy": 75,
+        "desc": "Physical attack against one target, 2.5x base damage, 75% accuracy. May inflict Fury (72% chance)."
+      }
+    ]
   },
   {
     "name": "Slalom",
@@ -7790,7 +11932,29 @@
     "defense": 37,
     "magicDef": 40,
     "dexterity": 60,
-    "skills": []
+    "skills": [
+      {
+        "name": "Punch",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Smog",
+        "multiplier": 0.75,
+        "type": "physical",
+        "accuracy": 90,
+        "desc": "Physical attack against one target, 0.75x base damage, 90% accuracy. May inflict Poison (88% chance)."
+      },
+      {
+        "name": "Smog",
+        "multiplier": 0.75,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 0.75x base damage. May inflict Darkness (92% chance)."
+      }
+    ]
   },
   {
     "name": "Slaps",
@@ -7824,7 +11988,29 @@
     "defense": 21,
     "magicDef": 33,
     "dexterity": 56,
-    "skills": []
+    "skills": [
+      {
+        "name": "Bug Needle",
+        "multiplier": 0.06,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Magic attack against one target, 0.06x base damage. May inflict Poison, Sadness (88% chance)."
+      },
+      {
+        "name": "Berserk Needle",
+        "multiplier": 0.06,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Magic attack against one target, 0.06x base damage. May inflict Berserk (48% chance)."
+      },
+      {
+        "name": "Paralyzer Needle",
+        "multiplier": 0.06,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Magic attack against one target, 0.06x base damage. May inflict Paralysed (20% chance)."
+      }
+    ]
   },
   {
     "name": "Smogger",
@@ -7858,7 +12044,29 @@
     "defense": 12,
     "magicDef": 32,
     "dexterity": 47,
-    "skills": []
+    "skills": [
+      {
+        "name": "Punch",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Smog",
+        "multiplier": 0.75,
+        "type": "physical",
+        "accuracy": 90,
+        "desc": "Physical attack against one target, 0.75x base damage, 90% accuracy. May inflict Poison (88% chance)."
+      },
+      {
+        "name": "Smog",
+        "multiplier": 0.75,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 0.75x base damage. May inflict Darkness (92% chance)."
+      }
+    ]
   },
   {
     "name": "Sneaky Step",
@@ -7887,7 +12095,22 @@
     "defense": 15,
     "magicDef": 65,
     "dexterity": 62,
-    "skills": []
+    "skills": [
+      {
+        "name": "Triple Attack",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Death Sentence",
+        "multiplier": null,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Magic attack against one target, costs 10 MP. Inflicts Death-sentence unless the target is immune."
+      }
+    ]
   },
   {
     "name": "Snow",
@@ -7923,7 +12146,36 @@
     "defense": 33,
     "magicDef": 69,
     "dexterity": 70,
-    "skills": []
+    "skills": [
+      {
+        "name": "Ice",
+        "multiplier": 0.5,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Ice-elemental magic attack against one target or an entire group, 0.5x base damage, costs 4 MP."
+      },
+      {
+        "name": "Ice2",
+        "multiplier": 1.25,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Ice-elemental magic attack against one target or an entire group, 1.25x base damage, costs 22 MP."
+      },
+      {
+        "name": "Fascination",
+        "multiplier": null,
+        "type": "magical",
+        "accuracy": 90,
+        "desc": "Magic attack against one target, 90% accuracy, costs 5 MP. Inflicts Confusion unless the target is immune."
+      },
+      {
+        "name": "Cold Breath",
+        "multiplier": 0.38,
+        "type": "magical",
+        "accuracy": 90,
+        "desc": "Ice-elemental magic attack against one target, 0.38x base damage, 90% accuracy, costs 12 MP."
+      }
+    ]
   },
   {
     "name": "SOLDIER:1st",
@@ -7953,7 +12205,36 @@
     "defense": 47,
     "magicDef": 60,
     "dexterity": 90,
-    "skills": []
+    "skills": [
+      {
+        "name": "Fight",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": 95,
+        "desc": "Physical attack against one target, 1x base damage, 95% accuracy."
+      },
+      {
+        "name": "Silence",
+        "multiplier": null,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Magic attack against one target or an entire group, costs 24 MP. May inflict Silence (80% chance)."
+      },
+      {
+        "name": "Sword of Doom",
+        "multiplier": 3,
+        "type": "physical",
+        "accuracy": 90,
+        "desc": "Physical attack against one target, 3x base damage, 90% accuracy."
+      },
+      {
+        "name": "Quadra-Cut",
+        "multiplier": 3,
+        "type": "physical",
+        "accuracy": 90,
+        "desc": "Physical attack against one target, 3x base damage, 90% accuracy."
+      }
+    ]
   },
   {
     "name": "SOLDIER:2nd",
@@ -7985,7 +12266,36 @@
     "defense": 29,
     "magicDef": 30,
     "dexterity": 70,
-    "skills": []
+    "skills": [
+      {
+        "name": "Fight",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": 95,
+        "desc": "Physical attack against one target, 1x base damage, 95% accuracy."
+      },
+      {
+        "name": "Silence",
+        "multiplier": null,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Magic attack against one target or an entire group, costs 24 MP. May inflict Silence (80% chance)."
+      },
+      {
+        "name": "Sword of Doom",
+        "multiplier": 3,
+        "type": "physical",
+        "accuracy": 90,
+        "desc": "Physical attack against one target, 3x base damage, 90% accuracy."
+      },
+      {
+        "name": "Quadra-Cut",
+        "multiplier": 3,
+        "type": "physical",
+        "accuracy": 90,
+        "desc": "Physical attack against one target, 3x base damage, 90% accuracy."
+      }
+    ]
   },
   {
     "name": "SOLDIER:3rd",
@@ -8021,7 +12331,43 @@
     "defense": 19,
     "magicDef": 36,
     "dexterity": 60,
-    "skills": []
+    "skills": [
+      {
+        "name": "Split",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Bolt2",
+        "multiplier": 1.25,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Lightning-elemental magic attack against one target or an entire group, 1.25x base damage, costs 22 MP."
+      },
+      {
+        "name": "Ice2",
+        "multiplier": 1.25,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Ice-elemental magic attack against one target or an entire group, 1.25x base damage, costs 22 MP."
+      },
+      {
+        "name": "Sleepel",
+        "multiplier": null,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Magic attack against one target or an entire group, costs 8 MP. May inflict Sleep (72% chance)."
+      },
+      {
+        "name": "Flying Sickle",
+        "multiplier": 0.75,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Wind-elemental magic attack against one target, 0.75x base damage, never misses, costs 8 MP."
+      }
+    ]
   },
   {
     "name": "Sonic Speed",
@@ -8056,7 +12402,22 @@
     "defense": 26,
     "magicDef": 48,
     "dexterity": 60,
-    "skills": []
+    "skills": [
+      {
+        "name": "Sonic Attack",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Wind-elemental physical attack against one target, 1x base damage, never misses."
+      },
+      {
+        "name": "Harrier",
+        "multiplier": 2,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 2x base damage."
+      }
+    ]
   },
   {
     "name": "Soul Fire",
@@ -8128,7 +12489,29 @@
     "defense": 12,
     "magicDef": 16,
     "dexterity": 58,
-    "skills": []
+    "skills": [
+      {
+        "name": "Handclaw",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Beam Gun",
+        "multiplier": 1.12,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1.12x base damage."
+      },
+      {
+        "name": "Wave",
+        "multiplier": 2,
+        "type": "physical",
+        "accuracy": 92,
+        "desc": "Physical attack against one target, 2x base damage, 92% accuracy."
+      }
+    ]
   },
   {
     "name": "Spencer",
@@ -8158,7 +12541,22 @@
     "defense": 11,
     "magicDef": 60,
     "dexterity": 48,
-    "skills": []
+    "skills": [
+      {
+        "name": "Swordblade",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": 95,
+        "desc": "Physical attack against one target, 1x base damage, 95% accuracy."
+      },
+      {
+        "name": "Upper Cutter",
+        "multiplier": 1.25,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1.25x base damage."
+      }
+    ]
   },
   {
     "name": "Spiral",
@@ -8188,7 +12586,22 @@
     "defense": 40,
     "magicDef": 40,
     "dexterity": 65,
-    "skills": []
+    "skills": [
+      {
+        "name": "Angle Punch",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Spin",
+        "multiplier": 1.25,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1.25x base damage."
+      }
+    ]
   },
   {
     "name": "Staniv",
@@ -8253,7 +12666,43 @@
     "defense": 30,
     "magicDef": 60,
     "dexterity": 80,
-    "skills": []
+    "skills": [
+      {
+        "name": "Big Red Clipper",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": 95,
+        "desc": "Physical attack against one target, 1x base damage, 95% accuracy."
+      },
+      {
+        "name": "Big Horn",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": 95,
+        "desc": "Physical attack against one target, 1x base damage, 95% accuracy."
+      },
+      {
+        "name": "Jump Attack",
+        "multiplier": 1.25,
+        "type": "physical",
+        "accuracy": 95,
+        "desc": "Physical attack against one target, 1.25x base damage, 95% accuracy."
+      },
+      {
+        "name": "Trine",
+        "multiplier": 2.12,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Lightning-elemental magic attack against the whole party, 2.12x base damage, costs 20 MP."
+      },
+      {
+        "name": "Magic Breath",
+        "multiplier": 4.81,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Fire/ice/lightning-elemental magic attack against the whole party, 4.81x base damage, costs 75 MP."
+      }
+    ]
   },
   {
     "name": "Stinger",
@@ -8284,7 +12733,29 @@
     "defense": 28,
     "magicDef": 50,
     "dexterity": 68,
-    "skills": []
+    "skills": [
+      {
+        "name": "Sting",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Sting Bomb",
+        "multiplier": null,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Magic attack against one target, deals damage equal to 75% of the target’s current HP, costs 20 MP."
+      },
+      {
+        "name": "Rabbit Gouge",
+        "multiplier": 2,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 2x base damage."
+      }
+    ]
   },
   {
     "name": "Submarine Crew",
@@ -8315,7 +12786,22 @@
     "defense": 28,
     "magicDef": 37,
     "dexterity": 55,
-    "skills": []
+    "skills": [
+      {
+        "name": "Machine Gun",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Hand Grenade",
+        "multiplier": 2.19,
+        "type": "physical",
+        "accuracy": 70,
+        "desc": "Physical attack against one target, 2.19x base damage, 70% accuracy."
+      }
+    ]
   },
   {
     "name": "Sweeper",
@@ -8346,7 +12832,29 @@
     "defense": 10,
     "magicDef": 2,
     "dexterity": 48,
-    "skills": []
+    "skills": [
+      {
+        "name": "Machine Gun",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "W Machine Gun",
+        "multiplier": 1.75,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1.75x base damage."
+      },
+      {
+        "name": "Smoke Shot",
+        "multiplier": 1.5,
+        "type": "physical",
+        "accuracy": 75,
+        "desc": "Physical attack against one target, 1.5x base damage, 75% accuracy."
+      }
+    ]
   },
   {
     "name": "Sword Dance",
@@ -8382,7 +12890,43 @@
     "defense": 12,
     "magicDef": 16,
     "dexterity": 52,
-    "skills": []
+    "skills": [
+      {
+        "name": "Bodyblow",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Gash",
+        "multiplier": 1.25,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1.25x base damage."
+      },
+      {
+        "name": "Slap",
+        "multiplier": 1.25,
+        "type": "physical",
+        "accuracy": 95,
+        "desc": "Physical attack against one target, 1.25x base damage, 95% accuracy. May inflict Fury (48% chance)."
+      },
+      {
+        "name": "Sawback",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against the whole party, 1x base damage."
+      },
+      {
+        "name": "Spinning Cut",
+        "multiplier": 1.88,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1.88x base damage."
+      }
+    ]
   },
   {
     "name": "Tail Vault",
@@ -8410,7 +12954,22 @@
     "defense": 23,
     "magicDef": 60,
     "dexterity": 60,
-    "skills": []
+    "skills": [
+      {
+        "name": "Bite",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": 95,
+        "desc": "Physical attack against one target, 1x base damage, 95% accuracy."
+      },
+      {
+        "name": "Somersault",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": 95,
+        "desc": "Physical attack against one target, 1x base damage, 95% accuracy."
+      }
+    ]
   },
   {
     "name": "Thunderbird",
@@ -8445,7 +13004,22 @@
     "defense": 20,
     "magicDef": 50,
     "dexterity": 45,
-    "skills": []
+    "skills": [
+      {
+        "name": "Stab",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": 95,
+        "desc": "Physical attack against one target, 1x base damage, 95% accuracy."
+      },
+      {
+        "name": "Lightning",
+        "multiplier": 1.25,
+        "type": "magical",
+        "accuracy": 95,
+        "desc": "Lightning-elemental magic attack against the whole party, 1.25x base damage, 95% accuracy, costs 16 MP."
+      }
+    ]
   },
   {
     "name": "Tonadu",
@@ -8481,7 +13055,29 @@
     "defense": 26,
     "magicDef": 75,
     "dexterity": 66,
-    "skills": []
+    "skills": [
+      {
+        "name": "Claw",
+        "multiplier": 2,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 2x base damage."
+      },
+      {
+        "name": "Great Gale",
+        "multiplier": 1.88,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Wind-elemental physical attack against the whole party, 1.88x base damage. May inflict Darkness (40% chance)."
+      },
+      {
+        "name": "Big Sound",
+        "multiplier": 1.25,
+        "type": "physical",
+        "accuracy": 95,
+        "desc": "Wind-elemental physical attack against one target or an entire group, 1.25x base damage, 95% accuracy."
+      }
+    ]
   },
   {
     "name": "Tonberry",
@@ -8517,7 +13113,43 @@
     "defense": 25,
     "magicDef": 30,
     "dexterity": 80,
-    "skills": []
+    "skills": [
+      {
+        "name": "Time Damage",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Special attack against one target, never misses."
+      },
+      {
+        "name": "Knife",
+        "multiplier": null,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Magic attack against one target, never misses. Inflicts Death unless the target is immune."
+      },
+      {
+        "name": "Move",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Special attack against one target, never misses."
+      },
+      {
+        "name": "Move Right",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Special attack against one target, never misses."
+      },
+      {
+        "name": "Move Left",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Special attack against one target, never misses."
+      }
+    ]
   },
   {
     "name": "Touch Me",
@@ -8548,7 +13180,22 @@
     "defense": 10,
     "magicDef": 50,
     "dexterity": 68,
-    "skills": []
+    "skills": [
+      {
+        "name": "Frog Jab",
+        "multiplier": 0.12,
+        "type": "physical",
+        "accuracy": 85,
+        "desc": "Physical attack against one target, 0.12x base damage, 85% accuracy. Toggles Frog."
+      },
+      {
+        "name": "Frog Song",
+        "multiplier": null,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Magic attack against one target, costs 5 MP. Toggles Sleep, Frog."
+      }
+    ]
   },
   {
     "name": "Toxic Frog",
@@ -8584,7 +13231,29 @@
     "defense": 15,
     "magicDef": 60,
     "dexterity": 74,
-    "skills": []
+    "skills": [
+      {
+        "name": "Frog Jab",
+        "multiplier": 0.12,
+        "type": "physical",
+        "accuracy": 85,
+        "desc": "Physical attack against one target, 0.12x base damage, 85% accuracy. Toggles Frog."
+      },
+      {
+        "name": "Frog Song",
+        "multiplier": null,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Magic attack against one target, costs 5 MP. Toggles Sleep, Frog."
+      },
+      {
+        "name": "Poisona",
+        "multiplier": null,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Magic attack against one target or an entire group, never misses, costs 3 MP. Removes Poison."
+      }
+    ]
   },
   {
     "name": "Trickplay",
@@ -8619,7 +13288,57 @@
     "defense": 20,
     "magicDef": 48,
     "dexterity": 53,
-    "skills": []
+    "skills": [
+      {
+        "name": "Rock Toss",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Magma",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": 95,
+        "desc": "Fire-elemental physical attack against one target, 1x base damage, 95% accuracy."
+      },
+      {
+        "name": "Sewer",
+        "multiplier": 1,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Water-elemental magic attack against one target, 1x base damage."
+      },
+      {
+        "name": "Sinking",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": 95,
+        "desc": "Earth-elemental physical attack against one target, 1x base damage, 95% accuracy."
+      },
+      {
+        "name": "Hot Springs",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Restorative magic that heals one of its allies, never misses."
+      },
+      {
+        "name": "Gold Mountain",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": 95,
+        "desc": "Physical attack against one target, 1x base damage, 95% accuracy."
+      },
+      {
+        "name": "L4 Suicide",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Magic that only affects targets whose level is a multiple of 4, deals damage equal to 96.9% of the target’s current HP, costs 10 MP. Inflicts Small unless the target is immune."
+      }
+    ]
   },
   {
     "name": "Turks:Elena",
@@ -8748,7 +13467,22 @@
     "defense": 22,
     "magicDef": 48,
     "dexterity": 48,
-    "skills": []
+    "skills": [
+      {
+        "name": "Absorb",
+        "multiplier": 1.25,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1.25x base damage, never misses."
+      },
+      {
+        "name": "Stare Down",
+        "multiplier": null,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Magic attack against one target, never misses, costs 5 MP. Inflicts Paralysed unless the target is immune."
+      }
+    ]
   },
   {
     "name": "Ultimate Weapon",
@@ -8809,7 +13543,22 @@
     "defense": 25,
     "magicDef": 65,
     "dexterity": 66,
-    "skills": []
+    "skills": [
+      {
+        "name": "Bodyblow",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Petrified Frog",
+        "multiplier": null,
+        "type": "magical",
+        "accuracy": 95,
+        "desc": "Magic attack against one target, 95% accuracy, costs 45 MP. May inflict Frog, Slow-numb (84% chance)."
+      }
+    ]
   },
   {
     "name": "Underwater MP",
@@ -8839,7 +13588,22 @@
     "defense": 40,
     "magicDef": 62,
     "dexterity": 62,
-    "skills": []
+    "skills": [
+      {
+        "name": "Machine Gun",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Hand Grenade",
+        "multiplier": 2.19,
+        "type": "physical",
+        "accuracy": 70,
+        "desc": "Physical attack against one target, 2.19x base damage, 70% accuracy."
+      }
+    ]
   },
   {
     "name": "Unknown",
@@ -8873,7 +13637,29 @@
     "defense": 55,
     "magicDef": 55,
     "dexterity": 110,
-    "skills": []
+    "skills": [
+      {
+        "name": "Bite",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Tongue",
+        "multiplier": 3,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 3x base damage."
+      },
+      {
+        "name": "Blaster",
+        "multiplier": 1.75,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Magic attack against one target, 1.75x base damage, never misses, costs 20 MP."
+      }
+    ]
   },
   {
     "name": "Unknown 2",
@@ -8906,7 +13692,29 @@
     "defense": 65,
     "magicDef": 65,
     "dexterity": 130,
-    "skills": []
+    "skills": [
+      {
+        "name": "Tentacle",
+        "multiplier": 3,
+        "type": "physical",
+        "accuracy": 90,
+        "desc": "Physical attack against one target, 3x base damage, 90% accuracy."
+      },
+      {
+        "name": "? Needle",
+        "multiplier": null,
+        "type": "magical",
+        "accuracy": 90,
+        "desc": "Magic attack against one target, 90% accuracy. Inflicts Paralysed unless the target is immune."
+      },
+      {
+        "name": "Abnormal Breath",
+        "multiplier": null,
+        "type": "magical",
+        "accuracy": 90,
+        "desc": "Magic attack against one target, 90% accuracy, costs 11 MP. Inflicts Confusion unless the target is immune."
+      }
+    ]
   },
   {
     "name": "Unknown 3",
@@ -8941,7 +13749,36 @@
     "defense": 75,
     "magicDef": 75,
     "dexterity": 150,
-    "skills": []
+    "skills": [
+      {
+        "name": "Poison Fang",
+        "multiplier": 3,
+        "type": "physical",
+        "accuracy": 90,
+        "desc": "Poison-elemental physical attack against one target, 3x base damage, 90% accuracy. Inflicts Poison unless the target is immune."
+      },
+      {
+        "name": "Bolt2",
+        "multiplier": 1.25,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Lightning-elemental magic attack against one target or an entire group, 1.25x base damage, costs 22 MP."
+      },
+      {
+        "name": "Slap",
+        "multiplier": 3,
+        "type": "physical",
+        "accuracy": 90,
+        "desc": "Physical attack against one target, 3x base damage, 90% accuracy. Inflicts Fury unless the target is immune."
+      },
+      {
+        "name": "Creepy Touch",
+        "multiplier": null,
+        "type": "magical",
+        "accuracy": 90,
+        "desc": "Magic attack against one target, 90% accuracy, costs 13 MP. Inflicts Sadness unless the target is immune."
+      }
+    ]
   },
   {
     "name": "Valron",
@@ -8969,7 +13806,50 @@
     "defense": 25,
     "magicDef": 90,
     "dexterity": 49,
-    "skills": []
+    "skills": [
+      {
+        "name": "Speed Punch",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Jump Kick",
+        "multiplier": 1.25,
+        "type": "physical",
+        "accuracy": 95,
+        "desc": "Physical attack against one target, 1.25x base damage, 95% accuracy."
+      },
+      {
+        "name": "Dive Kick",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Restorative magic that heals one of its allies."
+      },
+      {
+        "name": "DeSpell",
+        "multiplier": null,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Magic attack against one target or an entire group, never misses, costs 20 MP. Removes Haste, Slow, Stop, Regen, Barrier, MBarrier, Reflect, Shield, Death Force, Resist."
+      },
+      {
+        "name": "MBarrier",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Casts a barrier over one of its allies that halves the magic damage that ally takes, costs 24 MP."
+      },
+      {
+        "name": "Demi3",
+        "multiplier": null,
+        "type": "magical",
+        "accuracy": 75,
+        "desc": "Gravity-elemental magic attack against one target or an entire group, deals damage equal to 75% of the target’s current HP, 75% accuracy, costs 48 MP."
+      }
+    ]
   },
   {
     "name": "Vargid Police",
@@ -9000,7 +13880,22 @@
     "defense": 8,
     "magicDef": 10,
     "dexterity": 48,
-    "skills": []
+    "skills": [
+      {
+        "name": "Needle",
+        "multiplier": 0.06,
+        "type": "physical",
+        "accuracy": 10,
+        "desc": "Physical attack against one target, 0.06x base damage, 10% accuracy, costs 1 MP. May inflict Paralysed (8% chance)."
+      },
+      {
+        "name": "Suicide",
+        "multiplier": null,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Magic attack against one target, deals damage equal to 18.8% of the target’s current HP, never misses, costs 10 MP."
+      }
+    ]
   },
   {
     "name": "Velcher Task",
@@ -9033,7 +13928,22 @@
     "defense": 25,
     "magicDef": 65,
     "dexterity": 58,
-    "skills": []
+    "skills": [
+      {
+        "name": "Claw",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Poison Blow",
+        "multiplier": null,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Magic attack against one target, costs 4 MP. May inflict Poison (72% chance)."
+      }
+    ]
   },
   {
     "name": "Vice",
@@ -9066,7 +13976,43 @@
     "defense": 7,
     "magicDef": 0,
     "dexterity": 62,
-    "skills": []
+    "skills": [
+      {
+        "name": "Hit",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Steal",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": 5,
+        "desc": "Special attack against one target, 5% accuracy."
+      },
+      {
+        "name": "Grind",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": 20,
+        "desc": "Special attack against one target, 20% accuracy."
+      },
+      {
+        "name": "Seize",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Escape",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Special attack against one target, never misses."
+      }
+    ]
   },
   {
     "name": "Vlakorados",
@@ -9100,7 +14046,29 @@
     "defense": 30,
     "magicDef": 24,
     "dexterity": 73,
-    "skills": []
+    "skills": [
+      {
+        "name": "Tail Attack",
+        "multiplier": 1.25,
+        "type": "physical",
+        "accuracy": 90,
+        "desc": "Physical attack against one target, 1.25x base damage, 90% accuracy."
+      },
+      {
+        "name": "Violent Advance",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": 95,
+        "desc": "Physical attack against one target, 1x base damage, 95% accuracy."
+      },
+      {
+        "name": "Bolt Ball",
+        "multiplier": 1,
+        "type": "magical",
+        "accuracy": 95,
+        "desc": "Lightning-elemental magic attack against one target, 1x base damage, 95% accuracy, costs 22 MP."
+      }
+    ]
   },
   {
     "name": "Warning Board",
@@ -9127,7 +14095,15 @@
     "defense": 5,
     "magicDef": 7,
     "dexterity": 40,
-    "skills": []
+    "skills": [
+      {
+        "name": "Vanish",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Special attack against one target, never misses."
+      }
+    ]
   },
   {
     "name": "Waterpolo",
@@ -9182,7 +14158,15 @@
     "defense": 7,
     "magicDef": 40,
     "dexterity": 58,
-    "skills": []
+    "skills": [
+      {
+        "name": "Sickle",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      }
+    ]
   },
   {
     "name": "Wind Wing",
@@ -9214,7 +14198,36 @@
     "defense": 30,
     "magicDef": 32,
     "dexterity": 65,
-    "skills": []
+    "skills": [
+      {
+        "name": "Tailbeat",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage, never misses."
+      },
+      {
+        "name": "Sham Seal",
+        "multiplier": 2.19,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 2.19x base damage."
+      },
+      {
+        "name": "Aero3",
+        "multiplier": 3.12,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Wind-elemental magic attack against one target, 3.12x base damage, costs 50 MP."
+      },
+      {
+        "name": "White Wind",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Restorative magic that heals its entire side for HP equal to the caster’s current HP, costs 34 MP. Removes Sleep, Poison, Confusion, Silence, Slow, Stop, Frog, Small, Slow-numb, Petrify, Berserk, Paralysed, Darkness, Death Force, Resist."
+      }
+    ]
   },
   {
     "name": "Wolfmeister",
@@ -9244,7 +14257,36 @@
     "defense": 50,
     "magicDef": 120,
     "dexterity": 124,
-    "skills": []
+    "skills": [
+      {
+        "name": "Big Punch",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Heavy Sword",
+        "multiplier": 1.25,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1.25x base damage."
+      },
+      {
+        "name": "Atomic Ray",
+        "multiplier": 1.12,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Magic attack against one target, 1.12x base damage, costs 20 MP."
+      },
+      {
+        "name": "Big Guard",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Casts Haste, Barrier, and MBarrier on its entire side, costs 56 MP."
+      }
+    ]
   },
   {
     "name": "XCannon",
@@ -9277,7 +14319,43 @@
     "defense": 60,
     "magicDef": 200,
     "dexterity": 80,
-    "skills": []
+    "skills": [
+      {
+        "name": "Search",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Special attack against one target, never misses."
+      },
+      {
+        "name": "Drain",
+        "multiplier": 0.38,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Magic attack against one target, 0.38x base damage, never misses, costs 1 MP."
+      },
+      {
+        "name": "Dragon Cannon",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against the whole party, 1x base damage."
+      },
+      {
+        "name": "Before Firing",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Special attack against one target, never misses."
+      },
+      {
+        "name": "Vanish",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Special attack against one target, never misses."
+      }
+    ]
   },
   {
     "name": "Yang",
@@ -9309,7 +14387,50 @@
     "defense": 25,
     "magicDef": 210,
     "dexterity": 75,
-    "skills": []
+    "skills": [
+      {
+        "name": "Bolt2",
+        "multiplier": 1.25,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Lightning-elemental magic attack against one target or an entire group, 1.25x base damage, costs 22 MP."
+      },
+      {
+        "name": "Ice2",
+        "multiplier": 1.25,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Ice-elemental magic attack against one target or an entire group, 1.25x base damage, costs 22 MP."
+      },
+      {
+        "name": "Suicide Yang",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Restorative magic that heals one of its allies."
+      },
+      {
+        "name": "Happy Yang",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Special attack against one target, never misses."
+      },
+      {
+        "name": "Enchanted Yang",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Special attack against one target, never misses."
+      },
+      {
+        "name": "Vanish",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Special attack against one target, never misses."
+      }
+    ]
   },
   {
     "name": "Ying",
@@ -9338,7 +14459,29 @@
     "defense": 210,
     "magicDef": 25,
     "dexterity": 75,
-    "skills": []
+    "skills": [
+      {
+        "name": "Ying Punch",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Sadistic Attack",
+        "multiplier": 1.25,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1.25x base damage."
+      },
+      {
+        "name": "Vanish",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Special attack against one target, never misses."
+      }
+    ]
   },
   {
     "name": "Zemzelett",
@@ -9374,7 +14517,29 @@
     "defense": 25,
     "magicDef": 25,
     "dexterity": 58,
-    "skills": []
+    "skills": [
+      {
+        "name": "Flap",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Wind-elemental physical attack against the whole party, 1x base damage."
+      },
+      {
+        "name": "Thunderbolt",
+        "multiplier": 0.94,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Lightning-elemental magic attack against one target, 0.94x base damage, costs 4 MP."
+      },
+      {
+        "name": "White Wind",
+        "multiplier": null,
+        "type": "other",
+        "accuracy": null,
+        "desc": "Restorative magic that heals its entire side for HP equal to the caster’s current HP, costs 34 MP. Removes Sleep, Poison, Confusion, Silence, Slow, Stop, Frog, Small, Slow-numb, Petrify, Berserk, Paralysed, Darkness, Death Force, Resist."
+      }
+    ]
   },
   {
     "name": "Zenene",
@@ -9414,7 +14579,29 @@
     "defense": 10,
     "magicDef": 10,
     "dexterity": 60,
-    "skills": []
+    "skills": [
+      {
+        "name": "Fang",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 1x base damage."
+      },
+      {
+        "name": "Piazzo Shower",
+        "multiplier": 0.5,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Poison-elemental magic attack against one target, 0.5x base damage, never misses, costs 6 MP. May inflict Poison (72% chance)."
+      },
+      {
+        "name": "Ghenghana",
+        "multiplier": 0.62,
+        "type": "magical",
+        "accuracy": null,
+        "desc": "Fire-elemental magic attack against one target, 0.62x base damage, never misses, costs 6 MP."
+      }
+    ]
   },
   {
     "name": "Zolokalter",
@@ -9445,7 +14632,22 @@
     "defense": 29,
     "magicDef": 40,
     "dexterity": 58,
-    "skills": []
+    "skills": [
+      {
+        "name": "Bite",
+        "multiplier": 1,
+        "type": "physical",
+        "accuracy": 95,
+        "desc": "Physical attack against one target, 1x base damage, 95% accuracy."
+      },
+      {
+        "name": "Toxic Barf",
+        "multiplier": null,
+        "type": "magical",
+        "accuracy": 95,
+        "desc": "Magic attack against one target, 95% accuracy, costs 15 MP. Inflicts Poison, Slow unless the target is immune."
+      }
+    ]
   },
   {
     "name": "Zuu",
@@ -9480,6 +14682,21 @@
     "defense": 25,
     "magicDef": 75,
     "dexterity": 64,
-    "skills": []
+    "skills": [
+      {
+        "name": "Claw",
+        "multiplier": 2,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Physical attack against one target, 2x base damage."
+      },
+      {
+        "name": "Great Gale",
+        "multiplier": 1.88,
+        "type": "physical",
+        "accuracy": null,
+        "desc": "Wind-elemental physical attack against the whole party, 1.88x base damage. May inflict Darkness (40% chance)."
+      }
+    ]
   }
 ]
