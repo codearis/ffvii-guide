@@ -14,6 +14,44 @@ const SORTS: Record<string, { label: string; cmp: (a: Enemy, b: Enemy) => number
   gil: { label: 'Gil ↓', cmp: (a, b) => (b.gil ?? -1) - (a.gil ?? -1) },
 }
 
+// escala linear a partir do level base — é o comportamento dos mods de level scaling.
+// Se o seu mod usar outra curva, o ajuste é só esta função.
+const scale = (v: number | null, from: number | null, to: number) =>
+  v == null || !from ? v : Math.round((v * to) / from)
+
+function EnemyDetail({ e }: { e: Enemy }) {
+  const base = e.level
+  const [lv, setLv] = useState(base ?? 1)
+  const hp = scale(e.hp, base, lv)
+  const mp = scale(e.mp, base, lv)
+  const exp = scale(e.exp, base, lv)
+  const ap = scale(e.ap, base, lv)
+  const gil = scale(e.gil, base, lv)
+  const changed = base != null && lv !== base
+  return (
+    <>
+      <Sprite name={e.name} large />
+      {base != null && (
+        <label className="lv-slider detail-lv">
+          Level {lv}
+          <input type="range" min={1} max={99} value={lv} onChange={ev => setLv(Number(ev.target.value))} />
+          {changed ? <span className="dim">base {base} · estimado</span> : <span className="dim">base</span>}
+        </label>
+      )}
+      <p className="modal-line">
+        HP <strong>{fmtNum(hp)}</strong> · MP <strong>{fmtNum(mp)}</strong> · EXP {fmtNum(exp)} · AP{' '}
+        {fmtNum(ap)} · Gil {fmtNum(gil)}
+      </p>
+      <p className="modal-line dim">
+        {e.absorbs.length > 0 && <>Absorve: {e.absorbs.join(', ')} · </>}
+        {e.resistances.length > 0 && <>Resiste: {e.resistances.join(', ')} · </>}
+        {e.steal.length > 0 && <>Roubo: {e.steal.join(', ')} · </>}
+        {e.drops.length > 0 && <>Drop: {e.drops.join(', ')}</>}
+      </p>
+    </>
+  )
+}
+
 function Sprite({ name, large = false }: { name: string; large?: boolean }) {
   const [err, setErr] = useState(false)
   if (err) return null
@@ -32,7 +70,6 @@ export default function EnemiesPage() {
   const [q, setQ] = useState('')
   const [type, setType] = useState('Todos')
   const [sort, setSort] = useState('level')
-  const [lv, setLv] = useState(0) // 0 = todos os níveis
   const [open, setOpen] = useState<string | null>(null)
 
   const rows = useMemo(() => {
@@ -42,12 +79,11 @@ export default function EnemiesPage() {
       .filter(
         e =>
           (type === 'Todos' || e.type === type) &&
-          (lv === 0 || (e.level != null && Math.abs(e.level - lv) <= 2)) &&
           (e.name.toLowerCase().includes(query) ||
             (e.location ?? '').toLowerCase().includes(query))
       )
       .sort((a, b) => cmp(a, b) || a.name.localeCompare(b.name))
-  }, [q, type, sort, lv])
+  }, [q, type, sort])
 
   return (
     <div className="window">
@@ -57,10 +93,6 @@ export default function EnemiesPage() {
             {t}
           </button>
         ))}
-        <label className="lv-slider">
-          Level: {lv ? `~${lv} (±2)` : 'todos'}
-          <input type="range" min={0} max={99} value={lv} onChange={e => setLv(Number(e.target.value))} />
-        </label>
         <select value={sort} onChange={e => setSort(e.target.value)}>
           {Object.entries(SORTS).map(([k, s]) => (
             <option key={k} value={k}>
@@ -107,12 +139,7 @@ export default function EnemiesPage() {
                   {open === key && (
                     <tr className="detail">
                       <td colSpan={7}>
-                        <Sprite name={e.name} large />
-                        EXP {fmtNum(e.exp)} · AP {fmtNum(e.ap)} · Gil {fmtNum(e.gil)}
-                        {e.absorbs.length > 0 && <> · Absorve: {e.absorbs.join(', ')}</>}
-                        {e.resistances.length > 0 && <> · Resiste: {e.resistances.join(', ')}</>}
-                        {e.steal.length > 0 && <> · Roubo: {e.steal.join(', ')}</>}
-                        {e.drops.length > 0 && <> · Drop: {e.drops.join(', ')}</>}
+                        <EnemyDetail e={e} />
                       </td>
                     </tr>
                   )}

@@ -69,7 +69,7 @@ function useCursorSfx() {
   return () => {
     if (!ref.current) ref.current = new Audio(asset('audio/cursor.m4a'))
     const el = ref.current
-    el.volume = 0.35
+    el.volume = 0.1
     el.currentTime = 0
     el.play().catch(() => {
       const ctx = new AudioContext()
@@ -77,7 +77,7 @@ function useCursorSfx() {
       const gain = ctx.createGain()
       osc.type = 'square'
       osc.frequency.value = 1200
-      gain.gain.setValueAtTime(0.05, ctx.currentTime)
+      gain.gain.setValueAtTime(0.02, ctx.currentTime)
       gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.06)
       osc.connect(gain).connect(ctx.destination)
       osc.start()
@@ -92,7 +92,7 @@ function MusicButton() {
   useEffect(() => {
     const el = audioRef.current
     if (!el) return
-    el.volume = 0.15
+    el.volume = 0.04
     if (!on) {
       el.pause()
       return

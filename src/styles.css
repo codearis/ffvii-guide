@@ -90,17 +90,18 @@ h3 {
   flex: 1;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 6px;
   background: linear-gradient(180deg, #16279e 0%, #0c1868 40%, #040a34 100%);
   border: 2px solid #8f8f8f;
   border-radius: 6px;
   box-shadow: 0 0 0 1px #2a2a2a;
-  padding: 8px 4px;
+  padding: 8px 10px;
   color: #cfcfcf;
   font: inherit;
   text-shadow: 1px 1px 0 #000;
   cursor: pointer;
+  white-space: nowrap;
 }
 
 .tab.active {
@@ -281,6 +282,15 @@ td {
   color: #9ab8ff;
   font-size: 12px;
   white-space: nowrap;
+}
+
+.detail-lv {
+  display: flex;
+  margin-bottom: 6px;
+}
+
+.detail-lv input[type='range'] {
+  max-width: 220px;
 }
 
 .lv-slider input[type='range'] {
