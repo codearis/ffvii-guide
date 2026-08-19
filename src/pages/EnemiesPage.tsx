@@ -14,19 +14,21 @@ const SORTS: Record<string, { label: string; cmp: (a: Enemy, b: Enemy) => number
   gil: { label: 'Gil ↓', cmp: (a, b) => (b.gil ?? -1) - (a.gil ?? -1) },
 }
 
-// escala linear a partir do level base — é o comportamento dos mods de level scaling.
-// Se o seu mod usar outra curva, o ajuste é só esta função.
-const scale = (v: number | null, from: number | null, to: number) =>
-  v == null || !from ? v : Math.round((v * to) / from)
+// expoentes medidos na tabela do Mystery Ninja — o único inimigo que o próprio FF7 escala
+// por nível (6 tiers, Lv 17→42). HP cresce ~lv^1.57, AP ~lv^1.95, e assim por diante.
+const K: Record<string, number> = { hp: 1.57, mp: 1.14, exp: 1.73, ap: 1.95, gil: 1.7 }
+
+const scale = (v: number | null, from: number | null, to: number, stat: string) =>
+  v == null || !from ? v : Math.round(v * Math.pow(to / from, K[stat]))
 
 function EnemyDetail({ e }: { e: Enemy }) {
   const base = e.level
   const [lv, setLv] = useState(base ?? 1)
-  const hp = scale(e.hp, base, lv)
-  const mp = scale(e.mp, base, lv)
-  const exp = scale(e.exp, base, lv)
-  const ap = scale(e.ap, base, lv)
-  const gil = scale(e.gil, base, lv)
+  const hp = scale(e.hp, base, lv, 'hp')
+  const mp = scale(e.mp, base, lv, 'mp')
+  const exp = scale(e.exp, base, lv, 'exp')
+  const ap = scale(e.ap, base, lv, 'ap')
+  const gil = scale(e.gil, base, lv, 'gil')
   const changed = base != null && lv !== base
   return (
     <div className="detail-body">
@@ -41,7 +43,9 @@ function EnemyDetail({ e }: { e: Enemy }) {
               value={lv}
               onChange={ev => setLv(Number(ev.target.value))}
             />
-            <span className="dim">{changed ? `base ${base} · estimado` : 'base'}</span>
+            <span className="dim">
+              {changed ? `base ${base} · curva do jogo (Mystery Ninja)` : 'level base'}
+            </span>
           </label>
         )}
         <p className="modal-line">
