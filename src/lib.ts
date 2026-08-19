@@ -61,6 +61,14 @@ export interface Enemy {
   drops: string[]
 }
 
+export const MATERIA_TYPES: Record<string, { label: string; color: string }> = {
+  Magic: { label: 'Magia', color: '#3ad43a' },
+  Command: { label: 'Comando', color: '#e8d84a' },
+  Support: { label: 'Suporte', color: '#4ab0e8' },
+  Independent: { label: 'Independente', color: '#c05ae0' },
+  Summon: { label: 'Invocação', color: '#e0483f' },
+}
+
 export const fmtNum = (n: number | null | undefined) =>
   n == null ? '—' : n.toLocaleString('pt-BR')
 

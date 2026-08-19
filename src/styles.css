@@ -271,6 +271,127 @@ td {
   background: radial-gradient(circle at 35% 30%, #ffffffb0, var(--c) 45%, #000000c0 120%);
 }
 
+/* simulador de materias */
+.sim-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.sim-slots {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px 18px;
+}
+
+.sim-pair {
+  display: flex;
+  align-items: flex-start;
+}
+
+.sim-slot {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+  width: 62px;
+  padding: 0;
+  color: #cfcfcf;
+  font: inherit;
+  font-size: 10px;
+  text-shadow: 1px 1px 0 #000;
+}
+
+.sim-slot .hole {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 3px solid #c8c8c8;
+  border-bottom-color: #6e6e6e;
+  border-right-color: #6e6e6e;
+  box-shadow: inset 0 1px 3px #000c;
+  background: radial-gradient(circle at 40% 35%, #1a2a86 0%, #060d3f 60%, #02051c 100%);
+  flex: none;
+}
+
+/* slot preenchido vira orbe da cor do tipo da materia */
+.sim-slot .hole[style] {
+  background: radial-gradient(circle at 35% 30%, #ffffffb0, var(--c) 45%, #000000c0 120%);
+}
+
+.sim-slot.picking .hole {
+  border-color: #f0e440;
+}
+
+.slot-name {
+  max-width: 62px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.sim-link {
+  width: 12px;
+  height: 6px;
+  margin-top: 14px;
+  background: linear-gradient(180deg, #e0e0e0, #7a7a7a);
+  flex: none;
+}
+
+.picker {
+  max-height: 40vh;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ffffff22;
+  border-radius: 4px;
+}
+
+.picker button {
+  text-align: left;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #ffffff10;
+  color: #fff;
+  padding: 6px 10px;
+  cursor: pointer;
+  font: inherit;
+  font-size: 13px;
+  text-shadow: 1px 1px 0 #000;
+}
+
+.picker button:hover {
+  background: #ffffff15;
+}
+
+select {
+  background: #060d3f;
+  border: 2px solid #8f8f8f;
+  border-radius: 5px;
+  color: #fff;
+  padding: 5px 8px;
+  font: inherit;
+  max-width: 100%;
+}
+
+h4 {
+  margin: 10px 0 4px;
+  color: #f0e440;
+  font-size: 13px;
+}
+
+.fx-list {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.fx-list li {
+  margin-bottom: 4px;
+}
+
 .notes {
   margin: 0;
   padding-left: 20px;
@@ -403,5 +524,9 @@ td {
 
   .char-grid {
     grid-template-columns: repeat(3, 1fr);
+  }
+
+  .sim-grid {
+    grid-template-columns: 1fr;
   }
 }

@@ -1,16 +1,8 @@
 import { useMemo, useState } from 'react'
 import materiaRaw from '../data/materia.json'
-import { Materia, fmtNum } from '../lib'
+import { MATERIA_TYPES as TYPES, Materia, fmtNum } from '../lib'
 
 const materia = materiaRaw as Materia[]
-
-const TYPES: Record<string, { label: string; color: string }> = {
-  Magic: { label: 'Magia', color: '#3ad43a' },
-  Command: { label: 'Comando', color: '#e8d84a' },
-  Support: { label: 'Suporte', color: '#4ab0e8' },
-  Independent: { label: 'Independente', color: '#c05ae0' },
-  Summon: { label: 'Invocação', color: '#e0483f' },
-}
 
 function Orb({ type }: { type: string }) {
   const color = TYPES[type]?.color ?? '#aaa'
