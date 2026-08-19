@@ -597,6 +597,14 @@ h4 {
     grid-template-columns: 1fr;
   }
 
+  /* no card mobile a foto do inimigo cresce e vai pro canto direito */
+  .enemy-sprite {
+    width: 96px;
+    height: 96px;
+    float: right;
+    margin: 0 0 4px 8px;
+  }
+
   .wt-head {
     flex-direction: column-reverse;
   }
