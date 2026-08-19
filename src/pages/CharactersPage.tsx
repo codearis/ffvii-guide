@@ -2,6 +2,7 @@ import { useState } from 'react'
 import charactersRaw from '../data/characters.json'
 import weaponsRaw from '../data/weapons.json'
 import { Character, Weapon, asset, fmtNum } from '../lib'
+import Slots from '../Slots'
 
 const characters = charactersRaw as Character[]
 const weapons = weaponsRaw as Weapon[]
@@ -89,7 +90,9 @@ export default function CharactersPage() {
                     <td className="hl">{w.name}</td>
                     <td className="num" data-label="ATK">{w.attack}</td>
                     <td className="num" data-label="Acerto%">{fmtNum(w.attackPct)}</td>
-                    <td className="slots" data-label="Slots">{w.slots}</td>
+                    <td data-label="Slots">
+                      <Slots str={w.slots} />
+                    </td>
                     <td data-label="Growth">{w.growth}</td>
                     <td className="num" data-label="Gil">{fmtNum(w.gil)}</td>
                     <td className="dim" data-label="Obter">{w.obtain}</td>

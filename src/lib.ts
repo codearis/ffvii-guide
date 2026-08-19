@@ -66,3 +66,10 @@ export const fmtNum = (n: number | null | undefined) =>
 
 // prefixa o base do Vite (raiz no dev, /ffvii-guide/ no GitHub Pages)
 export const asset = (p: string) => import.meta.env.BASE_URL + p
+
+// extrai o padrão "Slots O=O O" de uma descrição (armaduras) para renderizar com ícones
+export const splitSlots = (desc: string): { slots: string | null; rest: string } => {
+  const m = desc.match(/(\s*·\s*)?Slots\s+(None|(?:O=O|O)(?:\s+(?:O=O|O))*)/)
+  if (!m) return { slots: null, rest: desc }
+  return { slots: m[2] === 'None' ? '' : m[2], rest: desc.replace(m[0], '') }
+}

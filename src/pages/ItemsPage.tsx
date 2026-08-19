@@ -1,18 +1,25 @@
 import { useMemo, useState } from 'react'
 import itemsRaw from '../data/items.json'
 import weaponsRaw from '../data/weapons.json'
-import { Item, Weapon, fmtNum } from '../lib'
+import { Item, Weapon, fmtNum, splitSlots } from '../lib'
+import Slots from '../Slots'
 
 const items = itemsRaw as Item[]
 const weapons = weaponsRaw as Weapon[]
 
-const all: Item[] = [
-  ...items,
+type Row = Item & { slots?: string | null }
+
+const all: Row[] = [
+  ...items.map(i => {
+    const { slots, rest } = splitSlots(i.description)
+    return { ...i, slots, description: rest }
+  }),
   ...weapons.map(w => ({
     name: w.name,
     section: 'Armas',
     gil: w.gil,
-    description: `${w.character} · ATK ${w.attack} · Slots ${w.slots} · Growth ${w.growth}`,
+    slots: w.slots,
+    description: `${w.character} · ATK ${w.attack} · Growth ${w.growth}`,
   })),
 ]
 
@@ -56,7 +63,14 @@ export default function ItemsPage() {
                 <td className="hl">{i.name}</td>
                 <td data-label="Seção">{i.section}</td>
                 <td className="num" data-label="Gil">{fmtNum(i.gil)}</td>
-                <td className="dim">{i.description}</td>
+                <td className="dim">
+                  {i.slots != null && (
+                    <>
+                      <Slots str={i.slots} />{' '}
+                    </>
+                  )}
+                  {i.description}
+                </td>
               </tr>
             ))}
           </tbody>

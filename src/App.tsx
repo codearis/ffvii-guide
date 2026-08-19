@@ -5,6 +5,7 @@ import ItemsPage from './pages/ItemsPage'
 import MateriaPage from './pages/MateriaPage'
 import CharactersPage from './pages/CharactersPage'
 import EnemiesPage from './pages/EnemiesPage'
+import StatsPage from './pages/StatsPage'
 
 const TABS = [
   { id: 'search', label: 'Buscar' },
@@ -12,6 +13,7 @@ const TABS = [
   { id: 'materia', label: 'Materias' },
   { id: 'characters', label: 'Personagens' },
   { id: 'enemies', label: 'Inimigos' },
+  { id: 'stats', label: 'Stats' },
 ]
 
 export default function App() {
@@ -45,6 +47,7 @@ export default function App() {
       {tab === 'materia' && <MateriaPage />}
       {tab === 'characters' && <CharactersPage />}
       {tab === 'enemies' && <EnemiesPage />}
+      {tab === 'stats' && <StatsPage />}
     </div>
   )
 }

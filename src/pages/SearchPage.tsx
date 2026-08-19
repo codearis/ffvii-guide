@@ -4,13 +4,15 @@ import weaponsRaw from '../data/weapons.json'
 import materiaRaw from '../data/materia.json'
 import charactersRaw from '../data/characters.json'
 import enemiesRaw from '../data/enemies.json'
-import { Character, Enemy, Item, Materia, Weapon, fmtNum } from '../lib'
+import { Character, Enemy, Item, Materia, Weapon, fmtNum, splitSlots } from '../lib'
+import Slots from '../Slots'
 
 interface Hit {
   cat: string
   name: string
   detail: string
   gil: number | null
+  slots?: string | null
 }
 
 const items = itemsRaw as Item[]
@@ -47,19 +49,23 @@ const dropInfo = (name: string) => {
 }
 
 const hits: Hit[] = [
-  ...items.map(i => ({
-    cat: i.section,
-    name: i.name,
-    detail: i.description + dropInfo(i.name),
-    gil: i.gil,
-  })),
+  ...items.map(i => {
+    const { slots, rest } = splitSlots(i.description)
+    return {
+      cat: i.section,
+      name: i.name,
+      detail: rest + dropInfo(i.name),
+      gil: i.gil,
+      slots,
+    }
+  }),
   ...weapons.map(w => ({
     cat: 'Arma',
     name: w.name,
     detail:
-      `${w.character} · ATK ${w.attack} · Slots ${w.slots} · Growth ${w.growth} — ${w.obtain}` +
-      dropInfo(w.name),
+      `${w.character} · ATK ${w.attack} · Growth ${w.growth} — ${w.obtain}` + dropInfo(w.name),
     gil: w.gil,
+    slots: w.slots,
   })),
   ...materia.map(m => ({
     cat: `Materia ${m.type}`,
@@ -132,7 +138,14 @@ export default function SearchPage() {
                     <td className="hl">{h.name}</td>
                     <td data-label="Categoria">{h.cat}</td>
                     <td className="num" data-label="Gil">{fmtNum(h.gil)}</td>
-                    <td className="dim">{h.detail}</td>
+                    <td className="dim">
+                      {h.slots != null && (
+                        <>
+                          <Slots str={h.slots} />{' '}
+                        </>
+                      )}
+                      {h.detail}
+                    </td>
                   </tr>
                 ))}
               </tbody>
