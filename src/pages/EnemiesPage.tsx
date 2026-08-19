@@ -25,11 +25,9 @@ const scale = (v: number | null, from: number | null, to: number, stat: string) 
 function EnemyModal({ e, onClose }: { e: Enemy; onClose: () => void }) {
   const base = e.level
   const [lv, setLv] = useState(base ?? 1)
-  const changed = base != null && lv !== base
   const row = (label: string, v: number | null, stat: string) => (
     <p className="modal-line">
       <span className="wt-label">{label}:</span> <strong>{fmtNum(scale(v, base, lv, stat))}</strong>
-      {changed && v != null && <span className="dim"> (base {fmtNum(v)})</span>}
     </p>
   )
   return (
