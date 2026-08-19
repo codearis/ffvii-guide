@@ -3,6 +3,7 @@ import charactersRaw from '../data/characters.json'
 import weaponsRaw from '../data/weapons.json'
 import { Character, Weapon, asset, fmtNum } from '../lib'
 import Slots from '../Slots'
+import Icon from '../Icon'
 
 const characters = charactersRaw as Character[]
 const weapons = weaponsRaw as Weapon[]
@@ -87,7 +88,10 @@ export default function CharactersPage() {
               <tbody>
                 {charWeapons.map(w => (
                   <tr key={w.name}>
-                    <td className="hl">{w.name}</td>
+                    <td className="hl">
+                      <Icon section="Arma" character={w.character} />
+                      {w.name}
+                    </td>
                     <td className="num" data-label="ATK">{w.attack}</td>
                     <td className="num" data-label="Acerto%">{fmtNum(w.attackPct)}</td>
                     <td data-label="Slots">

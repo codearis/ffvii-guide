@@ -6,6 +6,7 @@ import charactersRaw from '../data/characters.json'
 import enemiesRaw from '../data/enemies.json'
 import { Character, Enemy, Item, Materia, Weapon, fmtNum, splitSlots } from '../lib'
 import Slots from '../Slots'
+import Icon from '../Icon'
 
 interface Hit {
   cat: string
@@ -13,6 +14,7 @@ interface Hit {
   detail: string
   gil: number | null
   slots?: string | null
+  character?: string
 }
 
 const items = itemsRaw as Item[]
@@ -66,6 +68,7 @@ const hits: Hit[] = [
       `${w.character} · ATK ${w.attack} · Growth ${w.growth} — ${w.obtain}` + dropInfo(w.name),
     gil: w.gil,
     slots: w.slots,
+    character: w.character,
   })),
   ...materia.map(m => ({
     cat: `Materia ${m.type}`,
@@ -135,7 +138,10 @@ export default function SearchPage() {
               <tbody>
                 {rows.map((h, k) => (
                   <tr key={k}>
-                    <td className="hl">{h.name}</td>
+                    <td className="hl">
+                      <Icon section={h.cat} character={h.character} />
+                      {h.name}
+                    </td>
                     <td data-label="Categoria">{h.cat}</td>
                     <td className="num" data-label="Gil">{fmtNum(h.gil)}</td>
                     <td className="dim">

@@ -3,11 +3,12 @@ import itemsRaw from '../data/items.json'
 import weaponsRaw from '../data/weapons.json'
 import { Item, Weapon, fmtNum, splitSlots } from '../lib'
 import Slots from '../Slots'
+import Icon from '../Icon'
 
 const items = itemsRaw as Item[]
 const weapons = weaponsRaw as Weapon[]
 
-type Row = Item & { slots?: string | null }
+type Row = Item & { slots?: string | null; character?: string }
 
 const all: Row[] = [
   ...items.map(i => {
@@ -19,6 +20,7 @@ const all: Row[] = [
     section: 'Armas',
     gil: w.gil,
     slots: w.slots,
+    character: w.character,
     description: `${w.character} · ATK ${w.attack} · Growth ${w.growth}`,
   })),
 ]
@@ -60,7 +62,10 @@ export default function ItemsPage() {
           <tbody>
             {rows.map((i, k) => (
               <tr key={`${i.section}-${i.name}-${k}`}>
-                <td className="hl">{i.name}</td>
+                <td className="hl">
+                  <Icon section={i.section} character={i.character} />
+                  {i.name}
+                </td>
                 <td data-label="Seção">{i.section}</td>
                 <td className="num" data-label="Gil">{fmtNum(i.gil)}</td>
                 <td className="dim">

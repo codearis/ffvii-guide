@@ -32,6 +32,7 @@ export default function EnemiesPage() {
   const [q, setQ] = useState('')
   const [type, setType] = useState('Todos')
   const [sort, setSort] = useState('level')
+  const [lv, setLv] = useState(0) // 0 = todos os níveis
   const [open, setOpen] = useState<string | null>(null)
 
   const rows = useMemo(() => {
@@ -41,11 +42,12 @@ export default function EnemiesPage() {
       .filter(
         e =>
           (type === 'Todos' || e.type === type) &&
+          (lv === 0 || (e.level != null && Math.abs(e.level - lv) <= 2)) &&
           (e.name.toLowerCase().includes(query) ||
             (e.location ?? '').toLowerCase().includes(query))
       )
       .sort((a, b) => cmp(a, b) || a.name.localeCompare(b.name))
-  }, [q, type, sort])
+  }, [q, type, sort, lv])
 
   return (
     <div className="window">
@@ -55,6 +57,10 @@ export default function EnemiesPage() {
             {t}
           </button>
         ))}
+        <label className="lv-slider">
+          Level: {lv ? `~${lv} (±2)` : 'todos'}
+          <input type="range" min={0} max={99} value={lv} onChange={e => setLv(Number(e.target.value))} />
+        </label>
         <select value={sort} onChange={e => setSort(e.target.value)}>
           {Object.entries(SORTS).map(([k, s]) => (
             <option key={k} value={k}>
@@ -65,7 +71,7 @@ export default function EnemiesPage() {
         <input placeholder="Buscar nome ou local..." value={q} onChange={e => setQ(e.target.value)} />
       </div>
       <div className="table-wrap">
-        <table>
+        <table className="enemy-table">
           <thead>
             <tr>
               <th>Nome</th>
@@ -82,7 +88,10 @@ export default function EnemiesPage() {
               const key = `${e.name}-${k}`
               return (
                 <Fragment key={key}>
-                  <tr className="row-btn" onClick={() => setOpen(open === key ? null : key)}>
+                  <tr
+                    className={`row-btn ${open === key ? 'open' : ''}`}
+                    onClick={() => setOpen(open === key ? null : key)}
+                  >
                     <td className="hl">
                       <Sprite name={e.name} />
                       {e.name}

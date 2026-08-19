@@ -6,6 +6,7 @@ import materiaRaw from '../data/materia.json'
 import weaponsRaw from '../data/weapons.json'
 import { Enemy, Item, MATERIA_TYPES, Materia, Weapon, asset, fmtNum, slugify, splitSlots } from '../lib'
 import Slots from '../Slots'
+import Icon from '../Icon'
 
 interface Chapter {
   id: string
@@ -120,7 +121,10 @@ function DetailModal({ name, onClose }: { name: string; onClose: () => void }) {
     const w = weapons.find(x => x.name === name)!
     content = (
       <>
-        <h2>{w.name}</h2>
+        <h2>
+          <Icon section="Arma" character={w.character} />
+          {w.name}
+        </h2>
         <Line label="Personagem" value={w.character} />
         <Line label="ATK / Acerto%" value={`${w.attack} / ${fmtNum(w.attackPct)}`} />
         <p className="modal-line">
@@ -136,7 +140,10 @@ function DetailModal({ name, onClose }: { name: string; onClose: () => void }) {
     const { slots, rest } = splitSlots(i.description)
     content = (
       <>
-        <h2>{i.name}</h2>
+        <h2>
+          <Icon section={i.section} />
+          {i.name}
+        </h2>
         <Line label="Seção" value={i.section} />
         <Line label="Gil" value={i.gil} />
         {slots != null && (
