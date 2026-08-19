@@ -305,30 +305,16 @@ td {
   white-space: nowrap;
 }
 
-/* sprite ao lado do texto, sem float — o card fecha na altura do conteúdo */
-.detail-body {
-  display: flex;
-  gap: 12px;
-  align-items: flex-start;
-}
-
-.detail-body > div {
-  flex: 1;
-  min-width: 0;
-}
-
-.detail-body .enemy-sprite-lg {
-  float: none;
-  margin: 0;
-}
-
 .detail-lv {
   display: flex;
-  margin-bottom: 6px;
+  margin: 8px 0 10px;
+  flex-wrap: wrap;
 }
 
 .detail-lv input[type='range'] {
-  max-width: 220px;
+  flex: 1;
+  min-width: 140px;
+  max-width: 260px;
 }
 
 .lv-slider input[type='range'] {
@@ -360,12 +346,12 @@ td {
 
 /* no detalhe expandido o sprite aparece no tamanho original baixado (160px) */
 .enemy-sprite-lg {
-  width: 160px;
-  height: 160px;
+  width: 130px;
+  height: 130px;
   object-fit: contain;
   image-rendering: pixelated;
   float: right;
-  margin-left: 10px;
+  margin: 0 0 8px 10px;
 }
 
 .badge {
@@ -766,26 +752,6 @@ h4 {
     border-radius: 6px;
     margin: 8px 2px;
     padding: 8px 4px;
-  }
-
-  /* card aberto emenda com o painel de detalhe logo abaixo */
-  .enemy-table tr.open {
-    border-radius: 6px 6px 0 0;
-    border-bottom: none;
-    margin-bottom: 0;
-  }
-
-  .enemy-table tr.detail {
-    margin-top: 0;
-    border-top: none;
-    border-radius: 0 0 6px 6px;
-    padding-top: 0;
-  }
-
-  .enemy-table .detail .enemy-sprite-lg {
-    width: 110px;
-    height: 110px;
-    margin: 0 0 4px 8px;
   }
 
   .enemy-table td.num {

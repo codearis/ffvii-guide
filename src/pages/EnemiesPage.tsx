@@ -1,4 +1,4 @@
-import { Fragment, useMemo, useState } from 'react'
+import { useMemo, useState } from 'react'
 import enemiesRaw from '../data/enemies.json'
 import { Enemy, asset, fmtNum, slugify as slug } from '../lib'
 
@@ -21,18 +21,27 @@ const K: Record<string, number> = { hp: 1.57, mp: 1.14, exp: 1.73, ap: 1.95, gil
 const scale = (v: number | null, from: number | null, to: number, stat: string) =>
   v == null || !from ? v : Math.round(v * Math.pow(to / from, K[stat]))
 
-function EnemyDetail({ e }: { e: Enemy }) {
+// detalhe fica em modal: o slider fora da tabela evita reflow das ~290 linhas a cada arrasto
+function EnemyModal({ e, onClose }: { e: Enemy; onClose: () => void }) {
   const base = e.level
   const [lv, setLv] = useState(base ?? 1)
-  const hp = scale(e.hp, base, lv, 'hp')
-  const mp = scale(e.mp, base, lv, 'mp')
-  const exp = scale(e.exp, base, lv, 'exp')
-  const ap = scale(e.ap, base, lv, 'ap')
-  const gil = scale(e.gil, base, lv, 'gil')
   const changed = base != null && lv !== base
+  const row = (label: string, v: number | null, stat: string) => (
+    <p className="modal-line">
+      <span className="wt-label">{label}:</span> <strong>{fmtNum(scale(v, base, lv, stat))}</strong>
+      {changed && v != null && <span className="dim"> (base {fmtNum(v)})</span>}
+    </p>
+  )
   return (
-    <div className="detail-body">
-      <div>
+    <div className="modal-overlay" onClick={onClose}>
+      <div className="window modal" onClick={ev => ev.stopPropagation()}>
+        <button className="modal-close" onClick={onClose}>
+          ✕
+        </button>
+        <Sprite name={e.name} large />
+        <h2>
+          {e.name} {e.type === 'Boss' && <span className="badge">BOSS</span>}
+        </h2>
         {base != null && (
           <label className="lv-slider detail-lv">
             Level {lv}
@@ -43,21 +52,31 @@ function EnemyDetail({ e }: { e: Enemy }) {
               value={lv}
               onChange={ev => setLv(Number(ev.target.value))}
             />
-            <span className="dim">
-              {changed ? `base ${base} · curva do jogo (Mystery Ninja)` : 'level base'}
-            </span>
+            <span className="dim">{changed ? `base ${base} · curva do jogo` : 'level base'}</span>
           </label>
         )}
-        <p className="modal-line">
-          HP <strong>{fmtNum(hp)}</strong> · MP <strong>{fmtNum(mp)}</strong> · EXP {fmtNum(exp)} ·
-          AP {fmtNum(ap)} · Gil {fmtNum(gil)}
-        </p>
+        {row('HP', e.hp, 'hp')}
+        {row('MP', e.mp, 'mp')}
+        {row('EXP', e.exp, 'exp')}
+        {row('AP', e.ap, 'ap')}
+        {row('Gil', e.gil, 'gil')}
+        {e.weaknesses.length > 0 && (
+          <p className="modal-line">
+            <span className="wt-label">Fraquezas:</span> {e.weaknesses.join(', ')}
+          </p>
+        )}
+        {e.attacks.length > 0 && (
+          <p className="modal-line dim">
+            <span className="wt-label">Skills:</span> {e.attacks.join(', ')}
+          </p>
+        )}
         <p className="modal-line dim">
           {e.absorbs.length > 0 && <>Absorve: {e.absorbs.join(', ')} · </>}
           {e.resistances.length > 0 && <>Resiste: {e.resistances.join(', ')} · </>}
           {e.steal.length > 0 && <>Roubo: {e.steal.join(', ')} · </>}
           {e.drops.length > 0 && <>Drop: {e.drops.join(', ')}</>}
         </p>
+        {e.location && <p className="modal-line dim">{e.location}</p>}
       </div>
     </div>
   )
@@ -81,7 +100,7 @@ export default function EnemiesPage() {
   const [q, setQ] = useState('')
   const [type, setType] = useState('Todos')
   const [sort, setSort] = useState('level')
-  const [open, setOpen] = useState<string | null>(null)
+  const [sel, setSel] = useState<Enemy | null>(null)
 
   const rows = useMemo(() => {
     const query = q.toLowerCase()
@@ -127,40 +146,26 @@ export default function EnemiesPage() {
             </tr>
           </thead>
           <tbody>
-            {rows.map((e, k) => {
-              const key = `${e.name}-${k}`
-              return (
-                <Fragment key={key}>
-                  <tr
-                    className={`row-btn ${open === key ? 'open' : ''}`}
-                    onClick={() => setOpen(open === key ? null : key)}
-                  >
-                    <td className="hl">
-                      <Sprite name={e.name} />
-                      {e.name}
-                      {e.type === 'Boss' && <span className="badge">BOSS</span>}
-                    </td>
-                    <td className="num" data-label="LV">{fmtNum(e.level)}</td>
-                    <td className="num" data-label="HP">{fmtNum(e.hp)}</td>
-                    <td className="num" data-label="MP">{fmtNum(e.mp)}</td>
-                    <td data-label="Fraquezas">{e.weaknesses.join(', ') || '—'}</td>
-                    <td className="dim" data-label="Skills">{e.attacks.join(', ') || '—'}</td>
-                    <td className="dim" data-label="Local">{e.location ?? '—'}</td>
-                  </tr>
-                  {open === key && (
-                    <tr className="detail">
-                      <td colSpan={7}>
-                        <EnemyDetail e={e} />
-                      </td>
-                    </tr>
-                  )}
-                </Fragment>
-              )
-            })}
+            {rows.map((e, k) => (
+              <tr className="row-btn" key={`${e.name}-${k}`} onClick={() => setSel(e)}>
+                <td className="hl">
+                  <Sprite name={e.name} />
+                  {e.name}
+                  {e.type === 'Boss' && <span className="badge">BOSS</span>}
+                </td>
+                <td className="num" data-label="LV">{fmtNum(e.level)}</td>
+                <td className="num" data-label="HP">{fmtNum(e.hp)}</td>
+                <td className="num" data-label="MP">{fmtNum(e.mp)}</td>
+                <td data-label="Fraquezas">{e.weaknesses.join(', ') || '—'}</td>
+                <td className="dim" data-label="Skills">{e.attacks.join(', ') || '—'}</td>
+                <td className="dim" data-label="Local">{e.location ?? '—'}</td>
+              </tr>
+            ))}
           </tbody>
         </table>
       </div>
       <div className="count">{rows.length} inimigos</div>
+      {sel && <EnemyModal e={sel} onClose={() => setSel(null)} />}
     </div>
   )
 }
