@@ -43,8 +43,11 @@ function EnemyModal({ e, onClose }: { e: Enemy; onClose: () => void }) {
           {e.name} {e.type === 'Boss' && <span className="badge">BOSS</span>}
         </h2>
         {base != null && (
-          <label className="lv-slider detail-lv">
-            Level {lv}
+          <div className="lv-box">
+            <div className="lv-head">
+              Level <strong className="lv-num">{lv}</strong>
+              <span className="dim">base {base} · curva do jogo</span>
+            </div>
             <input
               type="range"
               min={1}
@@ -52,8 +55,7 @@ function EnemyModal({ e, onClose }: { e: Enemy; onClose: () => void }) {
               value={lv}
               onChange={ev => setLv(Number(ev.target.value))}
             />
-            <span className="dim">{changed ? `base ${base} · curva do jogo` : 'level base'}</span>
-          </label>
+          </div>
         )}
         {row('HP', e.hp, 'hp')}
         {row('MP', e.mp, 'mp')}
