@@ -20,7 +20,13 @@
     "steal": [],
     "drops": [
       "Potion"
-    ]
+    ],
+    "attack": 10,
+    "magicAtk": 0,
+    "defense": 1,
+    "magicDef": 0,
+    "dexterity": 40,
+    "skills": []
   },
   {
     "name": "2-Faced",
@@ -46,7 +52,13 @@
     ],
     "drops": [
       "Hi-Potion"
-    ]
+    ],
+    "attack": 40,
+    "magicAtk": 25,
+    "defense": 19,
+    "magicDef": 75,
+    "dexterity": 48,
+    "skills": []
   },
   {
     "name": "8 eye",
@@ -74,7 +86,13 @@
     "steal": [],
     "drops": [
       "Magic Source"
-    ]
+    ],
+    "attack": 40,
+    "magicAtk": 60,
+    "defense": 100,
+    "magicDef": 200,
+    "dexterity": 25,
+    "skills": []
   },
   {
     "name": "Acrophies",
@@ -101,7 +119,13 @@
     "steal": [
       "Water Ring"
     ],
-    "drops": []
+    "drops": [],
+    "attack": 60,
+    "magicAtk": 55,
+    "defense": 35,
+    "magicDef": 80,
+    "dexterity": 54,
+    "skills": []
   },
   {
     "name": "Adamantaimai",
@@ -130,7 +154,13 @@
     "drops": [
       "Dragon Scales",
       "Phoenix Down"
-    ]
+    ],
+    "attack": 71,
+    "magicAtk": 75,
+    "defense": 30,
+    "magicDef": 140,
+    "dexterity": 62,
+    "skills": []
   },
   {
     "name": "Aero Combatant",
@@ -156,7 +186,13 @@
     "ap": 4,
     "gil": 110,
     "steal": [],
-    "drops": []
+    "drops": [],
+    "attack": 22,
+    "magicAtk": 6,
+    "defense": 12,
+    "magicDef": 12,
+    "dexterity": 72,
+    "skills": []
   },
   {
     "name": "Air Buster",
@@ -187,7 +223,13 @@
     "steal": [],
     "drops": [
       "Titan Bangle"
-    ]
+    ],
+    "attack": 24,
+    "magicAtk": 12,
+    "defense": 40,
+    "magicDef": 160,
+    "dexterity": 75,
+    "skills": []
   },
   {
     "name": "Allemagne",
@@ -218,7 +260,13 @@
     ],
     "drops": [
       "Eye drop"
-    ]
+    ],
+    "attack": 120,
+    "magicAtk": 88,
+    "defense": 45,
+    "magicDef": 48,
+    "dexterity": 85,
+    "skills": []
   },
   {
     "name": "Ancient Dragon",
@@ -246,7 +294,13 @@
     "steal": [],
     "drops": [
       "Turbo Ether"
-    ]
+    ],
+    "attack": 70,
+    "magicAtk": 55,
+    "defense": 45,
+    "magicDef": 140,
+    "dexterity": 70,
+    "skills": []
   },
   {
     "name": "Aps",
@@ -274,7 +328,13 @@
     "steal": [],
     "drops": [
       "Phoenix Down"
-    ]
+    ],
+    "attack": 40,
+    "magicAtk": 40,
+    "defense": 18,
+    "magicDef": 80,
+    "dexterity": 63,
+    "skills": []
   },
   {
     "name": "Ark Dragon",
@@ -305,7 +365,13 @@
     "drops": [
       "Phoenix Down",
       "Ether"
-    ]
+    ],
+    "attack": 56,
+    "magicAtk": 18,
+    "defense": 25,
+    "magicDef": 65,
+    "dexterity": 61,
+    "skills": []
   },
   {
     "name": "Armored Golem",
@@ -334,7 +400,13 @@
     "drops": [
       "Echo Screen",
       "Guard Source"
-    ]
+    ],
+    "attack": 110,
+    "magicAtk": 98,
+    "defense": 50,
+    "magicDef": 60,
+    "dexterity": 110,
+    "skills": []
   },
   {
     "name": "Attack Squad",
@@ -359,7 +431,13 @@
     ],
     "drops": [
       "S-mine"
-    ]
+    ],
+    "attack": 60,
+    "magicAtk": 20,
+    "defense": 33,
+    "magicDef": 30,
+    "dexterity": 55,
+    "skills": []
   },
   {
     "name": "Bad Rap",
@@ -387,7 +465,13 @@
     "drops": [
       "Dazers",
       "Luck Source"
-    ]
+    ],
+    "attack": 70,
+    "magicAtk": 100,
+    "defense": 45,
+    "magicDef": 45,
+    "dexterity": 60,
+    "skills": []
   },
   {
     "name": "Bad Rap Sample",
@@ -408,7 +492,13 @@
     "ap": 150,
     "gil": 2200,
     "steal": [],
-    "drops": []
+    "drops": [],
+    "attack": 96,
+    "magicAtk": 100,
+    "defense": 60,
+    "magicDef": 80,
+    "dexterity": 89,
+    "skills": []
   },
   {
     "name": "Bagnadrana",
@@ -440,7 +530,13 @@
     "drops": [
       "Hi-Potion",
       "Guard Source"
-    ]
+    ],
+    "attack": 40,
+    "magicAtk": 23,
+    "defense": 20,
+    "magicDef": 40,
+    "dexterity": 43,
+    "skills": []
   },
   {
     "name": "Bagrisk",
@@ -468,7 +564,13 @@
     "drops": [
       "Soft",
       "Remedy"
-    ]
+    ],
+    "attack": 50,
+    "magicAtk": 39,
+    "defense": 22,
+    "magicDef": 50,
+    "dexterity": 45,
+    "skills": []
   },
   {
     "name": "Bahba Velamyu",
@@ -493,7 +595,13 @@
     "steal": [],
     "drops": [
       "Mute Mask"
-    ]
+    ],
+    "attack": 40,
+    "magicAtk": 44,
+    "defense": 19,
+    "magicDef": 88,
+    "dexterity": 55,
+    "skills": []
   },
   {
     "name": "Bandersnatch",
@@ -521,7 +629,13 @@
     "drops": [
       "Hi-Potion",
       "Ice Crystal"
-    ]
+    ],
+    "attack": 68,
+    "magicAtk": 25,
+    "defense": 23,
+    "magicDef": 38,
+    "dexterity": 55,
+    "skills": []
   },
   {
     "name": "Bandit",
@@ -548,7 +662,13 @@
     "drops": [
       "Tent",
       "Hi-Potion"
-    ]
+    ],
+    "attack": 38,
+    "magicAtk": 5,
+    "defense": 20,
+    "magicDef": 48,
+    "dexterity": 68,
+    "skills": []
   },
   {
     "name": "Battery Cap",
@@ -572,7 +692,13 @@
     ],
     "drops": [
       "Eye drop"
-    ]
+    ],
+    "attack": 41,
+    "magicAtk": 42,
+    "defense": 19,
+    "magicDef": 73,
+    "dexterity": 40,
+    "skills": []
   },
   {
     "name": "Beachplug",
@@ -598,7 +724,13 @@
     "drops": [
       "Hi-Potion",
       "Turbo Ether"
-    ]
+    ],
+    "attack": 22,
+    "magicAtk": 8,
+    "defense": 18,
+    "magicDef": 18,
+    "dexterity": 52,
+    "skills": []
   },
   {
     "name": "Behemoth",
@@ -625,7 +757,13 @@
     ],
     "drops": [
       "Stardust"
-    ]
+    ],
+    "attack": 140,
+    "magicAtk": 110,
+    "defense": 60,
+    "magicDef": 100,
+    "dexterity": 120,
+    "skills": []
   },
   {
     "name": "Bizarre Bug",
@@ -646,7 +784,13 @@
     "steal": [],
     "drops": [
       "X-Potion"
-    ]
+    ],
+    "attack": 75,
+    "magicAtk": 24,
+    "defense": 25,
+    "magicDef": 80,
+    "dexterity": 59,
+    "skills": []
   },
   {
     "name": "Bizarro∙Sephiroth",
@@ -676,7 +820,13 @@
     "ap": null,
     "gil": null,
     "steal": [],
-    "drops": []
+    "drops": [],
+    "attack": 210,
+    "magicAtk": 144,
+    "defense": 220,
+    "magicDef": 210,
+    "dexterity": 140,
+    "skills": []
   },
   {
     "name": "Black Bat",
@@ -705,7 +855,13 @@
     "steal": [],
     "drops": [
       "Vampire Fang"
-    ]
+    ],
+    "attack": 30,
+    "magicAtk": 44,
+    "defense": 18,
+    "magicDef": 90,
+    "dexterity": 52,
+    "skills": []
   },
   {
     "name": "Bloatfloat",
@@ -734,7 +890,13 @@
     ],
     "drops": [
       "Hi-Potion"
-    ]
+    ],
+    "attack": 20,
+    "magicAtk": 24,
+    "defense": 18,
+    "magicDef": 20,
+    "dexterity": 52,
+    "skills": []
   },
   {
     "name": "Blood Taste",
@@ -759,7 +921,13 @@
     "drops": [
       "Antidote",
       "Potion"
-    ]
+    ],
+    "attack": 12,
+    "magicAtk": 14,
+    "defense": 11,
+    "magicDef": 12,
+    "dexterity": 65,
+    "skills": []
   },
   {
     "name": "Blue Dragon",
@@ -788,7 +956,13 @@
     "steal": [],
     "drops": [
       "Dragon Armlet"
-    ]
+    ],
+    "attack": 121,
+    "magicAtk": 90,
+    "defense": 43,
+    "magicDef": 120,
+    "dexterity": 80,
+    "skills": []
   },
   {
     "name": "Blugu",
@@ -817,7 +991,13 @@
     ],
     "drops": [
       "Potion"
-    ]
+    ],
+    "attack": 8,
+    "magicAtk": 24,
+    "defense": 90,
+    "magicDef": 64,
+    "dexterity": 52,
+    "skills": []
   },
   {
     "name": "Bomb",
@@ -845,7 +1025,13 @@
     ],
     "drops": [
       "Shrapnel"
-    ]
+    ],
+    "attack": 24,
+    "magicAtk": 22,
+    "defense": 30,
+    "magicDef": 30,
+    "dexterity": 65,
+    "skills": []
   },
   {
     "name": "Bottomswell",
@@ -879,7 +1065,13 @@
     "steal": [],
     "drops": [
       "Power Wrist"
-    ]
+    ],
+    "attack": 42,
+    "magicAtk": 30,
+    "defense": 18,
+    "magicDef": 48,
+    "dexterity": 69,
+    "skills": []
   },
   {
     "name": "Boundfat",
@@ -907,7 +1099,13 @@
     ],
     "drops": [
       "Dazers"
-    ]
+    ],
+    "attack": 55,
+    "magicAtk": 50,
+    "defense": 30,
+    "magicDef": 50,
+    "dexterity": 60,
+    "skills": []
   },
   {
     "name": "Brain Pod",
@@ -939,7 +1137,13 @@
     ],
     "drops": [
       "Deadly Waste"
-    ]
+    ],
+    "attack": 23,
+    "magicAtk": 6,
+    "defense": 13,
+    "magicDef": 16,
+    "dexterity": 48,
+    "skills": []
   },
   {
     "name": "Bullmotor",
@@ -964,7 +1168,13 @@
     "drops": [
       "Ether",
       "Turbo Ether"
-    ]
+    ],
+    "attack": 36,
+    "magicAtk": 8,
+    "defense": 20,
+    "magicDef": 60,
+    "dexterity": 61,
+    "skills": []
   },
   {
     "name": "Cactuar",
@@ -997,7 +1207,13 @@
     "steal": [],
     "drops": [
       "Hi-Potion"
-    ]
+    ],
+    "attack": 30,
+    "magicAtk": 20,
+    "defense": 20,
+    "magicDef": 0,
+    "dexterity": 40,
+    "skills": []
   },
   {
     "name": "Cactuer",
@@ -1020,7 +1236,13 @@
     "steal": [],
     "drops": [
       "Tetra Elemental"
-    ]
+    ],
+    "attack": 63,
+    "magicAtk": 85,
+    "defense": 45,
+    "magicDef": 50,
+    "dexterity": 75,
+    "skills": []
   },
   {
     "name": "Capparwire",
@@ -1044,7 +1266,13 @@
     ],
     "drops": [
       "Potion"
-    ]
+    ],
+    "attack": 16,
+    "magicAtk": 0,
+    "defense": 19,
+    "magicDef": 5,
+    "dexterity": 42,
+    "skills": []
   },
   {
     "name": "Captain",
@@ -1068,7 +1296,13 @@
     ],
     "drops": [
       "S-mine"
-    ]
+    ],
+    "attack": 84,
+    "magicAtk": 35,
+    "defense": 33,
+    "magicDef": 40,
+    "dexterity": 63,
+    "skills": []
   },
   {
     "name": "Carry Armor",
@@ -1097,7 +1331,13 @@
     "steal": [],
     "drops": [
       "God's Hand"
-    ]
+    ],
+    "attack": 90,
+    "magicAtk": 55,
+    "defense": 100,
+    "magicDef": 150,
+    "dexterity": 80,
+    "skills": []
   },
   {
     "name": "Castanets",
@@ -1121,7 +1361,13 @@
     "steal": [],
     "drops": [
       "Hi-Potion"
-    ]
+    ],
+    "attack": 26,
+    "magicAtk": 2,
+    "defense": 38,
+    "magicDef": 2,
+    "dexterity": 49,
+    "skills": []
   },
   {
     "name": "Ceasar",
@@ -1148,7 +1394,13 @@
     "drops": [
       "Potion",
       "Tranquilizer"
-    ]
+    ],
+    "attack": 14,
+    "magicAtk": 6,
+    "defense": 54,
+    "magicDef": 16,
+    "dexterity": 47,
+    "skills": []
   },
   {
     "name": "Chekhov",
@@ -1172,7 +1424,13 @@
     "steal": [],
     "drops": [
       "Ice Ring"
-    ]
+    ],
+    "attack": 71,
+    "magicAtk": 75,
+    "defense": 30,
+    "magicDef": 140,
+    "dexterity": 70,
+    "skills": []
   },
   {
     "name": "Chocobo",
@@ -1192,7 +1450,13 @@
     "ap": 1,
     "gil": 1,
     "steal": [],
-    "drops": []
+    "drops": [],
+    "attack": 13,
+    "magicAtk": 52,
+    "defense": 40,
+    "magicDef": 26,
+    "dexterity": 101,
+    "skills": []
   },
   {
     "name": "Christopher",
@@ -1222,7 +1486,13 @@
     ],
     "drops": [
       "Phoenix Down"
-    ]
+    ],
+    "attack": 70,
+    "magicAtk": 64,
+    "defense": 33,
+    "magicDef": 75,
+    "dexterity": 90,
+    "skills": []
   },
   {
     "name": "Chuse Tank",
@@ -1246,7 +1516,13 @@
     ],
     "drops": [
       "Potion"
-    ]
+    ],
+    "attack": 10,
+    "magicAtk": 0,
+    "defense": 3,
+    "magicDef": 33,
+    "dexterity": 57,
+    "skills": []
   },
   {
     "name": "CMD.Grand Horn",
@@ -1267,7 +1543,13 @@
     "ap": 20,
     "gil": 2400,
     "steal": [],
-    "drops": []
+    "drops": [],
+    "attack": 40,
+    "magicAtk": 20,
+    "defense": 15,
+    "magicDef": 16,
+    "dexterity": 57,
+    "skills": []
   },
   {
     "name": "Cokatolis",
@@ -1292,7 +1574,13 @@
     ],
     "drops": [
       "Soft"
-    ]
+    ],
+    "attack": 30,
+    "magicAtk": 24,
+    "defense": 18,
+    "magicDef": 30,
+    "dexterity": 55,
+    "skills": []
   },
   {
     "name": "Corneo's Lackey",
@@ -1314,7 +1602,13 @@
     "steal": [],
     "drops": [
       "Potion"
-    ]
+    ],
+    "attack": 14,
+    "magicAtk": 10,
+    "defense": 6,
+    "magicDef": 3,
+    "dexterity": 48,
+    "skills": []
   },
   {
     "name": "Corvette",
@@ -1345,7 +1639,13 @@
     "drops": [
       "Loco weed",
       "Light Curtain"
-    ]
+    ],
+    "attack": 78,
+    "magicAtk": 68,
+    "defense": 34,
+    "magicDef": 37,
+    "dexterity": 69,
+    "skills": []
   },
   {
     "name": "Crawler",
@@ -1371,7 +1671,13 @@
     "steal": [],
     "drops": [
       "Hi-Potion"
-    ]
+    ],
+    "attack": 28,
+    "magicAtk": 38,
+    "defense": 5,
+    "magicDef": 16,
+    "dexterity": 36,
+    "skills": []
   },
   {
     "name": "Crazy Saw",
@@ -1399,7 +1705,13 @@
       "Phoenix Down",
       "Ether",
       "Turbo Ether"
-    ]
+    ],
+    "attack": 116,
+    "magicAtk": 96,
+    "defense": 50,
+    "magicDef": 60,
+    "dexterity": 80,
+    "skills": []
   },
   {
     "name": "Cripshay",
@@ -1423,7 +1735,13 @@
     ],
     "drops": [
       "Potion"
-    ]
+    ],
+    "attack": 11,
+    "magicAtk": 0,
+    "defense": 9,
+    "magicDef": 13,
+    "dexterity": 46,
+    "skills": []
   },
   {
     "name": "Cromwell",
@@ -1446,7 +1764,13 @@
     "steal": [],
     "drops": [
       "8-inch Cannon"
-    ]
+    ],
+    "attack": 100,
+    "magicAtk": 75,
+    "defense": 55,
+    "magicDef": 52,
+    "dexterity": 70,
+    "skills": []
   },
   {
     "name": "Crown Lance",
@@ -1479,7 +1803,13 @@
     "drops": [
       "Hi-Potion",
       "Dream Powder"
-    ]
+    ],
+    "attack": 34,
+    "magicAtk": 31,
+    "defense": 15,
+    "magicDef": 70,
+    "dexterity": 60,
+    "skills": []
   },
   {
     "name": "Crysales",
@@ -1502,7 +1832,13 @@
     "drops": [
       "Ether",
       "Dream Powder"
-    ]
+    ],
+    "attack": 98,
+    "magicAtk": 45,
+    "defense": 23,
+    "magicDef": 42,
+    "dexterity": 59,
+    "skills": []
   },
   {
     "name": "Cuahl",
@@ -1527,7 +1863,13 @@
     "drops": [
       "Hi-Potion",
       "Tranquilizer"
-    ]
+    ],
+    "attack": 65,
+    "magicAtk": 45,
+    "defense": 21,
+    "magicDef": 35,
+    "dexterity": 60,
+    "skills": []
   },
   {
     "name": "Custom Sweeper",
@@ -1555,7 +1897,13 @@
     "drops": [
       "Potion",
       "X-Potion"
-    ]
+    ],
+    "attack": 30,
+    "magicAtk": 3,
+    "defense": 15,
+    "magicDef": 20,
+    "dexterity": 43,
+    "skills": []
   },
   {
     "name": "Dark Dragon",
@@ -1586,7 +1934,13 @@
     "drops": [
       "Elixir",
       "Vaccine"
-    ]
+    ],
+    "attack": 150,
+    "magicAtk": 90,
+    "defense": 60,
+    "magicDef": 120,
+    "dexterity": 100,
+    "skills": []
   },
   {
     "name": "Dark Nation",
@@ -1610,7 +1964,13 @@
     "steal": [],
     "drops": [
       "Guard Source"
-    ]
+    ],
+    "attack": 43,
+    "magicAtk": 15,
+    "defense": 19,
+    "magicDef": 47,
+    "dexterity": 74,
+    "skills": []
   },
   {
     "name": "Death Claw",
@@ -1637,7 +1997,13 @@
     ],
     "drops": [
       "Hi-Potion"
-    ]
+    ],
+    "attack": 41,
+    "magicAtk": 30,
+    "defense": 22,
+    "magicDef": 50,
+    "dexterity": 51,
+    "skills": []
   },
   {
     "name": "Death Dealer",
@@ -1670,7 +2036,13 @@
     "drops": [
       "Kiss of Death",
       "X-Potion"
-    ]
+    ],
+    "attack": 120,
+    "magicAtk": 120,
+    "defense": 70,
+    "magicDef": 70,
+    "dexterity": 90,
+    "skills": []
   },
   {
     "name": "Death Machine",
@@ -1693,7 +2065,13 @@
     "steal": [
       "W Machine Gun"
     ],
-    "drops": []
+    "drops": [],
+    "attack": 72,
+    "magicAtk": 25,
+    "defense": 29,
+    "magicDef": 30,
+    "dexterity": 66,
+    "skills": []
   },
   {
     "name": "Deenglow",
@@ -1728,7 +2106,13 @@
     "drops": [
       "Graviball",
       "Phoenix Down"
-    ]
+    ],
+    "attack": 22,
+    "magicAtk": 22,
+    "defense": 16,
+    "magicDef": 120,
+    "dexterity": 58,
+    "skills": []
   },
   {
     "name": "Demons Gate",
@@ -1758,7 +2142,13 @@
     "steal": [],
     "drops": [
       "Gigas Armlet"
-    ]
+    ],
+    "attack": 150,
+    "magicAtk": 96,
+    "defense": 50,
+    "magicDef": 225,
+    "dexterity": 120,
+    "skills": []
   },
   {
     "name": "Desert Sahagin",
@@ -1790,7 +2180,13 @@
     "drops": [
       "Potion",
       "Fire Veil"
-    ]
+    ],
+    "attack": 46,
+    "magicAtk": 38,
+    "defense": 16,
+    "magicDef": 60,
+    "dexterity": 56,
+    "skills": []
   },
   {
     "name": "Devil Ride",
@@ -1815,7 +2211,13 @@
     "drops": [
       "Potion",
       "Hi-Potion"
-    ]
+    ],
+    "attack": 25,
+    "magicAtk": 4,
+    "defense": 20,
+    "magicDef": 11,
+    "dexterity": 56,
+    "skills": []
   },
   {
     "name": "Diablo",
@@ -1839,7 +2241,13 @@
     "ap": 70,
     "gil": 1100,
     "steal": [],
-    "drops": []
+    "drops": [],
+    "attack": 100,
+    "magicAtk": 86,
+    "defense": 40,
+    "magicDef": 55,
+    "dexterity": 75,
+    "skills": []
   },
   {
     "name": "Diamond Weapon",
@@ -1868,7 +2276,13 @@
     "steal": [
       "Rising Sun"
     ],
-    "drops": []
+    "drops": [],
+    "attack": 50,
+    "magicAtk": 50,
+    "defense": 125,
+    "magicDef": 125,
+    "dexterity": 180,
+    "skills": []
   },
   {
     "name": "Diver Nest",
@@ -1894,7 +2308,13 @@
     "steal": [],
     "drops": [
       "X-Potion"
-    ]
+    ],
+    "attack": 60,
+    "magicAtk": 65,
+    "defense": 45,
+    "magicDef": 55,
+    "dexterity": 64,
+    "skills": []
   },
   {
     "name": "Doorbull",
@@ -1924,7 +2344,13 @@
     ],
     "drops": [
       "Hi-Potion"
-    ]
+    ],
+    "attack": 70,
+    "magicAtk": 50,
+    "defense": 33,
+    "magicDef": 80,
+    "dexterity": 80,
+    "skills": []
   },
   {
     "name": "Dorky Face",
@@ -1951,7 +2377,13 @@
     "drops": [
       "Phoenix Down",
       "Mute Mask"
-    ]
+    ],
+    "attack": 50,
+    "magicAtk": 40,
+    "defense": 18,
+    "magicDef": 60,
+    "dexterity": 35,
+    "skills": []
   },
   {
     "name": "Dragon",
@@ -1979,7 +2411,13 @@
     ],
     "drops": [
       "Fire Fang"
-    ]
+    ],
+    "attack": 90,
+    "magicAtk": 65,
+    "defense": 60,
+    "magicDef": 150,
+    "dexterity": 90,
+    "skills": []
   },
   {
     "name": "Dragon Rider",
@@ -2013,7 +2451,13 @@
     "drops": [
       "Hi-Potion",
       "Mind Source"
-    ]
+    ],
+    "attack": 84,
+    "magicAtk": 76,
+    "defense": 40,
+    "magicDef": 60,
+    "dexterity": 77,
+    "skills": []
   },
   {
     "name": "Dragon Zombie",
@@ -2048,7 +2492,13 @@
       "Cauldron",
       "X-Potion",
       "Vaccine"
-    ]
+    ],
+    "attack": 160,
+    "magicAtk": 65,
+    "defense": 75,
+    "magicDef": 100,
+    "dexterity": 110,
+    "skills": []
   },
   {
     "name": "Dual Horn",
@@ -2073,7 +2523,13 @@
     ],
     "drops": [
       "Pepio Nut"
-    ]
+    ],
+    "attack": 68,
+    "magicAtk": 25,
+    "defense": 35,
+    "magicDef": 83,
+    "dexterity": 62,
+    "skills": []
   },
   {
     "name": "Dyne",
@@ -2100,7 +2556,13 @@
     "steal": [],
     "drops": [
       "Silver Armlet"
-    ]
+    ],
+    "attack": 32,
+    "magicAtk": 25,
+    "defense": 32,
+    "magicDef": 125,
+    "dexterity": 55,
+    "skills": []
   },
   {
     "name": "Eagle Gun",
@@ -2130,7 +2592,13 @@
     ],
     "drops": [
       "X-Potion"
-    ]
+    ],
+    "attack": 90,
+    "magicAtk": 50,
+    "defense": 43,
+    "magicDef": 50,
+    "dexterity": 90,
+    "skills": []
   },
   {
     "name": "Edgehead",
@@ -2156,7 +2624,13 @@
       "X-Potion",
       "Smoke Bomb",
       "Hourglass"
-    ]
+    ],
+    "attack": 60,
+    "magicAtk": 31,
+    "defense": 24,
+    "magicDef": 70,
+    "dexterity": 62,
+    "skills": []
   },
   {
     "name": "Elfadunk",
@@ -2180,7 +2654,13 @@
     ],
     "drops": [
       "Potion"
-    ]
+    ],
+    "attack": 28,
+    "magicAtk": 6,
+    "defense": 20,
+    "magicDef": 4,
+    "dexterity": 55,
+    "skills": []
   },
   {
     "name": "Eligor",
@@ -2209,7 +2689,13 @@
     "drops": [
       "Echo Screen",
       "Mute Mask"
-    ]
+    ],
+    "attack": 33,
+    "magicAtk": 24,
+    "defense": 23,
+    "magicDef": 55,
+    "dexterity": 56,
+    "skills": []
   },
   {
     "name": "Emerald Weapon",
@@ -2244,7 +2730,13 @@
     "steal": [],
     "drops": [
       "Earth Harp"
-    ]
+    ],
+    "attack": 180,
+    "magicAtk": 180,
+    "defense": 90,
+    "magicDef": 90,
+    "dexterity": 230,
+    "skills": []
   },
   {
     "name": "Epiolnis",
@@ -2269,7 +2761,13 @@
     "steal": [
       "Wizard Bracelet"
     ],
-    "drops": []
+    "drops": [],
+    "attack": 90,
+    "magicAtk": 50,
+    "defense": 29,
+    "magicDef": 50,
+    "dexterity": 86,
+    "skills": []
   },
   {
     "name": "Evilhead",
@@ -2293,7 +2791,13 @@
     "drops": [
       "Vampire Fang",
       "Holy Torch"
-    ]
+    ],
+    "attack": 80,
+    "magicAtk": 65,
+    "defense": 25,
+    "magicDef": 30,
+    "dexterity": 65,
+    "skills": []
   },
   {
     "name": "Eye",
@@ -2320,7 +2824,13 @@
     "ap": 0,
     "gil": 0,
     "steal": [],
-    "drops": []
+    "drops": [],
+    "attack": 50,
+    "magicAtk": 50,
+    "defense": 1,
+    "magicDef": 1,
+    "dexterity": 254,
+    "skills": []
   },
   {
     "name": "Flapbeat",
@@ -2348,7 +2858,13 @@
     ],
     "drops": [
       "T/S Bomb"
-    ]
+    ],
+    "attack": 40,
+    "magicAtk": 32,
+    "defense": 18,
+    "magicDef": 78,
+    "dexterity": 50,
+    "skills": []
   },
   {
     "name": "Flower Prong",
@@ -2375,7 +2891,13 @@
     "ap": 24,
     "gil": 400,
     "steal": [],
-    "drops": []
+    "drops": [],
+    "attack": 40,
+    "magicAtk": 30,
+    "defense": 29,
+    "magicDef": 100,
+    "dexterity": 68,
+    "skills": []
   },
   {
     "name": "Formula",
@@ -2405,7 +2927,13 @@
     "drops": [
       "Hi-Potion",
       "Speed Drink"
-    ]
+    ],
+    "attack": 16,
+    "magicAtk": 5,
+    "defense": 18,
+    "magicDef": 16,
+    "dexterity": 57,
+    "skills": []
   },
   {
     "name": "Foulander",
@@ -2430,7 +2958,13 @@
     "drops": [
       "Lunar Curtain",
       "Fire Veil"
-    ]
+    ],
+    "attack": 50,
+    "magicAtk": 25,
+    "defense": 23,
+    "magicDef": 50,
+    "dexterity": 54,
+    "skills": []
   },
   {
     "name": "Frozen Nail",
@@ -2450,7 +2984,13 @@
     "ap": 50,
     "gil": 800,
     "steal": [],
-    "drops": []
+    "drops": [],
+    "attack": 67,
+    "magicAtk": 65,
+    "defense": 26,
+    "magicDef": 64,
+    "dexterity": 60,
+    "skills": []
   },
   {
     "name": "Fuseya Kazumasa-kun",
@@ -2480,7 +3020,13 @@
     "drops": [
       "Potion",
       "Fire Veil"
-    ]
+    ],
+    "attack": 16,
+    "magicAtk": 5,
+    "defense": 29,
+    "magicDef": 5,
+    "dexterity": 88,
+    "skills": []
   },
   {
     "name": "Gagighandi",
@@ -2505,7 +3051,13 @@
     "drops": [
       "Soft",
       "Remedy"
-    ]
+    ],
+    "attack": 40,
+    "magicAtk": 25,
+    "defense": 19,
+    "magicDef": 36,
+    "dexterity": 45,
+    "skills": []
   },
   {
     "name": "Gargoyle",
@@ -2525,7 +3077,13 @@
     "ap": 80,
     "gil": 2500,
     "steal": [],
-    "drops": []
+    "drops": [],
+    "attack": 120,
+    "magicAtk": 64,
+    "defense": 70,
+    "magicDef": 60,
+    "dexterity": 90,
+    "skills": []
   },
   {
     "name": "Garuda",
@@ -2559,7 +3117,13 @@
       "Bolt Plume",
       "Light Curtain",
       "Mute Mask"
-    ]
+    ],
+    "attack": 56,
+    "magicAtk": 35,
+    "defense": 26,
+    "magicDef": 75,
+    "dexterity": 59,
+    "skills": []
   },
   {
     "name": "Gas Ducter",
@@ -2581,7 +3145,13 @@
     "ap": 75,
     "gil": 1100,
     "steal": [],
-    "drops": []
+    "drops": [],
+    "attack": 88,
+    "magicAtk": 80,
+    "defense": 38,
+    "magicDef": 68,
+    "dexterity": 85,
+    "skills": []
   },
   {
     "name": "Ghirofelgo",
@@ -2608,7 +3178,13 @@
     "steal": [],
     "drops": [
       "Phoenix Down"
-    ]
+    ],
+    "attack": 50,
+    "magicAtk": 35,
+    "defense": 50,
+    "magicDef": 200,
+    "dexterity": 120,
+    "skills": []
   },
   {
     "name": "Ghost",
@@ -2646,7 +3222,13 @@
     "drops": [
       "Ghost Hand",
       "Ether"
-    ]
+    ],
+    "attack": 25,
+    "magicAtk": 18,
+    "defense": 4,
+    "magicDef": 28,
+    "dexterity": 48,
+    "skills": []
   },
   {
     "name": "Ghost Ship",
@@ -2681,7 +3263,13 @@
     "drops": [
       "Phoenix Down",
       "Guide Book"
-    ]
+    ],
+    "attack": 80,
+    "magicAtk": 68,
+    "defense": 35,
+    "magicDef": 40,
+    "dexterity": 80,
+    "skills": []
   },
   {
     "name": "Gi Nattak",
@@ -2716,7 +3304,13 @@
     "steal": [],
     "drops": [
       "Wizer Staff"
-    ]
+    ],
+    "attack": 70,
+    "magicAtk": 25,
+    "defense": 35,
+    "magicDef": 70,
+    "dexterity": 75,
+    "skills": []
   },
   {
     "name": "Gi Spector",
@@ -2745,7 +3339,13 @@
     "drops": [
       "Smoke Bomb",
       "Ghost Hand"
-    ]
+    ],
+    "attack": 45,
+    "magicAtk": 35,
+    "defense": 15,
+    "magicDef": 60,
+    "dexterity": 59,
+    "skills": []
   },
   {
     "name": "Gigas",
@@ -2772,7 +3372,13 @@
     ],
     "drops": [
       "Earth Mallet"
-    ]
+    ],
+    "attack": 100,
+    "magicAtk": 59,
+    "defense": 40,
+    "magicDef": 49,
+    "dexterity": 79,
+    "skills": []
   },
   {
     "name": "Gighee",
@@ -2798,7 +3404,13 @@
     ],
     "drops": [
       "Ether"
-    ]
+    ],
+    "attack": 70,
+    "magicAtk": 65,
+    "defense": 38,
+    "magicDef": 95,
+    "dexterity": 90,
+    "skills": []
   },
   {
     "name": "Goblin",
@@ -2823,7 +3435,13 @@
     ],
     "drops": [
       "Zeio Nut"
-    ]
+    ],
+    "attack": 58,
+    "magicAtk": 55,
+    "defense": 37,
+    "magicDef": 37,
+    "dexterity": 68,
+    "skills": []
   },
   {
     "name": "Godo",
@@ -2855,7 +3473,13 @@
     "steal": [],
     "drops": [
       "All Creation"
-    ]
+    ],
+    "attack": 70,
+    "magicAtk": 45,
+    "defense": 30,
+    "magicDef": 50,
+    "dexterity": 68,
+    "skills": []
   },
   {
     "name": "Golem",
@@ -2880,7 +3504,13 @@
     ],
     "drops": [
       "Hi-Potion"
-    ]
+    ],
+    "attack": 60,
+    "magicAtk": 5,
+    "defense": 28,
+    "magicDef": 50,
+    "dexterity": 80,
+    "skills": []
   },
   {
     "name": "Gorkii",
@@ -2910,7 +3540,13 @@
     "steal": [],
     "drops": [
       "X-Potion"
-    ]
+    ],
+    "attack": 71,
+    "magicAtk": 75,
+    "defense": 30,
+    "magicDef": 140,
+    "dexterity": 70,
+    "skills": []
   },
   {
     "name": "Grand Horn",
@@ -2933,7 +3569,13 @@
     "drops": [
       "War Gong",
       "Hi-Potion"
-    ]
+    ],
+    "attack": 46,
+    "magicAtk": 15,
+    "defense": 21,
+    "magicDef": 45,
+    "dexterity": 60,
+    "skills": []
   },
   {
     "name": "Grangalan",
@@ -2961,7 +3603,13 @@
     "steal": [],
     "drops": [
       "Hi-Potion"
-    ]
+    ],
+    "attack": 40,
+    "magicAtk": 25,
+    "defense": 44,
+    "magicDef": 60,
+    "dexterity": 50,
+    "skills": []
   },
   {
     "name": "Grangalan Jr.",
@@ -2988,7 +3636,13 @@
     "steal": [],
     "drops": [
       "Hi-Potion"
-    ]
+    ],
+    "attack": 30,
+    "magicAtk": 15,
+    "defense": 33,
+    "magicDef": 40,
+    "dexterity": 55,
+    "skills": []
   },
   {
     "name": "Grangalan Jr. Jr.",
@@ -3014,7 +3668,13 @@
     "steal": [],
     "drops": [
       "Potion"
-    ]
+    ],
+    "attack": 20,
+    "magicAtk": 5,
+    "defense": 22,
+    "magicDef": 20,
+    "dexterity": 60,
+    "skills": []
   },
   {
     "name": "Grashtrike",
@@ -3038,7 +3698,13 @@
     ],
     "drops": [
       "Spider Web"
-    ]
+    ],
+    "attack": 12,
+    "magicAtk": 15,
+    "defense": 9,
+    "magicDef": 1,
+    "dexterity": 58,
+    "skills": []
   },
   {
     "name": "Gremlin",
@@ -3065,7 +3731,13 @@
     "drops": [
       "Shrivel",
       "X-Potion"
-    ]
+    ],
+    "attack": 70,
+    "magicAtk": 55,
+    "defense": 30,
+    "magicDef": 40,
+    "dexterity": 62,
+    "skills": []
   },
   {
     "name": "Grenade",
@@ -3094,7 +3766,13 @@
     ],
     "drops": [
       "Right arm"
-    ]
+    ],
+    "attack": 70,
+    "magicAtk": 30,
+    "defense": 30,
+    "magicDef": 32,
+    "dexterity": 68,
+    "skills": []
   },
   {
     "name": "Grenade Combatant",
@@ -3118,7 +3796,13 @@
     ],
     "drops": [
       "Grenade"
-    ]
+    ],
+    "attack": 18,
+    "magicAtk": 4,
+    "defense": 12,
+    "magicDef": 15,
+    "dexterity": 54,
+    "skills": []
   },
   {
     "name": "Grenadiers",
@@ -3138,7 +3822,13 @@
     "ap": 2,
     "gil": 40,
     "steal": [],
-    "drops": []
+    "drops": [],
+    "attack": null,
+    "magicAtk": null,
+    "defense": null,
+    "magicDef": null,
+    "dexterity": null,
+    "skills": []
   },
   {
     "name": "Griffin",
@@ -3162,7 +3852,13 @@
     ],
     "drops": [
       "Phoenix Down"
-    ]
+    ],
+    "attack": 45,
+    "magicAtk": 35,
+    "defense": 21,
+    "magicDef": 80,
+    "dexterity": 58,
+    "skills": []
   },
   {
     "name": "Grimguard",
@@ -3188,7 +3884,13 @@
     ],
     "drops": [
       "Shrivel"
-    ]
+    ],
+    "attack": 60,
+    "magicAtk": 25,
+    "defense": 26,
+    "magicDef": 90,
+    "dexterity": 58,
+    "skills": []
   },
   {
     "name": "Grosspanzer∙Big",
@@ -3211,7 +3913,13 @@
     "steal": [],
     "drops": [
       "8-inch Cannon"
-    ]
+    ],
+    "attack": 140,
+    "magicAtk": 124,
+    "defense": 60,
+    "magicDef": 80,
+    "dexterity": 110,
+    "skills": []
   },
   {
     "name": "Grosspanzer∙Mobile",
@@ -3236,7 +3944,13 @@
     "ap": 80,
     "gil": 1400,
     "steal": [],
-    "drops": []
+    "drops": [],
+    "attack": 160,
+    "magicAtk": 111,
+    "defense": 68,
+    "magicDef": 80,
+    "dexterity": 75,
+    "skills": []
   },
   {
     "name": "Grosspanzer∙Small",
@@ -3257,7 +3971,13 @@
     "ap": 80,
     "gil": 700,
     "steal": [],
-    "drops": []
+    "drops": [],
+    "attack": 120,
+    "magicAtk": 90,
+    "defense": 50,
+    "magicDef": 65,
+    "dexterity": 136,
+    "skills": []
   },
   {
     "name": "Grunt",
@@ -3282,7 +4002,13 @@
     "drops": [
       "Potion",
       "Potion"
-    ]
+    ],
+    "attack": 12,
+    "magicAtk": 2,
+    "defense": 5,
+    "magicDef": 1,
+    "dexterity": 58,
+    "skills": []
   },
   {
     "name": "Guard Hound",
@@ -3305,7 +4031,13 @@
     ],
     "drops": [
       "Potion"
-    ]
+    ],
+    "attack": 8,
+    "magicAtk": 2,
+    "defense": 2,
+    "magicDef": 1,
+    "dexterity": 64,
+    "skills": []
   },
   {
     "name": "Guard Scorpion",
@@ -3332,7 +4064,13 @@
     "steal": [],
     "drops": [
       "Assault Gun"
-    ]
+    ],
+    "attack": 30,
+    "magicAtk": 15,
+    "defense": 20,
+    "magicDef": 150,
+    "dexterity": 60,
+    "skills": []
   },
   {
     "name": "Guard System",
@@ -3355,7 +4093,13 @@
     "steal": [],
     "drops": [
       "Molotov"
-    ]
+    ],
+    "attack": 55,
+    "magicAtk": 56,
+    "defense": 35,
+    "magicDef": 25,
+    "dexterity": 67,
+    "skills": []
   },
   {
     "name": "Guardian",
@@ -3378,7 +4122,13 @@
     "ap": 60,
     "gil": 500,
     "steal": [],
-    "drops": []
+    "drops": [],
+    "attack": 80,
+    "magicAtk": 66,
+    "defense": 38,
+    "magicDef": 40,
+    "dexterity": 67,
+    "skills": []
   },
   {
     "name": "Gun Carrier",
@@ -3403,7 +4153,13 @@
     "steal": [],
     "drops": [
       "S-mine"
-    ]
+    ],
+    "attack": 60,
+    "magicAtk": 45,
+    "defense": 38,
+    "magicDef": 42,
+    "dexterity": 59,
+    "skills": []
   },
   {
     "name": "Hammer Blaster",
@@ -3439,7 +4195,13 @@
     "drops": [
       "Loco weed",
       "Smoke Bomb"
-    ]
+    ],
+    "attack": 18,
+    "magicAtk": 0,
+    "defense": 6,
+    "magicDef": 22,
+    "dexterity": 50,
+    "skills": []
   },
   {
     "name": "Hard Attacker",
@@ -3464,7 +4226,13 @@
     "steal": [],
     "drops": [
       "Molotov"
-    ]
+    ],
+    "attack": 80,
+    "magicAtk": 55,
+    "defense": 45,
+    "magicDef": 37,
+    "dexterity": 77,
+    "skills": []
   },
   {
     "name": "Harpy",
@@ -3492,7 +4260,13 @@
     "drops": [
       "Hi-Potion",
       "Elixir"
-    ]
+    ],
+    "attack": 50,
+    "magicAtk": 13,
+    "defense": 16,
+    "magicDef": 50,
+    "dexterity": 58,
+    "skills": []
   },
   {
     "name": "Head Hunter",
@@ -3516,7 +4290,13 @@
     ],
     "drops": [
       "Ether"
-    ]
+    ],
+    "attack": 100,
+    "magicAtk": 58,
+    "defense": 30,
+    "magicDef": 30,
+    "dexterity": 67,
+    "skills": []
   },
   {
     "name": "Headbomber",
@@ -3541,7 +4321,13 @@
     "drops": [
       "Hyper",
       "Tranquilizer"
-    ]
+    ],
+    "attack": 70,
+    "magicAtk": 40,
+    "defense": 30,
+    "magicDef": 23,
+    "dexterity": 60,
+    "skills": []
   },
   {
     "name": "Heavy Tank",
@@ -3569,7 +4355,13 @@
     "drops": [
       "Hi-Potion",
       "Power Source"
-    ]
+    ],
+    "attack": 49,
+    "magicAtk": 37,
+    "defense": 17,
+    "magicDef": 45,
+    "dexterity": 68,
+    "skills": []
   },
   {
     "name": "Hedgehog Pie",
@@ -3596,7 +4388,13 @@
     "drops": [
       "Potion",
       "Ether"
-    ]
+    ],
+    "attack": 12,
+    "magicAtk": 4,
+    "defense": 9,
+    "magicDef": 6,
+    "dexterity": 42,
+    "skills": []
   },
   {
     "name": "Heg",
@@ -3622,7 +4420,13 @@
     "steal": [],
     "drops": [
       "Hi-Potion"
-    ]
+    ],
+    "attack": 46,
+    "magicAtk": 5,
+    "defense": 15,
+    "magicDef": 32,
+    "dexterity": 40,
+    "skills": []
   },
   {
     "name": "Heli Gunner",
@@ -3649,7 +4453,13 @@
     "steal": [],
     "drops": [
       "Mythril Armlet"
-    ]
+    ],
+    "attack": 55,
+    "magicAtk": 0,
+    "defense": 20,
+    "magicDef": 110,
+    "dexterity": 66,
+    "skills": []
   },
   {
     "name": "Hell House",
@@ -3670,7 +4480,13 @@
     "ap": 6,
     "gil": 250,
     "steal": [],
-    "drops": []
+    "drops": [],
+    "attack": 24,
+    "magicAtk": 20,
+    "defense": 1,
+    "magicDef": 24,
+    "dexterity": 52,
+    "skills": []
   },
   {
     "name": "Hell Rider VR2",
@@ -3698,7 +4514,13 @@
     "drops": [
       "Potion",
       "Hi-Potion"
-    ]
+    ],
+    "attack": 76,
+    "magicAtk": 5,
+    "defense": 23,
+    "magicDef": 30,
+    "dexterity": 60,
+    "skills": []
   },
   {
     "name": "Helletic Hojo",
@@ -3723,7 +4545,13 @@
     "ap": 0,
     "gil": 0,
     "steal": [],
-    "drops": []
+    "drops": [],
+    "attack": 80,
+    "magicAtk": 60,
+    "defense": 70,
+    "magicDef": 100,
+    "dexterity": 68,
+    "skills": []
   },
   {
     "name": "Hippogriff",
@@ -3746,7 +4574,13 @@
     "steal": [],
     "drops": [
       "Echo Screen"
-    ]
+    ],
+    "attack": 90,
+    "magicAtk": 98,
+    "defense": 40,
+    "magicDef": 60,
+    "dexterity": 80,
+    "skills": []
   },
   {
     "name": "Ho-chu",
@@ -3776,7 +4610,13 @@
     ],
     "drops": [
       "Ribbon"
-    ]
+    ],
+    "attack": 96,
+    "magicAtk": 86,
+    "defense": 34,
+    "magicDef": 47,
+    "dexterity": 95,
+    "skills": []
   },
   {
     "name": "Hojo",
@@ -3797,7 +4637,13 @@
     "ap": 0,
     "gil": 0,
     "steal": [],
-    "drops": []
+    "drops": [],
+    "attack": 60,
+    "magicAtk": 60,
+    "defense": 65,
+    "magicDef": 75,
+    "dexterity": 78,
+    "skills": []
   },
   {
     "name": "Hundred Gunner",
@@ -3827,7 +4673,13 @@
     "ap": 35,
     "gil": 300,
     "steal": [],
-    "drops": []
+    "drops": [],
+    "attack": 52,
+    "magicAtk": 0,
+    "defense": 23,
+    "magicDef": 120,
+    "dexterity": 63,
+    "skills": []
   },
   {
     "name": "Hungry",
@@ -3850,7 +4702,13 @@
     "steal": [],
     "drops": [
       "Ether"
-    ]
+    ],
+    "attack": 60,
+    "magicAtk": 45,
+    "defense": 32,
+    "magicDef": 65,
+    "dexterity": 62,
+    "skills": []
   },
   {
     "name": "Ice Golem",
@@ -3882,7 +4740,13 @@
     ],
     "drops": [
       "Hi-Potion"
-    ]
+    ],
+    "attack": 100,
+    "magicAtk": 70,
+    "defense": 40,
+    "magicDef": 50,
+    "dexterity": 75,
+    "skills": []
   },
   {
     "name": "Icicle",
@@ -3908,7 +4772,13 @@
     "ap": 0,
     "gil": 0,
     "steal": [],
-    "drops": []
+    "drops": [],
+    "attack": 73,
+    "magicAtk": 63,
+    "defense": 32,
+    "magicDef": 48,
+    "dexterity": 60,
+    "skills": []
   },
   {
     "name": "Iron Man",
@@ -3940,7 +4810,13 @@
     "drops": [
       "Phoenix Down",
       "Escort Guard"
-    ]
+    ],
+    "attack": 180,
+    "magicAtk": 160,
+    "defense": 120,
+    "magicDef": 200,
+    "dexterity": 200,
+    "skills": []
   },
   {
     "name": "Ironite",
@@ -3965,7 +4841,13 @@
     ],
     "drops": [
       "Hi-Potion"
-    ]
+    ],
+    "attack": 65,
+    "magicAtk": 50,
+    "defense": 29,
+    "magicDef": 20,
+    "dexterity": 70,
+    "skills": []
   },
   {
     "name": "Jamar Armor",
@@ -3986,7 +4868,13 @@
     "ap": 1500,
     "gil": 10000,
     "steal": [],
-    "drops": []
+    "drops": [],
+    "attack": 130,
+    "magicAtk": 109,
+    "defense": 100,
+    "magicDef": 165,
+    "dexterity": 110,
+    "skills": []
   },
   {
     "name": "Jayjujayme",
@@ -4013,7 +4901,13 @@
       "Remedy",
       "Deadly Waste",
       "X-Potion"
-    ]
+    ],
+    "attack": 52,
+    "magicAtk": 35,
+    "defense": 23,
+    "magicDef": 80,
+    "dexterity": 45,
+    "skills": []
   },
   {
     "name": "Jemnezmy",
@@ -4039,7 +4933,13 @@
     "ap": 50,
     "gil": 400,
     "steal": [],
-    "drops": []
+    "drops": [],
+    "attack": 55,
+    "magicAtk": 34,
+    "defense": 29,
+    "magicDef": 40,
+    "dexterity": 60,
+    "skills": []
   },
   {
     "name": "Jenova∙BIRTH",
@@ -4067,7 +4967,13 @@
     "steal": [],
     "drops": [
       "White Cape"
-    ]
+    ],
+    "attack": 38,
+    "magicAtk": 30,
+    "defense": 28,
+    "magicDef": 90,
+    "dexterity": 60,
+    "skills": []
   },
   {
     "name": "Jenova∙DEATH",
@@ -4092,7 +4998,13 @@
     "steal": [],
     "drops": [
       "Reflect Ring"
-    ]
+    ],
+    "attack": 140,
+    "magicAtk": 70,
+    "defense": 45,
+    "magicDef": 160,
+    "dexterity": 150,
+    "skills": []
   },
   {
     "name": "Jenova∙LIFE",
@@ -4122,7 +5034,13 @@
     "steal": [],
     "drops": [
       "Wizard Bracelet"
-    ]
+    ],
+    "attack": 128,
+    "magicAtk": 40,
+    "defense": 55,
+    "magicDef": 145,
+    "dexterity": 140,
+    "skills": []
   },
   {
     "name": "Jenova∙SYNTHESIS",
@@ -4153,7 +5071,13 @@
     "ap": 500,
     "gil": 0,
     "steal": [],
-    "drops": []
+    "drops": [],
+    "attack": 150,
+    "magicAtk": 120,
+    "defense": 50,
+    "magicDef": 90,
+    "dexterity": 120,
+    "skills": []
   },
   {
     "name": "Jersey",
@@ -4178,7 +5102,13 @@
     ],
     "drops": [
       "Turbo Ether"
-    ]
+    ],
+    "attack": 55,
+    "magicAtk": 15,
+    "defense": 20,
+    "magicDef": 72,
+    "dexterity": 60,
+    "skills": []
   },
   {
     "name": "Joker",
@@ -4208,7 +5138,13 @@
     "steal": [],
     "drops": [
       "Hi-Potion"
-    ]
+    ],
+    "attack": 45,
+    "magicAtk": 31,
+    "defense": 16,
+    "magicDef": 81,
+    "dexterity": 60,
+    "skills": []
   },
   {
     "name": "Jumping",
@@ -4231,7 +5167,13 @@
     "drops": [
       "Hi-Potion",
       "Antarctic Wind"
-    ]
+    ],
+    "attack": 30,
+    "magicAtk": 15,
+    "defense": 20,
+    "magicDef": 25,
+    "dexterity": 74,
+    "skills": []
   },
   {
     "name": "Kalm Fang",
@@ -4258,7 +5200,13 @@
     "drops": [
       "Potion",
       "Hi-Potion"
-    ]
+    ],
+    "attack": 24,
+    "magicAtk": 16,
+    "defense": 15,
+    "magicDef": 7,
+    "dexterity": 57,
+    "skills": []
   },
   {
     "name": "Kelzmelzer",
@@ -4283,7 +5231,13 @@
     "drops": [
       "Potion",
       "Antidote"
-    ]
+    ],
+    "attack": 50,
+    "magicAtk": 35,
+    "defense": 28,
+    "magicDef": 45,
+    "dexterity": 53,
+    "skills": []
   },
   {
     "name": "Killbin",
@@ -4312,7 +5266,13 @@
     "drops": [
       "Ether",
       "Mind Source"
-    ]
+    ],
+    "attack": 90,
+    "magicAtk": 85,
+    "defense": 32,
+    "magicDef": 63,
+    "dexterity": 68,
+    "skills": []
   },
   {
     "name": "Kimara Bug",
@@ -4340,7 +5300,13 @@
     "drops": [
       "Hi-Potion",
       "Hourglass"
-    ]
+    ],
+    "attack": 37,
+    "magicAtk": 5,
+    "defense": 20,
+    "magicDef": 90,
+    "dexterity": 61,
+    "skills": []
   },
   {
     "name": "King Behemoth",
@@ -4369,7 +5335,13 @@
     ],
     "drops": [
       "X-Potion"
-    ]
+    ],
+    "attack": 150,
+    "magicAtk": 65,
+    "defense": 70,
+    "magicDef": 128,
+    "dexterity": 90,
+    "skills": []
   },
   {
     "name": "Kyuvilduns",
@@ -4392,7 +5364,13 @@
     "steal": [],
     "drops": [
       "Hi-Potion"
-    ]
+    ],
+    "attack": 48,
+    "magicAtk": 40,
+    "defense": 21,
+    "magicDef": 32,
+    "dexterity": 56,
+    "skills": []
   },
   {
     "name": "Land Worm",
@@ -4424,7 +5402,13 @@
     "drops": [
       "Ether",
       "Fire Fang"
-    ]
+    ],
+    "attack": 60,
+    "magicAtk": 42,
+    "defense": 40,
+    "magicDef": 115,
+    "dexterity": 68,
+    "skills": []
   },
   {
     "name": "Laser Cannon",
@@ -4450,7 +5434,13 @@
     "steal": [],
     "drops": [
       "Hi-Potion"
-    ]
+    ],
+    "attack": 20,
+    "magicAtk": 0,
+    "defense": 5,
+    "magicDef": 2,
+    "dexterity": 58,
+    "skills": []
   },
   {
     "name": "Left Arm",
@@ -4479,7 +5469,13 @@
     "ap": 90,
     "gil": 0,
     "steal": [],
-    "drops": []
+    "drops": [],
+    "attack": 80,
+    "magicAtk": 55,
+    "defense": 100,
+    "magicDef": 150,
+    "dexterity": 80,
+    "skills": []
   },
   {
     "name": "Left Arm",
@@ -4501,7 +5497,13 @@
     "ap": 0,
     "gil": 0,
     "steal": [],
-    "drops": []
+    "drops": [],
+    "attack": 80,
+    "magicAtk": 55,
+    "defense": 100,
+    "magicDef": 150,
+    "dexterity": 80,
+    "skills": []
   },
   {
     "name": "Lessaloploth",
@@ -4534,7 +5536,13 @@
     ],
     "drops": [
       "Phoenix Down"
-    ]
+    ],
+    "attack": 65,
+    "magicAtk": 67,
+    "defense": 37,
+    "magicDef": 95,
+    "dexterity": 77,
+    "skills": []
   },
   {
     "name": "Levrikon",
@@ -4558,7 +5566,13 @@
     ],
     "drops": [
       "Hi-Potion"
-    ]
+    ],
+    "attack": 38,
+    "magicAtk": 6,
+    "defense": 40,
+    "magicDef": 12,
+    "dexterity": 60,
+    "skills": []
   },
   {
     "name": "Lifeform-Hojo N",
@@ -4584,7 +5598,13 @@
     "steal": [],
     "drops": [
       "Power Source"
-    ]
+    ],
+    "attack": 100,
+    "magicAtk": 90,
+    "defense": 60,
+    "magicDef": 90,
+    "dexterity": 100,
+    "skills": []
   },
   {
     "name": "Lost Number",
@@ -4607,7 +5627,13 @@
     "ap": 80,
     "gil": 2000,
     "steal": [],
-    "drops": []
+    "drops": [],
+    "attack": 80,
+    "magicAtk": 35,
+    "defense": 60,
+    "magicDef": 140,
+    "dexterity": 82,
+    "skills": []
   },
   {
     "name": "Machine Gun",
@@ -4632,7 +5658,13 @@
     "steal": [],
     "drops": [
       "Hi-Potion"
-    ]
+    ],
+    "attack": 18,
+    "magicAtk": 0,
+    "defense": 5,
+    "magicDef": 2,
+    "dexterity": 62,
+    "skills": []
   },
   {
     "name": "Madouge",
@@ -4656,7 +5688,13 @@
     ],
     "drops": [
       "Hi-Potion"
-    ]
+    ],
+    "attack": 36,
+    "magicAtk": 4,
+    "defense": 11,
+    "magicDef": 13,
+    "dexterity": 56,
+    "skills": []
   },
   {
     "name": "Magic Pot",
@@ -4678,7 +5716,13 @@
     "steal": [],
     "drops": [
       "Turbo Ether"
-    ]
+    ],
+    "attack": 64,
+    "magicAtk": 64,
+    "defense": 32,
+    "magicDef": 32,
+    "dexterity": 64,
+    "skills": []
   },
   {
     "name": "Magnade",
@@ -4708,7 +5752,13 @@
     ],
     "drops": [
       "X-Potion"
-    ]
+    ],
+    "attack": 134,
+    "magicAtk": 60,
+    "defense": 35,
+    "magicDef": 24,
+    "dexterity": 50,
+    "skills": []
   },
   {
     "name": "Malboro",
@@ -4740,7 +5790,13 @@
     ],
     "drops": [
       "M-Tentacles"
-    ]
+    ],
+    "attack": 70,
+    "magicAtk": 50,
+    "defense": 55,
+    "magicDef": 60,
+    "dexterity": 80,
+    "skills": []
   },
   {
     "name": "Malldancer",
@@ -4768,7 +5824,13 @@
     "drops": [
       "Hi-Potion",
       "X-Potion"
-    ]
+    ],
+    "attack": 61,
+    "magicAtk": 50,
+    "defense": 29,
+    "magicDef": 48,
+    "dexterity": 60,
+    "skills": []
   },
   {
     "name": "Mandragora",
@@ -4793,7 +5855,13 @@
     "drops": [
       "Lasan Nut",
       "Ether"
-    ]
+    ],
+    "attack": 22,
+    "magicAtk": 53,
+    "defense": 6,
+    "magicDef": 225,
+    "dexterity": 49,
+    "skills": []
   },
   {
     "name": "Manhole",
@@ -4817,7 +5885,13 @@
     "steal": [],
     "drops": [
       "X-Potion"
-    ]
+    ],
+    "attack": 100,
+    "magicAtk": 70,
+    "defense": 60,
+    "magicDef": 55,
+    "dexterity": 90,
+    "skills": []
   },
   {
     "name": "Marine",
@@ -4843,7 +5917,13 @@
     "drops": [
       "Eye drop",
       "X-Potion"
-    ]
+    ],
+    "attack": 36,
+    "magicAtk": 5,
+    "defense": 15,
+    "magicDef": 30,
+    "dexterity": 59,
+    "skills": []
   },
   {
     "name": "Master Tonberry",
@@ -4873,7 +5953,13 @@
     "drops": [
       "Megalixir",
       "Ribbon"
-    ]
+    ],
+    "attack": 150,
+    "magicAtk": 130,
+    "defense": 68,
+    "magicDef": 75,
+    "dexterity": 70,
+    "skills": []
   },
   {
     "name": "Materia Keeper",
@@ -4902,7 +5988,13 @@
     "steal": [],
     "drops": [
       "Jem Ring"
-    ]
+    ],
+    "attack": 90,
+    "magicAtk": 12,
+    "defense": 50,
+    "magicDef": 140,
+    "dexterity": 90,
+    "skills": []
   },
   {
     "name": "Matsumura Yasushi-kun",
@@ -4927,7 +6019,13 @@
     ],
     "drops": [
       "Potion"
-    ]
+    ],
+    "attack": 16,
+    "magicAtk": 5,
+    "defense": 29,
+    "magicDef": 5,
+    "dexterity": 30,
+    "skills": []
   },
   {
     "name": "Maximum Kimaira",
@@ -4950,7 +6048,13 @@
     "steal": [],
     "drops": [
       "Guard Source"
-    ]
+    ],
+    "attack": 120,
+    "magicAtk": 100,
+    "defense": 70,
+    "magicDef": 63,
+    "dexterity": 90,
+    "skills": []
   },
   {
     "name": "Midgar Zolom",
@@ -4975,7 +6079,13 @@
     "steal": [],
     "drops": [
       "X-Potion"
-    ]
+    ],
+    "attack": 120,
+    "magicAtk": 40,
+    "defense": 45,
+    "magicDef": 35,
+    "dexterity": 54,
+    "skills": []
   },
   {
     "name": "Mighty Grunt",
@@ -4996,7 +6106,13 @@
     "ap": 5,
     "gil": 98,
     "steal": [],
-    "drops": []
+    "drops": [],
+    "attack": 20,
+    "magicAtk": 6,
+    "defense": 50,
+    "magicDef": 32,
+    "dexterity": 40,
+    "skills": []
   },
   {
     "name": "Mirage",
@@ -5018,7 +6134,13 @@
     "steal": [],
     "drops": [
       "Mirror"
-    ]
+    ],
+    "attack": 50,
+    "magicAtk": 45,
+    "defense": 18,
+    "magicDef": 50,
+    "dexterity": 50,
+    "skills": []
   },
   {
     "name": "Mono Drive",
@@ -5045,7 +6167,13 @@
     "drops": [
       "Potion",
       "Ether"
-    ]
+    ],
+    "attack": 3,
+    "magicAtk": 3,
+    "defense": 3,
+    "magicDef": 2,
+    "dexterity": 49,
+    "skills": []
   },
   {
     "name": "Moth Slasher",
@@ -5069,7 +6197,13 @@
     "steal": [
       "Carbon Bangle"
     ],
-    "drops": []
+    "drops": [],
+    "attack": 31,
+    "magicAtk": 0,
+    "defense": 14,
+    "magicDef": 29,
+    "dexterity": 59,
+    "skills": []
   },
   {
     "name": "Motor Ball",
@@ -5101,7 +6235,13 @@
     "steal": [],
     "drops": [
       "Star Pendant"
-    ]
+    ],
+    "attack": 44,
+    "magicAtk": 17,
+    "defense": 16,
+    "magicDef": 17,
+    "dexterity": 67,
+    "skills": []
   },
   {
     "name": "Mover",
@@ -5132,7 +6272,13 @@
     "drops": [
       "Turbo Ether",
       "Protect Ring"
-    ]
+    ],
+    "attack": 100,
+    "magicAtk": 98,
+    "defense": 75,
+    "magicDef": 125,
+    "dexterity": 200,
+    "skills": []
   },
   {
     "name": "MP",
@@ -5156,7 +6302,13 @@
     ],
     "drops": [
       "Potion"
-    ]
+    ],
+    "attack": 6,
+    "magicAtk": 0,
+    "defense": 2,
+    "magicDef": 0,
+    "dexterity": 50,
+    "skills": []
   },
   {
     "name": "Mu",
@@ -5181,7 +6333,13 @@
     "steal": [],
     "drops": [
       "Hi-Potion"
-    ]
+    ],
+    "attack": 23,
+    "magicAtk": 27,
+    "defense": 15,
+    "magicDef": 16,
+    "dexterity": 59,
+    "skills": []
   },
   {
     "name": "Mystery Ninja",
@@ -5205,7 +6363,13 @@
     "ap": 20,
     "gil": 40,
     "steal": [],
-    "drops": []
+    "drops": [],
+    "attack": 50,
+    "magicAtk": 30,
+    "defense": 56,
+    "magicDef": 30,
+    "dexterity": 50,
+    "skills": []
   },
   {
     "name": "Needle Kiss",
@@ -5235,7 +6399,13 @@
     "drops": [
       "Bolt Plume",
       "Remedy"
-    ]
+    ],
+    "attack": 26,
+    "magicAtk": 25,
+    "defense": 19,
+    "magicDef": 30,
+    "dexterity": 47,
+    "skills": []
   },
   {
     "name": "Nerosuferoth",
@@ -5257,7 +6427,13 @@
     "steal": [],
     "drops": [
       "Hi-Potion"
-    ]
+    ],
+    "attack": 23,
+    "magicAtk": 5,
+    "defense": 17,
+    "magicDef": 12,
+    "dexterity": 53,
+    "skills": []
   },
   {
     "name": "Nibel Wolf",
@@ -5283,7 +6459,13 @@
     "drops": [
       "Luchile Nut",
       "Hi-Potion"
-    ]
+    ],
+    "attack": 50,
+    "magicAtk": 5,
+    "defense": 18,
+    "magicDef": 80,
+    "dexterity": 57,
+    "skills": []
   },
   {
     "name": "Palmer",
@@ -5310,7 +6492,13 @@
     "steal": [],
     "drops": [
       "Edincoat"
-    ]
+    ],
+    "attack": 100,
+    "magicAtk": 25,
+    "defense": 50,
+    "magicDef": 100,
+    "dexterity": 60,
+    "skills": []
   },
   {
     "name": "Parasite",
@@ -5342,7 +6530,13 @@
     ],
     "drops": [
       "Remedy"
-    ]
+    ],
+    "attack": 120,
+    "magicAtk": 100,
+    "defense": 75,
+    "magicDef": 70,
+    "dexterity": 90,
+    "skills": []
   },
   {
     "name": "Pollensalta",
@@ -5371,7 +6565,13 @@
     ],
     "drops": [
       "X-Potion"
-    ]
+    ],
+    "attack": 110,
+    "magicAtk": 90,
+    "defense": 30,
+    "magicDef": 68,
+    "dexterity": 85,
+    "skills": []
   },
   {
     "name": "Poodler",
@@ -5396,7 +6596,13 @@
     "drops": [
       "X-Potion",
       "Speed Source"
-    ]
+    ],
+    "attack": 98,
+    "magicAtk": 85,
+    "defense": 55,
+    "magicDef": 100,
+    "dexterity": 86,
+    "skills": []
   },
   {
     "name": "Poodler Sample",
@@ -5416,7 +6622,13 @@
     "ap": 150,
     "gil": 2000,
     "steal": [],
-    "drops": []
+    "drops": [],
+    "attack": 93,
+    "magicAtk": 55,
+    "defense": 50,
+    "magicDef": 65,
+    "dexterity": 80,
+    "skills": []
   },
   {
     "name": "Proto Machinegun",
@@ -5439,7 +6651,13 @@
     "steal": [],
     "drops": [
       "Potion"
-    ]
+    ],
+    "attack": 12,
+    "magicAtk": 0,
+    "defense": 1,
+    "magicDef": 64,
+    "dexterity": 45,
+    "skills": []
   },
   {
     "name": "Proud Clod",
@@ -5469,7 +6687,13 @@
     "steal": [],
     "drops": [
       "Ragnarok"
-    ]
+    ],
+    "attack": 102,
+    "magicAtk": 120,
+    "defense": 85,
+    "magicDef": 150,
+    "dexterity": 88,
+    "skills": []
   },
   {
     "name": "Prowler",
@@ -5497,7 +6721,13 @@
     "drops": [
       "Potion",
       "Hi-Potion"
-    ]
+    ],
+    "attack": 23,
+    "magicAtk": 0,
+    "defense": 14,
+    "magicDef": 14,
+    "dexterity": 66,
+    "skills": []
   },
   {
     "name": "Pyramid",
@@ -5519,7 +6749,13 @@
     "ap": 1,
     "gil": 0,
     "steal": [],
-    "drops": []
+    "drops": [],
+    "attack": 0,
+    "magicAtk": 0,
+    "defense": 1,
+    "magicDef": 0,
+    "dexterity": 50,
+    "skills": []
   },
   {
     "name": "Quick Machine Gun",
@@ -5544,7 +6780,13 @@
     "steal": [],
     "drops": [
       "Hi-Potion"
-    ]
+    ],
+    "attack": 130,
+    "magicAtk": 15,
+    "defense": 25,
+    "magicDef": 15,
+    "dexterity": 69,
+    "skills": []
   },
   {
     "name": "Rapps",
@@ -5567,7 +6809,13 @@
     "steal": [],
     "drops": [
       "Peace Ring"
-    ]
+    ],
+    "attack": 90,
+    "magicAtk": 55,
+    "defense": 29,
+    "magicDef": 200,
+    "dexterity": 120,
+    "skills": []
   },
   {
     "name": "Razor Weed",
@@ -5592,7 +6840,13 @@
       "Tranquilizer",
       "Hi-Potion",
       "Loco weed"
-    ]
+    ],
+    "attack": 58,
+    "magicAtk": 25,
+    "defense": 25,
+    "magicDef": 50,
+    "dexterity": 60,
+    "skills": []
   },
   {
     "name": "Red Dragon",
@@ -5619,7 +6873,13 @@
     "steal": [],
     "drops": [
       "Dragon Armlet"
-    ]
+    ],
+    "attack": 95,
+    "magicAtk": 85,
+    "defense": 40,
+    "magicDef": 130,
+    "dexterity": 90,
+    "skills": []
   },
   {
     "name": "Right Arm",
@@ -5648,7 +6908,13 @@
     "ap": 95,
     "gil": 0,
     "steal": [],
-    "drops": []
+    "drops": [],
+    "attack": 80,
+    "magicAtk": 55,
+    "defense": 100,
+    "magicDef": 150,
+    "dexterity": 80,
+    "skills": []
   },
   {
     "name": "Right Arm",
@@ -5668,7 +6934,13 @@
     "ap": 0,
     "gil": 0,
     "steal": [],
-    "drops": []
+    "drops": [],
+    "attack": 80,
+    "magicAtk": 55,
+    "defense": 100,
+    "magicDef": 150,
+    "dexterity": 80,
+    "skills": []
   },
   {
     "name": "Rilfsak",
@@ -5694,7 +6966,13 @@
     "steal": [],
     "drops": [
       "X-Potion"
-    ]
+    ],
+    "attack": 60,
+    "magicAtk": 100,
+    "defense": 45,
+    "magicDef": 85,
+    "dexterity": 58,
+    "skills": []
   },
   {
     "name": "Rocket Launcher",
@@ -5715,7 +6993,13 @@
     "ap": 3,
     "gil": 7,
     "steal": [],
-    "drops": []
+    "drops": [],
+    "attack": 30,
+    "magicAtk": 0,
+    "defense": 1,
+    "magicDef": 100,
+    "dexterity": 50,
+    "skills": []
   },
   {
     "name": "Roulette Cannon",
@@ -5741,7 +7025,13 @@
     "steal": [],
     "drops": [
       "X-Potion"
-    ]
+    ],
+    "attack": 80,
+    "magicAtk": 60,
+    "defense": 30,
+    "magicDef": 25,
+    "dexterity": 55,
+    "skills": []
   },
   {
     "name": "Ruby Weapon",
@@ -5782,7 +7072,13 @@
     "steal": [],
     "drops": [
       "Desert Rose"
-    ]
+    ],
+    "attack": 100,
+    "magicAtk": 200,
+    "defense": 240,
+    "magicDef": 250,
+    "dexterity": 253,
+    "skills": []
   },
   {
     "name": "Ruby's Tentacle",
@@ -5802,7 +7098,13 @@
     "ap": 0,
     "gil": 0,
     "steal": [],
-    "drops": []
+    "drops": [],
+    "attack": 100,
+    "magicAtk": 150,
+    "defense": 50,
+    "magicDef": 50,
+    "dexterity": 253,
+    "skills": []
   },
   {
     "name": "Rufus",
@@ -5826,7 +7128,13 @@
     "steal": [],
     "drops": [
       "Protect Vest"
-    ]
+    ],
+    "attack": 35,
+    "magicAtk": 0,
+    "defense": 16,
+    "magicDef": 80,
+    "dexterity": 72,
+    "skills": []
   },
   {
     "name": "Safer∙Sephiroth",
@@ -5860,7 +7168,13 @@
     "ap": 0,
     "gil": 0,
     "steal": [],
-    "drops": []
+    "drops": [],
+    "attack": 230,
+    "magicAtk": 100,
+    "defense": 50,
+    "magicDef": 90,
+    "dexterity": 160,
+    "skills": []
   },
   {
     "name": "Sahagin",
@@ -5888,7 +7202,13 @@
     "drops": [
       "Potion",
       "Hyper"
-    ]
+    ],
+    "attack": 23,
+    "magicAtk": 8,
+    "defense": 16,
+    "magicDef": 32,
+    "dexterity": 59,
+    "skills": []
   },
   {
     "name": "Sample:H0512",
@@ -5918,7 +7238,13 @@
     "steal": [],
     "drops": [
       "Talisman"
-    ]
+    ],
+    "attack": 40,
+    "magicAtk": 35,
+    "defense": 30,
+    "magicDef": 32,
+    "dexterity": 65,
+    "skills": []
   },
   {
     "name": "Sample:H0512-opt",
@@ -5944,7 +7270,13 @@
     "steal": [],
     "drops": [
       "Tranquilizer"
-    ]
+    ],
+    "attack": 22,
+    "magicAtk": 18,
+    "defense": 23,
+    "magicDef": 16,
+    "dexterity": 45,
+    "skills": []
   },
   {
     "name": "Schizo",
@@ -5970,7 +7302,13 @@
     "ap": 120,
     "gil": 1500,
     "steal": [],
-    "drops": []
+    "drops": [],
+    "attack": 57,
+    "magicAtk": 40,
+    "defense": 26,
+    "magicDef": 47,
+    "dexterity": 72,
+    "skills": []
   },
   {
     "name": "Scissors",
@@ -5991,7 +7329,13 @@
     "ap": 90,
     "gil": 1400,
     "steal": [],
-    "drops": []
+    "drops": [],
+    "attack": 72,
+    "magicAtk": 65,
+    "defense": 29,
+    "magicDef": 40,
+    "dexterity": 70,
+    "skills": []
   },
   {
     "name": "Scotch",
@@ -6013,7 +7357,13 @@
     "steal": [],
     "drops": [
       "Potion"
-    ]
+    ],
+    "attack": 22,
+    "magicAtk": 33,
+    "defense": 16,
+    "magicDef": 9,
+    "dexterity": 44,
+    "skills": []
   },
   {
     "name": "Screamer",
@@ -6039,7 +7389,13 @@
     "drops": [
       "Earth Drum",
       "Power Source"
-    ]
+    ],
+    "attack": 67,
+    "magicAtk": 40,
+    "defense": 22,
+    "magicDef": 60,
+    "dexterity": 68,
+    "skills": []
   },
   {
     "name": "Scrutin Eye",
@@ -6070,7 +7426,13 @@
     "drops": [
       "Ether",
       "Turbo Ether"
-    ]
+    ],
+    "attack": 20,
+    "magicAtk": 5,
+    "defense": 10,
+    "magicDef": 48,
+    "dexterity": 36,
+    "skills": []
   },
   {
     "name": "Sculpture",
@@ -6094,7 +7456,13 @@
     "steal": [],
     "drops": [
       "Tranquilizer"
-    ]
+    ],
+    "attack": 56,
+    "magicAtk": 48,
+    "defense": 20,
+    "magicDef": 34,
+    "dexterity": 53,
+    "skills": []
   },
   {
     "name": "Sea Worm",
@@ -6127,7 +7495,13 @@
     "drops": [
       "Turbo Ether",
       "Dragon Scales"
-    ]
+    ],
+    "attack": 60,
+    "magicAtk": 42,
+    "defense": 40,
+    "magicDef": 115,
+    "dexterity": 68,
+    "skills": []
   },
   {
     "name": "Search Crown",
@@ -6153,7 +7527,13 @@
     ],
     "drops": [
       "Hi-Potion"
-    ]
+    ],
+    "attack": 20,
+    "magicAtk": 30,
+    "defense": 13,
+    "magicDef": 35,
+    "dexterity": 40,
+    "skills": []
   },
   {
     "name": "Senior Grunt",
@@ -6176,7 +7556,13 @@
     "ap": 90,
     "gil": 800,
     "steal": [],
-    "drops": []
+    "drops": [],
+    "attack": 75,
+    "magicAtk": 80,
+    "defense": 35,
+    "magicDef": 45,
+    "dexterity": 69,
+    "skills": []
   },
   {
     "name": "Sephiroth",
@@ -6196,7 +7582,13 @@
     "ap": 0,
     "gil": 0,
     "steal": [],
-    "drops": []
+    "drops": [],
+    "attack": 0,
+    "magicAtk": 0,
+    "defense": 0,
+    "magicDef": 0,
+    "dexterity": 100,
+    "skills": []
   },
   {
     "name": "Serpent",
@@ -6231,7 +7623,13 @@
       "Dragon Scales",
       "Stardust",
       "Mind Source"
-    ]
+    ],
+    "attack": 140,
+    "magicAtk": 80,
+    "defense": 60,
+    "magicDef": 162,
+    "dexterity": 110,
+    "skills": []
   },
   {
     "name": "Shadow Maker",
@@ -6256,7 +7654,13 @@
     ],
     "drops": [
       "Turbo Ether"
-    ]
+    ],
+    "attack": 90,
+    "magicAtk": 75,
+    "defense": 45,
+    "magicDef": 34,
+    "dexterity": 40,
+    "skills": []
   },
   {
     "name": "Shake",
@@ -6280,7 +7684,13 @@
     "steal": [],
     "drops": [
       "Turbo Ether"
-    ]
+    ],
+    "attack": 71,
+    "magicAtk": 75,
+    "defense": 30,
+    "magicDef": 140,
+    "dexterity": 68,
+    "skills": []
   },
   {
     "name": "Shred",
@@ -6310,7 +7720,13 @@
     "steal": [],
     "drops": [
       "Ether"
-    ]
+    ],
+    "attack": 70,
+    "magicAtk": 55,
+    "defense": 33,
+    "magicDef": 60,
+    "dexterity": 55,
+    "skills": []
   },
   {
     "name": "Skeeskee",
@@ -6334,7 +7750,13 @@
     ],
     "drops": [
       "Hyper"
-    ]
+    ],
+    "attack": 45,
+    "magicAtk": 33,
+    "defense": 20,
+    "magicDef": 60,
+    "dexterity": 55,
+    "skills": []
   },
   {
     "name": "Slalom",
@@ -6362,7 +7784,13 @@
     "drops": [
       "Deadly Waste",
       "Hi-Potion"
-    ]
+    ],
+    "attack": 70,
+    "magicAtk": 45,
+    "defense": 37,
+    "magicDef": 40,
+    "dexterity": 60,
+    "skills": []
   },
   {
     "name": "Slaps",
@@ -6390,7 +7818,13 @@
     "drops": [
       "Hi-Potion",
       "Hyper"
-    ]
+    ],
+    "attack": 46,
+    "magicAtk": 34,
+    "defense": 21,
+    "magicDef": 33,
+    "dexterity": 56,
+    "skills": []
   },
   {
     "name": "Smogger",
@@ -6418,7 +7852,13 @@
     "drops": [
       "Deadly Waste",
       "Hi-Potion"
-    ]
+    ],
+    "attack": 22,
+    "magicAtk": 4,
+    "defense": 12,
+    "magicDef": 32,
+    "dexterity": 47,
+    "skills": []
   },
   {
     "name": "Sneaky Step",
@@ -6441,7 +7881,13 @@
     "drops": [
       "M-Tentacles",
       "Ghost Hand"
-    ]
+    ],
+    "attack": 52,
+    "magicAtk": 25,
+    "defense": 15,
+    "magicDef": 65,
+    "dexterity": 62,
+    "skills": []
   },
   {
     "name": "Snow",
@@ -6471,7 +7917,13 @@
     ],
     "drops": [
       "Ice Crystal"
-    ]
+    ],
+    "attack": 50,
+    "magicAtk": 80,
+    "defense": 33,
+    "magicDef": 69,
+    "dexterity": 70,
+    "skills": []
   },
   {
     "name": "SOLDIER:1st",
@@ -6495,7 +7947,13 @@
     "steal": [
       "Shinra Alpha"
     ],
-    "drops": []
+    "drops": [],
+    "attack": 100,
+    "magicAtk": 85,
+    "defense": 47,
+    "magicDef": 60,
+    "dexterity": 90,
+    "skills": []
   },
   {
     "name": "SOLDIER:2nd",
@@ -6521,7 +7979,13 @@
     ],
     "drops": [
       "X-Potion"
-    ]
+    ],
+    "attack": 80,
+    "magicAtk": 60,
+    "defense": 29,
+    "magicDef": 30,
+    "dexterity": 70,
+    "skills": []
   },
   {
     "name": "SOLDIER:3rd",
@@ -6551,7 +8015,13 @@
     "drops": [
       "Loco weed",
       "Bolt Plume"
-    ]
+    ],
+    "attack": 27,
+    "magicAtk": 8,
+    "defense": 19,
+    "magicDef": 36,
+    "dexterity": 60,
+    "skills": []
   },
   {
     "name": "Sonic Speed",
@@ -6580,7 +8050,13 @@
     "drops": [
       "Hi-Potion",
       "Speed Drink"
-    ]
+    ],
+    "attack": 52,
+    "magicAtk": 44,
+    "defense": 26,
+    "magicDef": 48,
+    "dexterity": 60,
+    "skills": []
   },
   {
     "name": "Soul Fire",
@@ -6613,7 +8089,13 @@
     "steal": [],
     "drops": [
       "Phoenix Down"
-    ]
+    ],
+    "attack": 16,
+    "magicAtk": 16,
+    "defense": 65,
+    "magicDef": 5,
+    "dexterity": 60,
+    "skills": []
   },
   {
     "name": "Special Combatant",
@@ -6640,7 +8122,13 @@
       "Antidote",
       "Grenade",
       "Hi-Potion"
-    ]
+    ],
+    "attack": 15,
+    "magicAtk": 2,
+    "defense": 12,
+    "magicDef": 16,
+    "dexterity": 58,
+    "skills": []
   },
   {
     "name": "Spencer",
@@ -6664,7 +8152,13 @@
     ],
     "drops": [
       "Saraha Nut"
-    ]
+    ],
+    "attack": 42,
+    "magicAtk": 30,
+    "defense": 11,
+    "magicDef": 60,
+    "dexterity": 48,
+    "skills": []
   },
   {
     "name": "Spiral",
@@ -6688,7 +8182,13 @@
     "drops": [
       "Hi-Potion",
       "Guard Source"
-    ]
+    ],
+    "attack": 80,
+    "magicAtk": 80,
+    "defense": 40,
+    "magicDef": 40,
+    "dexterity": 65,
+    "skills": []
   },
   {
     "name": "Staniv",
@@ -6713,7 +8213,13 @@
     "steal": [],
     "drops": [
       "Elixir"
-    ]
+    ],
+    "attack": 71,
+    "magicAtk": 75,
+    "defense": 30,
+    "magicDef": 140,
+    "dexterity": 72,
+    "skills": []
   },
   {
     "name": "Stilva",
@@ -6741,7 +8247,13 @@
     "drops": [
       "Tent",
       "Holy Torch"
-    ]
+    ],
+    "attack": 75,
+    "magicAtk": 55,
+    "defense": 30,
+    "magicDef": 60,
+    "dexterity": 80,
+    "skills": []
   },
   {
     "name": "Stinger",
@@ -6766,7 +8278,13 @@
     ],
     "drops": [
       "Hi-Potion"
-    ]
+    ],
+    "attack": 60,
+    "magicAtk": 40,
+    "defense": 28,
+    "magicDef": 50,
+    "dexterity": 68,
+    "skills": []
   },
   {
     "name": "Submarine Crew",
@@ -6791,7 +8309,13 @@
     "drops": [
       "S-mine",
       "Shinra Beta"
-    ]
+    ],
+    "attack": 75,
+    "magicAtk": 25,
+    "defense": 28,
+    "magicDef": 37,
+    "dexterity": 55,
+    "skills": []
   },
   {
     "name": "Sweeper",
@@ -6816,7 +8340,13 @@
     "steal": [],
     "drops": [
       "Potion"
-    ]
+    ],
+    "attack": 18,
+    "magicAtk": 0,
+    "defense": 10,
+    "magicDef": 2,
+    "dexterity": 48,
+    "skills": []
   },
   {
     "name": "Sword Dance",
@@ -6846,7 +8376,13 @@
     "drops": [
       "Loco weed",
       "Light Curtain"
-    ]
+    ],
+    "attack": 22,
+    "magicAtk": 0,
+    "defense": 12,
+    "magicDef": 16,
+    "dexterity": 52,
+    "skills": []
   },
   {
     "name": "Tail Vault",
@@ -6868,7 +8404,13 @@
     "steal": [],
     "drops": [
       "Phoenix Down"
-    ]
+    ],
+    "attack": 69,
+    "magicAtk": 25,
+    "defense": 23,
+    "magicDef": 60,
+    "dexterity": 60,
+    "skills": []
   },
   {
     "name": "Thunderbird",
@@ -6897,7 +8439,13 @@
       "Hi-Potion",
       "Echo Screen",
       "Swift Bolt"
-    ]
+    ],
+    "attack": 70,
+    "magicAtk": 32,
+    "defense": 20,
+    "magicDef": 50,
+    "dexterity": 45,
+    "skills": []
   },
   {
     "name": "Tonadu",
@@ -6927,7 +8475,13 @@
     ],
     "drops": [
       "Bird Wing"
-    ]
+    ],
+    "attack": 54,
+    "magicAtk": 55,
+    "defense": 26,
+    "magicDef": 75,
+    "dexterity": 66,
+    "skills": []
   },
   {
     "name": "Tonberry",
@@ -6957,7 +8511,13 @@
     "drops": [
       "Phoenix Down",
       "Elixir"
-    ]
+    ],
+    "attack": 100,
+    "magicAtk": 65,
+    "defense": 25,
+    "magicDef": 30,
+    "dexterity": 80,
+    "skills": []
   },
   {
     "name": "Touch Me",
@@ -6982,7 +8542,13 @@
     "drops": [
       "Maiden's Kiss",
       "Remedy"
-    ]
+    ],
+    "attack": 30,
+    "magicAtk": 28,
+    "defense": 10,
+    "magicDef": 50,
+    "dexterity": 68,
+    "skills": []
   },
   {
     "name": "Toxic Frog",
@@ -7012,7 +8578,13 @@
     "drops": [
       "Impaler",
       "Remedy"
-    ]
+    ],
+    "attack": 56,
+    "magicAtk": 35,
+    "defense": 15,
+    "magicDef": 60,
+    "dexterity": 74,
+    "skills": []
   },
   {
     "name": "Trickplay",
@@ -7041,7 +8613,13 @@
     "steal": [],
     "drops": [
       "Hi-Potion"
-    ]
+    ],
+    "attack": 100,
+    "magicAtk": 45,
+    "defense": 20,
+    "magicDef": 48,
+    "dexterity": 53,
+    "skills": []
   },
   {
     "name": "Turks:Elena",
@@ -7069,7 +8647,13 @@
     "steal": [
       "Minerva Band"
     ],
-    "drops": []
+    "drops": [],
+    "attack": 75,
+    "magicAtk": 100,
+    "defense": 45,
+    "magicDef": 95,
+    "dexterity": 85,
+    "skills": []
   },
   {
     "name": "Turks:Reno",
@@ -7095,7 +8679,13 @@
     "ap": 22,
     "gil": 500,
     "steal": [],
-    "drops": []
+    "drops": [],
+    "attack": 32,
+    "magicAtk": 20,
+    "defense": 26,
+    "magicDef": 31,
+    "dexterity": 50,
+    "skills": []
   },
   {
     "name": "Turks:Rude",
@@ -7121,7 +8711,13 @@
     "ap": 70,
     "gil": 2000,
     "steal": [],
-    "drops": []
+    "drops": [],
+    "attack": 40,
+    "magicAtk": 35,
+    "defense": 50,
+    "magicDef": 100,
+    "dexterity": 65,
+    "skills": []
   },
   {
     "name": "Twin Brain",
@@ -7146,7 +8742,13 @@
     "drops": [
       "Ether",
       "Turbo Ether"
-    ]
+    ],
+    "attack": 45,
+    "magicAtk": 25,
+    "defense": 22,
+    "magicDef": 48,
+    "dexterity": 48,
+    "skills": []
   },
   {
     "name": "Ultimate Weapon",
@@ -7171,7 +8773,13 @@
     "ap": 0,
     "gil": 0,
     "steal": [],
-    "drops": []
+    "drops": [],
+    "attack": 100,
+    "magicAtk": 170,
+    "defense": 60,
+    "magicDef": 50,
+    "dexterity": 120,
+    "skills": []
   },
   {
     "name": "Under Lizard",
@@ -7195,7 +8803,13 @@
     ],
     "drops": [
       "Remedy"
-    ]
+    ],
+    "attack": 70,
+    "magicAtk": 50,
+    "defense": 25,
+    "magicDef": 65,
+    "dexterity": 66,
+    "skills": []
   },
   {
     "name": "Underwater MP",
@@ -7219,7 +8833,13 @@
     ],
     "drops": [
       "Grenade"
-    ]
+    ],
+    "attack": 70,
+    "magicAtk": 65,
+    "defense": 40,
+    "magicDef": 62,
+    "dexterity": 62,
+    "skills": []
   },
   {
     "name": "Unknown",
@@ -7247,7 +8867,13 @@
     "drops": [
       "Light Curtain",
       "Power Source"
-    ]
+    ],
+    "attack": 110,
+    "magicAtk": 110,
+    "defense": 55,
+    "magicDef": 55,
+    "dexterity": 110,
+    "skills": []
   },
   {
     "name": "Unknown 2",
@@ -7274,7 +8900,13 @@
     "drops": [
       "Lunar Curtain",
       "Guard Source"
-    ]
+    ],
+    "attack": 130,
+    "magicAtk": 130,
+    "defense": 65,
+    "magicDef": 65,
+    "dexterity": 130,
+    "skills": []
   },
   {
     "name": "Unknown 3",
@@ -7303,7 +8935,13 @@
     "drops": [
       "Holy Torch",
       "Magic Source"
-    ]
+    ],
+    "attack": 150,
+    "magicAtk": 150,
+    "defense": 75,
+    "magicDef": 75,
+    "dexterity": 150,
+    "skills": []
   },
   {
     "name": "Valron",
@@ -7325,7 +8963,13 @@
     "steal": [],
     "drops": [
       "Hi-Potion"
-    ]
+    ],
+    "attack": 50,
+    "magicAtk": 45,
+    "defense": 25,
+    "magicDef": 90,
+    "dexterity": 49,
+    "skills": []
   },
   {
     "name": "Vargid Police",
@@ -7350,7 +8994,13 @@
     "drops": [
       "Phoenix Down",
       "Tranquilizer"
-    ]
+    ],
+    "attack": 12,
+    "magicAtk": 24,
+    "defense": 8,
+    "magicDef": 10,
+    "dexterity": 48,
+    "skills": []
   },
   {
     "name": "Velcher Task",
@@ -7377,7 +9027,13 @@
     "drops": [
       "Hi-Potion",
       "Remedy"
-    ]
+    ],
+    "attack": 50,
+    "magicAtk": 45,
+    "defense": 25,
+    "magicDef": 65,
+    "dexterity": 58,
+    "skills": []
   },
   {
     "name": "Vice",
@@ -7404,7 +9060,13 @@
     ],
     "drops": [
       "Potion"
-    ]
+    ],
+    "attack": 14,
+    "magicAtk": 0,
+    "defense": 7,
+    "magicDef": 0,
+    "dexterity": 62,
+    "skills": []
   },
   {
     "name": "Vlakorados",
@@ -7432,7 +9094,13 @@
     "drops": [
       "Carob Nut",
       "Elixir"
-    ]
+    ],
+    "attack": 60,
+    "magicAtk": 57,
+    "defense": 30,
+    "magicDef": 24,
+    "dexterity": 73,
+    "skills": []
   },
   {
     "name": "Warning Board",
@@ -7453,7 +9121,13 @@
     "ap": 4,
     "gil": 75,
     "steal": [],
-    "drops": []
+    "drops": [],
+    "attack": 10,
+    "magicAtk": 0,
+    "defense": 5,
+    "magicDef": 7,
+    "dexterity": 40,
+    "skills": []
   },
   {
     "name": "Waterpolo",
@@ -7473,7 +9147,13 @@
     "ap": 0,
     "gil": 0,
     "steal": [],
-    "drops": []
+    "drops": [],
+    "attack": 1,
+    "magicAtk": 1,
+    "defense": 50,
+    "magicDef": 127,
+    "dexterity": 1,
+    "skills": []
   },
   {
     "name": "Whole Eater",
@@ -7496,7 +9176,13 @@
     ],
     "drops": [
       "Potion"
-    ]
+    ],
+    "attack": 30,
+    "magicAtk": 0,
+    "defense": 7,
+    "magicDef": 40,
+    "dexterity": 58,
+    "skills": []
   },
   {
     "name": "Wind Wing",
@@ -7522,7 +9208,13 @@
     ],
     "drops": [
       "Phoenix Down"
-    ]
+    ],
+    "attack": 75,
+    "magicAtk": 45,
+    "defense": 30,
+    "magicDef": 32,
+    "dexterity": 65,
+    "skills": []
   },
   {
     "name": "Wolfmeister",
@@ -7546,7 +9238,13 @@
     "ap": 100,
     "gil": 600,
     "steal": [],
-    "drops": []
+    "drops": [],
+    "attack": 140,
+    "magicAtk": 100,
+    "defense": 50,
+    "magicDef": 120,
+    "dexterity": 124,
+    "skills": []
   },
   {
     "name": "XCannon",
@@ -7573,7 +9271,13 @@
     "steal": [],
     "drops": [
       "Turbo Ether"
-    ]
+    ],
+    "attack": 80,
+    "magicAtk": 60,
+    "defense": 60,
+    "magicDef": 200,
+    "dexterity": 80,
+    "skills": []
   },
   {
     "name": "Yang",
@@ -7599,7 +9303,13 @@
     "ap": 40,
     "gil": 400,
     "steal": [],
-    "drops": []
+    "drops": [],
+    "attack": 5,
+    "magicAtk": 32,
+    "defense": 25,
+    "magicDef": 210,
+    "dexterity": 75,
+    "skills": []
   },
   {
     "name": "Ying",
@@ -7622,7 +9332,13 @@
     "ap": 30,
     "gil": 400,
     "steal": [],
-    "drops": []
+    "drops": [],
+    "attack": 75,
+    "magicAtk": 5,
+    "defense": 210,
+    "magicDef": 25,
+    "dexterity": 75,
+    "skills": []
   },
   {
     "name": "Zemzelett",
@@ -7652,7 +9368,13 @@
     "steal": [],
     "drops": [
       "Hi-Potion"
-    ]
+    ],
+    "attack": 30,
+    "magicAtk": 30,
+    "defense": 25,
+    "magicDef": 25,
+    "dexterity": 58,
+    "skills": []
   },
   {
     "name": "Zenene",
@@ -7686,7 +9408,13 @@
     "drops": [
       "Ether",
       "Remedy"
-    ]
+    ],
+    "attack": 26,
+    "magicAtk": 16,
+    "defense": 10,
+    "magicDef": 10,
+    "dexterity": 60,
+    "skills": []
   },
   {
     "name": "Zolokalter",
@@ -7711,7 +9439,13 @@
     "drops": [
       "X-Potion",
       "Antidote"
-    ]
+    ],
+    "attack": 70,
+    "magicAtk": 50,
+    "defense": 29,
+    "magicDef": 40,
+    "dexterity": 58,
+    "skills": []
   },
   {
     "name": "Zuu",
@@ -7740,6 +9474,12 @@
     ],
     "drops": [
       "Bird Wing"
-    ]
+    ],
+    "attack": 55,
+    "magicAtk": 40,
+    "defense": 25,
+    "magicDef": 75,
+    "dexterity": 64,
+    "skills": []
   }
 ]

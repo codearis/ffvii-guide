@@ -16,10 +16,63 @@ const SORTS: Record<string, { label: string; cmp: (a: Enemy, b: Enemy) => number
 
 // expoentes medidos na tabela do Mystery Ninja — o único inimigo que o próprio FF7 escala
 // por nível (6 tiers, Lv 17→42). HP cresce ~lv^1.57, AP ~lv^1.95, e assim por diante.
-const K: Record<string, number> = { hp: 1.57, mp: 1.14, exp: 1.73, ap: 1.95, gil: 1.7 }
+const K: Record<string, number> = {
+  hp: 1.57,
+  mp: 1.14,
+  exp: 1.73,
+  ap: 1.95,
+  gil: 1.7,
+  attack: 0.51,
+  magicAtk: 0.72,
+  defense: 0.44,
+  magicDef: 0.76,
+}
 
-const scale = (v: number | null, from: number | null, to: number, stat: string) =>
-  v == null || !from ? v : Math.round(v * Math.pow(to / from, K[stat]))
+const scale = (v: number | null | undefined, from: number | null, to: number, stat: string) =>
+  v == null || !from ? null : Math.round(v * Math.pow(to / from, K[stat]))
+
+// fórmulas de dano do FF7 (Enemy Mechanics): físico usa Attack e Level; mágico usa Magic atk.
+// O resultado é o dano contra defesa 0 — a defesa do alvo corta na proporção (512-Def)/512.
+const baseDamage = (type: string, atk: number | null, matk: number | null, lv: number) => {
+  if (type === 'magical') return matk == null ? null : 6 * (matk + lv)
+  if (atk == null) return null
+  return atk + Math.floor((atk + lv) / 32) * Math.floor((atk * lv) / 32)
+}
+
+function SkillTable({ e, lv }: { e: Enemy; lv: number }) {
+  const atk = scale(e.attack, e.level, lv, 'attack')
+  const matk = scale(e.magicAtk, e.level, lv, 'magicAtk')
+  const skills = e.skills ?? []
+  if (!skills.length)
+    return e.attacks.length ? (
+      <p className="modal-line dim">
+        <span className="wt-label">Skills:</span> {e.attacks.join(', ')}
+      </p>
+    ) : null
+  return (
+    <>
+      <h3>Skills no Level {lv}</h3>
+      <table className="skill-table">
+        <tbody>
+          {skills.map(s => {
+            const base = baseDamage(s.type, atk, matk, lv)
+            const dmg = base == null || s.multiplier == null ? null : Math.round(base * s.multiplier)
+            return (
+              <tr key={s.name}>
+                <td className="hl">{s.name}</td>
+                <td className="num">{dmg == null ? '—' : `~${fmtNum(dmg)}`}</td>
+                <td className="dim">{s.desc}</td>
+              </tr>
+            )
+          })}
+        </tbody>
+      </table>
+      <p className="dim sub">
+        Dano contra defesa 0 — a defesa do alvo reduz na proporção (512 − Def) / 512.
+      </p>
+    </>
+  )
+}
 
 // detalhe fica em modal: o slider fora da tabela evita reflow das ~290 linhas a cada arrasto
 function EnemyModal({ e, onClose }: { e: Enemy; onClose: () => void }) {
@@ -57,6 +110,10 @@ function EnemyModal({ e, onClose }: { e: Enemy; onClose: () => void }) {
         )}
         {row('HP', e.hp, 'hp')}
         {row('MP', e.mp, 'mp')}
+        {e.attack != null && row('Ataque', e.attack, 'attack')}
+        {e.magicAtk != null && row('Ataque mágico', e.magicAtk, 'magicAtk')}
+        {e.defense != null && row('Defesa', e.defense, 'defense')}
+        {e.magicDef != null && row('Defesa mágica', e.magicDef, 'magicDef')}
         {row('EXP', e.exp, 'exp')}
         {row('AP', e.ap, 'ap')}
         {row('Gil', e.gil, 'gil')}
@@ -65,11 +122,7 @@ function EnemyModal({ e, onClose }: { e: Enemy; onClose: () => void }) {
             <span className="wt-label">Fraquezas:</span> {e.weaknesses.join(', ')}
           </p>
         )}
-        {e.attacks.length > 0 && (
-          <p className="modal-line dim">
-            <span className="wt-label">Skills:</span> {e.attacks.join(', ')}
-          </p>
-        )}
+        <SkillTable e={e} lv={lv} />
         <p className="modal-line dim">
           {e.absorbs.length > 0 && <>Absorve: {e.absorbs.join(', ')} · </>}
           {e.resistances.length > 0 && <>Resiste: {e.resistances.join(', ')} · </>}

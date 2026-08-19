@@ -43,11 +43,25 @@ export interface Character {
   limits: LimitBreak[]
 }
 
+export interface EnemySkill {
+  name: string
+  multiplier: number | null
+  type: string
+  accuracy: number | null
+  desc: string
+}
+
 export interface Enemy {
   name: string
   level: number | null
   hp: number | null
   mp: number | null
+  attack?: number | null
+  magicAtk?: number | null
+  defense?: number | null
+  magicDef?: number | null
+  dexterity?: number | null
+  skills?: EnemySkill[]
   type: string
   weaknesses: string[]
   resistances: string[]
