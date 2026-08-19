@@ -65,19 +65,40 @@ h3 {
   text-transform: uppercase;
 }
 
-.music-btn {
-  position: fixed;
-  top: 10px;
-  right: 10px;
-  z-index: 20;
+.header-row {
+  display: flex;
+  gap: 10px;
+  align-items: stretch;
+}
+
+.header-row .title-window {
+  flex: 1;
+  min-width: 0;
+}
+
+/* caixa lateral ocupa toda a altura do título */
+.side-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px;
+}
+
+.side-btn {
+  background: #0a1454;
+  border: 2px solid #8f8f8f;
+  border-radius: 5px;
   padding: 5px 10px;
   color: #f0e440;
   font: inherit;
   font-size: 13px;
+  text-shadow: 1px 1px 0 #000;
   cursor: pointer;
+  white-space: nowrap;
 }
 
-.music-btn.off {
+.side-btn.off {
   color: #8f8f8f;
 }
 
@@ -282,6 +303,23 @@ td {
   color: #9ab8ff;
   font-size: 12px;
   white-space: nowrap;
+}
+
+/* sprite ao lado do texto, sem float — o card fecha na altura do conteúdo */
+.detail-body {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+}
+
+.detail-body > div {
+  flex: 1;
+  min-width: 0;
+}
+
+.detail-body .enemy-sprite-lg {
+  float: none;
+  margin: 0;
 }
 
 .detail-lv {
@@ -640,6 +678,15 @@ h4 {
   .tabs {
     display: grid;
     grid-template-columns: 1fr 1fr;
+  }
+
+  .side-box {
+    padding: 8px;
+  }
+
+  .side-btn {
+    font-size: 11px;
+    padding: 5px 6px;
   }
 
   .tab {

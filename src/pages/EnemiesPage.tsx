@@ -29,26 +29,33 @@ function EnemyDetail({ e }: { e: Enemy }) {
   const gil = scale(e.gil, base, lv)
   const changed = base != null && lv !== base
   return (
-    <>
-      <Sprite name={e.name} large />
-      {base != null && (
-        <label className="lv-slider detail-lv">
-          Level {lv}
-          <input type="range" min={1} max={99} value={lv} onChange={ev => setLv(Number(ev.target.value))} />
-          {changed ? <span className="dim">base {base} · estimado</span> : <span className="dim">base</span>}
-        </label>
-      )}
-      <p className="modal-line">
-        HP <strong>{fmtNum(hp)}</strong> · MP <strong>{fmtNum(mp)}</strong> · EXP {fmtNum(exp)} · AP{' '}
-        {fmtNum(ap)} · Gil {fmtNum(gil)}
-      </p>
-      <p className="modal-line dim">
-        {e.absorbs.length > 0 && <>Absorve: {e.absorbs.join(', ')} · </>}
-        {e.resistances.length > 0 && <>Resiste: {e.resistances.join(', ')} · </>}
-        {e.steal.length > 0 && <>Roubo: {e.steal.join(', ')} · </>}
-        {e.drops.length > 0 && <>Drop: {e.drops.join(', ')}</>}
-      </p>
-    </>
+    <div className="detail-body">
+      <div>
+        {base != null && (
+          <label className="lv-slider detail-lv">
+            Level {lv}
+            <input
+              type="range"
+              min={1}
+              max={99}
+              value={lv}
+              onChange={ev => setLv(Number(ev.target.value))}
+            />
+            <span className="dim">{changed ? `base ${base} · estimado` : 'base'}</span>
+          </label>
+        )}
+        <p className="modal-line">
+          HP <strong>{fmtNum(hp)}</strong> · MP <strong>{fmtNum(mp)}</strong> · EXP {fmtNum(exp)} ·
+          AP {fmtNum(ap)} · Gil {fmtNum(gil)}
+        </p>
+        <p className="modal-line dim">
+          {e.absorbs.length > 0 && <>Absorve: {e.absorbs.join(', ')} · </>}
+          {e.resistances.length > 0 && <>Resiste: {e.resistances.join(', ')} · </>}
+          {e.steal.length > 0 && <>Roubo: {e.steal.join(', ')} · </>}
+          {e.drops.length > 0 && <>Drop: {e.drops.join(', ')}</>}
+        </p>
+      </div>
+    </div>
   )
 }
 

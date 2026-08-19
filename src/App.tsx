@@ -1,5 +1,8 @@
 import { useEffect, useRef, useState } from 'react'
-import { asset } from './lib'
+import { asset, slugify } from './lib'
+import enemiesRaw from './data/enemies.json'
+import walkthroughRaw from './data/walkthrough.json'
+import charactersRaw from './data/characters.json'
 import SearchPage from './pages/SearchPage'
 import ItemsPage from './pages/ItemsPage'
 import MateriaPage from './pages/MateriaPage'
@@ -26,16 +29,21 @@ export default function App() {
   const beep = useCursorSfx()
   return (
     <div className="app">
-      <MusicButton />
-      <header className="window title-window">
-        {logoOk && (
-          <img className="logo" src={asset('img/logo.png')} alt="" onError={() => setLogoOk(false)} />
-        )}
-        <div>
-          <h1>FINAL FANTASY VII</h1>
-          <span className="subtitle">Guia Completo — PSX</span>
+      <div className="header-row">
+        <header className="window title-window">
+          {logoOk && (
+            <img className="logo" src={asset('img/logo.png')} alt="" onError={() => setLogoOk(false)} />
+          )}
+          <div>
+            <h1>FINAL FANTASY VII</h1>
+            <span className="subtitle">Guia Completo — PSX</span>
+          </div>
+        </header>
+        <div className="window side-box">
+          <MusicButton />
+          <OfflineButton />
         </div>
-      </header>
+      </div>
       <nav className="tabs">
         {TABS.map(t => (
           <button
@@ -109,13 +117,60 @@ function MusicButton() {
     <>
       <audio ref={audioRef} src={asset('audio/prelude.m4a')} loop preload="auto" />
       <button
-        className={`window music-btn ${on ? '' : 'off'}`}
+        className={`side-btn ${on ? '' : 'off'}`}
         onClick={() => setOn(!on)}
         title="Música de fundo (Prelude)"
       >
         {on ? '♪ ON' : '♪ OFF'}
       </button>
     </>
+  )
+}
+
+// baixa todas as imagens/áudios para o cache do service worker, deixando o guia 100% offline
+function OfflineButton() {
+  const [pct, setPct] = useState<number | null>(null)
+  const urls = () => {
+    const chars = (charactersRaw as { id: string }[]).map(c => `img/characters/${c.id}.png`)
+    const icons = [
+      'armor',
+      'accessory',
+      'item',
+      ...(charactersRaw as { shortName: string }[]).map(c => `weapon-${slugify(c.shortName)}`),
+    ].map(n => `img/icons/${n}.png`)
+    return [
+      ...(enemiesRaw as { name: string }[]).map(e => `img/enemies/${slugify(e.name)}.png`),
+      ...(walkthroughRaw as { id: string }[]).map(c => `img/walkthrough/${c.id}.png`),
+      ...chars,
+      ...icons,
+      'img/logo.png',
+      'img/cursor.png',
+      'audio/prelude.m4a',
+      'audio/cursor.m4a',
+      'icon-192.png',
+      'icon-512.png',
+    ].map(asset)
+  }
+  const download = async () => {
+    const list = urls()
+    let done = 0
+    setPct(0)
+    for (let i = 0; i < list.length; i += 8) {
+      await Promise.all(
+        list.slice(i, i + 8).map(u =>
+          fetch(u).catch(() => {}).finally(() => {
+            done++
+          })
+        )
+      )
+      setPct(Math.round((done * 100) / list.length))
+    }
+    setPct(100)
+  }
+  return (
+    <button className="side-btn" onClick={download} title="Baixar tudo para uso offline">
+      {pct == null ? '⬇ Offline' : pct === 100 ? '✓ Offline' : `⬇ ${pct}%`}
+    </button>
   )
 }
 
