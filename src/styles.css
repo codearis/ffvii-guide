@@ -571,8 +571,11 @@ h4 {
   text-decoration: none;
 }
 
+/* capítulos fora da tela não entram em layout/paint — 62 seções longas ficariam pesadas */
 .wt-chapter {
   scroll-margin-top: 10px;
+  content-visibility: auto;
+  contain-intrinsic-size: auto 600px;
 }
 
 .wt-head {

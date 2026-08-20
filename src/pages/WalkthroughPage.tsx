@@ -48,21 +48,35 @@ const linkRe = new RegExp(
   'g'
 )
 
-function Linkify({ text, onOpen }: { text: string; onOpen: (name: string) => void }) {
-  const parts: ReactNode[] = []
+// o regex tem ~600 alternativas; o resultado é cacheado por texto para não repetir a cada render
+const parseCache = new Map<string, { t: string; ref: boolean }[]>()
+
+const parseRefs = (text: string) => {
+  const hit = parseCache.get(text)
+  if (hit) return hit
+  const parts: { t: string; ref: boolean }[] = []
   let last = 0
   for (const m of text.matchAll(linkRe)) {
     const i = m.index!
-    if (i > last) parts.push(text.slice(last, i))
-    const name = m[0]
-    parts.push(
-      <button key={i} className="ref-link" onClick={() => onOpen(name)}>
-        {name}
-      </button>
-    )
-    last = i + name.length
+    if (i > last) parts.push({ t: text.slice(last, i), ref: false })
+    parts.push({ t: m[0], ref: true })
+    last = i + m[0].length
   }
-  parts.push(text.slice(last))
+  if (last < text.length) parts.push({ t: text.slice(last), ref: false })
+  parseCache.set(text, parts)
+  return parts
+}
+
+function Linkify({ text, onOpen }: { text: string; onOpen: (name: string) => void }) {
+  const parts: ReactNode[] = parseRefs(text).map((p, i) =>
+    p.ref ? (
+      <button key={i} className="ref-link" onClick={() => onOpen(p.t)}>
+        {p.t}
+      </button>
+    ) : (
+      p.t
+    )
+  )
   return <>{parts}</>
 }
 
@@ -183,32 +197,6 @@ function Photo({ id, title }: { id: string; title: string }) {
   )
 }
 
-// fotos extras do capítulo (mapas e pontos de item), numeradas: {id}-2.png, {id}-3.png...
-function Gallery({ id }: { id: string }) {
-  const [shown, setShown] = useState<string[]>([])
-  return (
-    <>
-      <div className="wt-gallery">
-        {shown.map(src => (
-          <img key={src} className="wt-thumb" src={src} alt="" loading="lazy" />
-        ))}
-      </div>
-      {[2, 3, 4].map(n => {
-        const src = asset(`img/walkthrough/${id}-${n}.png`)
-        return shown.includes(src) ? null : (
-          <img
-            key={n}
-            src={src}
-            alt=""
-            hidden
-            onLoad={() => setShown(s => (s.includes(src) ? s : [...s, src]))}
-          />
-        )
-      })}
-    </>
-  )
-}
-
 export default function WalkthroughPage() {
   const [ref, setRef] = useState<string | null>(null)
   const [disc, setDisc] = useState(0) // 0 = todos
@@ -261,7 +249,6 @@ export default function WalkthroughPage() {
               </li>
             ))}
           </ol>
-          <Gallery id={c.id} />
           {c.items.length > 0 && (
             <p className="dim">
               <strong className="wt-label">Itens:</strong>{' '}
