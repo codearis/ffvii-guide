@@ -604,6 +604,26 @@ h4 {
   font-weight: normal;
 }
 
+.wt-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 8px 0;
+}
+
+.wt-thumb {
+  width: 180px;
+  max-width: 46%;
+  border-radius: 4px;
+  border: 1px solid #ffffff33;
+}
+
+.missables {
+  margin-top: 8px;
+  border-left: 3px solid #f0e440;
+  padding-left: 10px;
+}
+
 .ref-link {
   background: none;
   border: none;

@@ -36,7 +36,7 @@ export default function App() {
           )}
           <div>
             <h1>FINAL FANTASY VII</h1>
-            <span className="subtitle">Guia Completo — PSX</span>
+            <span className="subtitle">Guia Completo — PSX / PC</span>
           </div>
         </header>
         <div className="window side-box">

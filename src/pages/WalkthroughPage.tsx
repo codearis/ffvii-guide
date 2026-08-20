@@ -13,9 +13,11 @@ interface Chapter {
   title: string
   location: string
   disc: number
+  photo?: string | null
   steps: string[]
   items: string[]
   boss: string | null
+  missables?: string[]
 }
 
 const chapters = walkthroughRaw as Chapter[]
@@ -181,27 +183,65 @@ function Photo({ id, title }: { id: string; title: string }) {
   )
 }
 
+// fotos extras do capítulo (mapas e pontos de item), numeradas: {id}-2.png, {id}-3.png...
+function Gallery({ id }: { id: string }) {
+  const [shown, setShown] = useState<string[]>([])
+  return (
+    <>
+      <div className="wt-gallery">
+        {shown.map(src => (
+          <img key={src} className="wt-thumb" src={src} alt="" loading="lazy" />
+        ))}
+      </div>
+      {[2, 3, 4].map(n => {
+        const src = asset(`img/walkthrough/${id}-${n}.png`)
+        return shown.includes(src) ? null : (
+          <img
+            key={n}
+            src={src}
+            alt=""
+            hidden
+            onLoad={() => setShown(s => (s.includes(src) ? s : [...s, src]))}
+          />
+        )
+      })}
+    </>
+  )
+}
+
 export default function WalkthroughPage() {
   const [ref, setRef] = useState<string | null>(null)
+  const [disc, setDisc] = useState(0) // 0 = todos
   if (!chapters.length)
     return (
       <div className="window">
         <p className="dim">Detonado ainda não carregado.</p>
       </div>
     )
+  const shown = disc ? chapters.filter(c => c.disc === disc) : chapters
   return (
     <>
       <div className="window">
-        <h3>Detonado — índice</h3>
+        <div className="filters">
+          {[0, 1, 2, 3].map(d => (
+            <button
+              key={d}
+              className={`chip ${disc === d ? 'active' : ''}`}
+              onClick={() => setDisc(d)}
+            >
+              {d === 0 ? 'Tudo' : `Disco ${d}`}
+            </button>
+          ))}
+        </div>
         <div className="wt-index">
-          {chapters.map((c, k) => (
+          {shown.map((c, k) => (
             <a key={c.id} className="chip" href={`#${c.id}`}>
               {k + 1}. {c.title}
             </a>
           ))}
         </div>
       </div>
-      {chapters.map((c, k) => (
+      {shown.map((c, k) => (
         <div key={c.id} id={c.id} className="window wt-chapter">
           <div className="wt-head">
             <div>
@@ -212,7 +252,7 @@ export default function WalkthroughPage() {
                 {c.location} · Disco {c.disc}
               </p>
             </div>
-            <Photo id={c.id} title={c.title} />
+            <Photo id={c.photo ?? c.id} title={c.title} />
           </div>
           <ol className="wt-steps">
             {c.steps.map((s, i) => (
@@ -221,6 +261,7 @@ export default function WalkthroughPage() {
               </li>
             ))}
           </ol>
+          <Gallery id={c.id} />
           {c.items.length > 0 && (
             <p className="dim">
               <strong className="wt-label">Itens:</strong>{' '}
@@ -236,6 +277,18 @@ export default function WalkthroughPage() {
             <p>
               <strong className="wt-label">Boss:</strong> <Linkify text={c.boss} onOpen={setRef} />
             </p>
+          )}
+          {c.missables && c.missables.length > 0 && (
+            <div className="missables">
+              <strong className="wt-label">Não perca:</strong>
+              <ul className="fx-list">
+                {c.missables.map((m, i) => (
+                  <li key={i} className="dim">
+                    <Linkify text={m} onOpen={setRef} />
+                  </li>
+                ))}
+              </ul>
+            </div>
           )}
         </div>
       ))}

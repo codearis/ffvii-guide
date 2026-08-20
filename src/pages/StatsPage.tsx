@@ -45,7 +45,7 @@ const NOTES = [
   'Limites: HP 9999 · MP 999 · stats primários 255 · Level 99.',
   'Sources (Power, Guard, Magic, Mind, Speed, Luck) aumentam o stat permanentemente em +1 e são obtidas principalmente com o comando Morph em inimigos.',
   'Barra de Limit: enche proporcionalmente ao dano recebido. Fury (Hyper) faz encher mais rápido mas reduz a precisão física; Sadness (Tranquilizer) reduz ~30% do dano recebido mas enche a barra mais devagar.',
-  'Bug do PSX: a Magic def listada nas armaduras NÃO é aplicada na versão original de PlayStation — só o Spirit conta na defesa mágica.',
+  'Magic Defense bug: na versão original de PlayStation a Magic def das armaduras não é aplicada — só o Spirit conta. Foi corrigido no re-release de PC (2012), onde a armadura conta normalmente.',
   'EXP sobe o Level (e os stats primários a cada level); AP evolui as materias equipadas conforme o Growth da arma/armadura (None, Normal, Double, Triple).',
 ]
 
