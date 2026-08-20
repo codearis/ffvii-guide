@@ -1,6 +1,7 @@
 import { useMemo, useState } from 'react'
 import materiaRaw from '../data/materia.json'
 import { MATERIA_TYPES as TYPES, Materia, fmtNum } from '../lib'
+import { searchAliases, useName, useText } from '../version'
 
 const materia = materiaRaw as Materia[]
 
@@ -10,6 +11,8 @@ function Orb({ type }: { type: string }) {
 }
 
 export default function MateriaPage() {
+  const name = useName()
+  const text = useText()
   const [q, setQ] = useState('')
   const [type, setType] = useState('Todas')
   const rows = useMemo(() => {
@@ -17,9 +20,9 @@ export default function MateriaPage() {
     return materia.filter(
       m =>
         (type === 'Todas' || m.type === type) &&
-        (m.name.toLowerCase().includes(query) ||
+        (searchAliases(m.name).toLowerCase().includes(query) ||
           m.description.toLowerCase().includes(query) ||
-          m.abilities.some(a => a.toLowerCase().includes(query)))
+          m.abilities.some(a => searchAliases(a).toLowerCase().includes(query)))
     )
   }, [q, type])
 
@@ -54,14 +57,15 @@ export default function MateriaPage() {
               <tr key={m.name}>
                 <td className="hl">
                   <Orb type={m.type} />
-                  {m.name}
-                  <div className="dim sub">{m.description}</div>
+                  {name(m.name)}
+                  {name(m.name) !== m.name && <span className="dim sub"> ({m.name})</span>}
+                  <div className="dim sub">{text(m.description)}</div>
                 </td>
                 <td data-label="Tipo">{TYPES[m.type]?.label ?? m.type}</td>
                 <td className="dim" data-label="AP">
                   {m.ap.length ? m.ap.map(n => n.toLocaleString('pt-BR')).join(' / ') : '—'}
                 </td>
-                <td className="dim" data-label="Habilidades">{m.abilities.join(', ') || '—'}</td>
+                <td className="dim" data-label="Habilidades">{m.abilities.map(name).join(', ') || '—'}</td>
                 <td className="num" data-label="Gil">{fmtNum(m.gil)}</td>
                 <td className="dim" data-label="Onde obter">{m.location}</td>
               </tr>

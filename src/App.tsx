@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import { asset, slugify } from './lib'
+import { Version, setVersion, useVersion } from './version'
 import enemiesRaw from './data/enemies.json'
 import walkthroughRaw from './data/walkthrough.json'
 import charactersRaw from './data/characters.json'
@@ -40,6 +41,7 @@ export default function App() {
           </div>
         </header>
         <div className="window side-box">
+          <VersionButton />
           <MusicButton />
           <OfflineButton />
         </div>
@@ -124,6 +126,21 @@ function MusicButton() {
         {on ? '♪ ON' : '♪ OFF'}
       </button>
     </>
+  )
+}
+
+// alterna entre o FF7 clássico e a retradução Shinra Archaeology Cut (nomes diferentes)
+function VersionButton() {
+  const v = useVersion()
+  const next: Version = v === 'classic' ? 'sac' : 'classic'
+  return (
+    <button
+      className="side-btn"
+      onClick={() => setVersion(next)}
+      title="Versão dos nomes: clássico ou Shinra Archaeology Cut"
+    >
+      {v === 'classic' ? 'Clássico' : 'SAC'}
+    </button>
   )
 }
 

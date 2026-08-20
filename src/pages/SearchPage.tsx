@@ -7,6 +7,7 @@ import enemiesRaw from '../data/enemies.json'
 import { Character, Enemy, Item, Materia, Weapon, fmtNum, splitSlots } from '../lib'
 import Slots from '../Slots'
 import Icon from '../Icon'
+import { searchAliases, useName, useText } from '../version'
 
 interface Hit {
   cat: string
@@ -100,13 +101,15 @@ const hits: Hit[] = [
 ]
 
 export default function SearchPage() {
+  const name = useName()
+  const text = useText()
   const [q, setQ] = useState('')
   const rows = useMemo(() => {
     const query = q.trim().toLowerCase()
     if (!query) return []
     return hits.filter(
       h =>
-        h.name.toLowerCase().includes(query) ||
+        searchAliases(h.name).toLowerCase().includes(query) ||
         h.detail.toLowerCase().includes(query) ||
         h.cat.toLowerCase().includes(query)
     )
@@ -140,7 +143,8 @@ export default function SearchPage() {
                   <tr key={k}>
                     <td className="hl">
                       <Icon section={h.cat} character={h.character} />
-                      {h.name}
+                      {name(h.name)}
+                      {name(h.name) !== h.name && <span className="dim sub"> ({h.name})</span>}
                     </td>
                     <td data-label="Categoria">{h.cat}</td>
                     <td className="num" data-label="Gil">{fmtNum(h.gil)}</td>
@@ -150,7 +154,7 @@ export default function SearchPage() {
                           <Slots str={h.slots} />{' '}
                         </>
                       )}
-                      {h.detail}
+                      {text(h.detail)}
                     </td>
                   </tr>
                 ))}

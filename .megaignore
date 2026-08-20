@@ -1,0 +1,6 @@
+# Arquivos que não devem subir para o MEGA (regeneráveis ou pesados)
+-d:node_modules
+-d:dist
+-d:.git
+-f:*.log
+-f:.DS_Store

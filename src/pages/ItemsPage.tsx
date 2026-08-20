@@ -4,6 +4,7 @@ import weaponsRaw from '../data/weapons.json'
 import { Item, Weapon, fmtNum, splitSlots } from '../lib'
 import Slots from '../Slots'
 import Icon from '../Icon'
+import { searchAliases, useName, useText } from '../version'
 
 const items = itemsRaw as Item[]
 const weapons = weaponsRaw as Weapon[]
@@ -28,6 +29,8 @@ const all: Row[] = [
 const SECTIONS = ['Todas', 'Itens', 'Armas', 'Armaduras', 'Acessórios', 'Itens-Chave']
 
 export default function ItemsPage() {
+  const name = useName()
+  const text = useText()
   const [q, setQ] = useState('')
   const [sec, setSec] = useState('Todas')
   const rows = useMemo(() => {
@@ -35,7 +38,7 @@ export default function ItemsPage() {
     return all.filter(
       i =>
         (sec === 'Todas' || i.section === sec) &&
-        (i.name.toLowerCase().includes(query) || i.description.toLowerCase().includes(query))
+        (searchAliases(i.name).toLowerCase().includes(query) || i.description.toLowerCase().includes(query))
     )
   }, [q, sec])
 
@@ -64,7 +67,8 @@ export default function ItemsPage() {
               <tr key={`${i.section}-${i.name}-${k}`}>
                 <td className="hl">
                   <Icon section={i.section} character={i.character} />
-                  {i.name}
+                  {name(i.name)}
+                  {name(i.name) !== i.name && <span className="dim sub"> ({i.name})</span>}
                 </td>
                 <td data-label="Seção">{i.section}</td>
                 <td className="num" data-label="Gil">{fmtNum(i.gil)}</td>
@@ -74,7 +78,7 @@ export default function ItemsPage() {
                       <Slots str={i.slots} />{' '}
                     </>
                   )}
-                  {i.description}
+                  {text(i.description)}
                 </td>
               </tr>
             ))}
