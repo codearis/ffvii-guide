@@ -915,19 +915,23 @@
     "disc": 1,
     "photo": null,
     "steps": [
-      "Se ainda não recrutou Yuffie, ela aparece como encontro aleatório em qualquer campo do mapa-mundo (não precisa ser perto de Wutai): uma garota o confronta dizendo que ele deixou cair algo e desafia o grupo. Vença ou não a luta, ela se junta ao grupo logo depois — é a única forma de destravá-la.",
-      "Com Yuffie na equipe, siga de navio/Tiny Bronco até o continente de Wutai e entre na cidade. Uma cutscene mostra Yuffie levando o grupo até lá, orgulhosa de sua terra natal.",
-      "À noite, hospede-se na pousada. Durante o sono, Yuffie rouba todas as materias equipadas e do inventário do grupo e foge — vocês acordam sem nenhuma materia, só com os itens normais.",
-      "Explore Wutai sem materia: além da Item Shop e da Weapon Shop, vasculhe as casas da vila em busca de pistas. Em uma delas há uma cena cômica com Don Corneo, escondido em Wutai desde que fugiu de Midgar após o Setor 7 desabar.",
-      "Você vai enfrentar, um a um, os quatro seguranças de Godo (pai de Yuffie) escondidos pela cidade — Staniv, Shake, Chekhov e Gorki — cada um guardando uma casa/pista diferente. São lutas sem materia, só com armas e comandos básicos.",
-      "Depois dos quatro, confronte Godo em pessoa na mansão dele. Ele revela que Yuffie fugiu com a materia para o topo do Pagoda dos Cinco Deuses, envergonhada com o próprio plano.",
-      "Suba o Pagoda dos Cinco Deuses (cinco andares): em cada andar você reencontra e reluta contra um dos mesmos quatro capangas (Staniv, Shake, Chekhov, Gorki), agora em duelos individuais para provar seu valor.",
-      "No topo do Pagoda, antes de reencontrar Yuffie, enfrente o boss Rapps.",
-      "Depois de Rapps, Godo aparece no topo, orgulhoso do desempenho do grupo, e chama Yuffie de volta à razão.",
-      "Yuffie devolve todas as materias roubadas. Se você venceu todas as lutas do Pagoda sem perder nenhuma, ela devolve tudo mais alguns bônus; perder lutas reduz o que ela devolve.",
-      "A partir daqui Yuffie se junta permanentemente (não foge mais) e pode ser usada normalmente no grupo pelo resto do jogo.",
+      "Se ainda não recrutou Yuffie, ela aparece como encontro aleatório em qualquer campo do mapa-mundo (não precisa ser perto de Wutai): uma garota confronta o grupo dizendo que ele deixou cair algo e desafia todos para uma luta. Vença ou não, ela se junta ao grupo logo depois — é a única forma de destravá-la.",
+      "Com Yuffie na equipe, siga de navio/Tiny Bronco até o continente de Wutai. Ao chegar, ela se anima e conta orgulhosa sobre as tradições guerreiras da terra natal — um contraste triste com a cidade real, que virou quase um ponto turístico decadente depois de perder a guerra contra a Shinra.",
+      "Explore Wutai normalmente primeiro: fale com os moradores, visite a Item Shop e a Weapon Shop, e note o clima de derrota e ressentimento que ainda paira sobre a cidade.",
+      "À noite, hospede-se na pousada. Ao acordar, o grupo percebe que todas as materias, equipadas e do inventário, sumiram — Yuffie também desapareceu, e fica claro que ela orquestrou o roubo sozinha.",
+      "Sem nenhuma materia, comece a vasculhar as casas da vila atrás de pistas. As lutas a partir daqui usam só armas e comandos físicos, então cuidado com o HP.",
+      "Uma das casas esconde uma cena cômica: Don Corneo, escondido em Wutai desde que fugiu de Midgar após o desabamento do Setor 7, é encontrado trancado numa espécie de torre/depósito por gente de Godo, confuso e assustado, sem qualquer ligação real com o roubo da materia.",
+      "Em outro ponto da cidade há uma fonte termal (hot spring); investigar ali rende uma cena constrangedora com Elena, dos Turks, que está de tocaia acompanhando a situação de Wutai a mando da Shinra.",
+      "Prossiga confrontando, um a um, os quatro seguranças de Godo (pai de Yuffie) escondidos pela cidade — Staniv, Shake, Chekhov e Gorki — cada um guardando uma casa ou pista diferente sobre o paradeiro da materia.",
+      "Depois dos quatro, confronte Godo em pessoa na mansão dele. Ele revela, contrariado, que Yuffie fugiu com a materia para se esconder no topo do Pagoda dos Cinco Deuses, com vergonha do próprio plano.",
+      "Suba o Pagoda dos Cinco Deuses (cinco andares): em cada andar você reencontra e reluta contra um dos mesmos quatro capangas, agora em duelos individuais para provar o valor do grupo perante Wutai.",
+      "No topo do Pagoda, antes de reencontrar Yuffie, enfrente o boss Rapps, guardião da vista sagrada dos Da-Chao.",
+      "Depois de Rapps, Godo aparece no topo, orgulhoso do desempenho do grupo, e chama Yuffie de volta à razão diante de todos.",
+      "Yuffie, envergonhada e emocionada, devolve todas as materias roubadas. Vencer todas as lutas do Pagoda sem perder nenhuma garante bônus extra; perder lutas reduz o que ela devolve.",
+      "A partir daqui Yuffie se junta permanentemente (não foge mais) e pode ser usada normalmente pelo resto do jogo, com a lealdade a Wutai resolvida de vez.",
       "Aproveite para comprar armas e acessórios na Weapon Shop e Item Shop de Wutai — é o melhor equipamento disponível na região neste ponto da história.",
       "Opcional: numa pequena ilha a leste do continente de Wutai (visível no mapa-mundo, sem cidade) há um baú escondido na praia com a materia All Creation — fácil de esquecer depois.",
+      "Se quiser, volte à fonte termal e às casas da cidade para diálogos extras agora que a crise foi resolvida — vários NPCs comentam o desfecho da sidequest.",
       "Depois de resolvida a sidequest, volte ao mapa-mundo rumo a Bone Village para seguir a trilha do Templo dos Anciões."
     ],
     "items": [
@@ -939,7 +943,8 @@
     "missables": [
       "Recrutar Yuffie via encontro aleatório é opcional — se pular, perde toda a sidequest (materia bônus, Pagoda, loja de Wutai)",
       "Perder lutas no Pagoda reduz a quantidade de materia que Yuffie devolve no final",
-      "A ilha com All Creation é fácil de nunca visitar — sem ela, essa materia fica indisponível por muito tempo"
+      "A ilha com All Creation é fácil de nunca visitar — sem ela, essa materia fica indisponível por muito tempo",
+      "As cenas de Don Corneo na torre e de Elena na fonte termal são flavor único desta sidequest — não voltam a acontecer depois"
     ]
   },
   {
@@ -950,19 +955,24 @@
     "photo": null,
     "steps": [
       "Antes de viajar, garanta que está com a Keystone (conseguida no Gold Saucer) no inventário — sem ela a porta do templo não abre.",
-      "No mapa-mundo, vá até a montanha em formato de templo, região isolada e reconhecível de longe pelo formato incomum. Ao chegar, uma cutscene mostra Tseng dos Turks já no local, adiantado na investigação a mando da Shinra.",
-      "Use a Keystone no altar da entrada para abrir a passagem e liberar o interior do templo.",
+      "No mapa-mundo, vá até a montanha em formato de templo, região isolada e reconhecível de longe pelo formato incomum.",
+      "Ao entrar na área, encontre Tseng, dos Turks, gravemente ferido perto da entrada — ele havia adiantado a investigação a mando da Shinra e foi atacado por algo dentro do templo. Ele avisa o grupo sobre o perigo antes de ser levado dali.",
+      "Use a Keystone no altar da entrada para abrir de fato a passagem e liberar o interior do templo.",
       "Logo nas primeiras salas, o piso e os corredores desafiam a lógica normal: escadas que levam a lugares inesperados e portas que mudam de tamanho — ande com calma e preste atenção nas mudanças de escala do personagem.",
       "Você chega numa sala com um relógio gigante na parede: acerte os ponteiros no horário indicado pelas pistas visuais da sala para destravar a passagem seguinte.",
       "Adiante, um corredor faz o grupo encolher ou crescer de tamanho conforme avança — use isso a seu favor para alcançar aberturas que antes pareciam pequenas demais.",
-      "Há uma sala com múltiplas portas/sarcófagos idênticos: escolher a errada devolve o grupo ao início do corredor num loop; teste sistematicamente até achar a porta certa.",
-      "No meio da masmorra, um combate fixo contra o Red Dragon bloqueia a passagem — é mais forte que os inimigos comuns do templo, então cure proativamente e use magia/limit breaks para acelerar a luta.",
+      "Numa sala com vários sarcófagos/portas idênticas, Cait Sith se oferece como cobaia para testar qual é o caminho seguro: ele entra primeiro, aciona uma armadilha e é esmagado por um mecanismo — um choque para o grupo, até se perceber logo depois que ele é só um boneco mecânico operado à distância por Reeve, que providencia um corpo novo sem custo real.",
+      "Com o caminho seguro revelado pelo sacrifício de Cait Sith, prossiga pela masmorra.",
+      "No meio do trajeto, um combate fixo contra o Red Dragon bloqueia a passagem — é mais forte que os inimigos comuns do templo, então cure proativamente e use magia/limit breaks para acelerar a luta.",
+      "Há uma sala com um grande mural entalhado na pedra contando a história dos Cetra: a lenda da Terra Prometida, o aviso sobre uma calamidade vinda das estrelas (o Meteoro) e o papel dos Ancients em conter esse perigo — pistas importantes para entender o plano de Sephiroth.",
       "Mais à frente há uma sala com uma maquete em miniatura do próprio templo: mover peças da maquete altera fisicamente a estrutura real em outro ponto da masmorra. Normalmente é preciso deixar um personagem operando a maquete enquanto os outros dois avançam pela mudança provocada.",
       "Antes de seguir para o confronto final, revise os baús: itens de cura (Hi-Potion, Ether) e ao menos uma materia estão espalhados pelos corredores — depois que o templo desmorona não dá pra voltar.",
       "No santuário mais interno, enfrente o boss Demons Gate.",
       "Após vencer Demons Gate, uma cutscene mostra o templo inteiro começando a desmoronar e encolher — na verdade, a estrutura toda era a Black Materia, camuflada em forma de templo para conter seu poder.",
-      "Cloud pega a Black Materia, agora do tamanho de uma pedra comum, nas ruínas. O grupo sai do local, que desaparece por completo do mapa-mundo — não há como voltar depois disso.",
-      "De volta ao acampamento/mapa-mundo, é aqui que Aeris começa a se afastar emocionalmente do grupo, pressentindo o que a Black Materia significa — fique atento à cutscene seguinte."
+      "Cloud pega a Black Materia, agora do tamanho de uma pedra comum, nas ruínas. Nesse instante, a influência de Sephiroth toma conta dele: em transe, ele tenta entregar a materia a uma projeção/voz de Sephiroth.",
+      "Aeris tenta impedi-lo e é empurrada com violência por Cloud, caindo no chão — um momento chocante que assusta o próprio Cloud quando ele recupera o controle logo em seguida, horrorizado com o que quase fez e com o que fez a Aeris.",
+      "O grupo sai do templo, que desaparece por completo do mapa-mundo — não há como voltar depois disso. Aeris, abalada mas compreensiva, começa a se afastar emocionalmente do grupo, pressentindo o que a Black Materia significa.",
+      "De volta ao mapa-mundo, o próximo destino natural é Bone Village, seguindo qualquer pista sobre os Ancients — mas fique atento à cutscene seguinte antes de sair."
     ],
     "items": [
       "Black Materia (recompensa da história, obtida após derrotar Demons Gate)",
@@ -971,7 +981,8 @@
     "boss": "Demons Gate — pode agarrar um personagem e tirá-lo da luta temporariamente, reduzindo o grupo ativo para dois; mantenha o HP alto nos que sobram, cure ou ressuscite quem for agarrado assim que possível e concentre dano físico + magia no corpo principal.",
     "missables": [
       "Todo item/materia dentro do Temple of the Ancients precisa ser pego antes de derrotar Demons Gate — o templo desaparece do mapa depois e nunca mais pode ser revisitado",
-      "A Keystone é obrigatória para entrar; sem ela, é preciso ter feito antes a sidequest do Gold Saucer que a fornece"
+      "A Keystone é obrigatória para entrar; sem ela, é preciso ter feito antes a sidequest do Gold Saucer que a fornece",
+      "O sacrifício de Cait Sith no templo não é permanente — ele volta com um corpo novo pouco depois, sem custo real de progresso"
     ]
   },
   {
@@ -981,14 +992,20 @@
     "disc": 1,
     "photo": null,
     "steps": [
-      "Chegando a Bone Village, converse com o chefe da escavação (Chocobo Sam) para entender a mecânica: você paga para contratar cavadores por um tempo limitado numa área de escavação.",
+      "A caminho de Bone Village, o clima do grupo está pesado — Aeris continua quieta e distante desde o incidente no Templo dos Anciões.",
+      "Chegando à cidade, converse com o chefe da escavação (Chocobo Sam) para entender a mecânica: você paga para contratar cavadores por um tempo limitado numa área de escavação.",
+      "Aproveite a pousada para descansar antes de decidir explorar — é um bom ponto para reagrupar o grupo emocionalmente antes do próximo capítulo da história.",
       "No campo de escavação, mova o alvo pelo terreno e escolha onde cavar; cada tentativa consome parte do tempo contratado e pode trazer um item, um baú, ou nada.",
       "O item-chave desta etapa é a Lunar Harp — ela pode aparecer em qualquer ponto de escavação por sorte, então repita a escavação (recontratando cavadores) até encontrá-la.",
       "Aproveite também para tentar conseguir a Umbrella, arma rara de Cait Sith que só aparece através dessa escavação — vale investir GP extra em novas rodadas se o item já foi encontrado.",
       "Outros achados possíveis na escavação incluem itens de cura e acessórios genéricos — não são garantidos, dependem da sorte de cada cavada.",
+      "A escavação pode ser repetida em qualquer visita futura a Bone Village (o Highwind, obtido mais adiante no Disco 2, permite voltar facilmente), então não se preocupe em esgotar tudo agora — mas os itens de história, como a Lunar Harp, precisam ser resolvidos já.",
       "Converse com os moradores/NPCs de Bone Village para dicas extras sobre a Sleeping Forest logo ao norte, incluindo o aviso de que só se atravessa o local tocando a harpa.",
-      "Antes de sair, faça uma parada na pousada de Bone Village para curar o grupo e salvar o jogo — é o último ponto de save antes da sequência da Forgotten City.",
-      "Assim que tiver a Lunar Harp no inventário, siga a pé rumo à Sleeping Forest, adjacente a Bone Village no mapa-mundo."
+      "Na manhã seguinte a uma das noites na pousada, o grupo acorda e percebe que Aeris se foi sozinha durante a madrugada, deixando apenas sua ausência como despedida silenciosa.",
+      "A reação do grupo varia por personagem — Cloud sente que precisa ir atrás dela, ciente de que sua ligação com a Black Materia e com Sephiroth torna a situação urgente.",
+      "Barret e Tifa discutem brevemente o que fazer, mas a decisão é unânime: seguir o rastro de Aeris antes que seja tarde demais.",
+      "Antes de sair, faça uma última parada na pousada de Bone Village para curar o grupo e salvar o jogo — é o último ponto de save antes da sequência da Forgotten City.",
+      "Assim que tiver a Lunar Harp no inventário, siga a pé rumo à Sleeping Forest, adjacente a Bone Village no mapa-mundo, na cola de Aeris."
     ],
     "items": [
       "Lunar Harp — item de escavação obrigatório, necessário para atravessar a Sleeping Forest",
@@ -998,7 +1015,7 @@
     "boss": null,
     "missables": [
       "A Lunar Harp é sorteada na escavação — sem ela você fica preso em Bone Village e não avança a história",
-      "A Umbrella de Cait Sith é fácil de nunca sair, já que depende de sorte na escavação; sem ela, essa arma fica indisponível depois"
+      "A Umbrella de Cait Sith é fácil de nunca sair, já que depende de sorte na escavação; sem ela, essa arma fica indisponível na hora, embora dê pra tentar de novo mais tarde com o Highwind"
     ]
   },
   {
@@ -1009,13 +1026,19 @@
     "photo": null,
     "steps": [
       "Ao entrar na Sleeping Forest, o mapa mostra uma floresta labiríntica onde qualquer tentativa de andar sem ajuda faz o grupo cochilar e ser desviado de volta para trás.",
+      "O silêncio da floresta reforça o clima pesado da perseguição a Aeris — não há NPCs aqui, só o grupo e a mata infinita.",
       "Abra o menu de itens e use a Lunar Harp — uma pequena cutscene toca a melodia e a névoa de sono se dissipa temporariamente ao redor do grupo.",
       "Ainda com o efeito ativo, siga em frente pela trilha principal sem desviar muito; o efeito da harpa é temporário e alguns trechos exigem tocá-la de novo.",
       "Repita o uso da Lunar Harp sempre que sentir o grupo ficando sonolento de novo (a tela pode escurecer ou os personagens cambalearem) até atravessar toda a floresta.",
-      "Não há combates de destaque nesta área — é puramente um puzzle de progressão, então avance com calma sem se preocupar em farmar aqui.",
+      "Se perder o efeito no meio de um trecho e for puxado de volta, não entre em pânico: basta usar o item de novo e seguir a mesma direção que vinha seguindo.",
+      "Encontros aleatórios aqui são raros e fracos — a floresta parece deliberadamente vazia de monstros fortes, como se algo ali também estivesse contido pela mesma magia do sono.",
       "A floresta tem poucos baús; vasculhe os desvios próximos ao caminho principal antes de seguir, já que depois de atravessar não costuma-se voltar por aqui.",
-      "No fim da Sleeping Forest, o caminho se abre para um campo com flores brancas cobrindo o chão — a entrada da Forgotten City.",
-      "Salve o jogo assim que possível antes de entrar na cidade — a partir daqui a história encadeia cutscenes importantes sem muita chance de parar."
+      "Conforme avança, pequenos detalhes visuais — pétalas brancas levadas pelo vento, uma trilha mais clara no chão — sugerem que Aeris passou por ali recentemente, sozinha.",
+      "No fim da Sleeping Forest, o caminho se abre para um campo com flores brancas cobrindo o chão — a entrada da Forgotten City, visível ao longe.",
+      "O grupo troca olhares silenciosos ao perceber que finalmente alcançou o destino de Aeris — o tom da viagem muda de perseguição para apreensão.",
+      "Salve o jogo assim que possível antes de entrar na cidade — a partir daqui a história encadeia cutscenes importantes sem muita chance de parar.",
+      "Aproveite para checar o equipamento e a formação do grupo pela última vez com calma — a próxima sequência é pesada e não dá pra reorganizar tudo no meio dela.",
+      "Garanta que ao menos um personagem carrega materia de Restore/Esuna antes de seguir, já que a Forgotten City ainda tem alguns encontros antes da cena central."
     ],
     "items": [
       "Poucos itens de baú espalhados pela trilha da floresta (cura básica)"
@@ -1034,17 +1057,20 @@
     "steps": [
       "Antes de prosseguir, cheque o limit break de Aeris: se você já desbloqueou os três primeiros níveis e usou o suficiente para destravar o nível 4 (Great Gospel), essa é sua última chance de vê-lo em ação — depois desta sequência o personagem fica indisponível.",
       "Explore a Forgotten City livremente: é uma cidade circular de conchas e estruturas orgânicas com vários baús e NPCs-fantasma contando a história dos Ancients/Cetra.",
-      "Ao seguir a trilha principal, você percebe que Aeris se afastou do grupo sozinha, seguindo um chamado interno rumo ao centro da cidade.",
-      "Persiga-a até o altar submerso no centro da Forgotten City, onde ela está ajoelhada rezando, prestes a invocar Holy através da White Materia.",
-      "A cutscene mostra Sephiroth descendo do teto e atravessando Aeris com a espada — o grupo não consegue reagir a tempo.",
+      "Vasculhe as construções da cidade em busca de itens antes de seguir a trilha principal — depois da cena central não dá pra voltar tranquilamente.",
+      "Ao seguir a trilha principal, você percebe que Aeris se afastou do grupo, seguindo sozinha um chamado interno rumo ao centro da cidade.",
+      "Persiga-a por uma passagem em espiral que desce em direção à água, no coração da Forgotten City.",
+      "No fundo, sobre uma espécie de altar cercado de água rasa, Aeris está ajoelhada rezando, prestes a invocar Holy através da White Materia.",
+      "Cloud se aproxima devagar, hesitante, sentindo que algo está errado, mas não consegue reagir a tempo.",
+      "A cutscene mostra Sephiroth descendo do teto e atravessando Aeris com a espada — um dos momentos mais marcantes do jogo, e não há nada que o jogador possa fazer para evitá-lo.",
       "Recupere a White Materia que cai da mão de Aeris — é a materia de Holy, crucial para o final do jogo; não a perca de vista no inventário.",
       "Logo em seguida, uma massa de células Jenova irrompe da água ao redor do altar: prepare-se para o boss Jenova∙LIFE.",
-      "Depois da luta, uma cena silenciosa mostra o grupo carregando o corpo de Aeris e depositando-a na água do lago da cidade — o funeral, sem diálogo, só trilha sonora.",
-      "De volta ao mapa-mundo, o objetivo muda: perseguir Sephiroth, que segue para a Northern Crater, no extremo norte do mapa, carregando consigo a influência sobre Cloud.",
-      "Durante o trajeto, Cloud começa a agir de forma estranha e desconectada — uma pista de que Sephiroth está manipulando sua mente à distância.",
-      "Ao se aproximar da Northern Crater, Cloud se separa do grupo em transe, andando sozinho rumo ao interior da cratera com a Black Materia.",
-      "Controlando o restante do grupo, você persegue Cloud por uma sequência curta até alcançá-lo, mas ele entrega a Black Materia à projeção de Sephiroth mesmo assim — o grupo não consegue impedi-lo.",
-      "Cloud desaba, mentalmente destruído pela manipulação, encerrando o Disco 1. O grupo o resgata como pode e a aventura recomeça no Disco 2 já com essa sequela em aberto."
+      "Depois da luta, uma cena silenciosa mostra Cloud carregando o corpo de Aeris nos braços e descendo com ela até a água, depositando-a com cuidado no lago da cidade — o funeral, sem diálogo, só trilha sonora.",
+      "O restante do grupo observa em silêncio, cada um reagindo à própria maneira: Barret contido, Tifa em lágrimas, Cid e os outros sem saber o que dizer.",
+      "Depois do funeral, o grupo se recompõe aos poucos e sai da Forgotten City rumo ao mapa-mundo, carregando o peso da perda.",
+      "Aqui o Disco 1 se encerra: a próxima cena já abre o Disco 2, com o grupo ainda processando a morte de Aeris e decidido a continuar perseguindo Sephiroth rumo ao norte gelado do planeta.",
+      "Antes de fechar o disco, é um bom momento para revisar se há sidequests pendentes que dependiam de Aeris viva — ela não pode mais ser usada a partir daqui.",
+      "Vale lembrar que qualquer equipamento (armas, materia, acessórios) que estava em Aeris retorna automaticamente ao inventário do grupo, então nada de equipamento é perdido, só o personagem em si."
     ],
     "items": [
       "White Materia (Holy) — recuperada automaticamente após a morte de Aeris, essencial para o final do jogo",
@@ -1064,15 +1090,21 @@
     "disc": 2,
     "photo": null,
     "steps": [
-      "O Disco 2 recomeça com o grupo (sem Cloud, catatônico) reorganizando-se e retomando a perseguição a Sephiroth rumo ao extremo norte gelado do mapa.",
-      "Chegando a Icicle Inn, converse com os moradores — muitos comentam sobre um homem estranho (Sephiroth) que passou recentemente rumo à montanha, e sobre um alpinista aposentado, Holzoff, que vive isolado mais adiante.",
-      "Aproveite a pousada e as lojas de Icicle Inn para reequipar o grupo — é a última cidade civilizada antes da travessia gelada.",
-      "Há uma casa na cidade com um laboratório/observatório abandonado ligado à pesquisa da Shinra sobre os Ancients — vasculhe por pistas de história antes de seguir.",
+      "O Disco 2 recomeça com o grupo ainda de luto por Aeris, mas decidido a continuar perseguindo Sephiroth rumo ao extremo norte gelado do mapa — Cloud segue no grupo normalmente, ainda abalado mas funcional.",
+      "Viaje pelo mapa-mundo até o continente congelado e chegue a Icicle Inn, a última cidade civilizada antes da travessia gelada.",
+      "Converse com os moradores — muitos comentam sobre um homem estranho (Sephiroth) que passou recentemente rumo à montanha, e sobre um alpinista aposentado, Holzoff, que vive isolado mais adiante.",
+      "Aproveite a pousada e as lojas de Icicle Inn para reequipar o grupo antes de seguir viagem.",
+      "Uma das casas da cidade pertenceu ao Professor Gast, cientista da Shinra e pai biológico de Aeris — vasculhe o interior com atenção, pois a conexão com a história não é anunciada de forma óbvia.",
+      "Dentro da casa de Gast há um dispositivo de projeção/vídeo antigo com gravações dele e de Ifalna, mãe de Aeris e uma Cetra de verdade — assistir aos vídeos (uma cena totalmente opcional e fácil de pular) revela boa parte do pano de fundo sobre os Ancients, a relação dos dois e pistas sobre a origem de Sephiroth e da Jenova.",
+      "Essa é uma das cenas mais puladas do jogo por quem não explora Icicle Inn com calma — vale a pena parar para assistir antes de seguir para a neve.",
       "Ao sair da cidade rumo à montanha, o jogo entra no minigame de snowboard: Cloud desce a encosta controlando desvios laterais e pulos para evitar obstáculos (árvores, buracos, rochas).",
+      "O controle é simples — mover para os lados desvia de obstáculos, e certos pontos da pista têm rampas que lançam Cloud no ar, exigindo cuidado ao pousar para não perder velocidade.",
       "No percurso do snowboard há atalhos e rampas escondidas — pontuações mais altas rendem itens de bônus ao final da descida, então vale tentar pegar o maior número de saltos limpos.",
       "Fique atento a uma bifurcação secreta na pista que leva a uma área extra com itens úteis para criação de chocobos (como o Zeio Nut), reconhecível por um pequeno desvio lateral fora da rota óbvia.",
+      "Bater em postes de sinalização ou obstáculos reduz a pontuação final; o ideal é manter uma linha limpa e só desviar quando necessário.",
       "Ao final da descida, o grupo chega à borda do Great Glacier, a vasta área nevada que precisa ser atravessada a pé.",
-      "Depois da primeira descida, normalmente dá pra voltar a Icicle Inn e repetir o snowboard para tentar pontuações melhores, caso queira acumular prêmios antes de seguir para o gelo de verdade."
+      "Depois da primeira descida, normalmente dá pra voltar a Icicle Inn e repetir o snowboard para tentar pontuações melhores, caso queira acumular prêmios antes de seguir para o gelo de verdade.",
+      "Aproveite para revisar a formação do grupo antes de seguir — a partir do Great Glacier a exploração fica mais isolada, sem cidades por perto."
     ],
     "items": [
       "Prêmios de pontuação alta no snowboard (itens de cura/acessórios variam pela pontuação)",
@@ -1080,6 +1112,7 @@
     ],
     "boss": null,
     "missables": [
+      "A cena da casa do Professor Gast com os vídeos de Ifalna é opcional e fácil de pular — não afeta a progressão, mas é uma das poucas fontes de contexto sobre os Cetra e a origem de Sephiroth",
       "A pista secreta com o Zeio Nut é fácil de passar direto sem perceber o desvio",
       "Depois de avançar da área de Icicle Inn para o Great Glacier, a facilidade de voltar para repetir o snowboard pode diminuir — vale fazer as tentativas de pontuação antes de seguir viagem"
     ]
@@ -1094,13 +1127,17 @@
       "O Great Glacier é um grande campo de neve sem uma trilha óbvia — cada tela tem múltiplas saídas e é fácil andar em círculos sem perceber.",
       "Use sempre o mapa/bússola do canto da tela como referência de direção; se notar que voltou a uma paisagem já vista, você entrou num loop e precisa tentar uma direção diferente na próxima bifurcação.",
       "Um marco importante é uma cabana/caverna abandonada no meio do gelo — sirva de ponto de checagem para saber se está indo no caminho certo.",
+      "Dentro de uma das cavernas do percurso mora uma senhora idosa, isolada há anos naquela região; ela oferece abrigo, comenta sobre os perigos do gelo mais à frente e dá dicas informais sobre a direção certa para continuar.",
+      "Converse com ela mais de uma vez — moradores isolados como essa costumam ter falas extras que mudam conforme o progresso da conversa.",
       "Há uma nascente de água quente (hot spring) escondida em uma das áreas: entrar nela cura todo o grupo e remove status negativos de frio, sem custo — ótimo checkpoint antes de seguir.",
-      "Continuando a exploração, você encontra a cabana de Holzoff, o velho alpinista já mencionado em Icicle Inn — converse com ele para aprender sobre o Gaea's Cliff logo à frente e sobre os perigos do frio extremo.",
-      "Holzoff avisa sobre a queda de temperatura corporal que os personagens vão sofrer ao escalar o Gaea's Cliff — é a preparação narrativa para a mecânica do próximo capítulo.",
+      "Continuando a exploração, você encontra a cabana de Holzoff, o velho alpinista já mencionado em Icicle Inn.",
+      "Holzoff conta sua própria história: décadas atrás tentou escalar o Gaea's Cliff e falhou, e por isso vive isolado desde então, cheio de respeito e medo pela montanha.",
+      "Ele avisa sobre a queda de temperatura corporal que os personagens vão sofrer ao escalar o Gaea's Cliff — é a preparação narrativa para a mecânica do próximo capítulo.",
       "Ainda no Great Glacier, monstros da região usam bastante magia de gelo — equipar materia de resistência a gelo (Elemental + Ice) ajuda bastante a partir daqui.",
-      "Se perder o rumo por muito tempo, volte pelos próprios passos até um marco reconhecido (a cabana ou a fonte termal) e recomece a leitura de direções a partir dali, em vez de tentar adivinhar no meio do nada.",
+      "Se perder o rumo por muito tempo, volte pelos próprios passos até um marco reconhecido (a cabana da senhora, a cabana de Holzoff ou a fonte termal) e recomece a leitura de direções a partir dali, em vez de tentar adivinhar no meio do nada.",
       "Uma vez encontrada a passagem certa após a cabana de Holzoff, o caminho sobe e se estreita, sinalizando a entrada do Gaea's Cliff.",
-      "Antes de subir, volte à fonte termal para curar tudo e deixe o grupo com HP/MP cheios — não há como voltar facilmente depois de entrar no Gaea's Cliff."
+      "Antes de subir, volte à fonte termal para curar tudo e deixe o grupo com HP/MP cheios — não há como voltar facilmente depois de entrar no Gaea's Cliff.",
+      "Compre ou prepare qualquer item de resistência ao frio disponível antes de seguir, já que a próxima área não perdoa quem entra despreparado."
     ],
     "items": [
       "Cura completa gratuita na fonte de água quente (hot spring)",
@@ -1109,7 +1146,7 @@
     "boss": null,
     "missables": [
       "Não há pontos de save fáceis dentro do Gaea's Cliff — é essencial curar tudo na fonte termal do Great Glacier antes de subir",
-      "Perder-se demais aqui não trava o jogo, mas desperdiça tempo; use a cabana de Holzoff como referência sempre que ficar confuso"
+      "Perder-se demais aqui não trava o jogo, mas desperdiça tempo; use a cabana de Holzoff ou a senhora da caverna como referência sempre que ficar confuso"
     ]
   },
   {
@@ -1119,16 +1156,20 @@
     "disc": 2,
     "photo": null,
     "steps": [
+      "Antes de entrar no Gaea's Cliff, note que Holzoff não acompanha o grupo — ele afirma já ter pago demais por essa montanha e prefere ficar para trás, cuidando da própria cabana.",
       "Assim que entra no Gaea's Cliff, o grupo começa a escalar formações de gelo através de uma série de telas verticais e diagonais, sem poder usar o mapa-mundo até sair.",
       "Existe uma mecânica oculta de temperatura corporal: a cada passo dado, o grupo perde um pouco de calor; ficar parado ou hesitar não ajuda, então o ideal é sempre seguir em frente sem enrolar.",
       "Se a temperatura cair demais, o grupo sofre dano contínuo — a melhor defesa é simplesmente avançar de forma eficiente pela rota principal, sem ficar caminhando de um lado para o outro.",
       "Itens como Potion e Phoenix Down curam o dano do frio normalmente; leve bastante suprimento de cura, já que não há loja por perto.",
       "A escalada tem alguns pontos de escolha de caminho (esquerda/direita/subir), com pequenos desvios levando a baús — vale conferir os baús próximos antes de seguir, mas sem se demorar demais por causa da temperatura.",
       "Monstros da região incluem inimigos com ataques de gelo fortes; personagens com fraqueza a gelo sofrem mais, então gerencie bem quem fica na linha de frente.",
+      "O visual da escalada fica cada vez mais hostil — ventania, gelo rachando sob os pés, e falas curtas dos personagens comentando o quanto está difícil respirar lá em cima.",
       "Perto do topo da escalada, o caminho se estreita numa passagem final antes de uma câmara maior de gelo — é aqui que mora o guardião da passagem.",
       "Enfrente o boss Schizo nesta câmara.",
       "Depois de vencer Schizo, a trilha continua e leva a uma descida que desemboca na entrada da Northern Crater, onde a paisagem muda de gelo para um terreno rochoso e estranho, marcado por ventos fortes — o começo do Whirlwind Maze.",
-      "Aproveite os últimos metros antes da entrada da cratera para curar tudo, já que a partir dali a estrutura muda de novo (sem mapa-mundo disponível)."
+      "Um vento diferente, quase sobrenatural, sopra vindo da cratera — os personagens comentam a sensação estranha de estarem sendo chamados para dentro.",
+      "Aproveite os últimos metros antes da entrada da cratera para curar tudo, já que a partir dali a estrutura muda de novo (sem mapa-mundo disponível).",
+      "Revise a formação do grupo pela última vez — a sequência dentro da cratera é longa e emocionalmente pesada, sem paradas fáceis no meio."
     ],
     "items": [
       "Itens de cura e acessórios em baús ao longo da escalada",
@@ -1147,16 +1188,22 @@
     "disc": 2,
     "photo": null,
     "steps": [
-      "Ao entrar na cratera, o cenário vira um labirinto de ventos e vórtices coloridos — o Whirlwind Maze, uma masmorra simbólica que representa o subconsciente do grupo.",
+      "Ao entrar na cratera, o cenário vira um labirinto de ventos e vórtices coloridos — o Whirlwind Maze, uma masmorra simbólica que representa o subconsciente do grupo, especialmente de Cloud.",
+      "Pelo caminho, o grupo começa a avistar figuras encapuzadas parecidas com Sephiroth — os chamados clones, restos de soldados infundidos com células de Jenova que vagam atraídos por ele, um fenômeno conhecido como Reunion.",
+      "Essas aparições reforçam o clima de horror psicológico da masmorra, mesmo sem serem sempre lutas diretas.",
       "Em cada bifurcação, o jogo apresenta falas/vozes representando os pensamentos internos de diferentes personagens; escolher a voz errada leva o grupo de volta a um ponto anterior do labirinto.",
       "Preste atenção ao conteúdo das falas para identificar qual caminho parece coerente com seguir em frente (rumo ao centro/fundo da cratera) em vez de recuar.",
       "Não existe combate pesado nesta parte do labirinto — é majoritariamente puzzle de escolha de caminho; erros custam apenas tempo, não HP.",
+      "Em determinado ponto, o próprio Cloud começa a reviver, em sua cabeça, a versão que ele mesmo acredita ser verdadeira do incidente de Nibelheim — o incêndio, Sephiroth enlouquecendo, e ele supostamente derrotando Sephiroth sozinho. É a memória subjetiva de Cloud, ainda não contestada nesta altura da história.",
+      "Esse flashback deixa o próprio Cloud mais instável, como se algo nele não batesse — uma pista sutil de que essa lembrança tem problemas, mesmo que a confirmação disso só venha mais adiante, no capítulo de Mideel.",
       "Conforme avança, os vórtices vão ficando mais estreitos e a paisagem mais instável, sinalizando que você está perto do núcleo da cratera.",
       "Ao alcançar o centro, uma criatura de células Jenova emerge novamente: prepare-se para o boss Jenova∙DEATH, notavelmente mais perigoso que os encontros anteriores da família Jenova.",
-      "Depois de vencer Jenova∙DEATH, uma projeção de Sephiroth chama Cloud, que entra em transe e se afasta do grupo sozinho, carregando a Black Materia que vinha sendo guardada desde o Templo dos Anciões.",
-      "Controlando o restante do grupo, você persegue Cloud por um corredor final até alcançá-lo, mas ele entrega a Black Materia à projeção de Sephiroth de qualquer forma — não há escolha de diálogo que evite isso.",
+      "Depois de vencer Jenova∙DEATH, uma projeção/voz de Sephiroth chama Cloud diretamente, e ele entra em transe, afastando-se do grupo sozinho, carregando a Black Materia que vinha sendo guardada desde o Templo dos Anciões.",
+      "Controlando o restante do grupo, você persegue Cloud por um corredor final até alcançá-lo. Normalmente é o personagem com maior afeição por Cloud (calculada desde os diálogos e o encontro no Gold Saucer) quem se adianta para tentar demovê-lo, geralmente Tifa, relembrando a promessa de infância dos dois.",
+      "Nesse momento o jogo oferece opções de diálogo para a resposta de Cloud — as falas mudam o tom da cena, mas não o desfecho: ele entrega a Black Materia à projeção de Sephiroth de qualquer forma.",
       "A cratera reage de forma violenta, e o grupo é separado: Cloud cai na Lifestream exposta e desaparece, enquanto o resto do grupo é ejetado/resgatado de outra forma.",
-      "A cena fecha com o grupo (sem Cloud) fora da cratera, sem saber o paradeiro dele, abrindo o gancho para os próximos capítulos (a fuga em Junon e a busca por Cloud em Mideel)."
+      "A cena fecha com o grupo (sem Cloud) fora da cratera, sem saber o paradeiro dele, abrindo o gancho para os próximos capítulos (a fuga em Junon e a busca por Cloud em Mideel).",
+      "Vale lembrar que, a partir daqui, Cloud fica fora do grupo controlável até a sequência de recuperação em Mideel — planeje a formação do grupo para as próximas missões sem contar com ele."
     ],
     "items": [
       "Nenhum item novo relevante nesta masmorra — é focada em progressão de história"
@@ -1164,6 +1211,7 @@
     "boss": "Jenova∙DEATH — golpe característico de dano alto em área que pode surpreender grupos mal preparados; entre com HP máximo, Regen ativo se possível, e não economize limit breaks/magias fortes, é mais perigoso do que parece pela posição na história.",
     "missables": [
       "A Black Materia é entregue a Sephiroth nesta cena obrigatoriamente — não há como evitar ou impedir isso",
+      "A resposta de Cloud a Tifa é escolhida em diálogo, mas não muda o desfecho — é só para dar nuance à cena",
       "Depois desta sequência, Cloud fica fora do grupo controlável até o capítulo de Mideel"
     ]
   },
@@ -1174,22 +1222,28 @@
     "disc": 2,
     "photo": null,
     "steps": [
-      "Sem Cloud, o grupo restante (Barret, Tifa e companhia) é capturado pelas forças da Shinra enquanto tenta se reorganizar após o colapso na Northern Crater.",
-      "Eles são levados presos para Junon, onde o novo presidente Rufus Shinra decide fazer um espetáculo público: uma execução de Barret (líder reconhecido da AVALANCHE) transmitida para a população.",
-      "Cait Sith, que até aqui vinha secretamente reportando informações à Shinra através de Reeve, revela ter mudado de lado e passa a ajudar ativamente na fuga.",
-      "Controlando os personagens presos, explore a cela/área de detenção em Junon procurando uma forma de escapar antes do horário da execução.",
-      "Há uma sequência de infiltração pela cidade de Junon (agora reformada e mais militarizada que na primeira visita) evitando patrulhas Shinra enquanto se aproxima do palco da execução.",
-      "No auge da cena pública, a execução é interrompida no último instante graças à ajuda de Cait Sith/Reeve e à confusão criada pelo restante do grupo.",
-      "Durante o caos, o grupo consegue tomar de assalto o Highwind, a nova aeronave de guerra da Shinra recém-apresentada por Rufus, e foge de Junon com ela.",
-      "O Highwind se torna o novo veículo principal do grupo, substituindo o Tiny Bronco e permitindo viajar livremente por todo o mapa-mundo, inclusive sobre o oceano.",
-      "Com a fuga concluída, o novo objetivo do grupo passa a ser localizar Cloud, cujo paradeiro desde o colapso da cratera ainda é desconhecido."
+      "Sem Cloud, o restante do grupo tenta se reorganizar após o colapso na Northern Crater, mas acaba interceptado pelas forças da Shinra antes de conseguir se esconder direito.",
+      "Barret e Tifa são capturados e levados presos para Junon, enquanto os demais membros do grupo ficam de fora, tentando arquitetar um resgate.",
+      "Em Junon, o novo presidente Rufus Shinra decide fazer um espetáculo público: uma execução dupla de Barret (líder reconhecido da AVALANCHE) e Tifa, transmitida para a população como demonstração de força do novo regime.",
+      "Enquanto presa, Tifa é humilhada por Scarlet, que aparece pessoalmente na cela e chega a dar um tapa nela só para provocar e demonstrar poder diante dos subordinados.",
+      "Cait Sith, que até aqui vinha secretamente reportando informações à Shinra através de Reeve, revela ao grupo ter mudado de lado — ele se infiltra na estrutura de Junon para ajudar ativamente na fuga, evidenciando que sua lealdade sempre foi mais complicada do que parecia.",
+      "Controlando os personagens livres, explore Junon (agora reformada e mais militarizada que na primeira visita), evitando patrulhas Shinra enquanto se aproxima da área de detenção.",
+      "Uma sequência de infiltração leva o grupo até a cela de Barret e Tifa; liberte os dois antes do horário marcado da execução.",
+      "No auge da cena pública, com Barret e Tifa já no palco da execução diante da multidão, a interrupção de última hora acontece graças à ajuda de Cait Sith/Reeve e à confusão criada pelo restante do grupo.",
+      "Durante o caos, o grupo consegue tomar de assalto o Highwind, a nova aeronave de guerra da Shinra recém-apresentada por Rufus à população, e foge de Junon com ela.",
+      "Cid assume o comando do Highwind como capitão, já que é o único do grupo com experiência real de pilotagem — a partir daqui ele passa a liderar tecnicamente todas as viagens aéreas.",
+      "O Highwind se torna o novo veículo principal do grupo, substituindo o Tiny Bronco e permitindo viajar livremente por todo o mapa-mundo, inclusive sobre o oceano e sobre montanhas antes intransponíveis.",
+      "Com a fuga concluída, o grupo se reúne a bordo do Highwind, processando tanto o quase-assassinato de Barret e Tifa quanto a ausência contínua de Cloud.",
+      "O Highwind também serve como base móvel a partir de agora: quartos, enfermaria e um convés onde os personagens comentam os eventos recentes conforme a história avança.",
+      "O novo objetivo do grupo passa a ser localizar Cloud, cujo paradeiro desde o colapso da cratera ainda é desconhecido — o Highwind permite procurar por ele em regiões antes inacessíveis."
     ],
     "items": [
       "Highwind — nova aeronave, substitui o Tiny Bronco e libera viagem livre por todo o mapa-mundo"
     ],
     "boss": null,
     "missables": [
-      "Nenhum item permanentemente perdido nesta sequência, mas é um ponto de não-retorno para a estrutura do grupo até reencontrar Cloud em Mideel"
+      "Nenhum item permanentemente perdido nesta sequência, mas é um ponto de não-retorno para a estrutura do grupo até reencontrar Cloud em Mideel",
+      "A cena do tapa de Scarlet em Tifa e a revelação de Cait Sith são cutscenes obrigatórias, não há como pular ou evitar"
     ]
   },
   {
@@ -1199,14 +1253,18 @@
     "disc": 2,
     "photo": null,
     "steps": [
-      "Com o Highwind, o grupo localiza Cloud em Mideel, uma cidade pequena construída perto de uma nascente de Lifestream exposta, famosa por suas propriedades curativas.",
-      "Cloud é encontrado catatônico, sentado sem reagir a nada — Tifa decide ficar em Mideel cuidando dele, enquanto o restante do grupo segue outras tarefas pelo mapa-mundo.",
-      "Durante essa fase, Cloud não pode ser controlado; o jogador conduz o restante do grupo (escolha livre de quem fica no time ativo) para as próximas missões.",
-      "Enquanto o grupo cuida de outros assuntos, o monstro Ultimate Weapon ataca Mideel de surpresa, destruindo parte da cidade e causando uma ruptura na nascente de Lifestream local.",
-      "O ataque de Ultimate Weapon não é uma luta obrigatória neste momento — a criatura causa estrago e foge voando, sendo enfrentada de verdade só mais adiante na história.",
-      "O tremor/ruptura da nascente faz Cloud cair na Lifestream exposta de Mideel; Tifa mergulha atrás dele para tentar resgatá-lo.",
-      "Segue-se uma sequência simbólica dentro da mente de Cloud, controlando Tifa em meio a fragmentos de memória — é aqui que se revela a verdade sobre o passado de Cloud em Nibelheim, contradizendo o que ele mesmo lembrava até então.",
-      "Depois dessa revelação, Cloud é resgatado da Lifestream, ainda debilitado, mas o processo é o primeiro passo para sua recuperação (que se completa mais adiante na história, fora do escopo deste capítulo).",
+      "Com o Highwind, o grupo consegue finalmente localizar Cloud em Mideel, uma cidade pequena construída perto de uma nascente de Lifestream exposta, famosa por suas propriedades curativas.",
+      "Cloud é encontrado catatônico, sentado numa cadeira de rodas, sem reagir a estímulos externos — o resultado do colapso mental sofrido na Northern Crater.",
+      "Tifa decide ficar em Mideel cuidando dele em tempo integral, empurrando sua cadeira de rodas pela cidade e tentando estimulá-lo, mesmo sem respostas.",
+      "Durante essa fase, Cloud não pode ser controlado; o jogador conduz o restante do grupo (escolha livre de quem fica no time ativo) para as próximas missões pelo mapa-mundo.",
+      "Reserve um tempo para explorar Mideel e ouvir os moradores comentando sobre o casal estranho instalado na cidade — pequenos diálogos que humanizam a espera.",
+      "Enquanto o grupo cuida de outros assuntos, o monstro Ultimate Weapon ataca Mideel de surpresa, sobrevoando a cidade e causando destruição generalizada.",
+      "O ataque provoca um forte terremoto que racha o solo perto da nascente de Lifestream, destruindo parte da estrutura da cidade.",
+      "O tremor faz Cloud, ainda na cadeira de rodas, cair diretamente na Lifestream exposta; Tifa, desesperada, mergulha atrás dele para tentar resgatá-lo.",
+      "Segue-se uma sequência simbólica dentro da mente de Cloud, controlando Tifa em meio a fragmentos soltos de memória — telas fragmentadas, vozes sobrepostas, cenas do exame de SOLDIER, do incêndio de Nibelheim e de Zack aparecendo de forma confusa.",
+      "Aos poucos, ao explorar esses fragmentos, a verdade começa a se reconstruir: muito do que Cloud lembrava como próprio na verdade pertencia a Zack, e Cloud absorveu essas memórias por trauma e exposição a Mako, sem nunca ter sido de fato o herói de Nibelheim como sempre acreditou.",
+      "Essa revelação reescreve boa parte do que o jogador viu antes (inclusive o próprio flashback do Whirlwind Maze), mostrando que a versão oficial da história de Cloud era, em grande parte, uma fabricação da própria mente dele.",
+      "Depois dessa revelação, Cloud é resgatado da Lifestream, ainda debilitado fisicamente, mas o processo é o primeiro passo real para sua recuperação — algo que se completa de forma mais definitiva mais adiante na história, fora do escopo deste capítulo.",
       "Enquanto isso, aproveite para reequipar o restante do grupo na loja de Mideel, que vende itens úteis para esta fase do Disco 2.",
       "Ao final da sequência, o jogo libera o grupo para continuar as missões pendentes pelo mapa-mundo usando o Highwind, com Cloud ainda fora de ação por mais alguns capítulos."
     ],
@@ -1216,7 +1274,8 @@
     "boss": null,
     "missables": [
       "Ultimate Weapon não é derrotável aqui — não se preocupe em tentar vencê-lo agora, ele reaparece mais tarde",
-      "A sequência dentro da mente de Cloud é obrigatória e não tem escolhas alternativas de exploração"
+      "A sequência dentro da mente de Cloud é obrigatória e não tem escolhas alternativas de exploração",
+      "O terremoto e o mergulho na Lifestream são cutscenes fixas, sem margem para evitar ou adiar"
     ]
   },
   {
@@ -1226,21 +1285,28 @@
     "disc": 2,
     "photo": null,
     "steps": [
-      "Com Cloud ainda indisponível, divida o restante do grupo em equipes: uma delas vai investigar um trem da Shinra transportando uma Huge Materia extraída do reator de North Corel.",
+      "Com Cloud e Tifa fora de ação (ela ainda em Mideel), o jogo pede para dividir o restante do grupo disponível em três equipes, uma para cada missão de Huge Materia — escolha livremente quem vai para cada uma.",
+      "Escolha bem quem vai em cada equipe: personagens com boa defesa ajudam no vagão de combate contínuo do trem, já que não há chance de trocar formação no meio da missão.",
+      "A equipe designada para North Corel se dirige ao local para investigar um trem da Shinra transportando uma Huge Materia extraída do antigo reator da região.",
       "Ao chegar perto dos trilhos, o grupo aborda o trem em movimento e precisa avançar vagão por vagão enfrentando soldados Shinra.",
       "Cada vagão tem sua própria pequena área de combate/exploração; limpe os inimigos de um vagão antes de seguir para o próximo pela parte de cima ou pelas portas de conexão.",
-      "Perto da locomotiva, uma contagem regressiva é ativada (um sistema de autodestruição/colisão programado pela Shinra para não deixar a Huge Materia ser recuperada).",
+      "Alguns vagões têm baús e itens de suprimento espalhados — vale revistar rapidamente antes de seguir, já que o tempo começa a importar mais perto da locomotiva.",
+      "Perto da locomotiva, uma contagem regressiva é ativada: um sistema de autodestruição/colisão programado pela Shinra para não deixar a Huge Materia ser recuperada viva.",
       "Corra contra o tempo até a cabine de controle da locomotiva; lá, é preciso interagir com o painel de controle para desarmar a contagem regressiva antes que o tempo se esgote.",
       "Se conseguir desarmar a tempo, o trem para com segurança e a Huge Materia fica disponível para o grupo recolher; se o tempo esgotar, a sequência força uma repetição da corrida contra o relógio.",
       "Com a Huge Materia em mãos, o grupo retorna ao Highwind para se reunir com as outras equipes que estão cuidando das outras duas Huge Materia (Fort Condor e o reator submarino).",
-      "Aproveite a parada em North Corel para reabastecer itens na loja da cidade antes de seguir para a próxima missão."
+      "Aproveite a parada em North Corel para reabastecer itens na loja da cidade antes de seguir para a próxima missão.",
+      "Vale lembrar que essas três missões (trem, Fort Condor, reator) podem ser feitas em qualquer ordem, já que o Highwind permite ir e voltar livremente entre elas.",
+      "Depois de reunir as três Huge Materia, uma cutscene mostra a Shinra armando uma emboscada para roubar tudo de volta do grupo — um golpe duro que só é resolvido mais adiante, em Rocket Town.",
+      "É possível revisitar North Corel depois, já com o grupo completo, para conferir se há diálogos extras dos moradores comentando o desfecho da missão do trem."
     ],
     "items": [
       "Huge Materia #1 — recuperada do trem da Shinra em North Corel"
     ],
     "boss": null,
     "missables": [
-      "Não desarmar a contagem regressiva a tempo obriga a repetir a sequência do trem — não é um item perdido, mas custa tempo"
+      "Não desarmar a contagem regressiva a tempo obriga a repetir a sequência do trem — não é um item perdido, mas custa tempo",
+      "A Huge Materia recolhida aqui acaba sendo roubada de volta pela Shinra logo depois das três missões — não se alarme, isso é esperado pela história e é revertido em Rocket Town"
     ]
   },
   {
@@ -1250,14 +1316,20 @@
     "disc": 2,
     "photo": null,
     "steps": [
-      "Outra equipe do grupo, dividida por causa da ausência de Cloud, segue para Fort Condor, onde uma Huge Materia está guardada sob o ninho do condor gigante que a cidade protege.",
+      "Outra equipe do grupo, definida na divisão em três partes por causa da ausência de Cloud e Tifa, segue para Fort Condor, onde uma Huge Materia está guardada sob o ninho do condor gigante que a cidade protege.",
       "Se você já jogou o minigame estratégico de Fort Condor antes (defendendo o morro contra ondas de soldados Shinra em rodadas anteriores da história), este é o confronto final e decisivo dessa disputa.",
       "O minigame funciona como uma pequena batalha tática vista de lado/cima: você posiciona suas unidades contratadas, com o dinheiro investido ao longo do jogo, contra as tropas Shinra que avançam morro acima.",
+      "O exército de Fort Condor é composto por diferentes tipos de unidade — infantaria, catapultas, cavalaria — cada uma melhor contra um tipo específico de inimigo Shinra; misture os tipos em vez de apostar tudo num só.",
       "Reforce as unidades mais fortes que puder pagar antes de iniciar a rodada final — o resultado desta batalha decide se a Huge Materia fica com o grupo ou é perdida para a Shinra.",
       "Durante a batalha, distribua as unidades entre ataque e defesa dos pontos de passagem, sem deixar nenhuma trilha de acesso ao ninho do condor completamente desguarnecida.",
+      "Perder unidades durante a rodada não tem meio-termo: gerencie o ouro/recursos com cuidado, já que reforços custam caro e essa é a rodada que realmente importa.",
+      "Um morador de Fort Condor comenta a importância simbólica do condor para a região, reforçando o peso de proteger o ninho além do valor da materia em si.",
+      "A trilha sonora do minigame muda para uma versão mais tensa nesta rodada final, sinalizando que é a batalha decisiva de todo o arco de Fort Condor.",
       "Vencendo esta rodada final, a Huge Materia de Fort Condor é garantida e a base do condor permanece protegida.",
       "Se você acompanhou o minigame de Fort Condor em visitas anteriores no Disco 1/2, o dinheiro e as unidades que já tinha contratado continuam valendo para esta rodada decisiva — não é preciso recomeçar do zero.",
-      "Depois da vitória, o grupo se reencontra com as outras equipes espalhadas pelo mapa-mundo para consolidar as Huge Materia coletadas até aqui."
+      "Se perder a rodada final, geralmente é possível tentar de novo — vale reforçar o exército antes de repetir em vez de insistir na mesma configuração fraca.",
+      "Depois da vitória, o grupo se reencontra com as outras equipes espalhadas pelo mapa-mundo para consolidar as Huge Materia coletadas até aqui.",
+      "Aproveite para conversar com os moradores de Fort Condor sobre o desfecho da longa disputa contra a Shinra pela região."
     ],
     "items": [
       "Huge Materia #2 — garantida ao vencer a batalha final de Fort Condor"
@@ -1276,15 +1348,21 @@
     "photo": null,
     "steps": [
       "A terceira equipe do grupo se dirige a Junon para executar um roubo: infiltrar-se na base naval e furtar um submarino Shinra.",
+      "Antes de agir, observe os padrões de patrulha ao redor do cais — mover-se nos momentos certos evita alarmes desnecessários.",
       "Evite ou enfrente as patrulhas ao redor do cais até conseguir embarcar no submarino sem disparar o alarme total.",
-      "Uma vez no comando do submarino, o grupo mergulha até o Underwater Reactor, instalação submersa que guarda a terceira Huge Materia.",
+      "Uma vez no comando do submarino, explore rapidamente os controles: velocidade, profundidade e o sistema de mira dos torpedos, todos usados na sequência seguinte.",
+      "O grupo mergulha rumo ao Underwater Reactor, instalação submersa que guarda a terceira Huge Materia.",
       "No caminho até o reator, uma batalha submarina acontece: uma sequência única onde você controla profundidade e disparo de torpedos contra um submarino inimigo da Shinra, num confronto mais simples e direto que o combate normal.",
+      "Na batalha submarina, subir ou descer de profundidade no momento certo desvia dos torpedos inimigos, enquanto alinhar a mira permite acertar o submarino adversário repetidamente até destruí-lo.",
       "Depois de vencer a batalha submarina, atraque no Underwater Reactor e explore a instalação, enfrentando os monstros/guardas típicos de um reator Shinra.",
+      "A instalação tem corredores apertados e salas de controle abandonadas, com terminais que dão pequenas pistas sobre o que a Shinra pretendia fazer com a Huge Materia reunida.",
       "No núcleo do reator, o boss Carry Armor guarda a Huge Materia.",
-      "Vencido o boss, retire a Huge Materia do reator e retorne ao submarino para sair da área.",
-      "Com o submarino agora sob controle do grupo permanentemente, ele pode ser usado depois para explorar o fundo do oceano em qualquer parte do mapa-mundo.",
+      "Vencido o boss, retire a Huge Materia do reator e retorne ao submarino para sair da área antes que reforços da Shinra apareçam.",
+      "Com o submarino agora sob controle do grupo permanentemente, ele pode ser usado depois para explorar o fundo do oceano em qualquer parte do mapa-mundo, algo impossível até aqui.",
       "Um destaque de exploração posterior: o Gelnika, um avião de carga da Shinra naufragado, fica acessível via submarino em algum ponto do oceano — dentro dele há armas definitivas de Cid e Vincent, além da Underwater Materia, exclusiva desse local.",
-      "Com as três Huge Materia (trem, Fort Condor, reator) reunidas, o grupo se prepara para a etapa final da missão, que vai levar a Rocket Town."
+      "Vale reservar um momento fora da missão principal para ir atrás do Gelnika com calma, já que ele não é sinalizado por nenhuma seta ou marcador — é pura exploração livre do fundo do mar.",
+      "Com as três Huge Materia (trem, Fort Condor, reator) reunidas, o grupo se prepara para se reencontrar com Cloud e Tifa e seguir para a etapa final da missão, que vai levar a Rocket Town.",
+      "Pouco depois de reunir as três Huge Materia, a Shinra arma uma emboscada e consegue roubar todo o material de volta do grupo — um golpe duro na moral, resolvido apenas mais adiante em Rocket Town."
     ],
     "items": [
       "Huge Materia #3 — obtida no núcleo do Underwater Reactor",
@@ -1304,15 +1382,21 @@
     "disc": 2,
     "photo": null,
     "steps": [
-      "Com as três Huge Materia reunidas, o grupo se dirige a Rocket Town, onde Cid guarda o foguete que falhou em ser lançado no Disco 1.",
-      "A Shinra, sob as ordens de Rufus e Scarlet, ainda está atrás das Huge Materia e tenta interceptar o grupo assim que eles chegam à cidade.",
-      "Depois de uma confusão com as tropas Shinra na cidade, o grupo decide usar o próprio foguete de Cid, agora reformado, como forma de tirar as Huge Materia de circulação de vez, lançando-as ao espaço.",
+      "Depois da emboscada da Shinra que roubou as três Huge Materia recolhidas, o grupo se reúne com Cloud (já recuperado da catatonia) e Tifa, agora de volta à ativa.",
+      "Com o grupo completo novamente, seguem juntos rumo a Rocket Town, de olho no plano final da Shinra envolvendo as Huge Materia roubadas e o foguete de Cid.",
+      "Cid, ao saber que a Shinra pretende usar seu antigo foguete (aquele cujo lançamento falhou no Disco 1) para o próprio plano, fica furioso e decidido a virar o jogo.",
+      "A Shinra, sob ordens de Rufus e Scarlet, já está em Rocket Town preparando o lançamento com as Huge Materia roubadas a bordo.",
+      "O grupo confronta as tropas Shinra na cidade, numa sequência de combates para retomar o controle da base de lançamento.",
+      "Depois de expulsar ou neutralizar a presença Shinra local, o grupo assume o controle do próprio foguete de Cid, virando a mesa a seu favor.",
       "Prepare o foguete: converse com a equipe técnica (incluindo Shera, parceira de Cid) para iniciar a contagem regressiva de lançamento.",
-      "Diferente da tentativa fracassada do Disco 1 (quando Cid abriu mão do lançamento para salvar um funcionário), desta vez o lançamento é levado até o fim.",
+      "Diferente da tentativa fracassada do Disco 1 (quando Cid abriu mão do lançamento para salvar um funcionário), desta vez a decisão é levar tudo até o fim, com as Huge Materia a bordo.",
       "Durante a contagem regressiva, pode ser necessário repelir uma última tentativa da Shinra de impedir o lançamento, defendendo a plataforma.",
-      "O foguete decola com sucesso, carregando a Huge Materia a bordo — o sonho antigo de Cid de ver seu foguete voar finalmente se realiza, fechando o arco pessoal dele.",
-      "Com a Huge Materia fora de alcance da Shinra e de Sephiroth, o grupo comemora brevemente antes de retomar o rumo da história principal.",
-      "Aproveite a parada em Rocket Town para revisitar a loja da cidade e reequipar o grupo antes de seguir para Midgar."
+      "O foguete decola com sucesso, carregando as Huge Materia para bem longe do alcance da Shinra e de Sephiroth — jogá-las no espaço é a forma que o grupo encontra de neutralizar a ameaça de vez.",
+      "O sonho antigo de Cid de ver seu foguete voar finalmente se realiza, fechando o arco pessoal dele com um misto de orgulho e alívio.",
+      "Shera, sempre subestimada por Cid ao longo da história, tem um momento de reconhecimento nesta cena, reforçando a relação dos dois.",
+      "Com a ameaça das Huge Materia resolvida, o grupo comemora brevemente antes de retomar o rumo da história principal.",
+      "Aproveite a parada em Rocket Town para revisitar a loja da cidade e reequipar o grupo, agora completo novamente com Cloud, antes de seguir para Midgar.",
+      "Vale reunir a formação de grupo ideal aqui, já que o próximo destino (Midgar) tem sequências de combate mais pesadas."
     ],
     "items": [
       "Huge Materia final — lançada ao espaço a bordo do foguete de Cid, retirada de jogo como ameaça"
@@ -1330,19 +1414,24 @@
     "photo": null,
     "steps": [
       "Com o arco das Huge Materia encerrado, o grupo recebe um chamado urgente para voltar a Midgar, agora numa cidade tensa e parcialmente esvaziada por causa dos rumores sobre Meteor.",
-      "Bugenhagen, de Cosmo Canyon, se junta às comunicações do grupo (via PHS ou presencialmente a bordo do Highwind) para ajudar a interpretar as descobertas recentes sobre os Ancients e o significado da Black Materia.",
-      "Ao entrar em Midgar, o grupo encontra o Shinra Building fortemente vigiado; é preciso abrir caminho pelos andares novamente, como na invasão do Disco 1, mas agora com o prédio mais hostil e vazio de civis.",
-      "Em algum ponto do prédio, o grupo obtém a Key to the Ancients, item que libera o acesso a uma área restrita ligada às pesquisas de Hojo sobre os Cetra.",
-      "Use a Key to the Ancients para destravar a passagem até o laboratório/setor restrito de Hojo, onde ele guarda seus experimentos mais antigos.",
-      "No caminho, a Shinra ativa o Proud Clod, um mech de combate pesado controlado a distância por Scarlet e Heidegger, como última linha de defesa do prédio.",
+      "Bugenhagen, de Cosmo Canyon, se junta às comunicações do grupo (via PHS ou presencialmente a bordo do Highwind) para ajudar a interpretar as descobertas recentes sobre os Ancients e o verdadeiro significado da Black Materia.",
+      "Em algum momento desta etapa, Bugenhagen entrega ou orienta o grupo sobre a Key to the Ancients, item que acaba sendo necessário mais adiante para acessar uma área restrita ligada às pesquisas de Hojo sobre os Cetra.",
+      "Como Midgar está fortemente vigiada e o acesso normal às ruas está bloqueado, o grupo entra na cidade por baixo, através dos antigos dutos/esgotos usados na fuga do Disco 1 — um caminho conhecido, mas agora mais perigoso.",
+      "Ao emergir dos dutos, o grupo encontra o Shinra Building fortemente guardado; é preciso abrir caminho pelos andares novamente, como na invasão do Disco 1, mas agora com o prédio mais hostil e vazio de civis.",
+      "Use a Key to the Ancients para destravar a passagem até o laboratório/setor restrito de Hojo, onde ele guarda seus experimentos e pesquisas mais antigas.",
+      "Pelo caminho, o grupo encontra vestígios do trabalho de Hojo com os Cetra e com Jenova, reforçando o clima sombrio da volta a Midgar.",
+      "A Shinra ativa o Proud Clod, um mech de combate pesado controlado a distância por Scarlet e Heidegger, como última linha de defesa do prédio.",
       "Enfrente e vença o boss Proud Clod.",
       "Avançando mais fundo no laboratório, o grupo finalmente encontra Hojo, que revela mais segredos sobre Jenova, Sephiroth e a verdadeira natureza dos Cetra antes de atacar.",
+      "No meio da conversa, Hojo revela, com o característico tom frio e científico, ser o verdadeiro pai biológico de Sephiroth — fruto de seus próprios experimentos com Jenova em Lucrecia, mãe de Sephiroth.",
+      "A revelação reforça o quanto Hojo trata a própria família (e a humanidade em geral) como material de laboratório, aprofundando o horror do personagem.",
       "Hojo se transforma em sequência durante a luta, passando por diferentes formas cada vez mais monstruosas — trate como uma luta de várias fases, curando entre as transições.",
-      "Depois de derrotado, Hojo é finalmente neutralizado, encerrando de vez a ameaça direta da Shinra científica sobre o grupo.",
-      "Com Midgar atrás de si, o grupo embarca de volta no Highwind, prestes a partir para os eventos finais rumo à perseguição definitiva de Sephiroth — fim do Disco 2."
+      "Depois de derrotado, Hojo é finalmente neutralizado, encerrando de vez a ameaça direta da Shinra científica sobre o grupo, embora sua sombra continue pairando sobre a história de Sephiroth.",
+      "Com Midgar atrás de si, o grupo embarca de volta no Highwind, prestes a partir para os eventos finais rumo à perseguição definitiva de Sephiroth.",
+      "Reserve um momento para revisar equipamento, materia e formação do grupo antes de seguir — fim do Disco 2 e início de uma nova fase da aventura, com o grupo completo e mais informado do que nunca sobre a verdadeira natureza do inimigo."
     ],
     "items": [
-      "Key to the Ancients — item-chave obtido no Shinra Building, libera o laboratório restrito de Hojo"
+      "Key to the Ancients — item-chave obtido/orientado por Bugenhagen, libera o laboratório restrito de Hojo no Shinra Building"
     ],
     "boss": "Proud Clod — mech pesado com ataques físicos fortes e golpes de longo alcance; mantenha distância dos ataques em área quando possível, concentre dano constante e cure sempre que o grupo cair abaixo de 50% de HP. Hojo (multi-fase) — ao ser derrotado ele se transforma em sequência, cada forma com um padrão de ataque diferente; cuidado com status negativos (Confuse, Poison) nas formas intermediárias, mantenha Esuna e cura em dia e continue atacando com consistência entre as fases.",
     "missables": [
