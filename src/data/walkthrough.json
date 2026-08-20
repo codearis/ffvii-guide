@@ -393,25 +393,35 @@
     "disc": 1,
     "photo": null,
     "steps": [
-      "Depois de escapar de Midgar, o grupo caminha pela planície até avistar Kalm, a primeira cidade do continente — repouse gratuito na Inn para curar HP/MP e salvar o jogo.",
-      "Antes de avançar na história, visite a Item Shop (Potion, Hi-Potion, Ether, Phoenix Down, Tent) e a Weapon/Armor Shop para reforçar o equipamento de Barret e Tifa; esta é a última cidade normal antes de uma sequência de dungeons.",
-      "Suba ao segundo andar da pousada e converse com o grupo reunido em volta da mesa: isso puxa a conversa sobre Sephiroth e inicia o flashback obrigatório — não há como pular.",
-      "No flashback, você controla o jovem Cloud, então recruta da SOLDIER, chegando a Nibelheim ao lado de Sephiroth e do próprio Zack (que aparece como NPC/guia, sem ser controlável).",
-      "Explore a vila antiga de Nibelheim: converse com os moradores, visite sua própria casa (mãe de Cloud) e a casa de Tifa antes de seguir para o reator em Mt. Nibel.",
-      "Dentro do reator, avance com Sephiroth até a câmara onde fica o espécime de Jenova; a cena revela as origens dele e desencadeia sua loucura — apenas assista, não há escolhas aqui.",
-      "De volta à vila, Nibelheim está em chamas: percorra as ruas incendiadas controlando Cloud enquanto Sephiroth caminha em direção à Shinra Mansion / topo do reator.",
-      "Na cena seguinte, Sephiroth mata o pai de Tifa; ela o enfrenta sozinha e é gravemente ferida, ganhando a cicatriz que carrega no presente.",
-      "Cloud enfrenta Sephiroth na ponte sobre o poço de mako: pegue a Masamune apoiada na parede quando o jogo indicar e empurre Sephiroth lá dentro para encerrar o combate.",
-      "A cena retorna ao presente em Kalm; o grupo debate os próximos passos — seguir o rastro de Sephiroth e impedir os planos da Shinra com a Huge Materia.",
-      "Um velho perto da saída norte comenta sobre viajantes que atravessam a planície montados em chocobos — é a dica para o próximo destino, a Chocobo Farm.",
-      "Salve o jogo no ponto de save perto da saída e siga pela planície ao norte de Kalm."
+      "Depois da fuga de Midgar, o grupo segue a pé pela planície até a entrada de Kalm, a primeira cidade fora da capital — logo na entrada há um Save Point.",
+      "Entre na primeira casa perto da praça central: é a Item Shop (Potion, Hi-Potion, Ether, Phoenix Down, Tent, Antidote) — reabasteça aqui, é a última loja normal antes de uma sequência longa de dungeons.",
+      "A casa ao lado é a Weapon/Armor Shop: compre reforços de arma para Barret e de armadura/acessório para todo o grupo.",
+      "Descanse de graça na Inn (casa com a placa de cama) para curar HP/MP e salvar o jogo antes de avançar na história.",
+      "Suba a escada da casa central de dois andares na praça — no andar de cima o grupo está reunido em volta de uma mesa esperando Cloud.",
+      "Fale com Barret ou Tifa à mesa para puxar o assunto sobre Sephiroth; isso inicia o flashback obrigatório de Nibelheim — não há como recusar ou pular.",
+      "O flashback começa com Cloud, então um recruta de 16 anos querendo entrar para o SOLDIER, chegando a Nibelheim num caminhão da Shinra ao lado de Sephiroth e de Zack, que acompanha o grupo como NPC sem ser controlável.",
+      "Explore a vila antiga livremente antes de seguir a história: entre na casa perto da entrada, que é a sua própria casa — dentro, sua mãe, Claudia, comenta que você nem passou para cumprimentá-la.",
+      "Vá até a casa de dois andares perto da torre d'água: é a casa de Tifa; suba a escada até o quarto dela, onde há uma foto de família na parede — repare nela, é um detalhe que ecoa mais tarde na trama.",
+      "Converse com os poucos moradores espalhados pela praça e perto do poço central antes de seguir Sephiroth até a saída norte da vila, rumo ao Mako Reactor em Mt. Nibel.",
+      "Suba pela trilha externa até a entrada do reator; dentro, siga Sephiroth e Zack pelos corredores de tubos até o elevador central que desce às câmaras internas.",
+      "Na câmara mais profunda, o grupo encontra tanques com espécimes deformados, os primeiros monstros criados por experimentos da Shinra, e, no fundo, uma cápsula lacrada com o nome JENOVA gravado — Sephiroth fica visivelmente perturbado ao lê-lo.",
+      "Sephiroth manda o grupo voltar sozinho para a vila enquanto ele fica investigando; ao retornar ao reator um pouco depois, encontre-o trancado na biblioteca subterrânea, lendo relatórios do Professor Gast sobre o Jenova Project e sobre os Cetra — os diálogos aqui explicam a origem dele, apenas leia e avance.",
+      "Retorne a Nibelheim: a vila está em chamas; percorra as ruas incendiadas controlando Cloud, passando pela sua própria casa e pela casa de Tifa, ambas já tomadas pelo fogo.",
+      "Siga até o poço central, onde Sephiroth acabou de matar o pai de Tifa; ela chega logo depois, o confronta sozinha e é gravemente ferida — a cicatriz que carrega no presente vem desse momento.",
+      "Volte ao reator pelo mesmo caminho da ida, atrás de Sephiroth; Zack tenta detê-lo primeiro e é derrubado.",
+      "Na ponte sobre o poço de mako dentro do reator, pegue a Masamune que ficou cravada após o golpe em Zack e avance sozinho contra Sephiroth — o confronto é apenas uma cutscene guiada, sem escolhas de comando.",
+      "Empurre Sephiroth para dentro do poço; no instante da queda, ele agarra a cabeça da estátua/cápsula de Jenova com ele — memorize essa imagem, ela reaparece de formas importantes mais adiante no jogo.",
+      "A cena retorna ao presente em Kalm; o grupo debate os próximos passos e concorda em seguir o rastro de Sephiroth para impedir os planos da Shinra com a Huge Materia.",
+      "Antes de sair, um velho perto da saída norte comenta sobre viajantes que atravessam a planície montados em chocobos — dica para o próximo destino. Salve no Save Point da entrada e siga ao norte rumo à Chocobo Farm."
     ],
     "items": [
-      "Item Shop de Kalm: Potion, Hi-Potion, Ether, Phoenix Down, Tent",
-      "Weapon/Armor Shop de Kalm: reforços de arma e armadura para Barret e Tifa"
+      "Item Shop de Kalm: Potion, Hi-Potion, Ether, Phoenix Down, Tent, Antidote",
+      "Weapon/Armor Shop de Kalm: reforços de arma para Barret e armadura/acessórios gerais"
     ],
     "boss": null,
-    "missables": []
+    "missables": [
+      "A foto na casa de Tifa e os diálogos da biblioteca do reator são só narrativos, sem item associado, mas fáceis de correr por cima sem perceber se você não entrar nas casas durante o flashback."
+    ]
   },
   {
     "id": "chocobo-farm",
@@ -420,15 +430,20 @@
     "disc": 1,
     "photo": null,
     "steps": [
-      "Ao norte de Kalm, siga pela planície até avistar a Chocobo Farm, cercada por um rio que a separa do resto do continente.",
-      "Converse com Choco Billy (o rapaz que cuida dos chocobos) e com o dono, Chocobo Sam, para entender a mecânica: chocobos atravessam pântano e água sem risco, diferente do grupo a pé.",
-      "Compre Gysahl Greens na loja da fazenda — é a comida usada para atrair e montar chocobos.",
-      "Compre também a Chocobo Lure Materia (2000 gil) com Chocobo Sam; equipe-a em alguém do grupo ativo para facilitar encontros com chocobos selvagens em batalhas aleatórias mais à frente (útil para a criação de chocobos, disponível só mais tarde no jogo).",
-      "Dê um Gysahl Green ao chocobo amarrado próximo à entrada da fazenda para poder montá-lo.",
-      "Monte o chocobo e atravesse o rio/pântano ao norte — a montaria evita o encontro fatal com o Midgar Zolom, a serpente gigante que patrulha o pântano e pode matar o grupo a pé com um único golpe (Level 5 Death) nesse ponto do jogo.",
-      "Depois de cruzar, o chocobo se solta sozinho; para voltar e atravessar de novo (ex.: para revisitar Kalm), repita o processo com outro Green.",
-      "Não é necessário capturar um chocobo próprio agora — a criação/breeding de chocobos (para corridas e para acessar áreas especiais) só fica disponível bem mais à frente, quando houver um estábulo disponível.",
-      "Salve o jogo no ponto de save da fazenda antes de seguir para a Mythril Mine, logo depois da travessia do pântano."
+      "Saindo de Kalm pela estrada norte, siga pela planície até avistar a Chocobo Farm, isolada e cercada por um rio que a separa do continente ao norte.",
+      "Entre no celeiro principal para falar com Choco Billy, o jovem cuidador dos chocobos; ele avisa que a área ao norte tem um pântano perigoso e que só dá para atravessar montado em um chocobo.",
+      "Do lado do celeiro fica a casa de Chocobo Sam, dono da fazenda; converse com ele para liberar a lojinha da fazenda, do lado de fora.",
+      "Na loja, compre Gysahl Greens (comida de chocobo) em boa quantidade — vão ser úteis também em visitas futuras à fazenda.",
+      "Compre a Chocobo Lure Materia por 2000 gil e equipe-a em alguém do grupo ativo: ela aumenta a chance de encontrar chocobos selvagens em batalhas aleatórias, essencial mais adiante para a criação (breeding) de chocobos.",
+      "Repare na cerca reforçada nos fundos da propriedade: Choco Billy comenta que é reservada para criação de chocobos — essa área só vira o estábulo utilizável pelo grupo bem mais para a frente na aventura, quando a criação de raças especiais for necessária (corridas, Materia Choco/Mog etc.).",
+      "Do lado de fora do celeiro, sempre há um chocobo amarrado perto da margem do rio; aproxime-se dele e use um Gysahl Green pelo menu de itens para poder montá-lo.",
+      "Andando montado, siga para o norte e atravesse o rio/pântano: a montaria evita o encontro fatal com o Midgar Zolom, a serpente gigante que patrulha a região e pode matar o grupo inteiro com um único golpe (Level 5 Death) se encontrado a pé nesse ponto do jogo.",
+      "Ao concluir a travessia, o chocobo se solta sozinho do outro lado — é o comportamento normal, ele volta para a fazenda por conta própria.",
+      "Para atravessar de volta mais tarde, por exemplo para revisitar Kalm, repita o processo com outro Green em qualquer chocobo disponível perto da fazenda.",
+      "Vale reabastecer bem em Greens antes de seguir: não há mais chocobos disponíveis para montar depois da fazenda até muito mais adiante no jogo.",
+      "Não é necessário, nem ainda possível, capturar um chocobo próprio nesta visita; o foco aqui é só garantir a travessia segura.",
+      "Cure o grupo e salve no Save Point da fazenda.",
+      "Siga para o norte, atravesse o pântano montado e continue até a entrada da Mythril Mine, do outro lado da travessia."
     ],
     "items": [
       "Gysahl Greens — Item Shop da Chocobo Farm",
@@ -444,21 +459,28 @@
     "disc": 1,
     "photo": null,
     "steps": [
-      "Depois de atravessar o pântano com o chocobo, siga para a entrada da Mythril Mine, uma caverna linear que corta a montanha até a costa onde fica Junon.",
-      "Dentro da mina, monstros como Formula e Hedgehog Pie aparecem com frequência — bom lugar para ganhar EXP e AP antes de Junon.",
-      "Explore os desvios da caverna: há bifurcações curtas com baús de itens de cura (Hi-Potion, Ether) e algum acessório; volte ao caminho principal depois de cada desvio.",
-      "Perto da saída oposta, uma cutscene interrompe o grupo: os Turks (Reno e companhia) aparecem bloqueando a passagem e trocam farpas com o grupo.",
-      "Em determinado momento o jogo pergunta se você quer enfrentar os Turks ali mesmo — aceitar dá uma luta extra por EXP/AP; recusar não tem penalidade, eles deixam o grupo passar de qualquer forma.",
-      "Depois da conversa (com ou sem luta), os Turks se retiram e a passagem para a saída norte da mina é liberada.",
-      "Cure o grupo e salve no ponto de save perto da saída antes de seguir.",
-      "Ao sair da mina, o caminho leva diretamente à costa onde fica Junon — a cidade murada com o quartel da Shinra."
+      "Do outro lado do pântano, a entrada da Mythril Mine fica logo à frente — uma caverna estreita e sinuosa que atravessa a montanha até a costa onde fica Junon.",
+      "Já na primeira sala, monstros como Formula e Hedgehog Pie aparecem com frequência em encontros aleatórios — bom trecho para ganhar EXP e AP antes de Junon, caso queira grindar um pouco antes de seguir.",
+      "Siga sempre pelo corredor mais largo da caverna; nos primeiros cruzamentos há desvios curtos que levam a pequenos becos com baús — vale explorar todos antes de avançar, pois depois da cutscene dos Turks o jogo empurra o grupo direto para a saída.",
+      "No primeiro desvio há um baú com Hi-Potion; volte ao corredor principal e continue em frente.",
+      "Mais à frente, outro desvio esconde um segundo baú, com Ether.",
+      "Continue avançando até uma sala maior com um terceiro baú, escondido atrás de uma formação rochosa, contendo um acessório.",
+      "Perto da saída oposta da mina, uma cutscene interrompe automaticamente o grupo: os Turks Reno e Rude aparecem bloqueando a passagem, debochando da perseguição do grupo a Sephiroth.",
+      "Reno comenta que a prioridade deles agora é a Huge Materia guardada pela Shinra, não deter Cloud à força — apenas diálogo, sem opções de resposta que alterem o rumo da cena.",
+      "Barret reage com hostilidade de qualquer forma, tensionando o encontro, mas a conversa segue o mesmo roteiro independente disso.",
+      "Em seguida, o jogo pergunta se você quer desafiar os Turks para uma luta ali mesmo: aceitar dá uma batalha extra por EXP/AP contra Reno; recusar não tem penalidade, eles liberam a passagem de qualquer forma.",
+      "Depois da conversa, com ou sem luta, os Turks se retiram e a passagem para a saída norte da mina fica livre.",
+      "Cure o grupo e salve no Save Point que fica logo antes da saída.",
+      "Ao sair da mina pelo lado norte, o caminho desce direto até a costa, onde já se avista a base murada de Junon ao longe.",
+      "Essa é a última chance de reabastecer itens de cura antes de Junon usando apenas o que já tem no inventário — não há loja dentro da mina."
     ],
     "items": [
-      "Baús ao longo da mina: Hi-Potion, Ether e um acessório menor (confira os desvios antes de sair pelo lado oposto)"
+      "Baús na mina: Hi-Potion, Ether e um acessório menor, todos nos desvios curtos antes da cutscene dos Turks"
     ],
     "boss": null,
     "missables": [
-      "Luta opcional contra os Turks na saída da mina — só acontece se você aceitar o desafio quando o jogo perguntar; recusar não impede o progresso."
+      "Luta opcional contra os Turks na saída da mina — só acontece se você aceitar o desafio quando o jogo perguntar; recusar não impede o progresso.",
+      "Os três baús da mina ficam nos desvios antes da cutscene dos Turks; depois dela o jogo empurra o grupo direto para a saída, então explore tudo antes."
     ]
   },
   {
@@ -468,15 +490,21 @@
     "disc": 1,
     "photo": null,
     "steps": [
-      "No caminho entre a Mythril Mine e Junon (ou vindo depois por outra rota do mapa-múndi), um pequeno pico em formato de condor abriga a vila de Fort Condor — visita totalmente opcional.",
-      "No topo da montanha vive um condor raro protegendo seu ninho; a Shinra quer destruir o ninho para explorar a área, e os moradores contratam aventureiros (incluindo o grupo) para defender o forte.",
-      "Fale com o responsável na base da montanha para iniciar o minigame de estratégia: uma batalha em tempo real entre suas unidades e as tropas da Shinra avançando por um corredor único até o ninho no topo.",
-      "Você começa com uma reserva de Gil; use-a para contratar unidades (soldados, arqueiros, catapultas, magos) e posicioná-las no seu lado do campo — cada tipo tem custo, alcance e função diferentes.",
-      "As unidades da Shinra avançam sozinhas em ondas; suas unidades atacam automaticamente o que estiver no alcance — o objetivo é impedir que qualquer inimigo chegue ao ninho no topo antes que o tempo (ou as ondas) se esgote.",
-      "Estratégia básica: misture unidades de longo alcance (arqueiros/catapultas) atrás com unidades corpo a corpo na frente para segurar a linha; reserve Gil para reforços quando os inimigos mais fortes aparecerem no meio da partida.",
-      "Vencer a defesa rende Gil como recompensa; cada vitória também conta para um placar acumulado ao longo de todas as vezes que você jogar Fort Condor durante a aventura.",
-      "É possível simplesmente ignorar o minigame e seguir viagem sem jogar — não é obrigatório para a história.",
-      "Guarde este ponto na memória: Fort Condor pode ser revisitado várias vezes ao longo do disco 1 e do disco 2; vencer o suficiente nessas visitas acumuladas é o que garante a recompensa final (ver missables)."
+      "No mapa-múndi, ao explorar os arredores de Junon/Mythril Mine, repare em um pico isolado em formato de condor — é a entrada de Fort Condor, visita totalmente opcional que pode ser feita agora ou revisitada depois.",
+      "Na base da montanha, converse com o vigia para entender o contexto: um condor raro fez ninho no topo, e a Shinra quer destruir o ninho para explorar a região; os moradores formaram uma milícia para defendê-lo.",
+      "Falar com o líder da milícia na base do forte inicia o minigame de estratégia.",
+      "O minigame se passa em uma tela lateral: seu lado fica de um lado do campo, perto do ninho, e o inimigo entra pelo outro lado, avançando por um único corredor.",
+      "Você começa com uma reserva de Gil; abra o menu de unidades e contrate quantas conseguir pagar antes do tempo de preparação acabar — cada tipo tem custo, alcance, dano e velocidade diferentes: soldados corpo a corpo baratos e rápidos, catapultas/atiradores caros com alcance longo, e unidades de suporte que curam ou atordoam.",
+      "Posicione as unidades em qualquer ponto do seu lado do campo antes da batalha começar — a posição importa: unidades de longo alcance atrás, unidades corpo a corpo na frente para segurar a linha de contato.",
+      "Depois de posicionar, a batalha corre automaticamente: suas unidades atacam o que estiver dentro do alcance delas, e o mesmo vale para o inimigo — não dá para reposicionar no meio do combate.",
+      "Enquanto a luta rola, você continua recebendo Gil aos poucos; use-o para contratar reforços adicionais nos pontos ainda livres do seu lado do campo, especialmente quando tropas mais fortes da Shinra aparecerem no meio da onda.",
+      "O objetivo é impedir que qualquer unidade inimiga alcance o ninho no topo, sua base; se uma unidade chegar lá, ela causa dano direto, e o forte tem uma barra de vida limitada.",
+      "Estratégia recomendada: não gaste tudo logo no início — deixe uma reserva de Gil para as ondas finais, que costumam trazer as unidades mais fortes e rápidas da Shinra.",
+      "Vencer a defesa, impedindo que o ninho seja destruído, rende Gil como recompensa imediata.",
+      "Cada vitória em Fort Condor também soma para um placar acumulado ao longo de todas as vezes que você jogar o minigame durante toda a aventura, incluindo visitas futuras no disco 1 e no disco 2.",
+      "Perder uma defesa não é o fim: você pode tentar de novo na próxima vez que passar por Fort Condor, sem penalidade além de não ganhar a recompensa daquela rodada.",
+      "Também é possível ignorar completamente o minigame e apenas seguir viagem — Fort Condor nunca é obrigatório para a progressão da história.",
+      "Guarde este local na memória: a recompensa final por vencer o suficiente ao longo de todo o jogo é a Phoenix Materia (ver missables) — vale a pena voltar sempre que passar perto."
     ],
     "items": [
       "Gil — recompensa por cada defesa vencida"
@@ -493,25 +521,32 @@
     "disc": 1,
     "photo": null,
     "steps": [
-      "Ao chegar à costa vindo da Mythril Mine, o grupo encontra a base murada de Junon, cidade portuária tomada pelo quartel militar da Shinra.",
-      "Na praia, uma cutscene mostra uma garota (Priscilla) sendo atacada na água por uma criatura marinha — Cloud mergulha para socorrê-la, dando início ao boss Bottomswell (ver campo boss).",
-      "Depois da luta, Priscilla é resgatada mas ainda inconsciente; uma pequena cena de RCP (CPR) pede que você reaja no momento certo para reanimá-la.",
-      "O avô de Priscilla leva o grupo para a casa dela para descansar; Cloud desmaia e tem uma visão/sonho com uma mulher misteriosa (Jenova/Sephiroth) — apenas assista.",
-      "Ao acordar, explore a Junon inferior: Item Shop, Weapon Shop e casas dos moradores, incluindo uma com um Turtle's Paradise flyer colecionável (ver missables).",
-      "Procure a entrada do túnel submarino (perto do cais/Item Shop) para o minigame de mergulho: Cloud mergulha repetidas vezes, e é preciso apertar o botão certo no momento indicado para agarrar o tesouro antes do fôlego acabar.",
-      "Cada mergulho bem-sucedido rende um prêmio diferente — o mais cobiçado é a Shiva Materia; os demais mergulhos rendem itens de cura, Sources e acessórios, dependendo do timing.",
-      "Depois de explorar tudo, converse com Priscilla novamente: ela dá pistas sobre como atravessar a parada militar que bloqueia o acesso à Junon superior.",
-      "Suba as escadas/elevador que levam à parte alta da cidade — isso conecta diretamente com o desfile militar da Shinra, tratado no próximo capítulo."
+      "Vindo da Mythril Mine, o grupo chega à praia nos arredores de Junon, cidade portuária murada e tomada pelo quartel militar da Shinra.",
+      "Assim que o grupo pisa na areia, uma cutscene automática mostra uma garota, Priscilla, sendo atacada na água por uma criatura marinha — Cloud mergulha sozinho para socorrê-la, dando início ao boss Bottomswell (ver campo boss).",
+      "Depois de vencer, uma cena mostra Cloud arrastando Priscilla desacordada para a areia; um mini-QTE de RCP (CPR) pede que você reaja no momento certo, apertando o botão indicado quando aparecer na tela, para reanimá-la.",
+      "O avô de Priscilla aparece correndo, alarmado, e leva os dois para casa; Cloud desmaia de exaustão logo depois e tem uma visão/sonho com uma mulher misteriosa que sussurra sobre a Promised Land — apenas assista, sem escolhas.",
+      "Cloud acorda dentro da casa de Priscilla, na parte baixa de Junon; ela está sentada ao lado da cama e agradece timidamente, sem falar muito — Priscilla é uma personagem quieta ao longo de toda a cena.",
+      "Saia da casa e explore a Junon inferior: vire em direção à praça central, onde ficam a Item Shop e a Weapon Shop lado a lado.",
+      "Reabasteça normalmente (Potion, Hi-Potion, Phoenix Down, Ether) e confira o estoque de armas — Junon costuma ter opções melhores que as de Kalm para todo o grupo.",
+      "Explore as casas ao redor da praça: em uma delas, escondido entre os objetos do cômodo, há um Turtle's Paradise flyer colecionável (ver missables).",
+      "Perto do cais, ao lado da Item Shop, há uma porta que leva a um túnel submarino — essa é a entrada do minigame de mergulho por tesouros.",
+      "Dentro do túnel, fale com o NPC responsável para iniciar o mergulho: Cloud desce repetidamente até o fundo, e uma barra de fôlego aparece na tela enquanto ele nada.",
+      "Durante cada mergulho, um prompt de botão aparece na hora certa perto de um item brilhando no fundo — aperte o botão indicado dentro da janela de tempo para agarrar o tesouro antes que o fôlego acabe; errar o tempo faz Cloud voltar de mãos vazias naquela tentativa.",
+      "Você pode repetir o mergulho quantas vezes quiser; cada tentativa bem-sucedida dá um prêmio diferente da lista de recompensas, sorteado entre itens de cura, Sources, acessórios e, com sorte, a cobiçada Shiva Materia.",
+      "Não há limite de tentativas nem custo por mergulho — vale ficar repetindo até garantir a Shiva Materia antes de seguir viagem, já que essa é a oportunidade prática de pegá-la nesta parte do jogo.",
+      "Depois de esgotar o interesse no mergulho, volte à casa de Priscilla e converse com ela de novo: com gestos tímidos, ela conta que sabe um jeito de driblar a parada militar que bloqueia a Junon superior.",
+      "Saia da casa de Priscilla e siga até a base da escadaria/elevador que leva à parte alta da cidade — soldados barram a entrada normal, empurrando a história para o disfarce do desfile.",
+      "Suba pelo elevador até a Junon superior — a sequência do desfile militar começa no próximo capítulo."
     ],
     "items": [
       "Shiva Materia — prêmio do minigame de mergulho no túnel submarino",
       "Outros prêmios do mergulho: Potion, Ether, Sources e acessórios variados, conforme o timing",
       "Item Shop e Weapon Shop de Junon inferior: reforços gerais de equipamento"
     ],
-    "boss": "Bottomswell — luta parcialmente na água contra uma criatura marinha. Ele alterna ataques físicos comuns com um ataque de maré/Tsunami que acerta o grupo inteiro; quando o aviso de salto aparecer na tela, aperte o botão indicado a tempo para pular e reduzir bastante o dano. Fora isso é uma luta direta: concentre ataques físicos e magias nele, mantenha o grupo curado e não há elemento obrigatório para vencer com folga.",
+    "boss": "Bottomswell — luta parcialmente na água contra uma criatura marinha. Ele alterna mordidas e golpes de cauda com um ataque de maré/Tsunami que acerta o grupo inteiro; quando o aviso de salto aparecer na tela, aperte o botão indicado a tempo para pular e reduzir bastante o dano. Fora isso é uma luta direta: concentre ataques físicos e magias nele, mantenha o grupo curado e não há elemento obrigatório para vencer com folga.",
     "missables": [
       "Turtle's Paradise flyer em uma das casas de Junon inferior — colecionável para trocar por Odin Materia mais tarde em Wutai (junte todos os flyers do jogo).",
-      "O minigame de mergulho tem tentativas melhores quanto mais cedo/mais vezes você tentar; vale reservar um tempo aqui para garantir a Shiva Materia antes de seguir viagem."
+      "Garanta pegar a Shiva Materia no mergulho antes de subir para a Junon superior — a chance de voltar aqui com facilidade mais tarde no jogo é incerta."
     ]
   },
   {
@@ -521,16 +556,21 @@
     "disc": 1,
     "photo": null,
     "steps": [
-      "Ao subir para a Junon superior, soldados da Shinra impedem a passagem: a cidade está em preparação para receber Rufus Shinra, o novo presidente, com um grande desfile militar.",
-      "Para atravessar sem ser reconhecido, o grupo se disfarça com uniformes de soldado da Shinra e é escalado à força para participar da marcha do desfile.",
-      "Na noite anterior, é possível treinar a coreografia da marcha com um sargento nos quartéis — vale a pena praticar para entender os comandos antes da apresentação real.",
-      "No dia do desfile, o minigame começa: um instrutor grita comandos de direção (frente, esquerda, direita) em sequência e ritmo crescente, e você deve apertar o botão/direção correspondente no tempo certo.",
-      "Cada acerto soma pontos; errar o comando (ou a cadência) derruba a pontuação final — quanto mais comandos você acompanhar em sequência sem errar, melhor a nota do desfile.",
-      "A pontuação final é só cosmética/opcional: rende no máximo um item de recompensa extra por bom desempenho, mas não afeta a progressão da história de forma alguma — mesmo indo mal, o grupo segue em frente.",
-      "Depois do desfile, Rufus discursa para a tropa; o grupo aproveita a confusão para se infiltrar mais fundo na base, incluindo a sala do canhão principal de Junon.",
-      "Uma cena mostra o disparo do canhão de Junon contra uma criatura marinha gigantesca ao longe — apenas um aviso visual da ameaça dos Weapons que aparecerão mais tarde no jogo, sem luta agora.",
-      "Ao tentar escapar da base pela doca, soldados perseguem o grupo; durante a fuga por um túnel submarino/pela água, o golfinho de Priscilla aparece e entrega a All Materia como agradecimento.",
-      "O grupo consegue embarcar escondido em um navio cargueiro da Shinra que parte rumo a Costa del Sol — segue no próximo capítulo."
+      "Ao subir para a Junon superior, um oficial barra a passagem: a cidade inteira está em preparação para a chegada de Rufus Shinra, o novo presidente, num grande desfile militar.",
+      "Para não serem identificados, o grupo é obrigado a vestir uniformes de soldado da Shinra e é escalado à força para completar as fileiras do desfile daquela noite.",
+      "Antes da apresentação oficial, há uma sessão de treino no pátio dos quartéis com um sargento que ensina a sequência de comandos da marcha — vale treinar pelo menos uma vez para pegar o ritmo.",
+      "O treino/apresentação funciona como um jogo de repetição: o sargento aponta uma direção (frente, esquerda, direita, usando o D-pad), e você deve repetir apertando a mesma direção dentro de uma janela curta de tempo.",
+      "As sequências de comando ficam mais longas e rápidas a cada rodada; o jogo conta quantos comandos você acerta seguidos sem errar.",
+      "Errar um comando não elimina você da apresentação, mas derruba a pontuação final — o ideal é acompanhar o ritmo com calma em vez de tentar adivinhar o próximo comando.",
+      "Na apresentação real, à noite, com toda a tropa perfilada, o desempenho é avaliado por Heidegger e pela plateia; pontuação alta rende comentários positivos e um item de recompensa melhor ao final; pontuação baixa só rende deboche, sem prejudicar a progressão da história.",
+      "Depois do desfile, Rufus sobe ao palanque e discursa pela primeira vez como presidente da Shinra, anunciando os planos da empresa para conter a ameaça representada por Sephiroth — ouça o discurso inteiro, ele contextualiza a postura de Rufus no resto do jogo.",
+      "Scarlet, executiva de armamentos da Shinra, também aparece nesta parte supervisionando os preparativos do canhão principal de Junon — sua primeira aparição no jogo.",
+      "Aproveitando a confusão do desfile, o grupo se separa da formação e se infiltra mais fundo na base militar; siga pelos corredores até a sala de controle do canhão.",
+      "Na sala do canhão, uma cutscene mostra o disparo contra uma criatura marinha gigantesca vista ao longe no oceano — só um aviso visual da ameaça dos Weapons que voltam a aparecer bem mais tarde no jogo, sem luta agora.",
+      "Depois da demonstração, soldados percebem a presença do grupo e iniciam uma perseguição pelos corredores da base — siga correndo pela única rota livre até a doca de embarque.",
+      "Na doca, encurralados, o grupo pula na água para escapar por um túnel submarino; durante a fuga nadando, o golfinho de Priscilla aparece do nada e entrega a All Materia como agradecimento pelo resgate do capítulo anterior.",
+      "Do outro lado do túnel, o grupo emerge escondido perto de um navio cargueiro da Shinra prestes a partir rumo a Costa del Sol.",
+      "Aproveite a brecha para embarcar escondido entre os contêineres do navio antes que ele zarpe — a aventura no navio continua no próximo capítulo."
     ],
     "items": [
       "All Materia — entregue por Priscilla através do golfinho durante a fuga pela doca",
@@ -548,18 +588,24 @@
     "disc": 1,
     "photo": null,
     "steps": [
-      "Escondido entre caixas no porão do navio cargueiro, o grupo aguarda a travessia até Costa del Sol.",
-      "Explore os porões e o convés antes de avançar a história: há caixotes com itens de cura e, em um dos cantos, um Turtle's Paradise flyer colecionável.",
-      "Converse com os marinheiros disponíveis para diálogos extras sobre o cotidiano na Shinra — puramente opcional, mas dá contexto de mundo.",
-      "Ao se aproximar de um ponto específico do convés/porão, uma cutscene é disparada e não há mais chance de explorar depois disso — garanta ter revistado tudo antes de continuar.",
-      "Um monstro baseado em células de Jenova rompe o casco/porão do navio: começa o combate contra o boss Jenova∙BIRTH (ver campo boss).",
-      "Durante a luta, o navio balança e o cenário treme, mas isso não muda a mecânica do combate — trate como uma luta direta contra um boss de HP alto.",
-      "Depois da vitória, o navio chega ao porto de Costa del Sol; uma pequena cena mostra o contraste entre a cidade turística e a tensão que o grupo está vivendo.",
-      "Desça do navio e explore Costa del Sol no próximo capítulo."
+      "Escondido entre caixotes no porão do navio cargueiro, o grupo aguarda em silêncio enquanto o navio deixa o porto de Junon rumo a Costa del Sol.",
+      "Assim que a cutscene de embarque termina, você recupera o controle de Cloud dentro do porão — explore os corredores antes de subir ao convés.",
+      "Vasculhe as pilhas de caixotes espalhadas pelo porão: alguns contêm itens de cura (Potion, Hi-Potion, Ether) e, em um canto mais escondido, há um Turtle's Paradise flyer colecionável.",
+      "Suba a escada de metal no fundo do porão até o convés superior; dá para andar por boa parte do convés, incluindo perto das cabines da tripulação, fechadas para o grupo.",
+      "Converse com os marinheiros disponíveis pelo convés sobre o cotidiano a bordo e sobre a chegada de Rufus em Junon — diálogos opcionais, sem afetar a história.",
+      "Um dos marinheiros comenta desconfiado sobre ruídos estranhos vindos de um contêiner lacrado no fundo do porão — pista de que algo está prestes a acontecer.",
+      "Não existe Save Point a bordo do navio; aproveite para reorganizar a Materia equipada em cada personagem e garantir HP/MP cheios antes de continuar, já que o próximo passo dispara um boss sem aviso.",
+      "Volte ao porão e aproxime-se do contêiner lacrado mencionado pelo marinheiro; essa é a última chance de explorar o restante do navio antes que a cutscene do ataque seja disparada.",
+      "Ao se aproximar o suficiente, o contêiner se rompe de dentro para fora: uma criatura baseada em células de Jenova ataca o grupo, iniciando o boss Jenova∙BIRTH (ver campo boss).",
+      "Durante a luta, o cenário do navio balança e treme visualmente, mas isso não altera a mecânica do combate — trate como uma luta direta contra um boss de HP alto, sem gimmick de ambiente.",
+      "Depois da vitória, uma cutscene mostra o restante da tripulação alarmada correndo pelo convés sem entender o que aconteceu; o grupo se recompõe escondido de novo entre os caixotes.",
+      "Pouco depois, o navio avista a costa e atraca no porto de Costa del Sol; uma cena mostra o contraste entre a cidade turística e ensolarada e a tensão que o grupo está vivendo.",
+      "Assim que puder controlar o grupo novamente, desça a rampa de desembarque.",
+      "A exploração de Costa del Sol começa no próximo capítulo — não é possível voltar ao navio depois de desembarcar."
     ],
     "items": [
       "Caixotes no porão: Potion, Hi-Potion, Ether",
-      "Turtle's Paradise flyer em um canto do porão/convés"
+      "Turtle's Paradise flyer em um canto do porão"
     ],
     "boss": "Jenova∙BIRTH — a primeira forma de Jenova enfrentada fora de Midgar. HP alto e ataques físicos pesados, sem fraqueza elemental marcante nesse ponto do jogo; mantenha alguém dedicado a cura constante (Cure/Potion) e concentre o dano físico e mágico dos personagens mais fortes. Não tem gimmick especial de status ou fases — é um teste de resistência mais do que de estratégia.",
     "missables": [
@@ -573,17 +619,24 @@
     "disc": 1,
     "photo": null,
     "steps": [
-      "O navio atraca em Costa del Sol, uma cidade turística e ensolarada, contraste total com Midgar e Junon.",
-      "Explore a vila: Item Shop, Weapon Shop e Armor Shop têm bom estoque para reforçar o grupo antes da próxima etapa de viagem por terra.",
-      "Uma loja de roupas de praia permite vestir Cloud com um traje de banho por brincadeira — puramente cosmético/opcional, sem efeito no jogo.",
-      "Em uma das casas há um Turtle's Paradise flyer colecionável — explore os cômodos com atenção.",
-      "Uma cutscene na praia mostra Hojo relaxando com assistentes da Shinra e fazendo comentários irônicos/perturbadores sobre a pesquisa em andamento — apenas diálogo, sem confronto aqui.",
-      "Um NPC oferece a compra da Villa de Costa del Sol por 300.000 gil — investimento caro e totalmente opcional (vira uma casa própria utilizável mais tarde); não é necessário para progredir e pode ser comprada em qualquer visita futura.",
-      "Descanse na Inn e salve o jogo antes de seguir.",
-      "Para continuar a viagem, saia de Costa del Sol pela trilha de terra que leva a Mt. Corel — não há mais transporte marítimo por enquanto."
+      "Ao desembarcar, o grupo se depara com Costa del Sol, uma cidade turística e ensolarada — contraste total com Midgar e Junon, cheia de turistas relaxando.",
+      "Da doca, siga em frente pela rua principal até a praça central, onde ficam a Item Shop e a Weapon/Armor Shop lado a lado.",
+      "Reabasteça normalmente e confira o estoque de armas e armaduras — bom momento para gastar o Gil acumulado antes da trilha por terra que vem a seguir.",
+      "Perto da praça, uma loja de roupas de praia permite vestir Cloud com um traje de banho por brincadeira — puramente cosmético, não afeta nada na jogabilidade nem na história.",
+      "Um vendedor ambulante perto da praia oferece Materias básicas (Fire, Ice, Bolt, Cure) por um preço um pouco acima do normal — útil se ainda faltar alguma dessas na sua coleção.",
+      "Desça até a área da praia, ao sul da praça, para encontrar uma cutscene com Hojo, sentado numa cadeira de praia cercado por assistentes da Shinra.",
+      "Hojo faz comentários irônicos e perturbadores sobre espécimes interessantes que ainda pretende estudar — apenas diálogo, sem confronto; a cena reforça o quanto ele já sabe sobre o grupo.",
+      "Explore as casas residenciais espalhadas pela vila: os outros membros do grupo aparecem circulando sozinhos por diferentes cantos da cidade, aproveitando o clima de férias — vale conversar com cada um para diálogos extras de personalidade, como Barret reclamando do clima de turismo ou Tifa se divertindo.",
+      "Em uma das casas, escondido entre os objetos do cômodo, há um Turtle's Paradise flyer colecionável.",
+      "Na parte alta da vila, perto do píer, um NPC oferece a compra da Villa de Costa del Sol por 300.000 gil — investimento caro e opcional, que vira uma casa própria utilizável mais tarde; pode ser comprada em qualquer visita futura, não precisa ser agora.",
+      "Se quiser, entre no bar da vila para mais diálogos ambientais com turistas e moradores — puramente opcional.",
+      "Descanse na Inn para curar o grupo e salvar o jogo.",
+      "Antes de seguir, reveja o equipamento de todos: a próxima etapa é uma trilha por terra sem lojas por um bom tempo, então vale garantir estoque de cura.",
+      "Para continuar a viagem, saia de Costa del Sol pela estrada de terra na saída da vila que leva a Mt. Corel — não há mais transporte marítimo disponível por enquanto."
     ],
     "items": [
       "Turtle's Paradise flyer em uma casa de Costa del Sol",
+      "Materias básicas à venda com o vendedor ambulante da praia (preço elevado)",
       "Item/Weapon/Armor Shop: bom estoque geral de equipamento",
       "Villa de Costa del Sol — compra opcional por 300.000 gil (disponível também em visitas futuras)"
     ],
@@ -599,14 +652,21 @@
     "disc": 1,
     "photo": null,
     "steps": [
-      "A trilha de Mt. Corel sai de Costa del Sol e sobe por uma região rochosa e árida, contrastando com a praia que ficou para trás.",
-      "No meio do caminho, o grupo precisa cruzar os trilhos abandonados de uma ponte ferroviária suspensa sobre um desfiladeiro.",
-      "Um trem blindado da Shinra aparece e passa a perseguir o grupo pelos trilhos — a sequência é majoritariamente automática, mas preste atenção às janelas de comando para correr/desviar e não cair.",
-      "Depois de atravessar a ponte com sucesso, o caminho desce até North Corel, uma vila pobre de mineração construída sobre os destroços de um antigo reator de Mako.",
-      "North Corel é o lugar de origem de Barret: converse com os moradores para ouvir referências indiretas à tragédia que destruiu a vila (o incêndio do reator, atribuído injustamente a Barret e ao amigo dele, Dyne) — contexto importante para o próximo capítulo.",
-      "Explore as lojas simples da vila (Item Shop) para repor suprimentos básicos.",
-      "No canto da vila fica a estação do teleférico que sobe até o Gold Saucer, construído logo acima na montanha.",
-      "Compre a passagem no balcão da estação e suba até o Gold Saucer — próximo capítulo."
+      "A trilha de Mt. Corel começa logo na saída de Costa del Sol e sobe por uma região rochosa e árida, bem diferente da praia que ficou para trás.",
+      "Siga sempre pelo caminho único marcado na trilha — a área é linear, sem desvios importantes, então é fácil de navegar mesmo sem mapa.",
+      "No meio do caminho, uma cutscene mostra o grupo chegando a uma ponte ferroviária abandonada, suspensa sobre um desfiladeiro profundo.",
+      "Ao atravessar a ponte pelos trilhos, um trem blindado da Shinra surge atrás do grupo e começa a persegui-los pelos mesmos trilhos.",
+      "A sequência de fuga é majoritariamente automática: continue apertando para frente e preste atenção às janelas de comando que pedem para pular ou desviar de vigas quebradas — errar o timing derruba o personagem, mas sem game over, apenas retomando o trecho.",
+      "Depois de atravessar a ponte inteira com sucesso, o grupo salta para uma plataforma segura pouco antes do trem alcançá-los, encerrando a perseguição.",
+      "Do outro lado, o caminho desce direto até North Corel, uma vila pobre de mineração construída sobre os destroços de um antigo reator de Mako.",
+      "North Corel é visivelmente humilde: casas de madeira improvisadas, moradores desconfiados de forasteiros — reflexo direto da tragédia que atingiu a região anos atrás.",
+      "Converse com os moradores espalhados pela vila: várias falas fazem referência indireta ao incêndio do reator de Corel, atribuído injustamente a Barret e ao antigo parceiro dele, Dyne — contexto importante para o capítulo seguinte, na Corel Prison.",
+      "Barret evita comentar diretamente sobre o assunto se perguntado, reagindo com desconforto visível — um dos raros momentos em que o próprio grupo nota que há algo mal resolvido no passado dele.",
+      "Um morador mais velho sussurra um boato de que o antigo líder da revolta de Corel, Dyne, ainda estaria vivo em algum lugar — rumor que se confirma de forma dramática no próximo capítulo.",
+      "Explore a loja simples da vila (Item Shop) para repor suprimentos básicos de cura antes de seguir para o Gold Saucer.",
+      "Há um Save Point perto da estação do teleférico — cure e salve antes de subir, já que o Gold Saucer tem sua própria dinâmica de progresso.",
+      "No canto da vila fica a estação do teleférico que sobe até o Gold Saucer, construído logo acima na montanha, visível no céu a partir da vila.",
+      "Compre a passagem no balcão da estação, custo baixo em Gil, e embarque no teleférico rumo ao Gold Saucer — próximo capítulo."
     ],
     "items": [
       "Item Shop de North Corel: suprimentos básicos de cura"
@@ -621,23 +681,33 @@
     "disc": 1,
     "photo": null,
     "steps": [
-      "O teleférico de North Corel leva o grupo ao Gold Saucer, um parque de diversões gigantesco suspenso sobre a região árida — pague a entrada em Gil (ou GP, se já tiver) na cabine de acesso.",
-      "O hub central (Round Square) dá acesso a várias áreas temáticas: Wonder Square (minigames de arcade), Chocobo Square (corrida de chocobo), Battle Square (arena de combate), Event Square (peça de teatro/show) e Speed Square, entre outras.",
-      "Em Wonder Square, jogue os minigames de arcade disponíveis (como o de tiro sobre uma moto) para ganhar GP — a moeda usada para trocar por prêmios no balcão e para pagar novas entradas no parque.",
-      "Vá até o Event Square para assistir/participar da peça de teatro: dependendo das escolhas de diálogo durante a apresentação, Cloud pode ser escalado para papéis diferentes na cena — puramente opcional e cômico, sem afetar a história principal.",
-      "Em Chocobo Square, é possível assistir ou apostar em corridas de chocobo usando um chocobo alugado (o grupo ainda não tem chocobo próprio nesta altura do jogo).",
-      "Visite Battle Square: pague GP para entrar na arena e enfrentar sequências de batalhas por BP (Battle Points), uma moeda separada trocável por equipamentos e Materias raras mais para frente no jogo — nesta primeira visita o estoque de prêmios ainda é bem limitado.",
-      "Em algum ponto do Wonder Square, uma máquina de sorte (uma cartomante robótica) chama o grupo para uma leitura de fortuna: essa máquina é, na verdade, o robô Cait Sith se apresentando — depois da leitura, ele desafia o grupo para um jogo de dados/loteria.",
-      "Não importa o resultado do desafio contra Cait Sith: ele se junta ao grupo como novo personagem logo em seguida (o jogo é armado para isso).",
-      "Durante a visita, um incidente na Battle Square (um monstro foge de controle durante uma luta na arena) faz o dono do parque, Dio, culpar o grupo pela confusão.",
-      "Soldados da Shinra prendem o grupo sob a acusação, e todos são levados para a Corel Prison, construída na base do Gold Saucer — segue no próximo capítulo."
+      "O teleférico de North Corel sobe até o Gold Saucer, um parque de diversões gigantesco suspenso sobre a região árida — pague a entrada, em Gil ou em GP se já tiver, na cabine de acesso.",
+      "Do hub central, chamado Round Square, saem os acessos a todas as áreas temáticas do parque: Wonder Square, Chocobo Square, Battle Square, Event Square, Speed Square, Ghost Square (fechada por enquanto) e o próprio Round Square.",
+      "Assim que o grupo entra no parque, uma cena mostra os membros se dispersando para aproveitar as atrações — esse é o gatilho que, mais tarde na mesma visita, leva ao evento do encontro noturno (ver detalhe adiante).",
+      "Em Wonder Square, jogue os minigames de arcade disponíveis, incluindo um de tiro montado numa moto simulada, para ganhar GP — a moeda usada para trocar por prêmios no balcão do parque e para pagar novas entradas.",
+      "Ainda em Wonder Square, uma máquina de sorte, uma cartomante robótica, chama o grupo para uma leitura de fortuna — na verdade é o robô Cait Sith se apresentando, disfarçado de atração do parque.",
+      "Depois da leitura, Cait Sith desafia o grupo para um minigame de dados/loteria; não importa o resultado da aposta, ele se junta ao grupo como novo personagem logo em seguida, o desafio é só uma desculpa narrativa.",
+      "Com Cait Sith na equipe, repare em sua mecânica única: o Limit Break dele funciona como um cassino/slot machine que sorteia efeitos aleatórios, desde cura total até dano pesado, e ele pode ser trocado por uma cópia reserva caso perca todo o HP em batalha, sem penalidade real.",
+      "Em Chocobo Square, é possível assistir corridas e apostar Gil usando um chocobo alugado — o grupo ainda não tem chocobo próprio nesta altura do jogo, então as corridas aqui são só para apostas e diversão.",
+      "Em Battle Square, pague GP para entrar na arena e enfrentar sequências de batalhas por BP (Battle Points), moeda separada trocável por equipamentos e Materias raras — nesta primeira visita, o estoque de prêmios disponível ainda é bem limitado, então não é o melhor momento para investir muito tempo aqui.",
+      "Em Event Square, uma peça de teatro está em cartaz; participando dela, escolhas de diálogo durante a apresentação decidem que papel Cloud interpreta na cena, herói, vilão ou papéis cômicos — puramente opcional e sem impacto na história principal, apenas uma cena engraçada e colecionável de se ver.",
+      "Em algum momento durante a exploração livre do parque, uma cutscene automática reúne o grupo à noite: um dos personagens é escolhido para acompanhar Cloud numa volta romântica pela gôndola do Round Square.",
+      "Quem é escolhido para esse encontro depende de uma pontuação oculta de afeição (carinho), acumulada silenciosamente desde Midgar: respostas dadas a Aeris na Igreja, a escolha de quem ajuda a resgatar Tifa em Wall Market, falas escolhidas ao conversar com o grupo pelo caminho, entre outras — cada uma soma pontos para Tifa, Aeris, Barret ou Yuffie, se já estiver no grupo.",
+      "Não existe uma escolha direta aqui no Gold Saucer para trocar esse resultado — a essa altura, o par do encontro já está decidido pelos pontos acumulados nas escolhas anteriores da jornada; a cena muda de tom conforme quem foi escolhido, romance mais sério com Tifa ou Aeris, tom mais cômico se for Barret.",
+      "Assista à cena da gôndola com atenção: é uma das mais lembradas do jogo e não se repete da mesma forma depois.",
+      "Depois do passeio, o grupo se reencontra e a rotina do parque seria retomada, mas um incidente interrompe tudo: durante uma luta na Battle Square, um monstro foge do controle da arena.",
+      "O dono do parque, Dio, culpa o grupo pela confusão gerada, mesmo sem provas concretas, e chama a segurança da Shinra presente no parque.",
+      "Soldados da Shinra prendem o grupo sob a acusação e todos são levados para a Corel Prison, construída na base do Gold Saucer — segue no próximo capítulo.",
+      "Vale lembrar: o GP e o BP acumulados nesta visita não se perdem — o Gold Saucer pode e deve ser revisitado várias vezes ao longo do resto do jogo para continuar acumulando prêmios e evoluindo Cait Sith no Battle Square."
     ],
     "items": [
       "Prêmios trocáveis por GP no balcão do Wonder Square: acessórios, Sources e itens variados",
       "BP acumulado na Battle Square (troca por equipamentos melhores em visitas futuras)"
     ],
     "boss": null,
-    "missables": []
+    "missables": [
+      "A cena de encontro na gôndola é única nesta visita e definida por pontos de afeição acumulados desde Midgar — para garantir um par específico, é preciso ter cuidado com escolhas de diálogo bem antes deste ponto do jogo."
+    ]
   },
   {
     "id": "corel-prison",
@@ -646,19 +716,25 @@
     "disc": 1,
     "photo": null,
     "steps": [
-      "O grupo acorda preso em celas na Corel Prison, construída sob o Gold Saucer para abrigar prisioneiros presos por conveniência do parque.",
-      "Explore a prisão: converse com os outros detentos para entender o funcionamento do lugar e ouvir rumores sobre um prisioneiro lendário mantido isolado.",
-      "Ao seguir pelos corredores, o grupo encontra Dyne, ex-melhor amigo de Barret e cofundador da revolta em Corel, dado como morto anos atrás mas mantido preso e mentalmente destruído desde então.",
-      "A conversa revela que Dyne é o verdadeiro pai biológico de Marlene — um dos momentos mais pesados da história do disco 1; a cena leva direto ao confronto com ele.",
-      "Depois da luta contra Dyne (ver campo boss), a única saída da prisão é vencer a corrida oficial de chocobo organizada pelos guardas.",
-      "Na corrida, controle a aceleração/consumo de stamina do chocobo (aperte para acelerar, mas sem esgotar o fôlego, senão ele desacelera); terminar entre os primeiros libera o grupo.",
-      "Se perder a corrida, o grupo volta para a cela e pode tentar de novo quantas vezes for preciso — não há penalidade além do tempo perdido.",
-      "Alternativa: é possível subornar o guarda pagando uma quantia em Gil para ser liberado sem precisar correr, caso prefira pular o minigame.",
-      "Depois de sair da prisão, o grupo retoma a viagem; Barret fica visivelmente abalado com o reencontro e a morte de Dyne, o que pesa nas motivações dele daqui em diante.",
-      "Siga a pé/pelo mapa-múndi rumo a Gongaga, próximo destino ao sul."
+      "O grupo acorda em celas separadas dentro da Corel Prison, construída na base do Gold Saucer para abrigar prisioneiros presos por conveniência do parque.",
+      "Bata na grade ou converse pela parede com os detentos das celas vizinhas — alguns comentam sobre um prisioneiro lendário mantido isolado há anos, alimentando o mistério antes do encontro com Dyne.",
+      "Quando o guarda libera a movimentação, explore os corredores da prisão; a rota é linear, sem desvios reais, então basta seguir sempre em frente.",
+      "No fim do corredor principal, o grupo encontra Dyne, ex-melhor amigo de Barret e cofundador da revolta de Corel, dado como morto na tragédia do reator anos atrás, mas mantido preso e mentalmente destruído desde então.",
+      "A conversa entre Barret e Dyne é o ponto emocional mais pesado do disco 1 até aqui: Dyne revela que é o verdadeiro pai biológico de Marlene, e culpa Barret, e a si mesmo, pela destruição de Corel.",
+      "A tensão escala rapidamente e Dyne ataca, iniciando o boss contra ele (ver campo boss) — não há como evitar o combate, e a cena é fixa, sem escolhas de diálogo que a alterem.",
+      "Depois da luta, uma cutscene mostra Dyne, à beira de um precipício dentro da prisão, se recusando a ser salvo por Barret; apesar da tentativa dele, Dyne cai e morre — a cena não muda de resultado, independente do desempenho na luta.",
+      "Abalado, Barret é levado de volta às celas junto com o resto do grupo; para sair da prisão, os guardas anunciam que só liberam quem vencer a corrida oficial de chocobo do complexo.",
+      "Na sala de apostas da prisão, fale com o guarda responsável para escolher: correr a corrida ou pagar um suborno em Gil para ser liberado sem competir.",
+      "Se optar pela corrida, você controla um chocobo alugado numa pista com outros corredores; seu chocobo tem uma barra de stamina — apertar o botão de acelerar consome stamina mais rápido, e deixá-la zerar faz o chocobo desacelerar bastante.",
+      "A estratégia básica é alternar rajadas de aceleração com momentos de recuperação de stamina, guardando um pico de velocidade para a reta final da corrida.",
+      "Terminar entre os primeiros colocados, idealmente em 1º lugar, é o que garante a soltura do grupo; terminar mal manda todos de volta para a cela, mas sem penalidade real além de ter que tentar de novo.",
+      "Não há limite de tentativas na corrida — se perder, simplesmente fale com o guarda de novo para tentar outra vez.",
+      "Se preferir não arriscar o minigame, o suborno em Gil ao guarda libera o grupo imediatamente, sem precisar competir, opção mais cara, porém garantida.",
+      "Depois de sair da prisão, por qualquer um dos dois métodos, o grupo retoma a viagem; Barret segue visivelmente abalado pelo reencontro e pela morte de Dyne, o que pesa nas motivações dele para o resto da aventura.",
+      "Siga a pé pelo mapa-múndi rumo a Gongaga, ao sul da região de Corel — próximo destino."
     ],
     "items": [],
-    "boss": "Dyne — irmão de armas de Barret, enlouquecido pela tragédia de Corel. Ataca com um revólver, com dano físico moderado e alguns golpes que causam medo/desespero na narrativa (sem status incapacitante forte na mecânica). Não é uma luta tecnicamente difícil: mantenha o grupo curado e concentre dano físico nele. A cena termina de forma trágica independente do desempenho — Dyne se atira do precipício ao final, e Barret não consegue salvá-lo.",
+    "boss": "Dyne — irmão de armas de Barret, enlouquecido pela tragédia de Corel. Ataca com um revólver, com dano físico moderado e alguns golpes que causam medo/desespero na narrativa, sem status incapacitante forte na mecânica. Não é uma luta tecnicamente difícil: mantenha o grupo curado e concentre dano físico nele. A cena termina de forma trágica independente do desempenho — Dyne se atira do precipício ao final, e Barret não consegue salvá-lo.",
     "missables": [
       "A corrida de chocobo pode ser pulada pagando suborno em Gil ao guarda, se preferir não arriscar — mas jogar a corrida é a forma pretendida de sair e não tem custo real de perder tentativas."
     ]
@@ -670,15 +746,20 @@
     "disc": 1,
     "photo": null,
     "steps": [
-      "Saindo de Corel/Gold Saucer, siga pelo mapa-múndi rumo ao sul até a região de selva onde fica Gongaga, uma vila isolada e simples.",
-      "A vila tem um reator de Mako destruído nos arredores — diferente dos outros reatores, este explodiu por uma falha interna, não por ação da Shinra ou do grupo.",
-      "Explore as ruínas do reator: monstros mais fortes rondam a área, boa oportunidade de ganhar EXP/AP antes de Cosmo Canyon.",
-      "No fundo das ruínas há um baú escondido com a Titan Materia — vasculhe bem os corredores destruídos, é fácil passar direto sem notar o desvio.",
-      "Na vila, converse com o casal de idosos que mora na casa mais afastada: são os pais de Zack, o antigo parceiro de SOLDIER de Cloud (mencionado no flashback de Nibelheim, embora sua identidade completa só se esclareça bem mais à frente na história).",
-      "A mãe de Zack comenta com tristeza que o filho foi para Midgar anos atrás e nunca mais voltou — um dos easter eggs mais fortes do jogo para quem presta atenção; totalmente opcional e fácil de pular.",
-      "Turks (Reno/Rude) também estão de passagem por Gongaga a trabalho, numa cena curta que reforça o alcance da Shinra mesmo em vilas remotas — sem confronto direto aqui.",
-      "Reabasteça na loja simples da vila e descanse na casa que serve de pousada improvisada.",
-      "Depois de explorar tudo, retome a viagem pelo mapa-múndi rumo a Cosmo Canyon, mais a oeste."
+      "Saindo de Corel/Gold Saucer, siga pelo mapa-múndi rumo ao sul, atravessando uma faixa de selva densa, até avistar Gongaga, uma vila isolada e simples entre as árvores.",
+      "Nos arredores da vila, ainda na trilha de entrada, repare nos restos de um reator de Mako destruído — diferente dos outros reatores do jogo, este explodiu por uma falha interna, não por ação direta da Shinra ou do grupo.",
+      "Entre na vila pela trilha principal; Gongaga tem poucas casas de madeira, cercada de vegetação — converse com os moradores para sentir o clima pacato, bem diferente da tensão militar de Junon ou Corel.",
+      "Perto da entrada da vila, uma cutscene mostra Reno e Rude, os Turks, de passagem por Gongaga cuidando de assuntos da Shinra relacionados ao reator destruído — sem confronto direto, só diálogo debochado de praxe.",
+      "Na casa mais afastada da vila, geralmente a última na trilha perto da vegetação mais densa, converse com o casal de idosos que mora ali: são os pais de Zack, o antigo parceiro de SOLDIER de Cloud, mostrado no flashback de Nibelheim.",
+      "A mãe de Zack comenta com tristeza que o filho foi para Midgar anos atrás, prometeu escrever, e nunca mais voltou nem deu notícias — um dos easter eggs mais fortes do jogo para quem prestou atenção no flashback de Kalm; totalmente opcional e fácil de pular se você não entrar nessa casa específica.",
+      "O pai de Zack é mais resignado, comentando que assim é a vida numa vila pequena — ambos não fazem ideia do que realmente aconteceu com o filho, o que reforça o peso silencioso da cena.",
+      "Volte para a trilha e siga até a entrada das ruínas do reator destruído, um pouco afastada da vila.",
+      "Dentro das ruínas, monstros mais fortes que os do resto da região aparecem com frequência — boa oportunidade de ganhar EXP/AP antes de Cosmo Canyon.",
+      "Explore os corredores destruídos do reator com atenção: muitos caminhos parecem becos sem saída, mas escondem passagens estreitas entre os destroços.",
+      "No fundo das ruínas, atrás de uma passagem fácil de não notar, há um baú com a Titan Materia.",
+      "Depois de explorar o reator, volte à vila para reabastecer na loja simples local, estoque bem básico, e descansar na casa que serve de pousada improvisada.",
+      "Cure o grupo e salve no Save Point da vila antes de seguir viagem.",
+      "Retome a viagem pelo mapa-múndi rumo a Cosmo Canyon, mais a oeste, atravessando a região montanhosa que separa as duas áreas."
     ],
     "items": [
       "Titan Materia — baú escondido nas ruínas do reator destruído"
@@ -695,17 +776,24 @@
     "disc": 1,
     "photo": null,
     "steps": [
-      "Cosmo Canyon é a vila natal de Red XIII (Nanaki), construída em torno de formações rochosas avermelhadas e do observatório de Bugenhagen.",
-      "Ao chegar, o grupo é recebido por Bugenhagen, avô de Red XIII e sábio guardião do conhecimento sobre o Planeta e a Lifestream.",
-      "Suba ao observatório com Bugenhagen para a cena do planetário: uma explicação visual (e essencial para entender a trama) sobre o ciclo de vida do Planeta, a Lifestream e o papel do Cetra — não pule os diálogos aqui.",
-      "Explore a vila: há uma loja de Materia com um catálogo bem mais variado que o normal (vale conferir Materias que ainda não apareceram em outras lojas) e uma Item/Weapon Shop.",
-      "Um velho sentado na beira de um penhasco desafia quem passa a pular — pura curiosidade/easter egg local, sem consequência real além de um comentário.",
-      "Siga a história até a entrada da Cave of the Gi, uma caverna sagrada onde o antigo chefe Seto (pai de Red XIII) morreu defendendo a vila da tribo monstro dos Gi — os moradores erroneamente acham que ele fugiu.",
-      "Dentro da caverna, avance com cuidado: os monstros Gi Spectors aparecem em grupo e podem reviver uns aos outros se não forem eliminados rápido.",
-      "Um baú escondido na Cave of the Gi guarda uma Materia valiosa — explore os corredores secundários antes de seguir para o fundo da caverna.",
-      "No fim da caverna, Red XIII enfrenta o espírito Gi Nattak, chefe da tribo Gi, para provar seu valor e limpar o nome do pai (ver campo boss).",
-      "Depois da vitória, Red XIII ganha o Limit Break de nível 4 Cosmo Memory e é reconhecido pela vila como o novo guardião — a estátua de Seto na entrada de Cosmo Canyon passa a ser vista sob uma luz diferente.",
-      "Descanse na pousada da vila e salve antes de seguir viagem rumo a Nibelheim, próximo destino."
+      "Cosmo Canyon aparece ao longe como uma vila entalhada em formações rochosas avermelhadas, com o observatório de Bugenhagen no topo, reconhecível por sua cúpula redonda.",
+      "Ao entrar na vila pela trilha principal, uma cutscene apresenta Bugenhagen, avô de Red XIII e sábio guardião do conhecimento sobre o Planeta, recebendo o grupo com calma incomum para a tensão da jornada.",
+      "Bugenhagen convida o grupo a subir ao observatório; suba pela escada em espiral que corta o centro da vila até o topo, onde fica o planetário.",
+      "Dentro do planetário, sente-se e assista à demonstração: uma esfera holográfica mostra o ciclo de vida do Planeta, a Lifestream, e insinua o papel de Sephiroth e da Jenova nesse ciclo — não pule os diálogos, é uma das explicações de lore mais importantes do jogo inteiro.",
+      "Depois da demonstração, desça de volta à vila e explore livremente: a loja de Materia, perto da entrada, tem um catálogo bem mais variado que o normal, valendo conferir opções que ainda não apareceram em outras lojas.",
+      "Ao lado da loja de Materia fica a Item/Weapon Shop — reabasteça e confira armas novas para o grupo.",
+      "Na borda de um penhasco perto da entrada da vila, um velho sentado desafia quem passa a pular do precipício — puro easter egg local; interagir só rende um comentário engraçado, sem consequência real.",
+      "Suba até a estátua de Seto, erguida na parte alta da vila de frente para o desfiladeiro: os moradores contam a história de que Seto, o antigo guardião e pai de Red XIII, abandonou o posto covardemente há anos.",
+      "Converse com Red XIII perto da estátua, se ele estiver no grupo: ele reluta em falar sobre o pai, decepcionado com a fama que Seto carrega na vila — mais uma peça da história pessoal dele antes da revelação na caverna.",
+      "Siga a história até a entrada da Cave of the Gi, uma caverna sagrada logo abaixo da vila, na base do desfiladeiro — é aqui que a verdade sobre Seto será revelada.",
+      "Dentro da caverna, avance com cuidado: os monstros Gi Spectors aparecem em grupo e podem reviver uns aos outros se não forem eliminados rápido, tornando os combates mais longos do que parecem à primeira vista.",
+      "Siga pelos corredores estreitos e úmidos da caverna, sempre pelo caminho mais largo — os desvios menores levam a salas com tesouro.",
+      "Em uma dessas salas secundárias há um baú escondido com uma Materia valiosa — vale explorar antes de seguir para o fundo da caverna.",
+      "No fim da caverna, uma estátua de pedra revela a verdade: Seto não fugiu, ele morreu ali mesmo, petrificado enquanto lutava sozinho contra a tribo dos Gi para proteger Cosmo Canyon — os moradores só nunca souberam.",
+      "O espírito de Gi Nattak, chefe da tribo Gi, se manifesta para impedir que Red XIII descubra e prove essa verdade, iniciando o boss (ver campo boss).",
+      "Depois da vitória, Red XIII ganha o Limit Break de nível 4, Cosmo Memory, e finalmente aceita seu papel como sucessor de Bugenhagen e herdeiro do legado do pai.",
+      "De volta à vila, uma cena mostra os moradores reconhecendo, ainda que sem saber os detalhes completos, uma mudança na postura de Red XIII — a estátua de Seto na entrada da vila passa a ser vista sob uma luz diferente por quem acompanhou a cena.",
+      "Descanse na pousada da vila e salve o jogo antes de seguir viagem rumo a Nibelheim, próximo destino ao norte."
     ],
     "items": [
       "Materia rara em baú escondido na Cave of the Gi",
@@ -713,7 +801,8 @@
     ],
     "boss": "Gi Nattak — chefe espiritual da tribo Gi, acompanhado por Gi Spectors que podem reanimar uns aos outros. Priorize eliminar ou nocautear os Spectors rapidamente para não travar o combate em um loop de reanimação, depois concentre o dano em Nattak. Ele usa ataques físicos e alguns golpes com efeito de dreno; nada que uma cura constante não resolva.",
     "missables": [
-      "Baú da Cave of the Gi — fácil de deixar passar entre os corredores secundários da caverna."
+      "Baú da Cave of the Gi — fácil de deixar passar entre os corredores secundários da caverna.",
+      "A conversa opcional com Red XIII perto da estátua de Seto, antes de entrar na caverna, é fácil de pular mas ajuda a entender o peso emocional da revelação no fim da caverna."
     ]
   },
   {
@@ -723,25 +812,33 @@
     "disc": 1,
     "photo": null,
     "steps": [
-      "O grupo retorna a Nibelheim no presente — visualmente idêntica à vila do flashback, mas reconstruída pela Shinra e povoada por atores contratados para encobrir o incidente de cinco anos atrás.",
-      "Converse com os moradores: as respostas soam ensaiadas e estranhamente repetitivas, reforçando que ninguém ali é quem afirma ser.",
-      "Visite a antiga casa de Cloud, agora ocupada por uma família diferente, e a de Tifa — ambas parecem preservadas fisicamente, mas o clima é de encenação.",
-      "Entre na Shinra Mansion, isolada no fim da vila; suba ao segundo andar até a biblioteca/escritório com um cofre de combinação na parede.",
-      "Gire o disco do cofre seguindo a combinação: direita até 36, esquerda até 10 (passando por 36 uma vez), direita até 59, esquerda até 97 — acertar abre um alçapão secreto no chão da sala.",
-      "Desça a escada revelada até o porão da mansão; o ambiente muda para um laboratório abandonado, cheio de anotações e experimentos deixados pelo Shinra Science Department.",
-      "Em um dos quartos do porão há um caixão; interaja com ele repetidas vezes até a cena avançar — dentro está Vincent Valentine, ex-Turk que dorme ali há décadas.",
-      "Depois de ouvir o suficiente da história de Vincent (ligada a Sephiroth, Jenova e ao Professor Hojo), ele se oferece para se juntar ao grupo — totalmente opcional, mas fácil de recrutar se você já chegou até aqui.",
-      "Continue explorando o porão: um corredor mais profundo é guardado pelo boss Lost Number diante de um baú fechado (ver campo boss).",
-      "Depois de vencer Lost Number, abra o baú para pegar a Enemy Skill Materia — equipe-a em alguém do grupo o quanto antes para começar a aprender magias inimigas pelo resto da aventura.",
-      "Reabasteça na vila (lojas simples) e salve o jogo antes de seguir para Mt. Nibel, ao norte da vila."
+      "O grupo retorna a Nibelheim no presente — visualmente idêntica à vila do flashback, mas reconstruída pela Shinra depois do incêndio e repovoada por atores contratados para encobrir o que realmente aconteceu cinco anos atrás.",
+      "Ao entrar na vila, as primeiras falas dos moradores soam ensaiadas e estranhamente repetitivas — um sinal claro para o jogador de que ninguém ali é quem afirma ser.",
+      "Explore a vila com atenção: em uma das casas próximas à entrada, é possível flagrar um Turk conversando em voz baixa com um dos moradores, confirmando que a Shinra monitora de perto a farsa montada sobre o incidente — cena opcional, mas reforça o mistério.",
+      "Visite a antiga casa de Cloud, a mesma do flashback perto da entrada: agora está ocupada por uma família totalmente diferente, sem qualquer menção a Cloud ou sua mãe.",
+      "Visite também a casa de Tifa, de dois andares perto da torre d'água: suba até o antigo quarto dela para comparar com a cena vista no flashback — os móveis parecem os mesmos, mas o clima de encenação incomoda.",
+      "Converse com os moradores da praça central e perto do poço: as respostas deles sobre o incêndio de anos atrás são vagas e contraditórias entre si, mais uma pista da farsa.",
+      "Siga até a Shinra Mansion, isolada e cercada por um portão enferrujado no fim da vila — a única construção que permanece exatamente como era.",
+      "Entre pela porta principal e suba a escada até o segundo andar; vire pelo corredor até a biblioteca/escritório, identificável pelas estantes de livros e por um cofre embutido na parede.",
+      "Examine o cofre: ele tem um mostrador giratório com números de 0 a 99 e precisa de uma combinação de quatro movimentos alternando direção.",
+      "Gire o mostrador seguindo esta combinação: direita até parar em 36; esquerda, passando por 36 uma vez, até parar em 10; direita, passando por 36 de novo, até parar em 59; esquerda, sem passar por 36 desta vez, até parar em 97.",
+      "Acertando a combinação, um alçapão se abre no chão da biblioteca, revelando uma escada escondida que desce ao porão da mansão.",
+      "Desça a escada; o ambiente muda para um laboratório abandonado, cheio de anotações, frascos quebrados e experimentos deixados pelo Shinra Science Department.",
+      "Explore os quartos do porão: em um deles há um caixão de metal encostado na parede — interaja com ele repetidas vezes, várias interações seguidas são necessárias, até a cena avançar.",
+      "Dentro do caixão está Vincent Valentine, ex-Turk que dorme ali há décadas; a conversa revela fragmentos da história dele, ligada a Sephiroth, Jenova, Lucrecia e ao Professor Hojo.",
+      "Ao final da conversa, Vincent se oferece para se juntar ao grupo — recrutamento totalmente opcional, mas fácil de fazer se você já chegou até este ponto do porão.",
+      "Continue explorando o porão além do quarto do caixão: um corredor mais profundo, guardado por um baú fechado, tem sua passagem bloqueada pelo boss Lost Number (ver campo boss).",
+      "Depois de vencer Lost Number, abra o baú para pegar a Enemy Skill Materia — equipe-a em alguém do grupo o quanto antes para começar a aprender magias inimigas pelo resto da aventura, algumas já podem ser aprendidas nos próprios monstros da mansão.",
+      "Volte à vila, reabasteça nas lojas simples locais e salve o jogo no Save Point antes de seguir para Mt. Nibel, ao norte da vila."
     ],
     "items": [
       "Enemy Skill Materia — baú no porão da Shinra Mansion, guardado por Lost Number"
     ],
-    "boss": "Lost Number — um cristal com múltiplas faces que reflete/imita o último elemento ou tipo de ataque usado contra ele, ficando resistente a repetições do mesmo golpe. Estratégia: varie os tipos de ataque (físico e diferentes elementos mágicos) em vez de insistir no mesmo golpe repetidamente, e cuidado com o status de Confusão que ele pode aplicar no grupo.",
+    "boss": "Lost Number — um cristal com múltiplas faces que reflete/imita o último elemento ou tipo de ataque usado contra ele, ficando resistente a repetições do mesmo golpe. Estratégia: varie os tipos de ataque, físico e diferentes elementos mágicos, em vez de insistir no mesmo golpe repetidamente, e cuidado com o status de Confusão que ele pode aplicar no grupo.",
     "missables": [
       "Vincent Valentine é opcional — só é recrutado interagindo várias vezes com o caixão no porão da mansão; fácil de esquecer para quem não sabe que ele existe.",
-      "Enemy Skill Materia do baú de Lost Number — só é obtida vencendo o boss escondido no fundo do porão."
+      "Enemy Skill Materia do baú de Lost Number — só é obtida vencendo o boss escondido no fundo do porão.",
+      "A cena do Turk conversando com um morador na vila é opcional e fácil de não presenciar, dependendo de qual casa você visita primeiro."
     ]
   },
   {
@@ -751,14 +848,20 @@
     "disc": 1,
     "photo": null,
     "steps": [
-      "Ao norte de Nibelheim, a trilha de Mt. Nibel sobe por uma rede de tubulações de mako expostas sobre a montanha — o mesmo caminho percorrido no flashback, agora explorável livremente.",
-      "A área é um labirinto de tubos com vários desvios; é fácil se perder — preste atenção às bifurcações e volte pelo mesmo tubo se cair em um beco sem saída.",
-      "Ao longo do caminho há baús com Ethers, Elixir eventual e algum acessório — vale explorar cada ramal antes de prosseguir para o reator.",
-      "No topo da montanha fica a entrada do Mako Reactor de Nibelheim, o mesmo reator visitado no flashback, agora abandonado.",
-      "Dentro do reator, monstros mais fortes que os do resto da região aparecem — bom ponto para farmar AP antes do próximo boss.",
-      "Avance pelos corredores internos até a câmara final, onde o boss Materia Keeper guarda a passagem (ver campo boss).",
-      "Depois de vencer, o caminho pelo reator termina em uma saída que leva diretamente ao topo da montanha, de onde já se avista a cidade de Rocket Town ao longe.",
-      "Cure o grupo e salve no ponto de save da saída antes de descer até Rocket Town."
+      "Ao norte de Nibelheim, a trilha de Mt. Nibel sobe por uma rede de tubulações de mako expostas sobre a montanha — o mesmo caminho percorrido no flashback, agora explorável livremente e sem pressa.",
+      "A área funciona como um labirinto de tubos com vários desvios; preste atenção às bifurcações — um tubo errado geralmente leva de volta a uma sala já visitada, então não tem como se perder de vez.",
+      "Ao longo do caminho, entre em cada desvio disponível: há baús com Ethers, um Elixir eventual e ao menos um acessório — vale explorar tudo antes de seguir para o reator.",
+      "Um dos desvios mais discretos, perto do meio da trilha, esconde um baú extra fácil de passar direto — volte um pouco se sentir que pulou algum trecho sem visitar.",
+      "Monstros da região incluem tipos mais fortes que os anteriores, alguns exclusivos da montanha — bom trecho para AP de Materia antes do próximo boss.",
+      "Repare na vista pelo caminho: dá para avistar de longe tanto Nibelheim quanto, mais à frente, Rocket Town, reforçando a proximidade geográfica entre os dois pontos.",
+      "Há um Save Point perto da entrada do reator, no topo da trilha — cure e salve antes de entrar.",
+      "No topo da trilha, chegue à entrada do Mako Reactor de Nibelheim — o mesmo reator visitado no flashback, agora abandonado e mais deteriorado.",
+      "Dentro do reator, siga pelos corredores de tubos e elevadores até a câmara mais profunda; é o mesmo trajeto de estrutura visto no flashback, mas sem Sephiroth ou Zack acompanhando desta vez.",
+      "Repare nas câmaras de tanques vazios pelo caminho — os espécimes vistos no flashback já não estão mais lá, mas os vestígios, vidro quebrado e líquido de mako escorrido, seguem intactos.",
+      "Avance até a câmara final, onde o boss Materia Keeper guarda a passagem (ver campo boss).",
+      "Depois de vencer, o caminho pelo reator termina numa saída alternativa que leva diretamente ao topo externo da montanha.",
+      "Do alto da montanha já se avista Rocket Town ao longe, reconhecível pelo foguete gigante erguido no centro da vila.",
+      "Cure o grupo e salve no Save Point da saída do reator antes de descer a trilha externa restante até a entrada de Rocket Town — próximo capítulo."
     ],
     "items": [
       "Baús ao longo dos tubos de Mt. Nibel: Ether, Elixir eventual e acessórios",
@@ -776,16 +879,24 @@
     "disc": 1,
     "photo": null,
     "steps": [
-      "Descendo de Mt. Nibel, o grupo chega a Rocket Town, reconhecível de longe pelo foguete gigante da Shinra erguido no centro da vila.",
-      "A cidade inteira gira em torno do sonho espacial de Cid Highwind, ex-piloto da Shinra e engenheiro-chefe do programa de foguetes.",
-      "Explore a vila: Item Shop, Weapon Shop (com armas iniciais para Cid) e converse com os moradores sobre a expectativa em torno do lançamento iminente do foguete.",
-      "Visite a casa/hangar de Cid para conhecê-lo e a Shera, sua assistente e colega de longa data, cuja relação com Cid é claramente tensa por causa de um acidente antigo no primeiro teste de lançamento.",
-      "Um time da Shinra liderado por Palmer chega à cidade para, finalmente, realizar o lançamento oficial do foguete — mas sem envolver Cid como piloto, o que o deixa furioso.",
-      "Durante a preparação do lançamento, uma falha técnica (ligada ao histórico de Shera) causa uma confusão geral na base do foguete; Cid, revoltado com a forma como a Shinra trata seu projeto, ameaça sabotar tudo.",
-      "Na confusão, Palmer entra em pânico e tenta fugir da cidade em um veículo improvisado — o grupo o intercepta, resultando no boss Palmer (ver campo boss).",
-      "Depois da luta, os planos da Shinra para o foguete desmoronam de vez; Cid, sem mais nada a perder com a Shinra, decide se juntar ao grupo na jornada contra Sephiroth.",
-      "Cid libera o uso da Tiny Bronco, seu pequeno hidroavião pessoal guardado no hangar — a partir daqui o grupo pode voar sobre trechos de água e alcançar novas áreas do mapa-múndi antes inacessíveis.",
-      "Reabasteça na vila, equipe Cid com a arma inicial disponível na Weapon Shop e salve o jogo antes de embarcar na Tiny Bronco para continuar a aventura."
+      "Descendo de Mt. Nibel, o grupo chega a Rocket Town, reconhecível de longe pelo foguete gigante da Shinra erguido bem no centro da vila, cercado por andaimes.",
+      "Entre na vila pela estrada principal; a maioria das casas fica em volta da praça central, dominada pela base do foguete.",
+      "Explore a Item Shop e a Weapon Shop da vila — a Weapon Shop já vende a arma inicial de Cid Highwind, mesmo antes dele se juntar oficialmente ao grupo.",
+      "Converse com os moradores: todos comentam, empolgados ou nervosos, sobre o lançamento do foguete marcado para breve — o evento que vai definir o resto do capítulo.",
+      "Siga até a casa/hangar de Cid, identificável pela oficina anexada, cheia de ferramentas e peças de avião — entre para conhecê-lo.",
+      "Dentro, Cid Highwind aparece fumando e xingando sem parar, claramente estressado com os preparativos; Shera, sua assistente e ex-parceira de projeto, tenta acalmá-lo sem sucesso.",
+      "Converse com os dois antes de sair: falas opcionais revelam que Cid sempre quis ser o piloto do foguete, mas um acidente no primeiro teste de lançamento, causado segundo Cid por um erro de Shera, o tirou da lista de pilotos — ele guarda ressentimento por isso até hoje, embora o grupo perceba que ainda gosta dela.",
+      "Saia da casa e siga até a base do foguete, onde uma equipe da Shinra liderada por Palmer, o chefe do programa espacial, está montando a estrutura para o lançamento oficial.",
+      "Uma cutscene revela que a Shinra vai finalmente lançar o foguete, mas sem envolver Cid como piloto, decisão que ele descobre ali mesmo, na frente de todo mundo, e que o deixa furioso.",
+      "Durante a contagem regressiva, uma falha técnica no sistema, ligada de novo ao histórico de Shera, ameaça o lançamento; a confusão generalizada na base do foguete cresce rapidamente.",
+      "Cid, tomado pela raiva de ver seu projeto de vida saqueado pela Shinra e ainda saindo errado, ameaça detonar o próprio foguete ali mesmo para não deixá-lo cair em mãos erradas.",
+      "Na correria, Palmer entra em pânico com a possível explosão e tenta fugir da cidade montado num veículo improvisado, atropelando parte da estrutura montada ao redor do foguete.",
+      "O grupo intercepta Palmer antes que ele escape, iniciando o boss contra ele (ver campo boss).",
+      "Depois da luta, os planos da Shinra para o lançamento desmoronam de vez; Cid, sem mais nenhum motivo para continuar ligado à Shinra, decide se juntar ao grupo na jornada contra Sephiroth.",
+      "Antes de partir, há uma última conversa entre Cid e Shera: por trás da grosseria, fica claro que ele não a culpa de verdade — um dos raros momentos de vulnerabilidade genuína do personagem, fácil de subestimar se você não parar para ouvir.",
+      "Cid libera o uso da Tiny Bronco, seu hidroavião pessoal guardado no próprio hangar — a partir daqui o grupo pode sobrevoar trechos de água do mapa-múndi, alcançando áreas antes inacessíveis.",
+      "Reabasteça na vila, equipe Cid com a arma inicial disponível na Weapon Shop e reorganize a Materia de todo o grupo, já que Cid entra com slots próprios de equipamento.",
+      "Salve o jogo no Save Point da vila antes de embarcar na Tiny Bronco e continuar a aventura pelo mapa-múndi."
     ],
     "items": [
       "Tiny Bronco — hidroavião de Cid, liberado após os eventos da cidade; permite sobrevoar trechos de água no mapa-múndi",
